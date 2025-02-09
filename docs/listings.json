@@ -1,0 +1,34 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/NetflixVisualization/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/NetflixVisualization/index.html"
+    ]
+  },
+  {
+    "listing": "/Content/Blog/index.html",
+    "items": []
+  },
+  {
+    "listing": "/Content/Talks/index.html",
+    "items": []
+  },
+  {
+    "listing": "/Content/Project/index.html",
+    "items": [
+      "/Content/Project/Feature Selection Using Genetic Algorithm/index.html"
+    ]
+  },
+  {
+    "listing": "/Content/Projects/index.html",
+    "items": [
+      "/Content/Projects/Feature Selection Using Genetic Algorithm/index.html"
+    ]
+  }
+]

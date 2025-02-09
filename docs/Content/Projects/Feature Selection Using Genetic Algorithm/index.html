@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Oluwaseun Daniel Fowotade">
+<meta name="dcterms.date" content="2024-12-20">
+<meta name="description" content="Using Genetic Algorithms to optimize feature selection in regression modeling.">
+
+<title>Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling – Home</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling – Home">
+<meta property="og:description" content="Using Genetic Algorithms to optimize feature selection in regression modeling.">
+<meta property="og:site_name" content="Home">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Home</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Content/About/index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Content/Projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Content/Blog/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Content/Talks/index.html"> 
+<span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Content/Resources/index.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview-of-genetic-algorithm" id="toc-overview-of-genetic-algorithm" class="nav-link active" data-scroll-target="#overview-of-genetic-algorithm">Overview of Genetic Algorithm</a></li>
+  <li><a href="#methodology-of-genetic-algorithm" id="toc-methodology-of-genetic-algorithm" class="nav-link" data-scroll-target="#methodology-of-genetic-algorithm">Methodology of Genetic Algorithm</a>
+  <ul class="collapse">
+  <li><a href="#chromosome-encoding-and-representation" id="toc-chromosome-encoding-and-representation" class="nav-link" data-scroll-target="#chromosome-encoding-and-representation">Chromosome Encoding and Representation</a></li>
+  <li><a href="#population-initialization" id="toc-population-initialization" class="nav-link" data-scroll-target="#population-initialization">Population Initialization</a></li>
+  <li><a href="#selection" id="toc-selection" class="nav-link" data-scroll-target="#selection">Selection</a></li>
+  <li><a href="#crossover" id="toc-crossover" class="nav-link" data-scroll-target="#crossover">Crossover</a></li>
+  <li><a href="#mutation" id="toc-mutation" class="nav-link" data-scroll-target="#mutation">Mutation</a></li>
+  <li><a href="#fitness-evaluation" id="toc-fitness-evaluation" class="nav-link" data-scroll-target="#fitness-evaluation">Fitness Evaluation</a></li>
+  <li><a href="#elitism" id="toc-elitism" class="nav-link" data-scroll-target="#elitism">Elitism</a></li>
+  <li><a href="#termination" id="toc-termination" class="nav-link" data-scroll-target="#termination">Termination</a></li>
+  </ul></li>
+  <li><a href="#final-model" id="toc-final-model" class="nav-link" data-scroll-target="#final-model">Final Model</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a>
+  <ul class="collapse">
+  <li><a href="#genetic-algorithm-implementation-on-sonar-dataset" id="toc-genetic-algorithm-implementation-on-sonar-dataset" class="nav-link" data-scroll-target="#genetic-algorithm-implementation-on-sonar-dataset">Genetic Algorithm Implementation on Sonar Dataset</a>
+  <ul class="collapse">
+  <li><a href="#loading-required-libraries-and-data" id="toc-loading-required-libraries-and-data" class="nav-link" data-scroll-target="#loading-required-libraries-and-data">Loading Required Libraries and Data</a></li>
+  <li><a href="#defining-the-fitness-function-for-feature-selection" id="toc-defining-the-fitness-function-for-feature-selection" class="nav-link" data-scroll-target="#defining-the-fitness-function-for-feature-selection">Defining the Fitness Function for Feature Selection</a></li>
+  </ul></li>
+  <li><a href="#running-the-genetic-algorithm" id="toc-running-the-genetic-algorithm" class="nav-link" data-scroll-target="#running-the-genetic-algorithm">Running the Genetic Algorithm</a>
+  <ul class="collapse">
+  <li><a href="#selected-features-and-final-model-evaluation" id="toc-selected-features-and-final-model-evaluation" class="nav-link" data-scroll-target="#selected-features-and-final-model-evaluation">Selected Features and Final Model Evaluation</a></li>
+  <li><a href="#comparing-performance-with-all-features" id="toc-comparing-performance-with-all-features" class="nav-link" data-scroll-target="#comparing-performance-with-all-features">Comparing Performance with All Features</a></li>
+  <li><a href="#visualizing-the-ga-progress-and-results" id="toc-visualizing-the-ga-progress-and-results" class="nav-link" data-scroll-target="#visualizing-the-ga-progress-and-results">Visualizing the GA Progress and Results</a></li>
+  </ul></li>
+  <li><a href="#selected-features-via-genetic-algorithm" id="toc-selected-features-via-genetic-algorithm" class="nav-link" data-scroll-target="#selected-features-via-genetic-algorithm">Selected Features via Genetic Algorithm</a>
+  <ul class="collapse">
+  <li><a href="#final-confusion-matrix-and-performance-metrics" id="toc-final-confusion-matrix-and-performance-metrics" class="nav-link" data-scroll-target="#final-confusion-matrix-and-performance-metrics">Final Confusion Matrix and Performance Metrics</a></li>
+  </ul></li>
+  <li><a href="#save-result" id="toc-save-result" class="nav-link" data-scroll-target="#save-result">Save Result</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">Genetic Algorithms</div>
+    <div class="quarto-category">Feature Selection</div>
+    <div class="quarto-category">Statistics</div>
+    <div class="quarto-category">Regression</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Using Genetic Algorithms to optimize feature selection in regression modeling.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Oluwaseun Daniel Fowotade </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 20, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><img src="../../..\Assets/Images/GA.jpeg" class="img-fluid"></p>
+<section id="overview-of-genetic-algorithm" class="level1">
+<h1>Overview of Genetic Algorithm</h1>
+<p>Feature selection is a crucial step in building efficient machine learning models, especially in the context of regression. It involves selecting a subset of relevant features from a larger set, aiming to improve model performance, reduce overfitting, and increase interpretability. Traditional feature selection methods, such as backward elimination or stepwise regression, can struggle when dealing with high-dimensional or complex data. These methods may fail to capture nonlinear relationships between features and can be computationally expensive for large datasets.</p>
+<p>Genetic algorithms (GAs), inspired by the principles of natural selection, offer a promising approach to overcome these challenges. First proposed by John Holland in 1975, GAs are heuristic optimization techniques that simulate the process of natural evolution. In a GA, a population of candidate solutions evolves over generations using genetic operations like selection, crossover, and mutation.</p>
+<p>This project applies GAs to feature selection in regression tasks, where the goal is to minimize prediction error and avoid overfitting. By leveraging the power of genetic evolution, the GA can efficiently explore large, high-dimensional spaces and identify the most relevant features for building robust predictive models.</p>
+</section>
+<section id="methodology-of-genetic-algorithm" class="level1">
+<h1>Methodology of Genetic Algorithm</h1>
+<p>The application of genetic algorithms to feature selection in regression models involves several key steps:</p>
+<section id="chromosome-encoding-and-representation" class="level2">
+<h2 class="anchored" data-anchor-id="chromosome-encoding-and-representation">Chromosome Encoding and Representation</h2>
+<p>Each candidate solution is represented as a chromosome, a binary vector where each bit represents the inclusion (<code>1</code>) or exclusion (<code>0</code>) of a feature. If a dataset contains (C) features, the chromosome length is (C), and each gene corresponds to a specific feature.</p>
+<p>For example: (1, 0, 1, 0, 1) Features 1, 3, and 5 selected, while 2 and 4 are excluded.</p>
+</section>
+<section id="population-initialization" class="level2">
+<h2 class="anchored" data-anchor-id="population-initialization">Population Initialization</h2>
+<p>The algorithm starts by initializing a population of chromosomes randomly. The size of the population, (P), is critical as it influences the diversity of solutions. A larger population ensures more diversity, preventing premature convergence, while a smaller population might speed up the process but risk missing better solutions. Typically, the population size is chosen so that:</p>
+<p>[ C P 2C ]</p>
+<p>where (C) is the number of features.</p>
+</section>
+<section id="selection" class="level2">
+<h2 class="anchored" data-anchor-id="selection">Selection</h2>
+<p>The selection step involves choosing individuals from the population based on their fitness to act as parents for the next generation. The fitness of a chromosome is determined by evaluating its associated feature subset in a regression model, typically using the mean squared error (MSE) as the performance metric. Tournament selection is often used, where a subset of chromosomes is randomly chosen, and the one with the best fitness is selected as a parent.</p>
+</section>
+<section id="crossover" class="level2">
+<h2 class="anchored" data-anchor-id="crossover">Crossover</h2>
+<p>Once parents are selected, they undergo genetic operations to create offspring. Crossover involves swapping parts of two parent chromosomes to produce offspring. A common method is single-point crossover, where a random crossover point is chosen, and the genes before and after this point are exchanged between the parents.</p>
+</section>
+<section id="mutation" class="level2">
+<h2 class="anchored" data-anchor-id="mutation">Mutation</h2>
+<p>Mutation introduces small random changes to maintain genetic diversity and avoid local optima. For instance, a mutation may flip the value of a random bit in the chromosome (e.g., changing <code>0</code> to <code>1</code> or vice versa). The mutation rate is usually kept low (e.g., 1% per generation) to ensure diversity without disrupting good solutions.</p>
+</section>
+<section id="fitness-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="fitness-evaluation">Fitness Evaluation</h2>
+<p>Each chromosome is evaluated using a regression model trained on the selected features. The fitness function is:</p>
+<p><span class="math display">\[
+\text{Fitness}(\vartheta) = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
+\]</span></p>
+<p>where <span class="math inline">\((y_i)\)</span> are actual values and \( \hat{y}_i \) are predictions.</p>
+</section>
+<section id="elitism" class="level2">
+<h2 class="anchored" data-anchor-id="elitism">Elitism</h2>
+<p>To ensure that the best solutions are preserved, elitism is applied. This technique guarantees that the best-performing chromosome from the current generation is directly passed to the next generation without any changes. This helps prevent the loss of high-quality solutions during the evolution process.</p>
+</section>
+<section id="termination" class="level2">
+<h2 class="anchored" data-anchor-id="termination">Termination</h2>
+<p>The algorithm runs for a set number of generations or until a stopping criterion is met. Common criteria include reaching a maximum number of generations (e.g., 100) or achieving a satisfactory fitness level. Once the algorithm terminates, the best chromosome found represents the optimal feature subset.</p>
+</section>
+</section>
+<section id="final-model" class="level1">
+<h1>Final Model</h1>
+<p>The genetic algorithm (GA) was implemented to identify an optimal subset of features for the classification task in the Sonar dataset. Over 89 iterations, the algorithm demonstrated consistent improvement in fitness, ultimately achieving a best fitness value of 0.3077. This fitness value, defined as (1 - ), indicates a corresponding predictive accuracy of 69.23% on the training set. The selected feature subset was designed to maximize classification performance while minimizing redundancy and over-fitting.</p>
+<p>The GA selected the following features from the original set of 60 predictors:</p>
+<p>Selected features: 1, 2, 3, 4, 5, 6, 7, 16, 17, 18, 19, 22, 24, 25, 28, 29, 30, 33, 37, 39, 41, 43, 47, 49, 51, 52, 58.</p>
+<p>This reduced set of features was used to train a k-Nearest Neighbors (k-NN) classifier with (k = 3), selected based on a grid search for hyperparameter optimization. The training utilized 5-fold cross-validation to ensure model robustness and generalizability. On the test set, the following confusion matrix was obtained:</p>
+<div id="a2b4605d" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create confusion matrix as a data frame</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>conf_matrix <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Actual"</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Actual M"</span>, <span class="st">"Actual R"</span>),</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Predicted M"</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">26</span>, <span class="dv">7</span>),</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Predicted R"</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">19</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">#kable to create a nicely formatted table</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(conf_matrix, <span class="at">caption =</span> <span class="st">"Confusion Matrix: Predicted vs Actual"</span>, <span class="at">align =</span> <span class="st">"c"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<pre><code>
+
+Table: Confusion Matrix: Predicted vs Actual
+
+|  Actual  | Predicted.M | Predicted.R |
+|:--------:|:-----------:|:-----------:|
+| Actual M |     26      |     10      |
+| Actual R |      7      |     19      |</code></pre>
+</div>
+</div>
+<p>From the confusion matrix, the following performance metrics were computed:</p>
+<ul>
+<li><strong>Accuracy</strong>: 72.58%</li>
+<li><strong>Sensitivity (True Positive Rate for Mines)</strong>: 78.79%</li>
+<li><strong>Specificity (True Negative Rate for Rocks)</strong>: 65.52%</li>
+<li><strong>Kappa Statistic</strong>: 0.4458</li>
+<li><strong>Balanced Accuracy</strong>: 72.15%</li>
+</ul>
+<p>The k-NN classifier displayed a solid ability to correctly classify mines, as indicated by the relatively high sensitivity of 78.79%. However, the specificity of 65.52% suggests room for improvement in accurately identifying rocks, particularly in cases with overlapping feature distributions.</p>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>The application of a genetic algorithm (GA) for feature selection in the Sonar dataset successfully reduced the dimensional from 60 to 27 features, enabling efficient model training while maintaining predictive performance. The GA’s ability to explore a vast and complex search space was instrumental in identifying relevant features that traditional methods might have overlooked.</p>
+<p>The k-NN classifier trained on the selected features achieved an accuracy of 72.58% on the test set. However, there are several areas for improvement:</p>
+<ul>
+<li><h2 id="population-size-a-larger-population-size-could-enhance-the-diversity-of-candidate-solutions-preventing-premature-convergence-to-suboptimal-solutions." class="anchored" data-anchor-id="conclusion"><strong>Population Size</strong>: A larger population size could enhance the diversity of candidate solutions, preventing premature convergence to suboptimal solutions.</h2></li>
+<li><strong>Mutation Rate</strong>: Adjusting the mutation rate could introduce more variation in the search space. For example, increasing the mutation rate in earlier generations might explore more diverse feature subsets, while reducing it in later generations could refine promising solutions.</li>
+<li><strong>Crossover Strategy</strong>: Employing advanced crossover techniques, such as uniform or multi-point crossover, could enhance the recombination of parent solutions, potentially leading to better offspring.</li>
+<li><strong>Termination Criteria</strong>: Allowing the GA to run for additional generations or introducing a dynamic stopping criterion based on convergence rates could yield more refined feature subsets.</li>
+<li><strong>Fitness Function</strong>: Experimenting with alternative fitness functions, such as F1-score or balanced accuracy, could prioritize models that address class imbalance more effectively.</li>
+</ul>
+<p>By fine-tuning these parameters, the GA could further enhance its ability to select the most discriminating features, improving classification accuracy and robustness.</p>
+<p>This analysis underscores the effectiveness of genetic algorithms in tackling complex feature selection challenges, particularly for high-dimensional data sets with potential nonlinear relationships among features. Future research could integrate hybrid optimization techniques, combining GAs with other meta heuristic methods like particle swarm optimization or simulated annealing, to achieve even better results.</p>
+<p>The results illustrate that intelligent feature selection not only reduces computational costs but also leads to models that are easier to interpret and maintain, making GAs a valuable tool in the arsenal of modern machine learning techniques.</p>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<ul>
+<li>Kaya, Y. (2018). Comparison of Using the Genetic Algorithm and Cuckoo Search for Feature Selection.</li>
+<li>Raymer, M.L. et al.&nbsp;(2000). Dimensionality reduction using genetic algorithms. IEEE Transactions on Evolutionary Computation.</li>
+<li>Bindu, M.G. &amp; Sabu, M.K. (2020). A Hybrid Feature Selection Approach Using Artificial Bee Colony and Genetic Algorithm.</li>
+<li>Givens, G.H. &amp; Hoeting, J.A. (2012). Computational Statistics, Vol. 703. John Wiley &amp; Sons.</li>
+</ul>
+</section>
+<section id="appendix" class="level1">
+<h1>Appendix</h1>
+<section id="genetic-algorithm-implementation-on-sonar-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="genetic-algorithm-implementation-on-sonar-dataset">Genetic Algorithm Implementation on Sonar Dataset</h2>
+<section id="loading-required-libraries-and-data" class="level3">
+<h3 class="anchored" data-anchor-id="loading-required-libraries-and-data">Loading Required Libraries and Data</h3>
+<div id="907be3b4" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(GA)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(caret)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(mlbench)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the Sonar dataset</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(Sonar)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>Sonar<span class="sc">$</span>Class <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(Sonar<span class="sc">$</span>Class) <span class="co"># Ensure the target variable is a factor</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Split data into training and testing sets</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>) <span class="co"># For reproducibility</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>trainIndex <span class="ot">&lt;-</span> <span class="fu">createDataPartition</span>(Sonar<span class="sc">$</span>Class, <span class="at">p =</span> <span class="fl">0.7</span>, <span class="at">list =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>trainData <span class="ot">&lt;-</span> Sonar[trainIndex, ]</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>testData <span class="ot">&lt;-</span> Sonar[<span class="sc">-</span>trainIndex, ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="defining-the-fitness-function-for-feature-selection" class="level3">
+<h3 class="anchored" data-anchor-id="defining-the-fitness-function-for-feature-selection">Defining the Fitness Function for Feature Selection</h3>
+<div id="e4dd60b1" class="cell" data-execution_count="3">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the fitness function</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>fitness_function <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  selected_features <span class="ot">&lt;-</span> <span class="fu">which</span>(x <span class="sc">==</span> <span class="dv">1</span>) <span class="co"># Indices of selected features</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="co"># If no features are selected, assign a large fitness value (penalty)</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">length</span>(selected_features) <span class="sc">==</span> <span class="dv">0</span>) <span class="fu">return</span>(<span class="cn">Inf</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Subset the training data with the selected features</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  selected_train <span class="ot">&lt;-</span> trainData[, <span class="fu">c</span>(selected_features, <span class="dv">61</span>)] <span class="co"># Include 'Class'</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Train a k-NN model</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  ctrl <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">"cv"</span>, <span class="at">number =</span> <span class="dv">5</span>)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  knn_model <span class="ot">&lt;-</span> <span class="fu">train</span>(Class <span class="sc">~</span> ., <span class="at">data =</span> selected_train, <span class="at">method =</span> <span class="st">"knn"</span>, </span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>                     <span class="at">trControl =</span> ctrl, <span class="at">tuneGrid =</span> <span class="fu">data.frame</span>(<span class="at">k =</span> <span class="dv">1</span>))</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Return fitness value (1 - accuracy to minimize error)</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  fitness_value <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="sc">-</span> <span class="fu">max</span>(knn_model<span class="sc">$</span>results<span class="sc">$</span>Accuracy)</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(fitness_value)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<pre><code></code></pre>
+</section>
+</section>
+<section id="running-the-genetic-algorithm" class="level2">
+<h2 class="anchored" data-anchor-id="running-the-genetic-algorithm">Running the Genetic Algorithm</h2>
+<div id="e632bb63" class="cell" data-execution_count="4">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>) <span class="co"># For reproducibility</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Run the Genetic Algorithm</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>ga_model <span class="ot">&lt;-</span> <span class="fu">ga</span>(</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">type =</span> <span class="st">"binary"</span>,</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">fitness =</span> fitness_function,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">nBits =</span> <span class="fu">ncol</span>(Sonar) <span class="sc">-</span> <span class="dv">1</span>, <span class="co"># 60 features</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">popSize =</span> <span class="dv">50</span>,</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">maxiter =</span> <span class="dv">100</span>,</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">pcrossover =</span> <span class="fl">0.8</span>,</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">pmutation =</span> <span class="fl">0.1</span>,</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">elitism =</span> <span class="dv">2</span>,</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">run =</span> <span class="dv">50</span>,</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">monitor =</span> <span class="cn">TRUE</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary of GA results</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(ga_model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>GA | iter = 1 | Mean = 0.1680522 | Best = 0.2391461
+GA | iter = 2 | Mean = 0.1735294 | Best = 0.2391461
+GA | iter = 3 | Mean = 0.1759514 | Best = 0.2391461
+GA | iter = 4 | Mean = 0.1813278 | Best = 0.2391461
+GA | iter = 5 | Mean = 0.1757665 | Best = 0.2393924
+GA | iter = 6 | Mean = 0.1828765 | Best = 0.2540230
+GA | iter = 7 | Mean = 0.1781392 | Best = 0.2540230
+GA | iter = 8 | Mean = 0.1847412 | Best = 0.2540230
+GA | iter = 9 | Mean = 0.1869241 | Best = 0.2540230
+GA | iter = 10 | Mean = 0.1886102 | Best = 0.2540230
+GA | iter = 11 | Mean = 0.1939878 | Best = 0.2540230
+GA | iter = 12 | Mean = 0.1903678 | Best = 0.2540230
+GA | iter = 13 | Mean = 0.1993767 | Best = 0.2540230
+GA | iter = 14 | Mean = 0.1980716 | Best = 0.2540230
+GA | iter = 15 | Mean = 0.1937833 | Best = 0.2555829
+GA | iter = 16 | Mean = 0.1926673 | Best = 0.2555829
+GA | iter = 17 | Mean = 0.1877202 | Best = 0.2555829
+GA | iter = 18 | Mean = 0.185753 | Best = 0.260000
+GA | iter = 19 | Mean = 0.1842003 | Best = 0.2600000
+GA | iter = 20 | Mean = 0.1971665 | Best = 0.2600000
+GA | iter = 21 | Mean = 0.1958624 | Best = 0.2660755
+GA | iter = 22 | Mean = 0.1957360 | Best = 0.2660755
+GA | iter = 23 | Mean = 0.2017741 | Best = 0.2740230
+GA | iter = 24 | Mean = 0.196908 | Best = 0.274023
+GA | iter = 25 | Mean = 0.1948959 | Best = 0.2740230
+GA | iter = 26 | Mean = 0.1974177 | Best = 0.2740230
+GA | iter = 27 | Mean = 0.2007126 | Best = 0.2740230
+GA | iter = 28 | Mean = 0.2018808 | Best = 0.2740230
+GA | iter = 29 | Mean = 0.2000319 | Best = 0.2740230
+GA | iter = 30 | Mean = 0.208091 | Best = 0.274023
+GA | iter = 31 | Mean = 0.2107612 | Best = 0.2740230
+GA | iter = 32 | Mean = 0.2085021 | Best = 0.2740230
+GA | iter = 33 | Mean = 0.2049212 | Best = 0.2740230
+GA | iter = 34 | Mean = 0.2075839 | Best = 0.2740230
+GA | iter = 35 | Mean = 0.2106174 | Best = 0.2740230
+GA | iter = 36 | Mean = 0.2072158 | Best = 0.2740230
+GA | iter = 37 | Mean = 0.2078000 | Best = 0.2741379
+GA | iter = 38 | Mean = 0.2109856 | Best = 0.2741379
+GA | iter = 39 | Mean = 0.2107938 | Best = 0.2741379
+GA | iter = 40 | Mean = 0.2141228 | Best = 0.2741379
+GA | iter = 41 | Mean = 0.2118667 | Best = 0.2952381
+GA | iter = 42 | Mean = 0.2072361 | Best = 0.2952381
+GA | iter = 43 | Mean = 0.2125681 | Best = 0.2952381
+GA | iter = 44 | Mean = 0.2125563 | Best = 0.2952381
+GA | iter = 45 | Mean = 0.2114686 | Best = 0.2952381
+GA | iter = 46 | Mean = 0.2161307 | Best = 0.2952381
+GA | iter = 47 | Mean = 0.2289176 | Best = 0.3212644
+GA | iter = 48 | Mean = 0.2328535 | Best = 0.3212644
+GA | iter = 49 | Mean = 0.2339862 | Best = 0.3212644
+GA | iter = 50 | Mean = 0.2373701 | Best = 0.3212644
+GA | iter = 51 | Mean = 0.2418594 | Best = 0.3212644
+GA | iter = 52 | Mean = 0.2476099 | Best = 0.3291133
+GA | iter = 53 | Mean = 0.2477376 | Best = 0.3291133
+GA | iter = 54 | Mean = 0.2437938 | Best = 0.3291133
+GA | iter = 55 | Mean = 0.2490690 | Best = 0.3294253
+GA | iter = 56 | Mean = 0.2584273 | Best = 0.3294253
+GA | iter = 57 | Mean = 0.2577984 | Best = 0.3294253
+GA | iter = 58 | Mean = 0.2609612 | Best = 0.3294253
+GA | iter = 59 | Mean = 0.2552857 | Best = 0.3294253
+GA | iter = 60 | Mean = 0.2585452 | Best = 0.3294253
+GA | iter = 61 | Mean = 0.2510910 | Best = 0.3294253
+GA | iter = 62 | Mean = 0.2670933 | Best = 0.3345977
+GA | iter = 63 | Mean = 0.2699327 | Best = 0.3636453
+GA | iter = 64 | Mean = 0.2662998 | Best = 0.3636453
+GA | iter = 65 | Mean = 0.2649008 | Best = 0.3636453
+GA | iter = 66 | Mean = 0.2650059 | Best = 0.3636453
+GA | iter = 67 | Mean = 0.2769990 | Best = 0.3636453
+GA | iter = 68 | Mean = 0.2793964 | Best = 0.3636453
+GA | iter = 69 | Mean = 0.2733383 | Best = 0.3970115
+GA | iter = 70 | Mean = 0.2746039 | Best = 0.3970115
+GA | iter = 71 | Mean = 0.2773366 | Best = 0.3970115
+GA | iter = 72 | Mean = 0.2772378 | Best = 0.3970115
+GA | iter = 73 | Mean = 0.2705379 | Best = 0.3970115
+GA | iter = 74 | Mean = 0.2710571 | Best = 0.3970115
+GA | iter = 75 | Mean = 0.2703310 | Best = 0.3970115
+GA | iter = 76 | Mean = 0.2769672 | Best = 0.3970115
+GA | iter = 77 | Mean = 0.2862611 | Best = 0.3970115
+GA | iter = 78 | Mean = 0.2788966 | Best = 0.3970115
+GA | iter = 79 | Mean = 0.2770125 | Best = 0.3970115
+GA | iter = 80 | Mean = 0.2758213 | Best = 0.3970115
+GA | iter = 81 | Mean = 0.2805373 | Best = 0.3970115
+GA | iter = 82 | Mean = 0.2811612 | Best = 0.3970115
+GA | iter = 83 | Mean = 0.2812105 | Best = 0.3970115
+GA | iter = 84 | Mean = 0.2845800 | Best = 0.3970115
+GA | iter = 85 | Mean = 0.2736368 | Best = 0.3970115
+GA | iter = 86 | Mean = 0.2713576 | Best = 0.3970115
+GA | iter = 87 | Mean = 0.2734690 | Best = 0.3970115
+GA | iter = 88 | Mean = 0.2683113 | Best = 0.3970115
+GA | iter = 89 | Mean = 0.2611491 | Best = 0.3970115
+GA | iter = 90 | Mean = 0.2540072 | Best = 0.3970115
+GA | iter = 91 | Mean = 0.2643452 | Best = 0.3970115
+GA | iter = 92 | Mean = 0.2678791 | Best = 0.3970115
+GA | iter = 93 | Mean = 0.2670039 | Best = 0.3970115
+GA | iter = 94 | Mean = 0.2731304 | Best = 0.3970115
+GA | iter = 95 | Mean = 0.2646749 | Best = 0.3970115
+GA | iter = 96 | Mean = 0.2710936 | Best = 0.3970115
+GA | iter = 97 | Mean = 0.2621143 | Best = 0.3970115
+GA | iter = 98 | Mean = 0.2651343 | Best = 0.3970115
+GA | iter = 99 | Mean = 0.2701452 | Best = 0.3970115
+GA | iter = 100 | Mean = 0.2667343 | Best = 0.3970115</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div class="ansi-escaped-output">
+<pre>── <span class="ansi-bold">Genetic Algorithm</span> ─────────────────── 
+GA settings: 
+Type                  =  binary 
+Population size       =  50 
+Number of generations =  100 
+Elitism               =  2 
+Crossover probability =  0.8 
+Mutation probability  =  0.1 
+GA results: 
+Iterations             = 100 
+Fitness function value = 0.3970115 
+Solution = 
+     x1 x2 x3 x4 x5 x6 x7 x8 x9 x10  ...  x59 x60
+[1,]  0  1  0  0  1  0  1  0  0   1         1   1</pre>
+</div>
+</div>
+</div>
+<section id="selected-features-and-final-model-evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="selected-features-and-final-model-evaluation">Selected Features and Final Model Evaluation</h3>
+<div id="ea9cbeeb" class="cell" data-execution_count="5">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract best chromosome (selected features)</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>best_chromosome <span class="ot">&lt;-</span> ga_model<span class="sc">@</span>solution</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>selected_features <span class="ot">&lt;-</span> <span class="fu">which</span>(best_chromosome <span class="sc">==</span> <span class="dv">1</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Train the final k-NN model using selected features</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>selected_train <span class="ot">&lt;-</span> trainData[, <span class="fu">c</span>(selected_features, <span class="dv">61</span>)]</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>selected_test <span class="ot">&lt;-</span> testData[, <span class="fu">c</span>(selected_features, <span class="dv">61</span>)]</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>final_knn_model <span class="ot">&lt;-</span> <span class="fu">train</span>(Class <span class="sc">~</span> ., <span class="at">data =</span> selected_train, <span class="at">method =</span> <span class="st">"knn"</span>,</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>                         <span class="at">trControl =</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">"cv"</span>, <span class="at">number =</span> <span class="dv">5</span>),</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>                         <span class="at">tuneGrid =</span> <span class="fu">data.frame</span>(<span class="at">k =</span> <span class="dv">1</span>))</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Make predictions and evaluate</span></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>predictions <span class="ot">&lt;-</span> <span class="fu">predict</span>(final_knn_model, <span class="at">newdata =</span> selected_test)</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>conf_matrix <span class="ot">&lt;-</span> <span class="fu">confusionMatrix</span>(predictions, selected_test<span class="sc">$</span>Class)</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Print results</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>conf_matrix</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<pre><code>Confusion Matrix and Statistics
+
+          Reference
+Prediction  M  R
+         M 23 13
+         R 10 16
+                                          
+               Accuracy : 0.629           
+                 95% CI : (0.4969, 0.7484)
+    No Information Rate : 0.5323          
+    P-Value [Acc &gt; NIR] : 0.0801          
+                                          
+                  Kappa : 0.2503          
+                                          
+ Mcnemar's Test P-Value : 0.6767          
+                                          
+            Sensitivity : 0.6970          
+            Specificity : 0.5517          
+         Pos Pred Value : 0.6389          
+         Neg Pred Value : 0.6154          
+             Prevalence : 0.5323          
+         Detection Rate : 0.3710          
+   Detection Prevalence : 0.5806          
+      Balanced Accuracy : 0.6243          
+                                          
+       'Positive' Class : M               
+                                          </code></pre>
+</div>
+</div>
+</section>
+<section id="comparing-performance-with-all-features" class="level3">
+<h3 class="anchored" data-anchor-id="comparing-performance-with-all-features">Comparing Performance with All Features</h3>
+<div id="9be263e1" class="cell" data-execution_count="6">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Train a model using all features</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>model_all_features <span class="ot">&lt;-</span> <span class="fu">train</span>(Class <span class="sc">~</span> ., <span class="at">data =</span> trainData, <span class="at">method =</span> <span class="st">"knn"</span>, </span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>                            <span class="at">trControl =</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">"cv"</span>, <span class="at">number =</span> <span class="dv">5</span>), </span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>                            <span class="at">tuneGrid =</span> <span class="fu">data.frame</span>(<span class="at">k =</span> <span class="dv">1</span>))</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate model on the test set</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>predictions_all <span class="ot">&lt;-</span> <span class="fu">predict</span>(model_all_features, <span class="at">newdata =</span> testData)</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>conf_matrix_all <span class="ot">&lt;-</span> <span class="fu">confusionMatrix</span>(predictions_all, testData<span class="sc">$</span>Class)</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Comparison</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Accuracy with Selected Features: "</span>, conf_matrix<span class="sc">$</span>overall[<span class="st">"Accuracy"</span>], <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Accuracy with All Features: "</span>, conf_matrix_all<span class="sc">$</span>overall[<span class="st">"Accuracy"</span>], <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Accuracy with Selected Features:  0.6290323 
+Accuracy with All Features:  0.7903226 </code></pre>
+</div>
+</div>
+</section>
+<section id="visualizing-the-ga-progress-and-results" class="level3">
+<h3 class="anchored" data-anchor-id="visualizing-the-ga-progress-and-results">Visualizing the GA Progress and Results</h3>
+<div id="df844580" class="cell" data-execution_count="7">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot GA optimization progress</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(ga_model, <span class="at">main =</span> <span class="st">"GA Optimization Progress"</span>, <span class="at">col =</span> <span class="st">"blue"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/cell-8-output-1.png" width="420" height="420" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="selected-features-via-genetic-algorithm" class="level2">
+<h2 class="anchored" data-anchor-id="selected-features-via-genetic-algorithm">Selected Features via Genetic Algorithm</h2>
+<div id="9a7943db" class="cell" data-execution_count="8">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure best_chromosome is a numeric vector</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>best_chromosome <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(best_chromosome)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a data frame for visualization</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>selected_features_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">Feature =</span> <span class="fu">factor</span>(<span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(best_chromosome)),  <span class="co"># Feature indices</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">Selected =</span> best_chromosome                    <span class="co"># Binary selection (1 = selected, 0 = not selected)</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure there are no missing or incorrect values</span></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">head</span>(selected_features_df))  <span class="co"># Check structure</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="co">#  visualization</span></span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(selected_features_df, <span class="fu">aes</span>(<span class="at">x =</span> Feature, <span class="at">y =</span> Selected, <span class="at">fill =</span> <span class="fu">as.factor</span>(Selected))) <span class="sc">+</span></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">width =</span> <span class="fl">0.7</span>) <span class="sc">+</span>  <span class="co"># Adjust bar width</span></span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"0"</span> <span class="ot">=</span> <span class="st">"gray85"</span>, <span class="st">"1"</span> <span class="ot">=</span> <span class="st">"#2E8B57"</span>), <span class="at">name =</span> <span class="st">"Selected"</span>) <span class="sc">+</span>  <span class="co"># Soft gray &amp; deep green</span></span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">" Selected Features via Genetic Algorithm"</span>,</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Selected features (1) vs. Non-selected features (0)"</span>,</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Feature Index"</span>, </span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Selection Status"</span>) <span class="sc">+</span>  <span class="co"># Clearer label</span></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">14</span>) <span class="sc">+</span>  <span class="co"># Improve readability</span></span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="dv">18</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>), <span class="co"># Bold, centered title</span></span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">color =</span> <span class="st">"gray40"</span>), <span class="co"># Styled subtitle</span></span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"top"</span>,</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">vjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">10</span>), <span class="co"># Adjust rotation &amp; spacing</span></span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>),  <span class="co"># Make y-axis text larger</span></span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major.x =</span> <span class="fu">element_blank</span>(),  <span class="co"># Remove unnecessary grid lines</span></span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major.y =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"gray90"</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>)  <span class="co"># Subtle dashed grid lines</span></span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_discrete</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="fu">length</span>(best_chromosome), <span class="at">by =</span> <span class="dv">2</span>)) <span class="sc">+</span>  <span class="co"># Reduce x-axis label crowding</span></span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Not Selected"</span>, <span class="st">"Selected"</span>))  <span class="co"># Custom y-axis labels</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>  Feature Selected
+1       1        0
+2       2        1
+3       3        0
+4       4        0
+5       5        1
+6       6        0</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/cell-9-output-2.png" width="420" height="420" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="final-confusion-matrix-and-performance-metrics" class="level3">
+<h3 class="anchored" data-anchor-id="final-confusion-matrix-and-performance-metrics">Final Confusion Matrix and Performance Metrics</h3>
+<div id="8fc43cdf" class="cell" data-execution_count="9">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a data frame for the confusion matrix</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>conf_matrix_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">Prediction =</span> <span class="fu">c</span>(<span class="st">"M"</span>, <span class="st">"M"</span>, <span class="st">"R"</span>, <span class="st">"R"</span>),  <span class="co"># Predicted classes</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">Reference =</span> <span class="fu">c</span>(<span class="st">"M"</span>, <span class="st">"R"</span>, <span class="st">"M"</span>, <span class="st">"R"</span>),  <span class="co"># Actual classes</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">Count =</span> <span class="fu">c</span>(<span class="dv">26</span>, <span class="dv">10</span>, <span class="dv">7</span>, <span class="dv">19</span>)            <span class="co"># Counts from the confusion matrix</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the confusion matrix</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(conf_matrix_df, <span class="fu">aes</span>(<span class="at">x =</span> Reference, <span class="at">y =</span> Prediction, <span class="at">fill =</span> Count)) <span class="sc">+</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_tile</span>(<span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> Count), <span class="at">size =</span> <span class="dv">6</span>, <span class="at">color =</span> <span class="st">"white"</span>) <span class="sc">+</span></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_gradient</span>(<span class="at">low =</span> <span class="st">"lightblue"</span>, <span class="at">high =</span> <span class="st">"blue"</span>) <span class="sc">+</span></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Confusion Matrix"</span>,</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Model Predictions vs. Actual Classes"</span>,</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Actual Class"</span>,</span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Predicted Class"</span></span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">14</span>) <span class="sc">+</span></span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>),</span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>),</span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"none"</span></span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/cell-10-output-1.png" width="420" height="420" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="c4878849" class="cell" data-execution_count="10">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Confusion matrix for the model with selected features</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>conf_matrix<span class="sc">$</span>table</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Accuracy, Sensitivity, and Specificity</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>conf_matrix<span class="sc">$</span>overall[<span class="st">"Accuracy"</span>]</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>conf_matrix<span class="sc">$</span>byClass[<span class="fu">c</span>(<span class="st">"Sensitivity"</span>)]</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>conf_matrix<span class="sc">$</span>byClass[<span class="fu">c</span>( <span class="st">"Specificity"</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<pre><code>          Reference
+Prediction  M  R
+         M 23 13
+         R 10 16</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<strong>Accuracy:</strong> 0.629032258064516
+</div>
+<div class="cell-output cell-output-display">
+<strong>Sensitivity:</strong> 0.696969696969697
+</div>
+<div class="cell-output cell-output-display">
+<strong>Specificity:</strong> 0.551724137931035
+</div>
+</div>
+</section>
+</section>
+<section id="save-result" class="level2">
+<h2 class="anchored" data-anchor-id="save-result">Save Result</h2>
+<div id="ec2aca0f" class="cell" data-execution_count="11">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Save GA results </span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="fu">saveRDS</span>(ga_model, <span class="st">"ga_model.rds"</span>) <span class="co"># Save the GA model</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="fu">saveRDS</span>(final_knn_model, <span class="st">"final_knn_model.rds"</span>) <span class="co"># Save the final k-NN model</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="fu">saveRDS</span>(conf_matrix, <span class="st">"conf_matrix.rds"</span>) <span class="co"># Save the confusion matrix</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Results have been saved as .rds files in the working directory.</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Results have been saved as .rds files in the working directory.</code></pre>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.quarto.org">
+<p>Made with quarto®</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://chatgpt.com/">
+<p>Built with ChatGPT®</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../../Content/License/index.html">
+<p>License</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/oluwaseunfowotade/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Fowotadeseun/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:fowotadeoluwaseun15@gmail.com">
+      <i class="bi bi-envelope-fill" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

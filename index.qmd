@@ -1,0 +1,83 @@
+---
+title: "Oluwaseun Daniel Fowotade | Portfolio"
+format:
+  html:
+    anchor-location: none
+    include-in-header:
+      - "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css' rel='stylesheet'/>"
+    include-after-body:
+      - "<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'></script>"
+echo: false
+message: false
+warning: false
+---
+
+# Welcome to My Portfolio!
+
+Hi, I’m Oluwaseun Daniel Fowotade—welcome to my portfolio! Explore my projects and expertise in statistics, data science, and healthcare analytics. Below, you’ll find some of my key experiences and projects. Feel free to reach out if you'd like to collaborate!
+
+
+```{=html}
+<div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- Slide 1: Skills -->
+    <div class="carousel-item active">
+      <div class="portfolio-card">
+        <div class="badge-tag">Skills</div>
+        <h3>Technical Expertise</h3>
+        <img src="Assets/Images/skills.png" alt="Skills Overview" />
+        <p>
+          Proficient in SAS, R, Python, and SQL, with experience in statistical modeling, data visualization, and clinical analytics.
+        </p>
+      </div>
+    </div>
+
+    <!-- Slide 2: Experience -->
+    <div class="carousel-item">
+      <div class="portfolio-card">
+        <div class="badge-tag">Experience</div>
+        <h3>Statistical Programmer at ClinFocus</h3>
+        <img src="Assets/Images/experience.png" alt="Statistical Programming" />
+        <p>
+          Developed SAS programs for regulatory submissions, performed CDISC-compliant data processing, and collaborated with biostatisticians.
+        </p>
+      </div>
+    </div>
+
+    <!-- Slide 3: Education -->
+    <div class="carousel-item">
+      <div class="portfolio-card">
+        <div class="badge-tag">Education</div>
+        <h3>Master of Science – Statistics</h3>
+        <img src="Assets/Images/education.png" alt="Education" />
+        <p>
+          Currently pursuing an MS in Statistics at Oregon State University, with a focus on survival analysis, feature selection, and clinical data science.
+        </p>
+      </div>
+    </div>
+
+    <!-- Slide 4: Projects -->
+    <div class="carousel-item">
+      <div class="portfolio-card">
+        <div class="badge-tag">Projects</div>
+        <h3>Netflix Data Analysis</h3>
+        <img src="Assets/Images/netflix.png" alt="Netflix Data Analysis" />
+        <p>
+          Designed an interactive dashboard to analyze Netflix trends, user preferences, and content performance.
+        </p>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Carousel Navigation -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>

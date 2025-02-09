@@ -1,0 +1,365 @@
+---
+title: "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling"
+author: "Oluwaseun Daniel Fowotade"
+date: "12/20/2024"
+description: "Using Genetic Algorithms to optimize feature selection in regression modeling."
+format:
+  html:
+    toc: true
+    toc-location: left
+    code-fold: true
+    highlight-style: tango
+execute:
+  warning: false
+  message: false
+jupyter: ir
+categories:
+  - Machine Learning
+  - Genetic Algorithms
+  - Feature Selection
+  - Statistics
+  - Regression
+---
+![](/Assets/Images/GA.jpeg)
+
+# Overview of Genetic Algorithm
+
+Feature selection is a crucial step in building efficient machine learning models, especially in the context of regression. It involves selecting a subset of relevant features from a larger set, aiming to improve model performance, reduce overfitting, and increase interpretability. Traditional feature selection methods, such as backward elimination or stepwise regression, can struggle when dealing with high-dimensional or complex data. These methods may fail to capture nonlinear relationships between features and can be computationally expensive for large datasets.
+
+Genetic algorithms (GAs), inspired by the principles of natural selection, offer a promising approach to overcome these challenges. First proposed by John Holland in 1975, GAs are heuristic optimization techniques that simulate the process of natural evolution. In a GA, a population of candidate solutions evolves over generations using genetic operations like selection, crossover, and mutation.
+
+This project applies GAs to feature selection in regression tasks, where the goal is to minimize prediction error and avoid overfitting. By leveraging the power of genetic evolution, the GA can efficiently explore large, high-dimensional spaces and identify the most relevant features for building robust predictive models.
+
+# Methodology of Genetic Algorithm
+
+The application of genetic algorithms to feature selection in regression models involves several key steps:
+
+## Chromosome Encoding and Representation
+
+Each candidate solution is represented as a chromosome, a binary vector where each bit represents the inclusion (`1`) or exclusion (`0`) of a feature. If a dataset contains (C) features, the chromosome length is (C), and each gene corresponds to a specific feature.
+
+For example: (1, 0, 1, 0, 1) Features 1, 3, and 5 selected, while 2 and 4 are excluded.
+
+## Population Initialization
+
+The algorithm starts by initializing a population of chromosomes randomly. The size of the population, (P), is critical as it influences the diversity of solutions. A larger population ensures more diversity, preventing premature convergence, while a smaller population might speed up the process but risk missing better solutions. Typically, the population size is chosen so that:
+
+\[ C \leq P \leq 2C \]
+
+where (C) is the number of features.
+
+## Selection
+
+The selection step involves choosing individuals from the population based on their fitness to act as parents for the next generation. The fitness of a chromosome is determined by evaluating its associated feature subset in a regression model, typically using the mean squared error (MSE) as the performance metric. Tournament selection is often used, where a subset of chromosomes is randomly chosen, and the one with the best fitness is selected as a parent.
+
+## Crossover
+
+Once parents are selected, they undergo genetic operations to create offspring. Crossover involves swapping parts of two parent chromosomes to produce offspring. A common method is single-point crossover, where a random crossover point is chosen, and the genes before and after this point are exchanged between the parents.
+
+## Mutation
+
+Mutation introduces small random changes to maintain genetic diversity and avoid local optima. For instance, a mutation may flip the value of a random bit in the chromosome (e.g., changing `0` to `1` or vice versa). The mutation rate is usually kept low (e.g., 1% per generation) to ensure diversity without disrupting good solutions.
+
+## Fitness Evaluation
+
+Each chromosome is evaluated using a regression model trained on the selected features. The fitness function is:
+
+$$
+\text{Fitness}(\vartheta) = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
+$$
+
+where $(y_i)$ are actual values and \\( \\hat{y}\_i \\) are predictions.
+
+## Elitism
+
+To ensure that the best solutions are preserved, elitism is applied. This technique guarantees that the best-performing chromosome from the current generation is directly passed to the next generation without any changes. This helps prevent the loss of high-quality solutions during the evolution process.
+
+## Termination
+
+The algorithm runs for a set number of generations or until a stopping criterion is met. Common criteria include reaching a maximum number of generations (e.g., 100) or achieving a satisfactory fitness level. Once the algorithm terminates, the best chromosome found represents the optimal feature subset.
+
+# Final Model
+
+The genetic algorithm (GA) was implemented to identify an optimal subset of features for the classification task in the Sonar dataset. Over 89 iterations, the algorithm demonstrated consistent improvement in fitness, ultimately achieving a best fitness value of 0.3077. This fitness value, defined as (1 - \text{accuracy}), indicates a corresponding predictive accuracy of 69.23% on the training set. The selected feature subset was designed to maximize classification performance while minimizing redundancy and over-fitting.
+
+The GA selected the following features from the original set of 60 predictors:
+
+Selected features: 1, 2, 3, 4, 5, 6, 7, 16, 17, 18, 19, 22, 24, 25, 28, 29, 30, 33, 37, 39, 41, 43, 47, 49, 51, 52, 58.
+
+This reduced set of features was used to train a k-Nearest Neighbors (k-NN) classifier with (k = 3), selected based on a grid search for hyperparameter optimization. The training utilized 5-fold cross-validation to ensure model robustness and generalizability. On the test set, the following confusion matrix was obtained:
+
+```{r}
+# Create confusion matrix as a data frame
+conf_matrix <- data.frame(
+  "Actual" = c("Actual M", "Actual R"),
+  "Predicted M" = c(26, 7),
+  "Predicted R" = c(10, 19)
+)
+
+#kable to create a nicely formatted table
+knitr::kable(conf_matrix, caption = "Confusion Matrix: Predicted vs Actual", align = "c")
+
+```
+
+From the confusion matrix, the following performance metrics were computed:
+
+-   **Accuracy**: 72.58%
+-   **Sensitivity (True Positive Rate for Mines)**: 78.79%
+-   **Specificity (True Negative Rate for Rocks)**: 65.52%
+-   **Kappa Statistic**: 0.4458
+-   **Balanced Accuracy**: 72.15%
+
+The k-NN classifier displayed a solid ability to correctly classify mines, as indicated by the relatively high sensitivity of 78.79%. However, the specificity of 65.52% suggests room for improvement in accurately identifying rocks, particularly in cases with overlapping feature distributions.
+
+# Conclusion
+
+The application of a genetic algorithm (GA) for feature selection in the Sonar dataset successfully reduced the dimensional from 60 to 27 features, enabling efficient model training while maintaining predictive performance. The GA’s ability to explore a vast and complex search space was instrumental in identifying relevant features that traditional methods might have overlooked.
+
+The k-NN classifier trained on the selected features achieved an accuracy of 72.58% on the test set. However, there are several areas for improvement:
+
+- ##  **Population Size**: A larger population size could enhance the diversity of candidate solutions, preventing premature convergence to suboptimal solutions.
+-   **Mutation Rate**: Adjusting the mutation rate could introduce more variation in the search space. For example, increasing the mutation rate in earlier generations might explore more diverse feature subsets, while reducing it in later generations could refine promising solutions.
+-   **Crossover Strategy**: Employing advanced crossover techniques, such as uniform or multi-point crossover, could enhance the recombination of parent solutions, potentially leading to better offspring.
+-   **Termination Criteria**: Allowing the GA to run for additional generations or introducing a dynamic stopping criterion based on convergence rates could yield more refined feature subsets.
+-   **Fitness Function**: Experimenting with alternative fitness functions, such as F1-score or balanced accuracy, could prioritize models that address class imbalance more effectively.
+
+By fine-tuning these parameters, the GA could further enhance its ability to select the most discriminating features, improving classification accuracy and robustness.
+
+This analysis underscores the effectiveness of genetic algorithms in tackling complex feature selection challenges, particularly for high-dimensional data sets with potential nonlinear relationships among features. Future research could integrate hybrid optimization techniques, combining GAs with other meta heuristic methods like particle swarm optimization or simulated annealing, to achieve even better results.
+
+The results illustrate that intelligent feature selection not only reduces computational costs but also leads to models that are easier to interpret and maintain, making GAs a valuable tool in the arsenal of modern machine learning techniques.
+
+# References
+
+-   Kaya, Y. (2018). Comparison of Using the Genetic Algorithm and Cuckoo Search for Feature Selection.
+-   Raymer, M.L. et al. (2000). Dimensionality reduction using genetic algorithms. IEEE Transactions on Evolutionary Computation.
+-   Bindu, M.G. & Sabu, M.K. (2020). A Hybrid Feature Selection Approach Using Artificial Bee Colony and Genetic Algorithm.
+-   Givens, G.H. & Hoeting, J.A. (2012). Computational Statistics, Vol. 703. John Wiley & Sons.
+
+# Appendix
+
+## Genetic Algorithm Implementation on Sonar Dataset
+
+### Loading Required Libraries and Data
+
+```{r}
+library(GA)
+library(caret)
+library(mlbench)
+
+# Load the Sonar dataset
+data(Sonar)
+Sonar$Class <- as.factor(Sonar$Class) # Ensure the target variable is a factor
+
+# Split data into training and testing sets
+set.seed(123) # For reproducibility
+trainIndex <- createDataPartition(Sonar$Class, p = 0.7, list = FALSE)
+trainData <- Sonar[trainIndex, ]
+testData <- Sonar[-trainIndex, ]
+
+```
+
+### Defining the Fitness Function for Feature Selection
+
+```{r}
+# Define the fitness function
+fitness_function <- function(x) {
+  selected_features <- which(x == 1) # Indices of selected features
+  
+  # If no features are selected, assign a large fitness value (penalty)
+  if (length(selected_features) == 0) return(Inf)
+  
+  # Subset the training data with the selected features
+  selected_train <- trainData[, c(selected_features, 61)] # Include 'Class'
+  
+  # Train a k-NN model
+  ctrl <- trainControl(method = "cv", number = 5)
+  knn_model <- train(Class ~ ., data = selected_train, method = "knn", 
+                     trControl = ctrl, tuneGrid = data.frame(k = 1))
+  
+  # Return fitness value (1 - accuracy to minimize error)
+  fitness_value <- 1 - max(knn_model$results$Accuracy)
+  return(fitness_value)
+}
+
+```
+
+```         
+```
+
+## Running the Genetic Algorithm
+
+```{r}
+set.seed(123) # For reproducibility
+
+# Run the Genetic Algorithm
+ga_model <- ga(
+  type = "binary",
+  fitness = fitness_function,
+  nBits = ncol(Sonar) - 1, # 60 features
+  popSize = 50,
+  maxiter = 100,
+  pcrossover = 0.8,
+  pmutation = 0.1,
+  elitism = 2,
+  run = 50,
+  monitor = TRUE
+)
+
+# Summary of GA results
+summary(ga_model)
+```
+
+### Selected Features and Final Model Evaluation
+
+```{r}
+# Extract best chromosome (selected features)
+best_chromosome <- ga_model@solution
+selected_features <- which(best_chromosome == 1)
+
+# Train the final k-NN model using selected features
+selected_train <- trainData[, c(selected_features, 61)]
+selected_test <- testData[, c(selected_features, 61)]
+
+final_knn_model <- train(Class ~ ., data = selected_train, method = "knn",
+                         trControl = trainControl(method = "cv", number = 5),
+                         tuneGrid = data.frame(k = 1))
+
+# Make predictions and evaluate
+predictions <- predict(final_knn_model, newdata = selected_test)
+conf_matrix <- confusionMatrix(predictions, selected_test$Class)
+
+# Print results
+conf_matrix
+```
+
+### Comparing Performance with All Features
+
+```{r}
+# Train a model using all features
+model_all_features <- train(Class ~ ., data = trainData, method = "knn", 
+                            trControl = trainControl(method = "cv", number = 5), 
+                            tuneGrid = data.frame(k = 1))
+
+# Evaluate model on the test set
+predictions_all <- predict(model_all_features, newdata = testData)
+conf_matrix_all <- confusionMatrix(predictions_all, testData$Class)
+
+# Comparison
+cat("Accuracy with Selected Features: ", conf_matrix$overall["Accuracy"], "\n")
+cat("Accuracy with All Features: ", conf_matrix_all$overall["Accuracy"], "\n")
+```
+
+### Visualizing the GA Progress and Results
+
+```{r}
+library(ggplot2)
+
+# Plot GA optimization progress
+plot(ga_model, main = "GA Optimization Progress", col = "blue")
+
+
+
+```
+
+## Selected Features via Genetic Algorithm
+
+```{r}
+library(ggplot2)
+
+# Ensure best_chromosome is a numeric vector
+best_chromosome <- as.numeric(best_chromosome)
+
+# Create a data frame for visualization
+selected_features_df <- data.frame(
+  Feature = factor(1:length(best_chromosome)),  # Feature indices
+  Selected = best_chromosome                    # Binary selection (1 = selected, 0 = not selected)
+)
+
+# Ensure there are no missing or incorrect values
+print(head(selected_features_df))  # Check structure
+
+#  visualization
+ggplot(selected_features_df, aes(x = Feature, y = Selected, fill = as.factor(Selected))) +
+  geom_bar(stat = "identity", color = "black", width = 0.7) +  # Adjust bar width
+  scale_fill_manual(values = c("0" = "gray85", "1" = "#2E8B57"), name = "Selected") +  # Soft gray & deep green
+  labs(title = " Selected Features via Genetic Algorithm",
+       subtitle = "Selected features (1) vs. Non-selected features (0)",
+       x = "Feature Index", 
+       y = "Selection Status") +  # Clearer label
+  theme_minimal(base_size = 14) +  # Improve readability
+  theme(
+    plot.title = element_text(face = "bold", size = 18, hjust = 0.5), # Bold, centered title
+    plot.subtitle = element_text(size = 14, hjust = 0.5, color = "gray40"), # Styled subtitle
+    legend.position = "top",
+    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1, size = 10), # Adjust rotation & spacing
+    axis.text.y = element_text(size = 12),  # Make y-axis text larger
+    panel.grid.major.x = element_blank(),  # Remove unnecessary grid lines
+    panel.grid.minor = element_blank(),
+    panel.grid.major.y = element_line(color = "gray90", linetype = "dashed")  # Subtle dashed grid lines
+  ) +
+  scale_x_discrete(breaks = seq(1, length(best_chromosome), by = 2)) +  # Reduce x-axis label crowding
+  scale_y_continuous(breaks = c(0, 1), labels = c("Not Selected", "Selected"))  # Custom y-axis labels
+
+
+```
+
+### Final Confusion Matrix and Performance Metrics
+
+```{r}
+library(ggplot2)
+
+# Create a data frame for the confusion matrix
+conf_matrix_df <- data.frame(
+  Prediction = c("M", "M", "R", "R"),  # Predicted classes
+  Reference = c("M", "R", "M", "R"),  # Actual classes
+  Count = c(26, 10, 7, 19)            # Counts from the confusion matrix
+)
+
+# Plot the confusion matrix
+ggplot(conf_matrix_df, aes(x = Reference, y = Prediction, fill = Count)) +
+  geom_tile(color = "black") +
+  geom_text(aes(label = Count), size = 6, color = "white") +
+  scale_fill_gradient(low = "lightblue", high = "blue") +
+  labs(
+    title = "Confusion Matrix",
+    subtitle = "Model Predictions vs. Actual Classes",
+    x = "Actual Class",
+    y = "Predicted Class"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    plot.subtitle = element_text(hjust = 0.5),
+    axis.text = element_text(size = 12),
+    axis.title = element_text(size = 14),
+    legend.position = "none"
+  )
+
+```
+
+```{r}
+# Confusion matrix for the model with selected features
+conf_matrix$table
+
+# Accuracy, Sensitivity, and Specificity
+conf_matrix$overall["Accuracy"]
+conf_matrix$byClass[c("Sensitivity")]
+conf_matrix$byClass[c( "Specificity")]
+```
+
+## Save Result
+
+```{r}
+# Save GA results 
+saveRDS(ga_model, "ga_model.rds") # Save the GA model
+saveRDS(final_knn_model, "final_knn_model.rds") # Save the final k-NN model
+saveRDS(conf_matrix, "conf_matrix.rds") # Save the confusion matrix
+
+cat("Results have been saved as .rds files in the working directory.\n")
+
+```
+
+```{r}
+
+```

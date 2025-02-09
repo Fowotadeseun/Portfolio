@@ -1,0 +1,111 @@
+---
+title: "Oluwaseun Daniel Fowotade"
+subtitle: "Resume"
+author: "Oluwaseun Daniel Fowotade"
+date: "`r Sys.Date()`"
+description: "A structured resume formatted for Quarto with detailed sections on experience, skills, education, and projects."
+format:
+  html:
+    toc: true
+    toc-location: left
+    highlight-style: tango
+    css: "styles.css"
+execute:
+  warning: false
+  message: false
+jupyter: ir
+categories:
+  - Resume
+  - Data Science
+  - Statistics
+  - Machine Learning
+---
+
+# Contact Information
+
+📍 Corvallis, Oregon  
+📞 +1 (541) 250-2647  
+✉️ [fowotadeoluwaseun15@gmail.com](mailto:fowotadeoluwaseun15@gmail.com)  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/oluwaseunfowotade/)  
+
+---
+
+# Summary
+
+Oluwaseun Fowotade is a highly skilled statistician with over five years of experience in data analysis, including two years specializing in SAS programming. Proficient in processing and analyzing administrative healthcare data, developing scalable analytic solutions, and creating dynamic reports. Strong expertise in SAS, R, SQL, and Python, complemented by advanced knowledge of statistical modeling and healthcare informatics.
+
+---
+
+# Skills
+
+- Programming: SAS (Macro Programming, ODS Reporting, PROC SQL), R, Python  
+- Data Management: Table-Driven Development Techniques, SAS Hash Objects, Iterators  
+- Analytics: Survival Analysis, Generalized Regression Models, Feature Selection Algorithms  
+- Reporting Tools: Tableau, ODS, PROC REPORT, DATA Null  
+- Healthcare Analytics: Clinical Data Standards (CDISC, SDTM, ADaM), Application Lifecycle Management  
+- Soft Skills: Communication, Team Collaboration, Critical Thinking  
+
+---
+
+# Experience
+
+## Graduate Teaching Assistant  
+**Oregon State University, OR**  
+*September 2023 – March 2025*  
+
+- Evaluated and graded academic work across various formats, including homework, assignments, quizzes, and exams, providing constructive feedback to improve student learning.  
+- Led recitation sessions and review classes to clarify complex statistics topics, fostering better understanding through clear explanations and engaging communication.  
+- Taught R Programming and SAS for statistical analysis and research, covering statistical techniques such as regression analysis, survival models, and time series analysis, equipping students with essential data analysis tools and techniques for academic and professional applications.  
+
+## Statistical Programmer (Remote)  
+**ClinFocus INC, Atlanta, GA**  
+*April 2022 - August 2023*  
+
+- Developed and maintained documentation for data management processes, ensuring consistency and compliance.  
+- Performed SDTM, ADaM, and TFL Programming using SAS, including quality control (QC) review and documentation of programs used to create statistical outputs.  
+- Ensured compliance with regulatory standards by providing final deliverables in accordance with Clinical Data Interchange Standards Consortium (CDISC) requirements for FDA submissions.  
+- Conducted peer reviews and ensured programming outputs accurately reflect raw data and population flags.  
+- Provided input on data management documentation by reviewing and suggesting improvements for eCRF designs, external vendor data specifications, edit checks, and other related documents to ensure proper data collection for statistical programming.  
+- Collaborated with biostatisticians and data managers to identify data issues, generate queries, and resolve discrepancies that may impact statistical analysis or programming.  
+
+## Actuarial Analyst  
+**Sanlam Insurance, Lagos State, Nigeria**  
+*February 2020 – March 2022*  
+
+- Conducted thorough data cleaning, interpreted complex datasets, and utilized statistical techniques to analyze results, generating ongoing reports encompassing profitability, expense analysis, experience analysis, and premium collection rates.  
+- Conducted in-depth analysis of pricing, claims, and financial performance to ascertain competitiveness and provided valuable pricing recommendations based on the analysis.  
+- Effectively communicated analytical insights by creating charts and graphs in Power BI, facilitating informed and strategic decision-making for the management team.  
+- Utilized various models such as quote models, Run-off Triangles, and Pricing Models to derive valuable insights and enhance decision-making processes.  
+
+---
+
+# Education
+
+## Master of Science – Statistics  
+**Oregon State University, OR**  
+*September 2023 – June 2024*  
+
+## Bachelor of Science – Mathematics  
+**University of Ilorin, Nigeria**  
+*September 2014 – September 2018*  
+
+---
+
+# Projects
+
+- **Netflix Data Analysis and Visualization (2008–2021):** Designed and developed an interactive dashboard to analyze Netflix data, providing insights into trends, user preferences, and content performance.  
+- **Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis:** Developed SAS programs for survival data analysis.  
+- **Feature Selection Using Genetic Algorithms for Regression:** Automated model selection using advanced techniques.  
+- **Time Series Analysis of Indian Climate Data:** Conducted time-series (SARIMA) modeling using R.  
+
+---
+
+# Professional Certifications
+
+- **SAS Programming 1: Essentials** *(April 2022)*  
+- **Medidata Clinical Programmer Certificates** *(April 2022)*  
+- **Google Data Analytics** *(June 2022)*  
+
+---
+
+📌 *This resume is formatted in Quarto for easy rendering and professional presentation!*

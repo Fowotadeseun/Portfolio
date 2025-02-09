@@ -1,0 +1,730 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "myblog",
+    "section": "",
+    "text": "NetflixVisualization\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Welcome to my Projects Highlights!",
+    "section": "",
+    "text": "NetflixVisualization\n\n\n\n\n\n\nR\n\n\nData Visualization\n\n\n\nMy first blog post\n\n\n\n\n\nJan 28, 2025\n\n\nDaniel\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/NetflixVisualization/index.html",
+    "href": "projects/NetflixVisualization/index.html",
+    "title": "NetflixVisualization",
+    "section": "",
+    "text": "This is a test please enjoy my blog post!"
+  },
+  {
+    "objectID": "Content/About/index.html",
+    "href": "Content/About/index.html",
+    "title": "Oluwaseun Fowotade",
+    "section": "",
+    "text": "I’m Oluwaseun Fowotade, a passionate statistician and data scientist dedicated to uncovering meaningful insights from data. With over five years of experience in data analysis, statistical modeling, and clinical programming, I thrive in solving complex problems that drive decision-making.\nI specialize in healthcare analytics, utilizing SAS, R, and Python to extract valuable insights from large datasets. My background includes survival analysis, predictive modeling, and developing scalable solutions for regulatory-compliant clinical research.\nBeyond technical skills, I believe that data should tell a story—one that is clear, impactful, and actionable."
+  },
+  {
+    "objectID": "Content/About/index.html#about-me",
+    "href": "Content/About/index.html#about-me",
+    "title": "Oluwaseun Fowotade",
+    "section": "",
+    "text": "I’m Oluwaseun Fowotade, a passionate statistician and data scientist dedicated to uncovering meaningful insights from data. With over five years of experience in data analysis, statistical modeling, and clinical programming, I thrive in solving complex problems that drive decision-making.\nI specialize in healthcare analytics, utilizing SAS, R, and Python to extract valuable insights from large datasets. My background includes survival analysis, predictive modeling, and developing scalable solutions for regulatory-compliant clinical research.\nBeyond technical skills, I believe that data should tell a story—one that is clear, impactful, and actionable."
+  },
+  {
+    "objectID": "Content/About/index.html#professional-experience",
+    "href": "Content/About/index.html#professional-experience",
+    "title": "Oluwaseun Fowotade",
+    "section": "Professional Experience",
+    "text": "Professional Experience\nI’ve had the privilege of working in diverse roles that blend technical expertise with real-world applications:\n\nGraduate Teaching Assistant – Oregon State University\nTeaching and mentoring students in R and SAS, with a focus on applied statistical techniques like regression modeling and survival analysis.\nStatistical Programmer – ClinFocus Inc.\nConducted CDISC-compliant programming for clinical trials, ensuring data integrity for FDA submissions.\nActuarial Analyst – Sanlam Insurance\nDesigned risk models, optimized pricing strategies, and delivered data-driven insights for financial decision-making.\n\nEach role has deepened my understanding of data science, from academic research to real-world healthcare applications."
+  },
+  {
+    "objectID": "Content/About/index.html#education",
+    "href": "Content/About/index.html#education",
+    "title": "Oluwaseun Fowotade",
+    "section": "Education",
+    "text": "Education\n\nM.S. in Statistics – Oregon State University (2023 – 2024)\n\nB.S. in Mathematics – University of Ilorin, Nigeria (2014 – 2018)\n\nCurrently, I am working on research in feature selection methods for high-dimensional biomarker data, leveraging LASSO and other machine learning techniques."
+  },
+  {
+    "objectID": "Content/About/index.html#skills-expertise",
+    "href": "Content/About/index.html#skills-expertise",
+    "title": "Oluwaseun Fowotade",
+    "section": "Skills & Expertise",
+    "text": "Skills & Expertise\nMy work is a fusion of statistical knowledge, data science applications, and clinical research:\n\nProgramming: SAS (Macro Programming, PROC SQL), R, Python, SQL\n\nStatistical Analysis: Generalized Regression, Survival Analysis, Feature Selection\n\nData Management: Clinical Data Standards (CDISC, SDTM, ADaM), Table-Driven Development\n\nVisualization & Reporting: Tableau, Power BI, ODS, PROC REPORT\n\nHealthcare Analytics: FDA-compliant programming, clinical trial data analysis\n\nI’m passionate about translating raw data into actionable insights, helping organizations make informed decisions."
+  },
+  {
+    "objectID": "Content/About/index.html#key-projects",
+    "href": "Content/About/index.html#key-projects",
+    "title": "Oluwaseun Fowotade",
+    "section": "Key Projects",
+    "text": "Key Projects\n```{=html}\n\n\n&lt;!-- Slide 1: Survival Analysis --&gt;\n&lt;div class=\"carousel-item active\"&gt;\n  &lt;div class=\"portfolio-card\"&gt;\n    &lt;div class=\"badge-tag\"&gt;Healthcare Analytics&lt;/div&gt;\n    &lt;h3&gt;Survival Analysis of Treatment Efficacy&lt;/h3&gt;\n    &lt;img src=\"../../Assets/Images/project-3.jpg\" alt=\"Survival Analysis\" /&gt;\n    &lt;p&gt;\n      Analyzed **treatment efficacy** for primary biliary cirrhosis patients using survival modeling techniques in SAS.\n    &lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Slide 2: Feature Selection --&gt;\n&lt;div class=\"carousel-item\"&gt;\n  &lt;div class=\"portfolio-card\"&gt;\n    &lt;div class=\"badge-tag\"&gt;Machine Learning&lt;/div&gt;\n    &lt;h3&gt;Feature Selection in High-Dimensional Data&lt;/h3&gt;\n    &lt;img src=\"../../Assets/Images/project-2.jpg\" alt=\"Feature Selection\" /&gt;\n    &lt;p&gt;\n      Implemented **genetic algorithms for feature selection in regression**.\n    &lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Slide 3: Time Series --&gt;\n&lt;div class=\"carousel-item\"&gt;\n  &lt;div class=\"portfolio-card\"&gt;\n    &lt;div class=\"badge-tag\"&gt;Statistical Modeling&lt;/div&gt;\n    &lt;h3&gt;Time Series Analysis of Climate Data&lt;/h3&gt;\n    &lt;img src=\"../../Assets/Images/project-4.jpg\" alt=\"Time Series\" /&gt;\n    &lt;p&gt;\n      Developed **SARIMA models** to analyze climate trends and forecast environmental changes.\n    &lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Slide 4: Netflix Data Analysis --&gt;\n&lt;div class=\"carousel-item\"&gt;\n  &lt;div class=\"portfolio-card\"&gt;\n    &lt;div class=\"badge-tag\"&gt;Data Visualization&lt;/div&gt;\n    &lt;h3&gt;Netflix Data Analysis and Visualization (2008-2021)&lt;/h3&gt;\n    &lt;img src=\"../../Assets/Images/project-1.jpg\" alt=\"Netflix Data Analysis\" /&gt;\n    &lt;p&gt;\n      Designed and developed an **interactive dashboard** to analyze Netflix trends, user preferences, and content performance.\n    &lt;/p&gt;\n    &lt;p&gt;\n      &lt;strong&gt;Duration:&lt;/strong&gt; May 2024 - June 2024\n    &lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n   Previous    Next"
+  },
+  {
+    "objectID": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding",
+    "href": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "1. Chromosome Encoding",
+    "text": "1. Chromosome Encoding\nEach potential feature subset is represented as a chromosome, a binary vector where: - 1 → Feature is included - 0 → Feature is excluded\nFor example, a chromosome like:\nc(1, 0, 1, 1, 0, 0, 1) # Features 1, 3, 4, and 7 selected\nrepresents a model that uses features 1, 3, 4, and 7."
+  },
+  {
+    "objectID": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#evolutionary-process",
+    "href": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#evolutionary-process",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "2. Evolutionary Process",
+    "text": "2. Evolutionary Process\nThe Genetic Algorithm follows these key steps:\n\nInitialization: Generate a random population of feature subsets.\nSelection: Choose the best-performing feature sets based on a fitness function.\nCrossover: Combine feature subsets from two parent solutions.\nMutation: Randomly flip 0 and 1 values to introduce diversity.\nElitism: Preserve the best feature sets across generations.\n\nThe goal is to minimize the mean squared error (MSE) while reducing the number of selected features."
+  },
+  {
+    "objectID": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#sonar-dataset-mines-vs.-rocks",
+    "href": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#sonar-dataset-mines-vs.-rocks",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Sonar Dataset: Mines vs. Rocks",
+    "text": "Sonar Dataset: Mines vs. Rocks\nThe dataset consists of 208 sonar signals used to distinguish between: - Mines (M): Metal cylinders. - Rocks (R): Naturally occurring structures.\nEach observation contains 60 frequency band readings, making this a high-dimensional classification problem.\nlibrary(tidyverse)\nlibrary(caret)\n\n# Load dataset\nsonar &lt;- read.csv(\"./data/sonar.csv\")\n\n# Convert target variable to factor\nsonar$Class &lt;- factor(sonar$Class, levels = c(\"R\", \"M\"))\n\n# Train-test split\nset.seed(123)\ntrainIndex &lt;- createDataPartition(sonar$Class, p = 0.7, list = FALSE)\ntrainData &lt;- sonar[trainIndex, ]\ntestData  &lt;- sonar[-trainIndex, ]"
+  },
+  {
+    "objectID": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#defining-the-fitness-function",
+    "href": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#defining-the-fitness-function",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Defining the Fitness Function",
+    "text": "Defining the Fitness Function\nThe GA optimizes feature selection by evaluating subsets based on their predictive accuracy. We define our fitness function using a k-Nearest Neighbors (k-NN) classifier, where the fitness score is calculated as:\n\\[ Fitness = 1 - Accuracy \\]\nlibrary(GA)\n\nfitness_function &lt;- function(features) {\n  selected_features &lt;- names(trainData)[features == 1]\n  model &lt;- train(Class ~ ., data = trainData[, c(selected_features, \"Class\")],\n                 method = \"knn\", trControl = trainControl(method = \"cv\", number = 5))\n  return(1 - max(model$results$Accuracy))\n}\n\n# Run Genetic Algorithm\nset.seed(2025)\nga_model &lt;- ga(type = \"binary\", fitness = fitness_function,\n               nBits = ncol(trainData) - 1, popSize = 50,\n               maxiter = 100, elitism = 5, mutationRate = 0.01)"
+  },
+  {
+    "objectID": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#evolution-of-fitness-over-generations",
+    "href": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#evolution-of-fitness-over-generations",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Evolution of Fitness Over Generations",
+    "text": "Evolution of Fitness Over Generations\nTracking the GA’s progress over generations gives insights into how it converges towards an optimal feature subset.\nplot(ga_model, main = \"GA Fitness Evolution\")"
+  },
+  {
+    "objectID": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#selected-features",
+    "href": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#selected-features",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Selected Features",
+    "text": "Selected Features\nThe optimal subset of features selected by the GA can be extracted as follows:\nbest_features &lt;- which(ga_model@solution == 1)\nnames(trainData)[best_features]"
+  },
+  {
+    "objectID": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#model-performance",
+    "href": "Content/Project/Feature Selection Using Genetic Algorithm/index.html#model-performance",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Model Performance",
+    "text": "Model Performance\n\nConfusion Matrix\nThe selected feature subset is used to train a final k-NN classifier, whose accuracy is evaluated on the test set:\npredictions &lt;- predict(ga_model, newdata = testData)\nconf_matrix &lt;- confusionMatrix(predictions, testData$Class)\nconf_matrix\n\n\nFeature Importance Visualization\nlibrary(ggplot2)\nfeature_importance &lt;- as.data.frame(varImp(ga_model)$importance)\nggplot(feature_importance, aes(x = reorder(rownames(feature_importance), Overall), y = Overall)) +\n  geom_bar(stat = \"identity\", fill = \"steelblue\") +\n  coord_flip() +\n  labs(title = \"Feature Importance\", x = \"Feature\", y = \"Importance Score\")"
+  },
+  {
+    "objectID": "Content/Blog/index.html",
+    "href": "Content/Blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "Content/Talks/index.html",
+    "href": "Content/Talks/index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "Content/Project/index.html",
+    "href": "Content/Project/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Feature Selection Using Genetic Algorithms for Regression\n\n\nUsing Genetic Algorithms to optimize feature selection in regression modeling.\n\n\n\nYour Name\n\n\nInvalid Date\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Oluwaseun Daniel Fowotade | Portfolio",
+    "section": "",
+    "text": "Welcome to My Portfolio!\nHi, I’m Oluwaseun Daniel Fowotade—welcome to my portfolio! Explore my projects and expertise in statistics, data science, and healthcare analytics. Below, you’ll find some of my key experiences and projects. Feel free to reach out if you’d like to collaborate!"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "",
+    "text": "📍 Corvallis, Oregon\n📞 +1 (541) 250-2647\n✉️ fowotadeoluwaseun15@gmail.com\n🔗 LinkedIn Profile"
+  },
+  {
+    "objectID": "resume.html#graduate-teaching-assistant",
+    "href": "resume.html#graduate-teaching-assistant",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "Graduate Teaching Assistant",
+    "text": "Graduate Teaching Assistant\nOregon State University, OR\nSeptember 2023 – March 2025\n\nEvaluated and graded academic work across various formats, including homework, assignments, quizzes, and exams, providing constructive feedback to improve student learning.\n\nLed recitation sessions and review classes to clarify complex statistics topics, fostering better understanding through clear explanations and engaging communication.\n\nTaught R Programming and SAS for statistical analysis and research, covering statistical techniques such as regression analysis, survival models, and time series analysis, equipping students with essential data analysis tools and techniques for academic and professional applications."
+  },
+  {
+    "objectID": "resume.html#statistical-programmer-remote",
+    "href": "resume.html#statistical-programmer-remote",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "Statistical Programmer (Remote)",
+    "text": "Statistical Programmer (Remote)\nClinFocus INC, Atlanta, GA\nApril 2022 - August 2023\n\nDeveloped and maintained documentation for data management processes, ensuring consistency and compliance.\n\nPerformed SDTM, ADaM, and TFL Programming using SAS, including quality control (QC) review and documentation of programs used to create statistical outputs.\n\nEnsured compliance with regulatory standards by providing final deliverables in accordance with Clinical Data Interchange Standards Consortium (CDISC) requirements for FDA submissions.\n\nConducted peer reviews and ensured programming outputs accurately reflect raw data and population flags.\n\nProvided input on data management documentation by reviewing and suggesting improvements for eCRF designs, external vendor data specifications, edit checks, and other related documents to ensure proper data collection for statistical programming.\n\nCollaborated with biostatisticians and data managers to identify data issues, generate queries, and resolve discrepancies that may impact statistical analysis or programming."
+  },
+  {
+    "objectID": "resume.html#actuarial-analyst",
+    "href": "resume.html#actuarial-analyst",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "Actuarial Analyst",
+    "text": "Actuarial Analyst\nSanlam Insurance, Lagos State, Nigeria\nFebruary 2020 – March 2022\n\nConducted thorough data cleaning, interpreted complex datasets, and utilized statistical techniques to analyze results, generating ongoing reports encompassing profitability, expense analysis, experience analysis, and premium collection rates.\n\nConducted in-depth analysis of pricing, claims, and financial performance to ascertain competitiveness and provided valuable pricing recommendations based on the analysis.\n\nEffectively communicated analytical insights by creating charts and graphs in Power BI, facilitating informed and strategic decision-making for the management team.\n\nUtilized various models such as quote models, Run-off Triangles, and Pricing Models to derive valuable insights and enhance decision-making processes."
+  },
+  {
+    "objectID": "resume.html#master-of-science-statistics",
+    "href": "resume.html#master-of-science-statistics",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "Master of Science – Statistics",
+    "text": "Master of Science – Statistics\nOregon State University, OR\nSeptember 2023 – June 2024"
+  },
+  {
+    "objectID": "resume.html#bachelor-of-science-mathematics",
+    "href": "resume.html#bachelor-of-science-mathematics",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "Bachelor of Science – Mathematics",
+    "text": "Bachelor of Science – Mathematics\nUniversity of Ilorin, Nigeria\nSeptember 2014 – September 2018"
+  },
+  {
+    "objectID": "Content/Projects/index.html",
+    "href": "Content/Projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling\n\n\nUsing Genetic Algorithms to optimize feature selection in regression modeling.\n\n\n\nOluwaseun Daniel Fowotade\n\n\nDec 20, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Chromosome Encoding",
+    "text": "Chromosome Encoding\nEach potential feature subset is represented as a chromosome, a binary vector where: - 1 → Feature is included - 0 → Feature is excluded\nFor example, a chromosome like:\nc(1, 0, 1, 1, 0, 0, 1) # Features 1, 3, 4, and 7 selected\nrepresents a model that uses features 1, 3, 4, and 7."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolutionary-process",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolutionary-process",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Evolutionary Process",
+    "text": "Evolutionary Process\nThe Genetic Algorithm follows these key steps:\n\nInitialization: Generate a random population of feature subsets.\nSelection: Choose the best-performing feature sets based on a fitness function.\nCrossover: Combine feature subsets from two parent solutions.\nMutation: Randomly flip 0 and 1 values to introduce diversity.\nElitism: Preserve the best feature sets across generations.\n\nThe goal is to minimize the mean squared error (MSE) while reducing the number of selected features."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#sonar-dataset-mines-vs.-rocks",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#sonar-dataset-mines-vs.-rocks",
+    "title": "Dataset & Preprocessing",
+    "section": "Sonar Dataset: Mines vs. Rocks",
+    "text": "Sonar Dataset: Mines vs. Rocks\nThe Sonar, Mines vs. Rocks dataset is a collection of sonar signals used to distinguish between two types of objects: mines (metal cylinders) and rocks (roughly cylindrical shapes). This dataset was originally studied by Gorman and Sejnowski in their research on classifying sonar signals with neural networks. The dataset consists of 208 observations, each representing a sonar signal, and 61 variables, including 60 numeric features and a categorical target variable, Class, which indicates whether the signal corresponds to a mine (“M”) or a rock (“R”).\nEach of the 60 features in the dataset represents the energy detected within a specific frequency band of the sonar signal. The values of these features are normalized to the range [0, 1]. These features are derived from the energy of sonar signals received after they bounce off either a mine or a rock. The Class variable is the target variable, with two possible values: “M” for mines and “R” for rocks.\nThe primary goal is to use these features to develop a model capable of distinguishing between the two classes based on the frequency patterns of the sonar signals."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#defining-the-fitness-function",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#defining-the-fitness-function",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Defining the Fitness Function",
+    "text": "Defining the Fitness Function\nlibrary(GA)\nfitness_function &lt;- function(features) {\n  selected_features &lt;- names(trainData)[features == 1]\n  model &lt;- train(Class ~ ., data = trainData[, c(selected_features, \"Class\")],\n                 method = \"knn\", trControl = trainControl(method = \"cv\", number = 5))\n  return(1 - max(model$results$Accuracy))\n}"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolution-of-fitness-over-generations",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolution-of-fitness-over-generations",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Evolution of Fitness Over Generations",
+    "text": "Evolution of Fitness Over Generations\nplot(ga_model, main = \"GA Fitness Evolution\")"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Selected Features",
+    "text": "Selected Features\nbest_features &lt;- which(ga_model@solution == 1)\nnames(trainData)[best_features]"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#model-performance",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#model-performance",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Model Performance",
+    "text": "Model Performance\n\nConfusion Matrix\npredictions &lt;- predict(ga_model, newdata = testData)\nconf_matrix &lt;- confusionMatrix(predictions, testData$Class)\nconf_matrix"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "",
+    "text": "Feature selection is a crucial step in building efficient machine learning models, especially in the context of regression. It involves selecting a subset of relevant features from a larger set, aiming to improve model performance, reduce overfitting, and increase interpretability. Traditional feature selection methods, such as backward elimination or stepwise regression, can struggle when dealing with high-dimensional or complex data. These methods may fail to capture nonlinear relationships between features and can be computationally expensive for large datasets.\nGenetic algorithms (GAs), inspired by the principles of natural selection, offer a promising approach to overcome these challenges. First proposed by John Holland in 1975, GAs are heuristic optimization techniques that simulate the process of natural evolution. In a GA, a population of candidate solutions evolves over generations using genetic operations like selection, crossover, and mutation.\nThis project applies GAs to feature selection in regression tasks, where the goal is to minimize prediction error and avoid overfitting. By leveraging the power of genetic evolution, the GA can efficiently explore large, high-dimensional spaces and identify the most relevant features for building robust predictive models."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding-and-representation",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding-and-representation",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Chromosome Encoding and Representation",
+    "text": "Chromosome Encoding and Representation\nEach candidate solution is represented as a chromosome, a binary vector where each bit represents the inclusion (1) or exclusion (0) of a feature. If a dataset contains (C) features, the chromosome length is (C), and each gene corresponds to a specific feature.\nFor example: (1, 0, 1, 0, 1) Features 1, 3, and 5 selected, while 2 and 4 are excluded."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#population-initialization",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#population-initialization",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Population Initialization",
+    "text": "Population Initialization\nThe algorithm starts by initializing a population of chromosomes randomly. The size of the population, (P), is critical as it influences the diversity of solutions. A larger population ensures more diversity, preventing premature convergence, while a smaller population might speed up the process but risk missing better solutions. Typically, the population size is chosen so that:\n[ C P 2C ]\nwhere (C) is the number of features."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selection",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selection",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Selection",
+    "text": "Selection\nThe selection step involves choosing individuals from the population based on their fitness to act as parents for the next generation. The fitness of a chromosome is determined by evaluating its associated feature subset in a regression model, typically using the mean squared error (MSE) as the performance metric. Tournament selection is often used, where a subset of chromosomes is randomly chosen, and the one with the best fitness is selected as a parent."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#crossover-and-mutation",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#crossover-and-mutation",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Crossover and Mutation",
+    "text": "Crossover and Mutation\nOnce parents are selected, they undergo genetic operations to create offspring. Crossover involves swapping parts of two parent chromosomes to produce offspring. A common method is single-point crossover, where a random crossover point is chosen, and the genes before and after this point are exchanged between the parents. Mutation introduces small random changes to maintain genetic diversity and avoid local optima. For instance, a mutation may flip the value of a random bit in the chromosome (e.g., changing 0 to 1 or vice versa). The mutation rate is usually kept low (e.g., 1% per generation) to ensure diversity without disrupting good solutions. ## Fitness Evaluation Each chromosome is evaluated using a regression model trained on the selected features. The fitness function is: \\[ Fitness(\\theta) = \\frac{1}{N} \\sum_{i=1}^{N} (y_i - \\hat{y}_i)^2 \\] where ( y_i ) are actual values and ( _i ) are predictions."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#fitness-evaluation",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#fitness-evaluation",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Fitness Evaluation",
+    "text": "Fitness Evaluation\nEach chromosome is evaluated using a regression model trained on the selected features. The fitness function is:\n\\[\n\\text{Fitness}(\\vartheta) = \\frac{1}{N} \\sum_{i=1}^{N} (y_i - \\hat{y}_i)^2\n\\]\nwhere \\((y_i)\\) are actual values and \\( \\hat{y}_i \\) are predictions."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#elitism-and-termination",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#elitism-and-termination",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Elitism and Termination",
+    "text": "Elitism and Termination\n\nElitism: The best-performing chromosomes are carried over to the next generation.\nTermination: The algorithm stops after a fixed number of generations or when a satisfactory fitness level is reached."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#running-the-genetic-algorithm",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#running-the-genetic-algorithm",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Running the Genetic Algorithm",
+    "text": "Running the Genetic Algorithm\n\n\nCode\nset.seed(123) # For reproducibility\n\n# Run the Genetic Algorithm\nga_model &lt;- ga(\n  type = \"binary\",\n  fitness = fitness_function,\n  nBits = ncol(Sonar) - 1, # 60 features\n  popSize = 50,\n  maxiter = 100,\n  pcrossover = 0.8,\n  pmutation = 0.1,\n  elitism = 2,\n  run = 50,\n  monitor = TRUE\n)\n\n# Summary of GA results\nsummary(ga_model)\n\n\nGA | iter = 1 | Mean = 0.1680522 | Best = 0.2391461\nGA | iter = 2 | Mean = 0.1735294 | Best = 0.2391461\nGA | iter = 3 | Mean = 0.1759514 | Best = 0.2391461\nGA | iter = 4 | Mean = 0.1813278 | Best = 0.2391461\nGA | iter = 5 | Mean = 0.1757665 | Best = 0.2393924\nGA | iter = 6 | Mean = 0.1828765 | Best = 0.2540230\nGA | iter = 7 | Mean = 0.1781392 | Best = 0.2540230\nGA | iter = 8 | Mean = 0.1847412 | Best = 0.2540230\nGA | iter = 9 | Mean = 0.1869241 | Best = 0.2540230\nGA | iter = 10 | Mean = 0.1886102 | Best = 0.2540230\nGA | iter = 11 | Mean = 0.1939878 | Best = 0.2540230\nGA | iter = 12 | Mean = 0.1903678 | Best = 0.2540230\nGA | iter = 13 | Mean = 0.1993767 | Best = 0.2540230\nGA | iter = 14 | Mean = 0.1980716 | Best = 0.2540230\nGA | iter = 15 | Mean = 0.1937833 | Best = 0.2555829\nGA | iter = 16 | Mean = 0.1926673 | Best = 0.2555829\nGA | iter = 17 | Mean = 0.1877202 | Best = 0.2555829\nGA | iter = 18 | Mean = 0.185753 | Best = 0.260000\nGA | iter = 19 | Mean = 0.1842003 | Best = 0.2600000\nGA | iter = 20 | Mean = 0.1971665 | Best = 0.2600000\nGA | iter = 21 | Mean = 0.1958624 | Best = 0.2660755\nGA | iter = 22 | Mean = 0.1957360 | Best = 0.2660755\nGA | iter = 23 | Mean = 0.2017741 | Best = 0.2740230\nGA | iter = 24 | Mean = 0.196908 | Best = 0.274023\nGA | iter = 25 | Mean = 0.1948959 | Best = 0.2740230\nGA | iter = 26 | Mean = 0.1974177 | Best = 0.2740230\nGA | iter = 27 | Mean = 0.2007126 | Best = 0.2740230\nGA | iter = 28 | Mean = 0.2018808 | Best = 0.2740230\nGA | iter = 29 | Mean = 0.2000319 | Best = 0.2740230\nGA | iter = 30 | Mean = 0.208091 | Best = 0.274023\nGA | iter = 31 | Mean = 0.2107612 | Best = 0.2740230\nGA | iter = 32 | Mean = 0.2085021 | Best = 0.2740230\nGA | iter = 33 | Mean = 0.2049212 | Best = 0.2740230\nGA | iter = 34 | Mean = 0.2075839 | Best = 0.2740230\nGA | iter = 35 | Mean = 0.2106174 | Best = 0.2740230\nGA | iter = 36 | Mean = 0.2072158 | Best = 0.2740230\nGA | iter = 37 | Mean = 0.2078000 | Best = 0.2741379\nGA | iter = 38 | Mean = 0.2109856 | Best = 0.2741379\nGA | iter = 39 | Mean = 0.2107938 | Best = 0.2741379\nGA | iter = 40 | Mean = 0.2141228 | Best = 0.2741379\nGA | iter = 41 | Mean = 0.2118667 | Best = 0.2952381\nGA | iter = 42 | Mean = 0.2072361 | Best = 0.2952381\nGA | iter = 43 | Mean = 0.2125681 | Best = 0.2952381\nGA | iter = 44 | Mean = 0.2125563 | Best = 0.2952381\nGA | iter = 45 | Mean = 0.2114686 | Best = 0.2952381\nGA | iter = 46 | Mean = 0.2161307 | Best = 0.2952381\nGA | iter = 47 | Mean = 0.2289176 | Best = 0.3212644\nGA | iter = 48 | Mean = 0.2328535 | Best = 0.3212644\nGA | iter = 49 | Mean = 0.2339862 | Best = 0.3212644\nGA | iter = 50 | Mean = 0.2373701 | Best = 0.3212644\nGA | iter = 51 | Mean = 0.2418594 | Best = 0.3212644\nGA | iter = 52 | Mean = 0.2476099 | Best = 0.3291133\nGA | iter = 53 | Mean = 0.2477376 | Best = 0.3291133\nGA | iter = 54 | Mean = 0.2437938 | Best = 0.3291133\nGA | iter = 55 | Mean = 0.2490690 | Best = 0.3294253\nGA | iter = 56 | Mean = 0.2584273 | Best = 0.3294253\nGA | iter = 57 | Mean = 0.2577984 | Best = 0.3294253\nGA | iter = 58 | Mean = 0.2609612 | Best = 0.3294253\nGA | iter = 59 | Mean = 0.2552857 | Best = 0.3294253\nGA | iter = 60 | Mean = 0.2585452 | Best = 0.3294253\nGA | iter = 61 | Mean = 0.2510910 | Best = 0.3294253\nGA | iter = 62 | Mean = 0.2670933 | Best = 0.3345977\nGA | iter = 63 | Mean = 0.2699327 | Best = 0.3636453\nGA | iter = 64 | Mean = 0.2662998 | Best = 0.3636453\nGA | iter = 65 | Mean = 0.2649008 | Best = 0.3636453\nGA | iter = 66 | Mean = 0.2650059 | Best = 0.3636453\nGA | iter = 67 | Mean = 0.2769990 | Best = 0.3636453\nGA | iter = 68 | Mean = 0.2793964 | Best = 0.3636453\nGA | iter = 69 | Mean = 0.2733383 | Best = 0.3970115\nGA | iter = 70 | Mean = 0.2746039 | Best = 0.3970115\nGA | iter = 71 | Mean = 0.2773366 | Best = 0.3970115\nGA | iter = 72 | Mean = 0.2772378 | Best = 0.3970115\nGA | iter = 73 | Mean = 0.2705379 | Best = 0.3970115\nGA | iter = 74 | Mean = 0.2710571 | Best = 0.3970115\nGA | iter = 75 | Mean = 0.2703310 | Best = 0.3970115\nGA | iter = 76 | Mean = 0.2769672 | Best = 0.3970115\nGA | iter = 77 | Mean = 0.2862611 | Best = 0.3970115\nGA | iter = 78 | Mean = 0.2788966 | Best = 0.3970115\nGA | iter = 79 | Mean = 0.2770125 | Best = 0.3970115\nGA | iter = 80 | Mean = 0.2758213 | Best = 0.3970115\nGA | iter = 81 | Mean = 0.2805373 | Best = 0.3970115\nGA | iter = 82 | Mean = 0.2811612 | Best = 0.3970115\nGA | iter = 83 | Mean = 0.2812105 | Best = 0.3970115\nGA | iter = 84 | Mean = 0.2845800 | Best = 0.3970115\nGA | iter = 85 | Mean = 0.2736368 | Best = 0.3970115\nGA | iter = 86 | Mean = 0.2713576 | Best = 0.3970115\nGA | iter = 87 | Mean = 0.2734690 | Best = 0.3970115\nGA | iter = 88 | Mean = 0.2683113 | Best = 0.3970115\nGA | iter = 89 | Mean = 0.2611491 | Best = 0.3970115\nGA | iter = 90 | Mean = 0.2540072 | Best = 0.3970115\nGA | iter = 91 | Mean = 0.2643452 | Best = 0.3970115\nGA | iter = 92 | Mean = 0.2678791 | Best = 0.3970115\nGA | iter = 93 | Mean = 0.2670039 | Best = 0.3970115\nGA | iter = 94 | Mean = 0.2731304 | Best = 0.3970115\nGA | iter = 95 | Mean = 0.2646749 | Best = 0.3970115\nGA | iter = 96 | Mean = 0.2710936 | Best = 0.3970115\nGA | iter = 97 | Mean = 0.2621143 | Best = 0.3970115\nGA | iter = 98 | Mean = 0.2651343 | Best = 0.3970115\nGA | iter = 99 | Mean = 0.2701452 | Best = 0.3970115\nGA | iter = 100 | Mean = 0.2667343 | Best = 0.3970115\n\n\n\n── Genetic Algorithm ─────────────────── \nGA settings: \nType                  =  binary \nPopulation size       =  50 \nNumber of generations =  100 \nElitism               =  2 \nCrossover probability =  0.8 \nMutation probability  =  0.1 \nGA results: \nIterations             = 100 \nFitness function value = 0.3970115 \nSolution = \n     x1 x2 x3 x4 x5 x6 x7 x8 x9 x10  ...  x59 x60\n[1,]  0  1  0  0  1  0  1  0  0   1         1   1\n\n\n\n\nSelected Features and Final Model Evaluation\n\n\nCode\n# Extract best chromosome (selected features)\nbest_chromosome &lt;- ga_model@solution\nselected_features &lt;- which(best_chromosome == 1)\n\n# Train the final k-NN model using selected features\nselected_train &lt;- trainData[, c(selected_features, 61)]\nselected_test &lt;- testData[, c(selected_features, 61)]\n\nfinal_knn_model &lt;- train(Class ~ ., data = selected_train, method = \"knn\",\n                         trControl = trainControl(method = \"cv\", number = 5),\n                         tuneGrid = data.frame(k = 1))\n\n# Make predictions and evaluate\npredictions &lt;- predict(final_knn_model, newdata = selected_test)\nconf_matrix &lt;- confusionMatrix(predictions, selected_test$Class)\n\n# Print results\nconf_matrix\n\n\nConfusion Matrix and Statistics\n\n          Reference\nPrediction  M  R\n         M 23 13\n         R 10 16\n                                          \n               Accuracy : 0.629           \n                 95% CI : (0.4969, 0.7484)\n    No Information Rate : 0.5323          \n    P-Value [Acc &gt; NIR] : 0.0801          \n                                          \n                  Kappa : 0.2503          \n                                          \n Mcnemar's Test P-Value : 0.6767          \n                                          \n            Sensitivity : 0.6970          \n            Specificity : 0.5517          \n         Pos Pred Value : 0.6389          \n         Neg Pred Value : 0.6154          \n             Prevalence : 0.5323          \n         Detection Rate : 0.3710          \n   Detection Prevalence : 0.5806          \n      Balanced Accuracy : 0.6243          \n                                          \n       'Positive' Class : M               \n                                          \n\n\n\n\nComparing Performance with All Features\n\n\nCode\n# Train a model using all features\nmodel_all_features &lt;- train(Class ~ ., data = trainData, method = \"knn\", \n                            trControl = trainControl(method = \"cv\", number = 5), \n                            tuneGrid = data.frame(k = 1))\n\n# Evaluate model on the test set\npredictions_all &lt;- predict(model_all_features, newdata = testData)\nconf_matrix_all &lt;- confusionMatrix(predictions_all, testData$Class)\n\n# Comparison\ncat(\"Accuracy with Selected Features: \", conf_matrix$overall[\"Accuracy\"], \"\\n\")\ncat(\"Accuracy with All Features: \", conf_matrix_all$overall[\"Accuracy\"], \"\\n\")\n\n\nAccuracy with Selected Features:  0.6290323 \nAccuracy with All Features:  0.7903226 \n\n\n\n\nVisualizing the GA Progress and Results\n\n\nCode\nlibrary(ggplot2)\n\n# Plot GA optimization progress\nplot(ga_model, main = \"GA Optimization Progress\", col = \"blue\")"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#feature-importance-visualization",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#feature-importance-visualization",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Feature Importance Visualization",
+    "text": "Feature Importance Visualization\nlibrary(ggplot2)\nfeature_importance &lt;- as.data.frame(varImp(ga_model)$importance)\nggplot(feature_importance, aes(x = reorder(rownames(feature_importance), Overall), y = Overall)) +\n  geom_bar(stat = \"identity\", fill = \"steelblue\") +\n  coord_flip() +\n  labs(title = \"Feature Importance\", x = \"Feature\", y = \"Importance Score\")"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#key-takeaways",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#key-takeaways",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n✅ GA efficiently eliminates irrelevant features, reducing overfitting.\n✅ The fitness function optimizes predictive accuracy.\n✅ Feature selection improves computational efficiency in large datasets."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#future-improvements",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#future-improvements",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Future Improvements",
+    "text": "Future Improvements\n\nFine-tuning GA hyperparameters for better convergence.\nCombining GA with LASSO or PCA for hybrid feature selection.\nApplying this approach to other real-world datasets.\n\nThis project demonstrates the power of evolutionary computation in enhancing machine learning workflows. 🚀"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#sonar-dataset-mines-vs.-rocks-1",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#sonar-dataset-mines-vs.-rocks-1",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Sonar Dataset: Mines vs. Rocks",
+    "text": "Sonar Dataset: Mines vs. Rocks\nThe dataset consists of 208 sonar signals used to distinguish between: - Mines (M): Metal cylinders. - Rocks (R): Naturally occurring structures.\nEach observation contains 60 frequency band readings, making this a high-dimensional classification problem.\nlibrary(tidyverse)\nlibrary(caret)\n\n# Load dataset\nsonar &lt;- read.csv(\"./data/sonar.csv\")\n\n# Convert target variable to factor\nsonar$Class &lt;- factor(sonar$Class, levels = c(\"R\", \"M\"))\n\n# Train-test split\nset.seed(123)\ntrainIndex &lt;- createDataPartition(sonar$Class, p = 0.7, list = FALSE)\ntrainData &lt;- sonar[trainIndex, ]\ntestData  &lt;- sonar[-trainIndex, ]"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#defining-the-fitness-function-1",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#defining-the-fitness-function-1",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Defining the Fitness Function",
+    "text": "Defining the Fitness Function\nThe GA optimizes feature selection by evaluating subsets based on their predictive accuracy. We define our fitness function using a k-Nearest Neighbors (k-NN) classifier, where the fitness score is calculated as:\n\\[ Fitness = 1 - Accuracy \\]\nlibrary(GA)\n\nfitness_function &lt;- function(features) {\n  selected_features &lt;- names(trainData)[features == 1]\n  model &lt;- train(Class ~ ., data = trainData[, c(selected_features, \"Class\")],\n                 method = \"knn\", trControl = trainControl(method = \"cv\", number = 5))\n  return(1 - max(model$results$Accuracy))\n}"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#running-the-genetic-algorithm-1",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#running-the-genetic-algorithm-1",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Running the Genetic Algorithm",
+    "text": "Running the Genetic Algorithm\nset.seed(2025)\nga_model &lt;- ga(type = \"binary\", fitness = fitness_function,\n               nBits = ncol(trainData) - 1, popSize = 50,\n               maxiter = 100, elitism = 5, mutationRate = 0.01)"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolution-of-fitness-over-generations-1",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolution-of-fitness-over-generations-1",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Evolution of Fitness Over Generations",
+    "text": "Evolution of Fitness Over Generations\nTracking the GA’s progress over generations gives insights into how it converges towards an optimal feature subset.\nplot(ga_model, main = \"GA Fitness Evolution\")"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features-1",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features-1",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Selected Features",
+    "text": "Selected Features\nThe optimal subset of features selected by the GA can be extracted as follows:\nbest_features &lt;- which(ga_model@solution == 1)\nnames(trainData)[best_features]"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#model-performance-1",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#model-performance-1",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Model Performance",
+    "text": "Model Performance\n\nConfusion Matrix\nThe selected feature subset is used to train a final k-NN classifier, whose accuracy is evaluated on the test set:\npredictions &lt;- predict(ga_model, newdata = testData)\nconf_matrix &lt;- confusionMatrix(predictions, testData$Class)\nconf_matrix"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#feature-importance-visualization-1",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#feature-importance-visualization-1",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Feature Importance Visualization",
+    "text": "Feature Importance Visualization\nlibrary(ggplot2)\nfeature_importance &lt;- as.data.frame(varImp(ga_model)$importance)\nggplot(feature_importance, aes(x = reorder(rownames(feature_importance), Overall), y = Overall)) +\n  geom_bar(stat = \"identity\", fill = \"steelblue\") +\n  coord_flip() +\n  labs(title = \"Feature Importance\", x = \"Feature\", y = \"Importance Score\")"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#key-takeaways-1",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#key-takeaways-1",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n✅ GA efficiently eliminates irrelevant features, reducing overfitting.\n✅ The fitness function optimizes predictive accuracy.\n✅ Feature selection improves computational efficiency in large datasets."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#future-improvements-1",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#future-improvements-1",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Future Improvements",
+    "text": "Future Improvements\n\nFine-tuning GA hyperparameters for better convergence.\nCombining GA with LASSO or PCA for hybrid feature selection.\nApplying this approach to other real-world datasets.\n\nThis project demonstrates the power of evolutionary computation in enhancing machine learning workflows. 🚀\n\ntitle: “Feature Selection Using Genetic Algorithms for Regression” author: “Oluwaseun Daniel Fowotade” date: “12/20/2024” description: “Using Genetic Algorithms to optimize feature selection in regression modeling.” format: html: toc: true toc-location: left code-fold: true highlight-style: tango execute: warning: false message: false jupyter: ir categories: - Machine Learning - Genetic Algorithms - Feature Selection - Statistics - Regression"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding-1",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding-1",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Chromosome Encoding",
+    "text": "Chromosome Encoding\nEach potential feature subset is represented as a chromosome, a binary vector where: - 1 → Feature is included - 0 → Feature is excluded\nFor example, a chromosome like:\nc(1, 0, 1, 1, 0, 0, 1) # Features 1, 3, 4, and 7 selected\nrepresents a model that uses features 1, 3, 4, and 7."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolutionary-process-1",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolutionary-process-1",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Evolutionary Process",
+    "text": "Evolutionary Process\nThe Genetic Algorithm follows these key steps:\n\nInitialization: Generate a random population of feature subsets.\nSelection: Choose the best-performing feature sets based on a fitness function.\nCrossover: Combine feature subsets from two parent solutions.\nMutation: Randomly flip 0 and 1 values to introduce diversity.\nElitism: Preserve the best feature sets across generations.\n\nThe goal is to minimize the mean squared error (MSE) while reducing the number of selected features."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#sonar-dataset-mines-vs.-rocks-2",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#sonar-dataset-mines-vs.-rocks-2",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Sonar Dataset: Mines vs. Rocks",
+    "text": "Sonar Dataset: Mines vs. Rocks\nThe dataset consists of 208 sonar signals used to distinguish between: - Mines (M): Metal cylinders. - Rocks (R): Naturally occurring structures.\nEach observation contains 60 frequency band readings, making this a high-dimensional classification problem.\nlibrary(tidyverse)\nlibrary(caret)\n\n# Load dataset\nsonar &lt;- read.csv(\"./data/sonar.csv\")\n\n# Convert target variable to factor\nsonar$Class &lt;- factor(sonar$Class, levels = c(\"R\", \"M\"))\n\n# Train-test split\nset.seed(123)\ntrainIndex &lt;- createDataPartition(sonar$Class, p = 0.7, list = FALSE)\ntrainData &lt;- sonar[trainIndex, ]\ntestData  &lt;- sonar[-trainIndex, ]"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#defining-the-fitness-function-2",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#defining-the-fitness-function-2",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Defining the Fitness Function",
+    "text": "Defining the Fitness Function\nThe GA optimizes feature selection by evaluating subsets based on their predictive accuracy. We define our fitness function using a k-Nearest Neighbors (k-NN) classifier, where the fitness score is calculated as:\n\\[ Fitness = 1 - Accuracy \\]\nlibrary(GA)\n\nfitness_function &lt;- function(features) {\n  selected_features &lt;- names(trainData)[features == 1]\n  model &lt;- train(Class ~ ., data = trainData[, c(selected_features, \"Class\")],\n                 method = \"knn\", trControl = trainControl(method = \"cv\", number = 5))\n  return(1 - max(model$results$Accuracy))\n}"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#running-the-genetic-algorithm-2",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#running-the-genetic-algorithm-2",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Running the Genetic Algorithm",
+    "text": "Running the Genetic Algorithm\nset.seed(2025)\nga_model &lt;- ga(type = \"binary\", fitness = fitness_function,\n               nBits = ncol(trainData) - 1, popSize = 50,\n               maxiter = 100, elitism = 5, mutationRate = 0.01)"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolution-of-fitness-over-generations-2",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolution-of-fitness-over-generations-2",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Evolution of Fitness Over Generations",
+    "text": "Evolution of Fitness Over Generations\nTracking the GA’s progress over generations gives insights into how it converges towards an optimal feature subset.\nplot(ga_model, main = \"GA Fitness Evolution\")"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features-2",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features-2",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Selected Features",
+    "text": "Selected Features\nThe optimal subset of features selected by the GA can be extracted as follows:\nbest_features &lt;- which(ga_model@solution == 1)\nnames(trainData)[best_features]"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#model-performance-2",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#model-performance-2",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Model Performance",
+    "text": "Model Performance\n\nConfusion Matrix\nThe selected feature subset is used to train a final k-NN classifier, whose accuracy is evaluated on the test set:\npredictions &lt;- predict(ga_model, newdata = testData)\nconf_matrix &lt;- confusionMatrix(predictions, testData$Class)\nconf_matrix"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#feature-importance-visualization-2",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#feature-importance-visualization-2",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Feature Importance Visualization",
+    "text": "Feature Importance Visualization\nlibrary(ggplot2)\nfeature_importance &lt;- as.data.frame(varImp(ga_model)$importance)\nggplot(feature_importance, aes(x = reorder(rownames(feature_importance), Overall), y = Overall)) +\n  geom_bar(stat = \"identity\", fill = \"steelblue\") +\n  coord_flip() +\n  labs(title = \"Feature Importance\", x = \"Feature\", y = \"Importance Score\")"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#key-takeaways-2",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#key-takeaways-2",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n✅ GA efficiently eliminates irrelevant features, reducing overfitting.\n✅ The fitness function optimizes predictive accuracy.\n✅ Feature selection improves computational efficiency in large datasets."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#future-improvements-2",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#future-improvements-2",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Future Improvements",
+    "text": "Future Improvements\n\nFine-tuning GA hyperparameters for better convergence.\nCombining GA with LASSO or PCA for hybrid feature selection.\nApplying this approach to other real-world datasets.\n\nThis project demonstrates the power of evolutionary computation in enhancing machine learning workflows. 🚀\nion is an essential step in machine learning, particularly in regression modeling. Selecting the right subset of features can significantly enhance model performance, reduce overfitting, and improve interpretability. However, traditional methods such as stepwise regression and LASSO often fail in high-dimensional or complex datasets.\nThis project applies Genetic Algorithms (GAs), an evolutionary approach inspired by natural selection, to optimize feature selection for regression modeling. By simulating the process of biological evolution, GAs enable us to explore vast combinations of features efficiently and find the most relevant ones."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding-2",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding-2",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "1. Chromosome Encoding",
+    "text": "1. Chromosome Encoding\nEach potential feature subset is represented as a chromosome, a binary vector where: - 1 → Feature is included - 0 → Feature is excluded\nFor example, a chromosome like:\nc(1, 0, 1, 1, 0, 0, 1) # Features 1, 3, 4, and 7 selected\nrepresents a model that uses features 1, 3, 4, and 7."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolutionary-process-2",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolutionary-process-2",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "2. Evolutionary Process",
+    "text": "2. Evolutionary Process\nThe Genetic Algorithm follows these key steps:\n\nInitialization: Generate a random population of feature subsets.\nSelection: Choose the best-performing feature sets based on a fitness function.\nCrossover: Combine feature subsets from two parent solutions.\nMutation: Randomly flip 0 and 1 values to introduce diversity.\nElitism: Preserve the best feature sets across generations.\n\nThe goal is to minimize the mean squared error (MSE) while reducing the number of selected features."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#sonar-dataset-mines-vs.-rocks-3",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#sonar-dataset-mines-vs.-rocks-3",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Sonar Dataset: Mines vs. Rocks",
+    "text": "Sonar Dataset: Mines vs. Rocks\nThe dataset consists of 208 sonar signals used to distinguish between: - Mines (M): Metal cylinders. - Rocks (R): Naturally occurring structures.\nEach observation contains 60 frequency band readings, making this a high-dimensional classification problem.\nlibrary(tidyverse)\nlibrary(caret)\n\n# Load dataset\nsonar &lt;- read.csv(\"./data/sonar.csv\")\n\n# Convert target variable to factor\nsonar$Class &lt;- factor(sonar$Class, levels = c(\"R\", \"M\"))\n\n# Train-test split\nset.seed(123)\ntrainIndex &lt;- createDataPartition(sonar$Class, p = 0.7, list = FALSE)\ntrainData &lt;- sonar[trainIndex, ]\ntestData  &lt;- sonar[-trainIndex, ]"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#defining-the-fitness-function-3",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#defining-the-fitness-function-3",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Defining the Fitness Function",
+    "text": "Defining the Fitness Function\nThe GA optimizes feature selection by evaluating subsets based on their predictive accuracy. We define our fitness function using a k-Nearest Neighbors (k-NN) classifier, where the fitness score is calculated as:\n\\[ Fitness = 1 - Accuracy \\]\nlibrary(GA)\n\nfitness_function &lt;- function(features) {\n  selected_features &lt;- names(trainData)[features == 1]\n  model &lt;- train(Class ~ ., data = trainData[, c(selected_features, \"Class\")],\n                 method = \"knn\", trControl = trainControl(method = \"cv\", number = 5))\n  return(1 - max(model$results$Accuracy))\n}\n\n# Run Genetic Algorithm\nset.seed(2025)\nga_model &lt;- ga(type = \"binary\", fitness = fitness_function,\n               nBits = ncol(trainData) - 1, popSize = 50,\n               maxiter = 100, elitism = 5, mutationRate = 0.01)"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolution-of-fitness-over-generations-3",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#evolution-of-fitness-over-generations-3",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Evolution of Fitness Over Generations",
+    "text": "Evolution of Fitness Over Generations\nTracking the GA’s progress over generations gives insights into how it converges towards an optimal feature subset.\nplot(ga_model, main = \"GA Fitness Evolution\")"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features-3",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features-3",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Selected Features",
+    "text": "Selected Features\nThe optimal subset of features selected by the GA can be extracted as follows:\nbest_features &lt;- which(ga_model@solution == 1)\nnames(trainData)[best_features]"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#model-performance-3",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#model-performance-3",
+    "title": "Feature Selection Using Genetic Algorithms for Regression",
+    "section": "Model Performance",
+    "text": "Model Performance\n\nConfusion Matrix\nThe selected feature subset is used to train a final k-NN classifier, whose accuracy is evaluated on the test set:\npredictions &lt;- predict(ga_model, newdata = testData)\nconf_matrix &lt;- confusionMatrix(predictions, testData$Class)\nconf_matrix\n\n\nFeature Importance Visualization\nlibrary(ggplot2)\nfeature_importance &lt;- as.data.frame(varImp(ga_model)$importance)\nggplot(feature_importance, aes(x = reorder(rownames(feature_importance), Overall), y = Overall)) +\n  geom_bar(stat = \"identity\", fill = \"steelblue\") +\n  coord_flip() +\n  labs(title = \"Feature Importance\", x = \"Feature\", y = \"Importance Score\")"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#crossover",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#crossover",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Crossover",
+    "text": "Crossover\nOnce parents are selected, they undergo genetic operations to create offspring. Crossover involves swapping parts of two parent chromosomes to produce offspring. A common method is single-point crossover, where a random crossover point is chosen, and the genes before and after this point are exchanged between the parents."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#mutation",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#mutation",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Mutation",
+    "text": "Mutation\nMutation introduces small random changes to maintain genetic diversity and avoid local optima. For instance, a mutation may flip the value of a random bit in the chromosome (e.g., changing 0 to 1 or vice versa). The mutation rate is usually kept low (e.g., 1% per generation) to ensure diversity without disrupting good solutions."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#elitism",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#elitism",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Elitism",
+    "text": "Elitism\nTo ensure that the best solutions are preserved, elitism is applied. This technique guarantees that the best-performing chromosome from the current generation is directly passed to the next generation without any changes. This helps prevent the loss of high-quality solutions during the evolution process."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#termination",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#termination",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Termination",
+    "text": "Termination\nThe algorithm runs for a set number of generations or until a stopping criterion is met. Common criteria include reaching a maximum number of generations (e.g., 100) or achieving a satisfactory fitness level. Once the algorithm terminates, the best chromosome found represents the optimal feature subset."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#final-model",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#final-model",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Final Model",
+    "text": "Final Model\nThe genetic algorithm (GA) was implemented to identify an optimal subset of features for the classification task in the Sonar dataset. Over 89 iterations, the algorithm demonstrated consistent improvement in fitness, ultimately achieving a best fitness value of 0.3077. This fitness value, defined as (1 - ), indicates a corresponding predictive accuracy of 69.23% on the training set. The selected feature subset was designed to maximize classification performance while minimizing redundancy and over-fitting.\nThe GA selected the following features from the original set of 60 predictors:\nSelected features: 1, 2, 3, 4, 5, 6, 7, 16, 17, 18, 19, 22, 24, 25, 28, 29, 30, 33, 37, 39, 41, 43, 47, 49, 51, 52, 58.\nThis reduced set of features was used to train a k-Nearest Neighbors (k-NN) classifier with (k = 3), selected based on a grid search for hyperparameter optimization. The training utilized 5-fold cross-validation to ensure model robustness and generalizability. On the test set, the following confusion matrix was obtained:\n\n\nCode\n# Create confusion matrix as a data frame\nconf_matrix &lt;- data.frame(\n  \"Actual\" = c(\"Actual M\", \"Actual R\"),\n  \"Predicted M\" = c(26, 7),\n  \"Predicted R\" = c(10, 19)\n)\n\n#kable to create a nicely formatted table\nknitr::kable(conf_matrix, caption = \"Confusion Matrix: Predicted vs Actual\", align = \"c\")\n\n\n\n\nTable: Confusion Matrix: Predicted vs Actual\n\n|  Actual  | Predicted.M | Predicted.R |\n|:--------:|:-----------:|:-----------:|\n| Actual M |     26      |     10      |\n| Actual R |      7      |     19      |\n\n\nFrom the confusion matrix, the following performance metrics were computed:\n\nAccuracy: 72.58%\nSensitivity (True Positive Rate for Mines): 78.79%\nSpecificity (True Negative Rate for Rocks): 65.52%\nKappa Statistic: 0.4458\nBalanced Accuracy: 72.15%\n\nThe k-NN classifier displayed a solid ability to correctly classify mines, as indicated by the relatively high sensitivity of 78.79%. However, the specificity of 65.52% suggests room for improvement in accurately identifying rocks, particularly in cases with overlapping feature distributions."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#data-preprocessing-and-split",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#data-preprocessing-and-split",
+    "title": "Dataset & Preprocessing",
+    "section": "Data Preprocessing and Split",
+    "text": "Data Preprocessing and Split\nBefore applying any modeling techniques, the dataset was preprocessed. The target variable Class was converted to a factor to ensure proper classification. Next, the dataset was split into two parts: 70% for training and 30% for testing. This division allows for an unbiased evaluation of model performance on unseen data. The createDataPartition function from the caret package was used to create these splits while maintaining class balance.\n{r}\nCopy\n# Data Preprocessing and Split library(caret) set.seed(123) split_index &lt;- createDataPartition(sonar$Class, p = 0.7, list = FALSE) train_data &lt;- sonar[split_index, ] test_data &lt;- sonar[-split_index, ]"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#genetic-algorithm-implementation-on-sonar-dataset",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#genetic-algorithm-implementation-on-sonar-dataset",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Genetic Algorithm Implementation on Sonar Dataset",
+    "text": "Genetic Algorithm Implementation on Sonar Dataset\n\nLoading Required Libraries and Data\n\n\nCode\nlibrary(GA)\nlibrary(caret)\nlibrary(mlbench)\n\n# Load the Sonar dataset\ndata(Sonar)\nSonar$Class &lt;- as.factor(Sonar$Class) # Ensure the target variable is a factor\n\n# Split data into training and testing sets\nset.seed(123) # For reproducibility\ntrainIndex &lt;- createDataPartition(Sonar$Class, p = 0.7, list = FALSE)\ntrainData &lt;- Sonar[trainIndex, ]\ntestData &lt;- Sonar[-trainIndex, ]\n\n\n\n\nDefining the Fitness Function for Feature Selection\n\n\nCode\n# Define the fitness function\nfitness_function &lt;- function(x) {\n  selected_features &lt;- which(x == 1) # Indices of selected features\n  \n  # If no features are selected, assign a large fitness value (penalty)\n  if (length(selected_features) == 0) return(Inf)\n  \n  # Subset the training data with the selected features\n  selected_train &lt;- trainData[, c(selected_features, 61)] # Include 'Class'\n  \n  # Train a k-NN model\n  ctrl &lt;- trainControl(method = \"cv\", number = 5)\n  knn_model &lt;- train(Class ~ ., data = selected_train, method = \"knn\", \n                     trControl = ctrl, tuneGrid = data.frame(k = 1))\n  \n  # Return fitness value (1 - accuracy to minimize error)\n  fitness_value &lt;- 1 - max(knn_model$results$Accuracy)\n  return(fitness_value)\n}"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features-via-genetic-algorithm",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features-via-genetic-algorithm",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Selected Features via Genetic Algorithm",
+    "text": "Selected Features via Genetic Algorithm\n\n\nCode\nlibrary(ggplot2)\n\n# Ensure best_chromosome is a numeric vector\nbest_chromosome &lt;- as.numeric(best_chromosome)\n\n# Create a data frame for visualization\nselected_features_df &lt;- data.frame(\n  Feature = factor(1:length(best_chromosome)),  # Feature indices\n  Selected = best_chromosome                    # Binary selection (1 = selected, 0 = not selected)\n)\n\n# Ensure there are no missing or incorrect values\nprint(head(selected_features_df))  # Check structure\n\n#  visualization\nggplot(selected_features_df, aes(x = Feature, y = Selected, fill = as.factor(Selected))) +\n  geom_bar(stat = \"identity\", color = \"black\", width = 0.7) +  # Adjust bar width\n  scale_fill_manual(values = c(\"0\" = \"gray85\", \"1\" = \"#2E8B57\"), name = \"Selected\") +  # Soft gray & deep green\n  labs(title = \" Selected Features via Genetic Algorithm\",\n       subtitle = \"Selected features (1) vs. Non-selected features (0)\",\n       x = \"Feature Index\", \n       y = \"Selection Status\") +  # Clearer label\n  theme_minimal(base_size = 14) +  # Improve readability\n  theme(\n    plot.title = element_text(face = \"bold\", size = 18, hjust = 0.5), # Bold, centered title\n    plot.subtitle = element_text(size = 14, hjust = 0.5, color = \"gray40\"), # Styled subtitle\n    legend.position = \"top\",\n    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1, size = 10), # Adjust rotation & spacing\n    axis.text.y = element_text(size = 12),  # Make y-axis text larger\n    panel.grid.major.x = element_blank(),  # Remove unnecessary grid lines\n    panel.grid.minor = element_blank(),\n    panel.grid.major.y = element_line(color = \"gray90\", linetype = \"dashed\")  # Subtle dashed grid lines\n  ) +\n  scale_x_discrete(breaks = seq(1, length(best_chromosome), by = 2)) +  # Reduce x-axis label crowding\n  scale_y_continuous(breaks = c(0, 1), labels = c(\"Not Selected\", \"Selected\"))  # Custom y-axis labels\n\n\n  Feature Selected\n1       1        0\n2       2        1\n3       3        0\n4       4        0\n5       5        1\n6       6        0\n\n\n\n\n\n\n\n\n\n\nFinal Confusion Matrix and Performance Metrics\n\n\nCode\nlibrary(ggplot2)\n\n# Create a data frame for the confusion matrix\nconf_matrix_df &lt;- data.frame(\n  Prediction = c(\"M\", \"M\", \"R\", \"R\"),  # Predicted classes\n  Reference = c(\"M\", \"R\", \"M\", \"R\"),  # Actual classes\n  Count = c(26, 10, 7, 19)            # Counts from the confusion matrix\n)\n\n# Plot the confusion matrix\nggplot(conf_matrix_df, aes(x = Reference, y = Prediction, fill = Count)) +\n  geom_tile(color = \"black\") +\n  geom_text(aes(label = Count), size = 6, color = \"white\") +\n  scale_fill_gradient(low = \"lightblue\", high = \"blue\") +\n  labs(\n    title = \"Confusion Matrix\",\n    subtitle = \"Model Predictions vs. Actual Classes\",\n    x = \"Actual Class\",\n    y = \"Predicted Class\"\n  ) +\n  theme_minimal(base_size = 14) +\n  theme(\n    plot.title = element_text(face = \"bold\", hjust = 0.5),\n    plot.subtitle = element_text(hjust = 0.5),\n    axis.text = element_text(size = 12),\n    axis.title = element_text(size = 14),\n    legend.position = \"none\"\n  )\n\n\n\n\n\n\n\n\n\n\n\nCode\n# Confusion matrix for the model with selected features\nconf_matrix$table\n\n# Accuracy, Sensitivity, and Specificity\nconf_matrix$overall[\"Accuracy\"]\nconf_matrix$byClass[c(\"Sensitivity\")]\nconf_matrix$byClass[c( \"Specificity\")]\n\n\n          Reference\nPrediction  M  R\n         M 23 13\n         R 10 16\n\n\nAccuracy: 0.629032258064516\n\n\nSensitivity: 0.696969696969697\n\n\nSpecificity: 0.551724137931035"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#save-result",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#save-result",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Save Result",
+    "text": "Save Result\n\n\nCode\n# Save GA results \nsaveRDS(ga_model, \"ga_model.rds\") # Save the GA model\nsaveRDS(final_knn_model, \"final_knn_model.rds\") # Save the final k-NN model\nsaveRDS(conf_matrix, \"conf_matrix.rds\") # Save the confusion matrix\n\ncat(\"Results have been saved as .rds files in the working directory.\\n\")\n\n\nResults have been saved as .rds files in the working directory."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "",
+    "text": "Primary biliary cirrhosis (PBC) is a severe and chronic liver disease characterized by progressive bile duct destruction, which can lead to liver failure and life-threatening complications. The PBC3 dataset originates from a multi-center randomized clinical trial conducted across six European hospitals between January 1983 and January 1987. This trial aimed to evaluate the efficacy of Cyclosporin A (CyA) in improving outcomes for patients diagnosed with PBC. A total of 349 patients were randomized to either (CyA) (176 patients) or placebo (173 patients). Initially, the primary outcome was defined as survival time; however, due to the increased use of liver transplantation during the study, it was redefined as “failure of medical treatment,” encompassing death or liver transplantation. Patients were followed until January 1, 1989, or until one of three outcomes occurred: treatment failure, dropout, or the end of the study. By the end of the trial, 61 patients had died (CyA: 30, placebo: 31), 29 had undergone liver transplantation (CyA: 14, placebo: 15), and 4 were lost to follow-up. This analysis aims to evaluate the effect of (CyA) treatment on time to failure of medical treatment, while accounting for critical patient characteristics, such as (age), (sex), and clinical measures. The dataset includes both continuous variables, such as (crea), (alb), and (bili), and categorical variables, such as (tment), (sex), and (stage). Using survival analysis techniques, we will conduct descriptive analyses, univariate analyses using the Kaplan-Meier estimator, and regression modeling with Accelerated Failure Time (AFT) models. A critical aspect of this study is assessing potential limitations, including the multi-centre study design, which may introduce correlated observations within the same hospital. The assumptions of regression models will be carefully evaluated to ensure valid and reliable conclusions. Ultimately, this analysis aims to provide a comprehensive understanding of the effect of treatment and patient characteristics on time to failure, informing clinical decision-making and optimizing treatment strategies for PBC.\n\n\nThe dataset summary in (Table 1) shows a diverse patient population. (Ages) ranged from 26 to 75 years, averaging 54.1 years. Key clinical markers varied widely: (creatinine levels) ranged from 35 to 199 (mean 78), (albumin) from 20.63 to 58 (mean 38.4), and bilirubin from 2.33 to 453.1 (mean 45.47). (Alkaline phosphatase) spanned 66.33 to 5108, with a mean of 996.5, and (aspartate transaminase) ranged from 10.5 to 316.3 (mean 95.4). (Patients) weighed between 38 and 98 kg (mean 60.3 kg), and (time to failure) ranged from 1 to 2146 days, with an average of 942.7 days. These variations reflect the differing severity of the condition and treatment outcomes in the study. The frequency analysis provides insights into the distribution of key categorical variables in the dataset. For the treatment variable (tment), 50.43% of patients were assigned to Cyclosporin A (CyA), while 49.57% received the placebo. The majority of patients were female (sex=0, 85.39%), with males making up 14.61% of the population. Regarding the disease stage (stage), 25.79% of patients were at stage 4, followed by 24.07% at stage 2, and 19.48% at stage 3, with 14.04% in stage 1. Notably, 16.62% of entries for this variable are missing. A history of gastrointestinal bleeding (gibleed) was reported for 14.33% of patients, with the remaining 85.67% having no such history. In terms of outcomes (status), 74.21% of patients were censored (no failure of medical treatment), 8.31% underwent liver transplantation, and 17.48% died during the study.\n\n\n\nThe visualizations reveal several important observations. The histogram (figure 1) of time to failure indicates a wide range of survival times, with a mean of approximately 942 days, though the distribution is not perfectly normal. The box plot (figure 4) comparing treatment types suggests that the median survival times are similar between the two groups, with no major differences in spread or outliers. Scatter plots (figure 2 and 3) of time to failure against age and weight show no clear linear relationships, indicating that these variables may not have strong individual effects on survival time. The scatter plots illustrate the relationship between time to failure (days) and key biochemical markers: creatinine (crea), albumin (alb), and bilirubin (bili). The plot of (days) against (crea)(figure 5) shows a scattered distribution without a clear trend, suggesting limited direct association between creatinine levels and survival time. In contrast, (alb) appears to have a positive association with (days) in (figure 6), as higher albumin levels generally correspond to longer survival times. For (bili) (figure 7), the plot indicates a potential negative relationship, with higher bilirubin levels often associated with shorter survival times. These observations highlight the differing impacts of biochemical markers on patient outcomes, warranting further investigation through multivariate analysis.\n\n\n\nThe Kaplan-Meier survival analysis revealed several key findings. For treatment groups (Figure 8), the survival curves for Cyclosporin A (CyA) and placebo showed overlapping confidence intervals, with a log-rank test p-value of 0.7813, indicating no statistically significant difference in survival probabilities between the two arms. Stratification by disease stage (Figure 9) demonstrated clear separation of survival curves, with advanced stages (Stage 4) associated with markedly lower survival probabilities compared to earlier stages. This was supported by a highly significant log-rank p-value ($&lt;$0.0001), underscoring the critical impact of disease stage on survival outcomes.\nFor sex (Figure 10), a significant difference was observed, with the log-rank test yielding a p-value of 0.0060, suggesting an association between sex and survival time. Patients without a history of gastrointestinal bleeding (gibleed = 0) exhibited higher survival probabilities compared to those with bleeding history (Figure 11), with a log-rank test p-value of $&lt;$0.05. Finally, survival probabilities varied significantly by patient exit status (Figure 12), where censoring, transplantation, and death showed distinct patterns, highlighting the need to accurately interpret censored observations in survival models. These results indicate that while treatment with (CyA) does not significantly improve survival outcomes, disease stage and gastrointestinal bleeding history are important prognostic factors. Additionally, the association between sex and survival time warrants further exploration to understand potential biological or demographic contributions to this disparity. Early identification and management of critical factors, such as advanced disease stages, remain essential in optimizing patient outcomes.\n\n\n\nThe Cox Proportional Hazards Model in (Table 2) was applied to evaluate the effect of treatment and other covariates on survival outcomes. The global test for the model was highly significant (( p &lt; 0.0001 )), indicating that the covariates collectively explained variations in survival. Among individual predictors, (sex), (bili), (alb), and (stage) were significant contributors. Males exhibited a significantly higher hazard compared to females (( HR = 2.59, p = 0.0015 )), while elevated (bili) (( HR = 1.009, p &lt; 0.0001 )) and lower (alb) levels (( HR = 0.936, p = 0.0071 )) were associated with poorer survival. Advanced disease stages, particularly (stage 4), were linked to higher risk of failure compared to (stage 2) (( HR = 2.11, p = 0.0409 )). Although (tment) (Cyclosporin A treatment) suggested a potential reduction in risk (( HR = 0.65 )), this effect was not statistically significant (( p = 0.0680 )). (age) and (crea) levels showed no significant association with survival, while (gibleed) and variability across (unit) (hospitals) also had no meaningful effect. These findings highlight key predictors of survival, with (sex), (bili), (alb), and (stage) emerging as significant factors, while the effect of (tment) warrants further investigation.\n\n\n\nThe proportional hazards assumption(Table 3) was evaluated for all variables in the Cox model using Schoenfeld residuals. Statistical tests and graphical diagnostics provided insights into the behavior of each covariate over time. For treatment (tment), the test statistic (( p = 0.3520 )) and the residual plot showed no discernible trend, indicating that the proportional hazards assumption is satisfied. Similarly, for sex (sex), the test yielded ( p = 0.7790 ), with residuals randomly distributed around zero, further supporting the assumption. (age), (bili), (alb), and (crea) also met the assumption, with ( p &gt; 0.05 ) in all cases and no systematic patterns observed in the residual plots. For the disease stage (stage), a significant violation was detected for (stage 1) (( p &lt; 0.0001 )), as evidenced by a clear departure from randomness in the residual plot. Other stages showed no significant issues (( p &gt; 0.05 )). Residuals for the hospital (unit) and gastrointestinal bleeding (gibleed) variables appeared random and within acceptable bounds, with ( p &gt; 0.05 ) in all cases, confirming that the proportional hazards assumption holds for these variables. Overall, the assumption of proportional hazards was satisfied for most covariates, except for (stage 1), where the violation suggests potential time-dependent effects. This could be addressed by stratifying the Cox model by (stage) or incorporating time-varying covariates to account for the non-proportionality. The residual plots and test results collectively provide confidence in the model’s robustness, with minor adjustments required to handle specific violations.\n\n\n\nThe Accelerated Failure Time model for all covariates is given by:\n\\[\n\\begin{aligned}\n\\log(\\text{days}) = \\beta_0 &+ \\beta_1 \\cdot \\text{age} + \\beta_2 \\cdot \\text{sex} + \\beta_3 \\cdot \\text{tment} \\\\\n&+ \\beta_4 \\cdot \\text{stage} + \\beta_5 \\cdot \\text{crea} + \\beta_6 \\cdot \\text{alb} \\\\\n&+ \\beta_7 \\cdot \\text{bili} + \\beta_8 \\cdot \\text{alkph} + \\beta_9 \\cdot \\text{asptr} + \\beta_{10} \\cdot \\text{weight} + \\epsilon\n\\end{aligned}\n\\]\nIn this model, ((days)) represents the log-transformed survival time, and (_0) is the intercept term. The coefficients (_i) quantify the effect of covariates on survival, including (age) (patient age), (sex) (patient sex: 1 for male, 0 for female), (tment) (treatment group: 1 for CyA, 0 for placebo), (stage) (disease stage, reference = Stage 2), (crea) (creatinine levels), (alb) (albumin levels), (bili) (bilirubin levels), (alkph) (alkaline phosphatase levels), (asptr) (aspartate transaminase levels), and (weight) (patient weight). The term () represents the error term, which follows a Weibull distribution.\\\nThe Accelerated Failure Time (AFT) model using the Weibull distribution revealed significant insights into the factors influencing survival time. The model converged successfully, with fit statistics (AIC = 375.539) indicating a reasonable fit to the data. The Weibull shape parameter (( = 1.6369 )) suggests an increasing hazard over time, consistent with the progressive nature of the disease. Among the covariates, treatment (tment) was significant (( = -0.3083, p = 0.0294 )), indicating that CyA treatment accelerates survival time compared to placebo. Sex (sex) also showed a significant effect (( = 0.7787, p = 0.0001 )), with males experiencing longer survival times. Bilirubin (bili, ( = -0.0051, p &lt; 0.0001 )) and albumin (alb, ( = 0.0390, p = 0.0086 )) were significant predictors, where higher bilirubin reduced survival time and higher albumin extended it. Elevated aspartate transaminase (asptr, ( = -0.0029, p = 0.0341 )) also decreased survival. Other covariates, such as (age), (crea), (alkph), (stage), and (weight), were not significant predictors (( p &gt; 0.05 )). Diagnostic checks, including negative log-log survival plots and Cox-Snell residuals, support the adequacy of the Weibull model. The linear pattern in the negative log-log plot validates the Weibull assumption, and the residuals showed no major violations, confirming the robustness of the model for this analysis.\n\n\nThe Accelerated Failure Time model with significant covariates is given by:\n\\[\n\\begin{aligned}\n\\log(\\text{days}) = \\beta_0 &+ \\beta_1 \\cdot \\text{sex} + \\beta_2 \\cdot \\text{tment} + \\beta_3 \\cdot \\text{alb} \\\\\n&+ \\beta_4 \\cdot \\text{bili} + \\beta_5 \\cdot \\text{asptr} + \\epsilon\n\\end{aligned}\n\\]\nIn this model, ((days)) represents the log-transformed survival time, and (_0) is the intercept term. The coefficients (_i) quantify the effect of the significant covariates, including (sex) (patient sex: 1 for male, 0 for female), (tment) (treatment group: 1 for CyA, 0 for placebo), (alb) (albumin levels), (bili) (bilirubin levels), and (asptr) (aspartate transaminase levels). The term () represents the error term, which follows a Weibull distribution.\n\n\n\nThe diagnostic evaluation of the Weibull AFT model using negative log-log (NLL) survival plots above suggests that the Weibull assumption is largely appropriate for the data. The NLL plot exhibits a reasonably linear pattern, indicating that the hazard function aligns well with the Weibull distribution’s characteristics. While some deviations are observed in specific segments, these appear minor and do not significantly compromise the model’s fit. The overall consistency of the linear trend across most of the range provides confidence in the adequacy of the Weibull model. Additionally, the residual diagnostics further support the model’s validity. The Cox-Snell residuals align well with the 45-degree reference line, demonstrating that the observed data conform to the expected survival distribution. Standardized residuals display a random scatter around zero without extreme outliers, suggesting that the model captures the underlying data patterns effectively and that no major violations of model assumptions are present. These diagnostics collectively affirm the robustness and suitability of the Weibull model for analyzing the given survival data.\n\n\n\n\nThe analysis of the PBC3 dataset provided key insights into the survival outcomes of patients with primary biliary cirrhosis (PBC) based on treatment with Cyclosporin A (CyA) and other covariates. Kaplan-Meier analysis revealed no statistically significant improvement in survival for patients treated with (CyA) compared to placebo (( p = 0.7813 )). However, significant survival differences were observed based on disease stage, sex, and gastrointestinal bleeding history. The Cox Proportional Hazards model confirmed these findings, identifying (sex), (bili), (alb), and (stage) as significant predictors of survival, while (tment) had a non-significant effect. Advanced disease stages and higher bilirubin levels were associated with poorer survival outcomes, while higher albumin levels were protective.\nThe Accelerated Failure Time (AFT) model using the Weibull distribution provided additional insights, confirming the significance of (sex), (tment), (alb), (bili), and (asptr). Diagnostic checks, including Cox-Snell residuals and standardized residuals, validated the adequacy of the Weibull model, with no severe violations observed. Negative log-log survival plots further supported the appropriateness of the Weibull assumption, showing a largely linear pattern with only minor deviations.\n\n\nThe Kaplan-Meier estimator provided a simple and intuitive method for comparing survival probabilities across groups, but it could not account for multiple covariates simultaneously. The Cox model allowed for the inclusion of multiple covariates, providing hazard ratios that quantify the effect of predictors on survival. However, the violation of the proportional hazards assumption for (stage 1) indicated that the Cox model may not fully capture time-dependent effects. The AFT model, on the other hand, directly modeled survival time and performed well with the Weibull distribution, offering a robust alternative when the proportional hazards assumption was in question.\n\n\n\nWhile most assumptions were satisfied, the violation of proportional hazards for (stage 1) in the Cox model suggests the need for refinements, such as stratification or the inclusion of time-dependent covariates. These limitations highlight the importance of verifying assumptions to ensure model validity. The AFT model assumptions were well-supported by residual diagnostics, affirming the suitability of the Weibull distribution.\n\n\n\nFurther analyses could explore alternative parametric distributions for the AFT model or stratified Cox models to address the violation of assumptions for (stage 1). Interaction terms between covariates, such as between (tment) and (stage), could provide additional insights into the effect of treatment across different stages of the disease. Additionally, incorporating time-dependent covariates in the Cox model could address non-proportional hazards and improve model accuracy.\nThis comprehensive analysis underscores the complexity of survival outcomes in PBC and highlights the importance of leveraging multiple analytical methods to derive robust conclusions."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#introduction",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#introduction",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "",
+    "text": "Primary biliary cirrhosis (PBC) is a severe and chronic liver disease characterized by progressive bile duct destruction, which can lead to liver failure and life-threatening complications, including the need for liver transplantation or death. The PBC3 dataset originates from a multi-centre randomized clinical trial conducted between January 1983 and January 1987 across six European hospitals. This trial aimed to evaluate the efficacy of Cyclosporin A (CyA) in improving outcomes for patients diagnosed with PBC. A total of 349 patients were randomized to either CyA (176 patients) or placebo (173 patients). Initially, the primary outcome was defined as survival time; however, due to the increased use of liver transplantation during the study, it was redefined as “failure of medical treatment,” encompassing death or liver transplantation. Patients were followed until January 1, 1989, or until one of three outcomes occurred: treatment failure, dropout, or the end of the study. By the end of the trial, 61 patients had died (CyA: 30, placebo: 31), 29 had undergone liver transplantation (CyA: 14, placebo: 15), and 4 were lost to follow-up. This analysis aims to evaluate the effect of CyA treatment on time to failure of medical treatment, while accounting for critical patient characteristics, such as age, sex, and clinical measures. The dataset includes both continuous variables, such as crea, alb, and bili, and categorical variables, such as tment, sex, and stage. Using survival analysis techniques, we will conduct descriptive analyses, univariate analyses using the Kaplan-Meier estimator, and regression modeling with Accelerated Failure Time (AFT) models. A critical aspect of this study is assessing potential limitations, including the multi-centre study design, which may introduce correlated observations within the same hospital. The assumptions of regression models will be carefully evaluated to ensure valid and reliable conclusions. Ultimately, this analysis aims to provide a comprehensive understanding of the effect of treatment and patient characteristics on time to failure, informing clinical decision-making and optimizing treatment strategies for PBC."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#summary-statistics",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#summary-statistics",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Summary Statistics",
+    "text": "Summary Statistics\nThe dataset summary in (Table 1) shows a diverse patient population. (Ages) ranged from 26 to 75 years, averaging 54.1 years. Key clinical markers varied widely: (creatinine levels) ranged from 35 to 199 (mean 78), (albumin) from 20.63 to 58 (mean 38.4), and bilirubin from 2.33 to 453.1 (mean 45.47). (Alkaline phosphatase) spanned 66.33 to 5108, with a mean of 996.5, and (aspartate transaminase) ranged from 10.5 to 316.3 (mean 95.4). (Patients) weighed between 38 and 98 kg (mean 60.3 kg), and (time to failure) ranged from 1 to 2146 days, with an average of 942.7 days. These variations reflect the differing severity of the condition and treatment outcomes in the study. The frequency analysis provides insights into the distribution of key categorical variables in the dataset. For the treatment variable (tment), 50.43% of patients were assigned to Cyclosporin A (CyA), while 49.57% received the placebo. The majority of patients were female (sex=0, 85.39%), with males making up 14.61% of the population. Regarding the disease stage (stage), 25.79% of patients were at stage 4, followed by 24.07% at stage 2, and 19.48% at stage 3, with 14.04% in stage 1. Notably, 16.62% of entries for this variable are missing. A history of gastrointestinal bleeding (gibleed) was reported for 14.33% of patients, with the remaining 85.67% having no such history. In terms of outcomes (status), 74.21% of patients were censored (no failure of medical treatment), 8.31% underwent liver transplantation, and 17.48% died during the study."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#data-visualization",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#data-visualization",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Data Visualization",
+    "text": "Data Visualization\nThe visualizations reveal several important observations. The histogram (figure 1) of time to failure indicates a wide range of survival times, with a mean of approximately 942 days, though the distribution is not perfectly normal. The box plot (figure 4) comparing treatment types suggests that the median survival times are similar between the two groups, with no major differences in spread or outliers. Scatter plots (figure 2 and 3) of time to failure against age and weight show no clear linear relationships, indicating that these variables may not have strong individual effects on survival time. The scatter plots illustrate the relationship between time to failure (days) and key biochemical markers: creatinine (crea), albumin (alb), and bilirubin (bili). The plot of (days) against (crea)(figure 5) shows a scattered distribution without a clear trend, suggesting limited direct association between creatinine levels and survival time. In contrast, (alb) appears to have a positive association with (days) in (figure 6), as higher albumin levels generally correspond to longer survival times. For (bili) (figure 7), the plot indicates a potential negative relationship, with higher bilirubin levels often associated with shorter survival times. These observations highlight the differing impacts of biochemical markers on patient outcomes, warranting further investigation through multivariate analysis."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#summary-of-kaplan-meier-analysis",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#summary-of-kaplan-meier-analysis",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Summary of Kaplan-Meier Analysis",
+    "text": "Summary of Kaplan-Meier Analysis\nThe Kaplan-Meier survival analysis revealed several key findings. For treatment groups (Figure 8), the survival curves for Cyclosporin A (CyA) and placebo showed overlapping confidence intervals, with a log-rank test p-value of 0.7813, indicating no statistically significant difference in survival probabilities between the two arms. Stratification by disease stage (Figure 9) demonstrated clear separation of survival curves, with advanced stages (Stage 4) associated with markedly lower survival probabilities compared to earlier stages. This was supported by a highly significant log-rank p-value ($&lt;$0.0001), underscoring the critical impact of disease stage on survival outcomes.\nFor sex (Figure 10), a significant difference was observed, with the log-rank test yielding a p-value of 0.0060, suggesting an association between sex and survival time. Patients without a history of gastrointestinal bleeding (gibleed = 0) exhibited higher survival probabilities compared to those with bleeding history (Figure 11), with a log-rank test p-value of $&lt;$0.05. Finally, survival probabilities varied significantly by patient exit status (Figure 12), where censoring, transplantation, and death showed distinct patterns, highlighting the need to accurately interpret censored observations in survival models. These results indicate that while treatment with (CyA) does not significantly improve survival outcomes, disease stage and gastrointestinal bleeding history are important prognostic factors. Additionally, the association between sex and survival time warrants further exploration to understand potential biological or demographic contributions to this disparity. Early identification and management of critical factors, such as advanced disease stages, remain essential in optimizing patient outcomes."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#implementing-the-cox-model",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#implementing-the-cox-model",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Implementing the Cox Model",
+    "text": "Implementing the Cox Model\nThe Cox Proportional Hazards Model in (Table 2) was applied to evaluate the effect of treatment and other covariates on survival outcomes. The global test for the model was highly significant (( p &lt; 0.0001 )), indicating that the covariates collectively explained variations in survival. Among individual predictors, (sex), (bili), (alb), and (stage) were significant contributors. Males exhibited a significantly higher hazard compared to females (( HR = 2.59, p = 0.0015 )), while elevated (bili) (( HR = 1.009, p &lt; 0.0001 )) and lower (alb) levels (( HR = 0.936, p = 0.0071 )) were associated with poorer survival. Advanced disease stages, particularly (stage 4), were linked to higher risk of failure compared to (stage 2) (( HR = 2.11, p = 0.0409 )). Although (tment) (Cyclosporin A treatment) suggested a potential reduction in risk (( HR = 0.65 )), this effect was not statistically significant (( p = 0.0680 )). (age) and (crea) levels showed no significant association with survival, while (gibleed) and variability across (unit) (hospitals) also had no meaningful effect. These findings highlight key predictors of survival, with (sex), (bili), (alb), and (stage) emerging as significant factors, while the effect of (tment) warrants further investigation."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#proportional-hazards-assumption-check-analysis",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#proportional-hazards-assumption-check-analysis",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Proportional Hazards Assumption Check Analysis",
+    "text": "Proportional Hazards Assumption Check Analysis\nThe proportional hazards assumption(Table 3) was evaluated for all variables in the Cox model using Schoenfeld residuals. Statistical tests and graphical diagnostics provided insights into the behavior of each covariate over time. For treatment (tment), the test statistic (( p = 0.3520 )) and the residual plot showed no discernible trend, indicating that the proportional hazards assumption is satisfied. Similarly, for sex (sex), the test yielded ( p = 0.7790 ), with residuals randomly distributed around zero, further supporting the assumption. (age), (bili), (alb), and (crea) also met the assumption, with ( p &gt; 0.05 ) in all cases and no systematic patterns observed in the residual plots. For the disease stage (stage), a significant violation was detected for (stage 1) (( p &lt; 0.0001 )), as evidenced by a clear departure from randomness in the residual plot. Other stages showed no significant issues (( p &gt; 0.05 )). Residuals for the hospital (unit) and gastrointestinal bleeding (gibleed) variables appeared random and within acceptable bounds, with ( p &gt; 0.05 ) in all cases, confirming that the proportional hazards assumption holds for these variables. Overall, the assumption of proportional hazards was satisfied for most covariates, except for (stage 1), where the violation suggests potential time-dependent effects. This could be addressed by stratifying the Cox model by (stage) or incorporating time-varying covariates to account for the non-proportionality. The residual plots and test results collectively provide confidence in the model’s robustness, with minor adjustments required to handle specific violations."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#discussionconclusion",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#discussionconclusion",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Discussion/Conclusion",
+    "text": "Discussion/Conclusion\nThe analysis of the PBC3 dataset provided key insights into the survival outcomes of patients with primary biliary cirrhosis (PBC) based on treatment with Cyclosporin A (CyA) and other covariates. Kaplan-Meier analysis revealed no statistically significant improvement in survival for patients treated with (CyA) compared to placebo (( p = 0.7813 )). However, significant survival differences were observed based on disease stage, sex, and gastrointestinal bleeding history. The Cox Proportional Hazards model confirmed these findings, identifying (sex), (bili), (alb), and (stage) as significant predictors of survival, while (tment) had a non-significant effect. Advanced disease stages and higher bilirubin levels were associated with poorer survival outcomes, while higher albumin levels were protective.\nThe Accelerated Failure Time (AFT) model using the Weibull distribution provided additional insights, confirming the significance of (sex), (tment), (alb), (bili), and (asptr). Diagnostic checks, including Cox-Snell residuals and standardized residuals, validated the adequacy of the Weibull model, with no severe violations observed. Negative log-log survival plots further supported the appropriateness of the Weibull assumption, showing a largely linear pattern with only minor deviations.\n\nPros and Cons of the Methods\nThe Kaplan-Meier estimator provided a simple and intuitive method for comparing survival probabilities across groups, but it could not account for multiple covariates simultaneously. The Cox model allowed for the inclusion of multiple covariates, providing hazard ratios that quantify the effect of predictors on survival. However, the violation of the proportional hazards assumption for (stage 1) indicated that the Cox model may not fully capture time-dependent effects. The AFT model, on the other hand, directly modeled survival time and performed well with the Weibull distribution, offering a robust alternative when the proportional hazards assumption was in question.\n\n\nModel Assumptions\nWhile most assumptions were satisfied, the violation of proportional hazards for (stage 1) in the Cox model suggests the need for refinements, such as stratification or the inclusion of time-dependent covariates. These limitations highlight the importance of verifying assumptions to ensure model validity. The AFT model assumptions were well-supported by residual diagnostics, affirming the suitability of the Weibull distribution.\n\n\nFuture Directions\nFurther analyses could explore alternative parametric distributions for the AFT model or stratified Cox models to address the violation of assumptions for (stage 1). Interaction terms between covariates, such as between (tment) and (stage), could provide additional insights into the effect of treatment across different stages of the disease. Additionally, incorporating time-dependent covariates in the Cox model could address non-proportional hazards and improve model accuracy.\nThis comprehensive analysis underscores the complexity of survival outcomes in PBC and highlights the importance of leveraging multiple analytical methods to derive robust conclusions."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#interpretation-of-the-weibull-accelerated-failure-time-model-aft-model",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#interpretation-of-the-weibull-accelerated-failure-time-model-aft-model",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Interpretation of the Weibull Accelerated Failure Time Model (AFT) Model",
+    "text": "Interpretation of the Weibull Accelerated Failure Time Model (AFT) Model\nThe Accelerated Failure Time model for all covariates is given by:\n\\[\n\\begin{aligned}\n\\log(\\text{days}) = \\beta_0 &+ \\beta_1 \\cdot \\text{age} + \\beta_2 \\cdot \\text{sex} + \\beta_3 \\cdot \\text{tment} \\\\\n&+ \\beta_4 \\cdot \\text{stage} + \\beta_5 \\cdot \\text{crea} + \\beta_6 \\cdot \\text{alb} \\\\\n&+ \\beta_7 \\cdot \\text{bili} + \\beta_8 \\cdot \\text{alkph} + \\beta_9 \\cdot \\text{asptr} + \\beta_{10} \\cdot \\text{weight} + \\epsilon\n\\end{aligned}\n\\]\nIn this model, ((days)) represents the log-transformed survival time, and (_0) is the intercept term. The coefficients (_i) quantify the effect of covariates on survival, including (age) (patient age), (sex) (patient sex: 1 for male, 0 for female), (tment) (treatment group: 1 for CyA, 0 for placebo), (stage) (disease stage, reference = Stage 2), (crea) (creatinine levels), (alb) (albumin levels), (bili) (bilirubin levels), (alkph) (alkaline phosphatase levels), (asptr) (aspartate transaminase levels), and (weight) (patient weight). The term () represents the error term, which follows a Weibull distribution.\\\nThe Accelerated Failure Time (AFT) model using the Weibull distribution revealed significant insights into the factors influencing survival time. The model converged successfully, with fit statistics (AIC = 375.539) indicating a reasonable fit to the data. The Weibull shape parameter (( = 1.6369 )) suggests an increasing hazard over time, consistent with the progressive nature of the disease. Among the covariates, treatment (tment) was significant (( = -0.3083, p = 0.0294 )), indicating that CyA treatment accelerates survival time compared to placebo. Sex (sex) also showed a significant effect (( = 0.7787, p = 0.0001 )), with males experiencing longer survival times. Bilirubin (bili, ( = -0.0051, p &lt; 0.0001 )) and albumin (alb, ( = 0.0390, p = 0.0086 )) were significant predictors, where higher bilirubin reduced survival time and higher albumin extended it. Elevated aspartate transaminase (asptr, ( = -0.0029, p = 0.0341 )) also decreased survival. Other covariates, such as (age), (crea), (alkph), (stage), and (weight), were not significant predictors (( p &gt; 0.05 )). Diagnostic checks, including negative log-log survival plots and Cox-Snell residuals, support the adequacy of the Weibull model. The linear pattern in the negative log-log plot validates the Weibull assumption, and the residuals showed no major violations, confirming the robustness of the model for this analysis.\n\nSignificant Weibull AFT Model\nThe Accelerated Failure Time model with significant covariates is given by:\n\\[\n\\begin{aligned}\n\\log(\\text{days}) = \\beta_0 &+ \\beta_1 \\cdot \\text{sex} + \\beta_2 \\cdot \\text{tment} + \\beta_3 \\cdot \\text{alb} \\\\\n&+ \\beta_4 \\cdot \\text{bili} + \\beta_5 \\cdot \\text{asptr} + \\epsilon\n\\end{aligned}\n\\]\nIn this model, ((days)) represents the log-transformed survival time, and (_0) is the intercept term. The coefficients (_i) quantify the effect of the significant covariates, including (sex) (patient sex: 1 for male, 0 for female), (tment) (treatment group: 1 for CyA, 0 for placebo), (alb) (albumin levels), (bili) (bilirubin levels), and (asptr) (aspartate transaminase levels). The term () represents the error term, which follows a Weibull distribution.\n\n\nAssumption Check for Weibull Regression\nThe diagnostic evaluation of the Weibull AFT model using negative log-log (NLL) survival plots above suggests that the Weibull assumption is largely appropriate for the data. The NLL plot exhibits a reasonably linear pattern, indicating that the hazard function aligns well with the Weibull distribution’s characteristics. While some deviations are observed in specific segments, these appear minor and do not significantly compromise the model’s fit. The overall consistency of the linear trend across most of the range provides confidence in the adequacy of the Weibull model. Additionally, the residual diagnostics further support the model’s validity. The Cox-Snell residuals align well with the 45-degree reference line, demonstrating that the observed data conform to the expected survival distribution. Standardized residuals display a random scatter around zero without extreme outliers, suggesting that the model captures the underlying data patterns effectively and that no major violations of model assumptions are present. These diagnostics collectively affirm the robustness and suitability of the Weibull model for analyzing the given survival data."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#kaplan-meier-analysis",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#kaplan-meier-analysis",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Kaplan-Meier Analysis",
+    "text": "Kaplan-Meier Analysis\nThe Kaplan-Meier survival analysis revealed several key findings. For treatment groups (Figure 8), the survival curves for Cyclosporin A (CyA) and placebo showed overlapping confidence intervals, with a log-rank test p-value of 0.7813, indicating no statistically significant difference in survival probabilities between the two arms. Stratification by disease stage (Figure 9) demonstrated clear separation of survival curves, with advanced stages (Stage 4) associated with markedly lower survival probabilities compared to earlier stages. This was supported by a highly significant log-rank p-value ($&lt;$0.0001), underscoring the critical impact of disease stage on survival outcomes.\nFor sex (Figure 10), a significant difference was observed, with the log-rank test yielding a p-value of 0.0060, suggesting an association between sex and survival time. Patients without a history of gastrointestinal bleeding (gibleed = 0) exhibited higher survival probabilities compared to those with bleeding history (Figure 11), with a log-rank test p-value of $&lt;$0.05. Finally, survival probabilities varied significantly by patient exit status (Figure 12), where censoring, transplantation, and death showed distinct patterns, highlighting the need to accurately interpret censored observations in survival models. These results indicate that while treatment with (CyA) does not significantly improve survival outcomes, disease stage and gastrointestinal bleeding history are important prognostic factors. Additionally, the association between sex and survival time warrants further exploration to understand potential biological or demographic contributions to this disparity. Early identification and management of critical factors, such as advanced disease stages, remain essential in optimizing patient outcomes."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#dataset-summary-table-1",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#dataset-summary-table-1",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Dataset Summary (Table 1)",
+    "text": "Dataset Summary (Table 1)\n\nDemographics and Key Clinical Markers\n\nAge: Patients ranged from 26 to 75 years, with an average age of 54.1 years.\nClinical Markers:\n\nCreatinine levels: Ranged from 35 to 199 (mean: 78).\nAlbumin: Ranged from 20.63 to 58 (mean: 38.4).\nBilirubin: Ranged from 2.33 to 453.1 (mean: 45.47).\nAlkaline phosphatase: Spanned from 66.33 to 5108, with a mean of 996.5.\nAspartate transaminase: Ranged from 10.5 to 316.3 (mean: 95.4).\n\nWeight: Patients weighed between 38 and 98 kg, with an average weight of 60.3 kg.\nTime to Failure: Spanned from 1 to 2146 days, with an average of 942.7 days.\n\nThese variations highlight the differing severity of the condition and treatment outcomes observed in the study population."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#frequency-analysis-of-categorical-variables",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#frequency-analysis-of-categorical-variables",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Frequency Analysis of Categorical Variables",
+    "text": "Frequency Analysis of Categorical Variables\nThe study population was evenly divided between treatment groups, with 50.43% receiving Cyclosporin A (CyA) and 49.57% assigned to placebo. The cohort was predominantly female (85.39%), while males accounted for 14.61%. Disease stage distribution varied, with 14.04% in Stage 1, 24.07% in Stage 2, 19.48% in Stage 3, and 25.79% in Stage 4, while 16.62% of entries had missing data. A history of gastrointestinal bleeding (gibleed) was reported in 14.33% of cases, whereas 85.67% had no reported history. In terms of outcomes (status), 74.21% were censored (no treatment failure), 8.31% underwent liver transplantation, and 17.48% resulted in death. # Data Visualization\nThe visualizations reveal several important observations. The histogram (figure 1) of time to failure indicates a wide range of survival times, with a mean of approximately 942 days, though the distribution is not perfectly normal.\nThe box plot (figure 4) comparing treatment types suggests that the median survival times are similar between the two groups, with no major differences in spread or outliers. Scatter plots (figure 2 and 3) of time to failure against age and weight show no clear linear relationships, indicating that these variables may not have strong individual effects on survival time. The scatter plots illustrate the relationship between time to failure (days) and key biochemical markers: creatinine (crea), albumin (alb), and bilirubin (bili). The plot of (days) against (crea)(figure 5) shows a scattered distribution without a clear trend, suggesting limited direct association between creatinine levels and survival time. In contrast, (alb) appears to have a positive association with (days) in (figure 6), as higher albumin levels generally correspond to longer survival times. For (bili) (figure 7), the plot indicates a potential negative relationship, with higher bilirubin levels often associated with shorter survival times. These observations highlight the differing impacts of biochemical markers on patient outcomes, warranting further investigation through multivariate analysis."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#demographics-and-key-clinical-markers",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#demographics-and-key-clinical-markers",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Demographics and Key Clinical Markers",
+    "text": "Demographics and Key Clinical Markers\nPatients’ ages ranged from 26 to 75 years, with an average of 54.1 years. Key clinical markers varied considerably: creatinine levels ranged from 35 to 199 (mean: 78), albumin from 20.63 to 58 (mean: 38.4), bilirubin from 2.33 to 453.1 (mean: 45.47), alkaline phosphatase from 66.33 to 5108 (mean: 996.5), and aspartate transaminase from 10.5 to 316.3 (mean: 95.4). Patients’ weights spanned from 38 to 98 kg, with an average of 60.3 kg. Time to failure ranged from 1 to 2146 days, with an average of 942.7 days."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#background",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#background",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Background",
+    "text": "Background\nPrimary biliary cirrhosis (PBC) is a severe and chronic liver disease characterized by progressive bile duct destruction, potentially leading to liver failure and life-threatening complications.\nThe PBC3 dataset originates from a multi-center randomized clinical trial conducted across six European hospitals between January 1983 and January 1987. The trial’s primary objective was to evaluate the efficacy of Cyclosporin A (CyA) in improving outcomes for patients diagnosed with PBC."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#study-objective",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#study-objective",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Study Objective",
+    "text": "Study Objective\nThis analysis evaluates the effect of Cyclosporin A (CyA) on the time to failure of medical treatment, accounting for key patient characteristics. Continuous variables include age, creatinine (crea), albumin (alb), bilirubin (bili), alkaline phosphatase (alkph), aspartate transaminase (asptr), and weight. Categorical variables include treatment (tment), sex, and disease stage (stage). The study aims to assess the impact of treatment and patient characteristics on survival, inform clinical decision-making, and optimize treatment strategies for primary biliary cirrhosis (PBC).\nTo achieve this, we employ the following survival analysis methods. Kaplan-Meier estimation is used for visualizing survival functions, while Cox Proportional Hazards and Accelerated Failure Time (AFT) models evaluate the effects of treatment and covariates."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#methods",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#methods",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Methods",
+    "text": "Methods\n\nAnalytical Techniques\nWe employ the following survival analysis methods: 1. Descriptive Analyses: - Summarize patient characteristics and study outcomes. 2. Univariate Analyses: - Kaplan-Meier estimator for visualizing survival functions. 3. Regression Modeling: - Accelerated Failure Time (AFT) models to evaluate the effects of treatment and covariates.\n\n\nKey Considerations\n\nMulti-center Study Design:\n\nPossible correlated observations within the same hospital.\n\nModel Assumptions:\n\nCareful evaluation to ensure valid and reliable conclusions."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#goals",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#goals",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Goals",
+    "text": "Goals\nThe ultimate goal of this analysis is to:\n\nUnderstand the effect of treatment and patient characteristics on time to failure.\nInform clinical decision-making.\nOptimize treatment strategies for PBC."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#key-details",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#key-details",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Key Details:",
+    "text": "Key Details:\nA total of 349 patients were randomized to either Cyclosporin A (CyA) (176 patients) or placebo (173 patients). The primary outcome was initially defined as survival time but was later redefined as failure of medical treatment (death or liver transplantation). The follow-up period extended until January 1, 1989, or until treatment failure, dropout, or the study’s conclusion. Study outcomes included 61 deaths (30 in the CyA group, 31 in the placebo group), 29 liver transplantations (14 in the CyA group, 15 in the placebo group), and 4 patients lost to follow-up."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#key-considerations",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#key-considerations",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Key Considerations",
+    "text": "Key Considerations\n\nMulti-center Study Design:\n\nPossible correlated observations within the same hospital.\n\nModel Assumptions:\n\nCareful evaluation to ensure valid and reliable conclusions."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#weibull-accelerated-failure-time-model-aft-model",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#weibull-accelerated-failure-time-model-aft-model",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Weibull Accelerated Failure Time Model (AFT) Model",
+    "text": "Weibull Accelerated Failure Time Model (AFT) Model\nThe Weibull AFT model demonstrated a good fit (AIC = 375.539), with the Weibull shape parameter (shape = 1.6369) indicating an increasing hazard over time, consistent with the progressive nature of the disease. CyA treatment (tment) was significantly associated with accelerated survival (β = -0.3083, p = 0.0294), while sex (sex) showed a strong effect (β = 0.7787, p = 0.0001), with males experiencing longer survival times.\n\\[\n\\begin{aligned}\n\\log(\\text{days}) = \\beta_0 &+ \\beta_1 \\cdot \\text{age} + \\beta_2 \\cdot \\text{sex} + \\beta_3 \\cdot \\text{tment} \\\\\n&+ \\beta_4 \\cdot \\text{stage} + \\beta_5 \\cdot \\text{crea} + \\beta_6 \\cdot \\text{alb} \\\\\n&+ \\beta_7 \\cdot \\text{bili} + \\beta_8 \\cdot \\text{alkph} + \\beta_9 \\cdot \\text{asptr} + \\beta_{10} \\cdot \\text{weight} + \\epsilon\n\\end{aligned}\n\\]\nAmong biochemical markers, higher bilirubin (bili) levels were linked to shorter survival (β = -0.0051, p &lt; 0.0001), whereas higher albumin (alb) levels were associated with improved survival (β = 0.0390, p = 0.0086). Elevated aspartate transaminase (asptr) levels negatively impacted survival (β = -0.0029, p = 0.0341). Other covariates, including age (age), creatinine (crea), alkaline phosphatase (alkph), disease stage (stage), and weight (weight), were not significant predictors (p &gt; 0.05).\nThe refined Weibull AFT model retained only significant covariates, including sex (sex), treatment (tment), albumin (alb), bilirubin (bili), and aspartate transaminase (asptr), ensuring a more interpretable and parsimonious model.\n\\[\n\\begin{aligned}\n\\log(\\text{days}) = \\beta_0 &+ \\beta_1 \\cdot \\text{sex} + \\beta_2 \\cdot \\text{tment} + \\beta_3 \\cdot \\text{alb} \\\\\n&+ \\beta_4 \\cdot \\text{bili} + \\beta_5 \\cdot \\text{asptr} + \\epsilon\n\\end{aligned}\n\\]\nDiagnostic evaluations, including negative log-log survival plots and Cox-Snell residuals, confirmed the adequacy of the Weibull assumption, with no major violations detected. These results indicate that CyA treatment accelerated survival, while higher bilirubin and aspartate transaminase levels were associated with poorer outcomes, highlighting key prognostic factors in primary biliary cirrhosis (PBC).\n\nAssumption Check for Weibull Regression\nThe diagnostic evaluation of the Weibull AFT model supports the appropriateness of the Weibull assumption, with negative log-log (NLL) survival plots exhibiting a largely linear pattern, indicating that the hazard function aligns well with the Weibull distribution. While minor deviations were observed in specific segments, these do not significantly impact the model’s fit. The overall consistency of the linear trend across most of the range reinforces confidence in the model’s adequacy.\nAdditionally, residual diagnostics further confirm the validity of the Weibull model. The Cox-Snell residuals closely follow the 45-degree reference line, demonstrating that the observed data conform to the expected survival distribution. Standardized residuals exhibit a random scatter around zero, without extreme outliers, indicating that the model effectively captures underlying data patterns and that no major violations of model assumptions are present.\nThese diagnostics collectively affirm the robustness and suitability of the Weibull AFT model for analyzing the given survival data, providing confidence in its reliability for assessing treatment effects and patient characteristics in primary biliary cirrhosis (PBC)."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#assumption-check-for-weibull-regression",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#assumption-check-for-weibull-regression",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Assumption Check for Weibull Regression",
+    "text": "Assumption Check for Weibull Regression\nThe diagnostic evaluation of the Weibull AFT model supports the appropriateness of the Weibull assumption, with negative log-log (NLL) survival plots exhibiting a largely linear pattern, indicating that the hazard function aligns well with the Weibull distribution. While minor deviations were observed in specific segments, these do not significantly impact the model’s fit. The overall consistency of the linear trend across most of the range reinforces confidence in the model’s adequacy.\nAdditionally, residual diagnostics further confirm the validity of the Weibull model. The Cox-Snell residuals closely follow the 45-degree reference line, demonstrating that the observed data conform to the expected survival distribution. Standardized residuals exhibit a random scatter around zero, without extreme outliers, indicating that the model effectively captures underlying data patterns and that no major violations of model assumptions are present.\nThese diagnostics collectively affirm the robustness and suitability of the Weibull AFT model for analyzing the given survival data, providing confidence in its reliability for assessing treatment effects and patient characteristics in primary biliary cirrhosis (PBC)."
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#figures-and-tables",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#figures-and-tables",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Figures and Tables",
+    "text": "Figures and Tables"
+  },
+  {
+    "objectID": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#figures-and-tables-1",
+    "href": "Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html#figures-and-tables-1",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Figures and Tables",
+    "text": "Figures and Tables\n\nFigure 1: Histogram of Time to Failure\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\nFigure 2: Relationship Between Age and Time to Failure\n\n\n\n\n\n\nFigure 2\n\n\n\n\n\nFigure 3: Relationship Between Weight and Time to Failure\n\n\n\n\n\n\nFigure 3\n\n\n\n\n\nFigure 4: Distribution of Treatment\n\n\n\n\n\n\nFigure 4\n\n\n\n\n\nFigure 5: Relationship Between Albumin and Time to Failure\n\n\n\n\n\n\nFigure 5\n\n\n\n\n\nFigure 6: Relationship Between Creatinine and Time to Failure\n\n\n\n\n\n\nFigure 6\n\n\n\n\n\nFigure 7: Kaplan-Meier Survival for Treatment (95% Confidence Limit)\n\n\n\n\n\n\nFigure 7\n\n\n\n\n\nFigure 8: Kaplan-Meier Survival for Sex (95% Confidence Limit)\n\n\n\n\n\n\nFigure 8\n\n\n\n\n\nFigure 9: Kaplan-Meier Survival for Gastrointestinal Bleeding (95% Confidence Limit)\n\n\n\n\n\n\nFigure 9\n\n\n\n\n\nFigure 10: Kaplan-Meier Survival for Disease Stages (95% Confidence Limit)\n\n\n\n\n\n\nFigure 10\n\n\n\n\n\nFigure 11: Kaplan-Meier Survival by Stages (Product Limit)\n\n\n\n\n\n\nFigure 11\n\n\n\n\n\nFigure 12: Relationship Between Weight and Time to Failure\n\n\n\nTable 1, 3, 4: Summary Statistics and Model Outputs"
+  }
+]
