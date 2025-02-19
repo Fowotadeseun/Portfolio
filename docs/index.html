@@ -68,7 +68,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Oluwaseun Daniel Fowotade | Portfolio – Home">
-<meta property="og:description" content="">
 <meta property="og:site_name" content="Home">
 </head>
 
@@ -143,12 +142,83 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome-to-my-portfolio" class="level1">
-<h1>Welcome to My Portfolio!</h1>
-<p>Hi, I’m Oluwaseun Daniel Fowotade—welcome to my portfolio! Explore my projects and expertise in statistics, data science, and healthcare analytics. Below, you’ll find some of my key experiences and projects. Feel free to reach out if you’d like to collaborate!</p>
+<!-- =========================
+       Hero Section
+========================= -->
+<div class="hero-section">
+  <div class="container">
+    <img src="Assets/Images/profile.jpg" alt="Oluwaseun Daniel Fowotade" class="hero-img">
+    <h1 class="display-4 mb-3">Oluwaseun Daniel Fowotade</h1>
+    <h3 class="mb-4 anchored" style="color: var(--primary-color);">
+      Statistics &amp; Data Science for Healthcare and Business Insights
+    </h3>
+    <p class="lead" style="max-width: 700px; margin: 0 auto 2rem auto;">
+      Specializing in survival analysis, feature selection, and statistical programming to drive data-driven decision-making.
+    </p>
+    <a href="#contact" class="cta-button">Let's Collaborate →</a>
+  </div>
+</div>
+
+<!-- =========================
+       Featured Projects
+========================= -->
+<div class="container">
+  <h2 class="text-center mb-5 anchored">Featured Projects</h2>
+  <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Project 1 -->
+      <div class="carousel-item active">
+        <div class="portfolio-card mx-auto" style="max-width: 800px;">
+          <div class="badge-tag">Healthcare Analytics</div>
+          <img src="Assets/Images/survival_analysis.png" class="img-fluid mb-4" alt="Survival Analysis">
+          <h3 class="mb-3 anchored">Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis</h3>
+          <p class="px-3">
+            Developed SAS programs for analyzing survival data, assessing treatment effectiveness for patients with liver cirrhosis.
+          </p>
+          <a href="#" class="cta-button mt-auto">See Project →</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="carousel-item">
+        <div class="portfolio-card mx-auto" style="max-width: 800px;">
+          <div class="badge-tag">Machine Learning</div>
+          <img src="Assets/Images/genetic_algorithm.png" class="img-fluid mb-4" alt="Feature Selection">
+          <h3 class="mb-3 anchored">Feature Selection Using Genetic Algorithms</h3>
+          <p class="px-3">
+            Implemented a genetic algorithm to optimize feature selection in regression models, enhancing predictive accuracy.
+          </p>
+          <a href="#" class="cta-button mt-auto">See Project →</a>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!-- =========================
+       Contact Section
+========================= -->
+<div class="container">
+  <div id="contact" class="text-center py-5">
+    <h2 class="mb-4 anchored">Ready to Solve Problems with Data?</h2>
+    <p class="lead mb-5">Let's discuss how I can contribute to your team or project.</p>
+    <div class="d-flex justify-content-center gap-3 mb-4">
+      <a href="mailto:fowotadeoluwaseun15@gmail.com" class="cta-button">Email Me</a>
+      <a href="https://www.linkedin.com/in/oluwaseunfowotade/" class="cta-button">LinkedIn</a>
+    </div>
+  </div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

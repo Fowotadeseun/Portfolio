@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+
 website:
   search:
     type: textbox 
@@ -34,13 +35,14 @@ website:
         href: https://github.com/Fowotadeseun/
       - icon: envelope-fill
         href: mailto:fowotadeoluwaseun15@gmail.com
+
 format:
   html:
-    theme: cosmo
+    theme: Assets/Themes/MainThemeBCA.scss  # Fixed duplicate theme issue
     fontsize: 1.1em
     linestretch: 1.7
     citations-hover: true
     footnotes-hover: true
-    theme: Assets/Themes/MainThemeBCA.scss
     highlight-style: github-dark
+
 editor: visual
