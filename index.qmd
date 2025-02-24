@@ -107,7 +107,7 @@ warning: false
           <p class="px-3">
             Explored Netflix’s content evolution, analyzing trends in content types, geographic diversity, and ratings over time.
           </p>
-          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Netflix%20Data%20Visualization/" class="cta-button mt-auto">See Project →</a>
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Netflix%20Data%20Visualization/" class="cta-button mt-auto">See Project → </a>
         </div>
       </div>
     </div>
