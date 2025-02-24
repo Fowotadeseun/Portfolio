@@ -81,7 +81,7 @@ warning: false
           <p class="px-3">
             Developed SAS programs for analyzing survival data, assessing treatment effectiveness for patients with liver cirrhosis.
           </p>
-          <a href="https://github.com/Fowotadeseun/Portfolio/tree/main/Content/Projects/Feature%20Selection%20Using%20Genetic%20Algorithm" class="cta-button mt-auto">See Project →</a>
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Survuval%20Analysis%20of%20Primary%20biliary%20cirrhosis%20(PBC)/" class="cta-button mt-auto">See Project →</a>
         </div>
       </div>
 
@@ -94,7 +94,7 @@ warning: false
           <p class="px-3">
             Implemented a genetic algorithm to optimize feature selection in regression models, enhancing predictive accuracy.
           </p>
-          <a href="https://github.com/Fowotadeseun/Portfolio/tree/main/Content/Projects/Survuval%20Analysis%20of%20Primary%20biliary%20cirrhosis%20(PBC)" class="cta-button mt-auto">See Project →</a>
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Feature%20Selection%20Using%20Genetic%20Algorithm/" class="cta-button mt-auto">See Project →</a>
         </div>
       </div>
       
@@ -107,7 +107,7 @@ warning: false
           <p class="px-3">
             Explored Netflix’s content evolution, analyzing trends in content types, geographic diversity, and ratings over time.
           </p>
-          <a href="https://github.com/Fowotadeseun/Portfolio/tree/main/Content/Projects/Netflix%20Data%20Visualization" class="cta-button mt-auto">See Project →</a>
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Netflix%20Data%20Visualization/" class="cta-button mt-auto">See Project →</a>
         </div>
       </div>
     </div>
@@ -135,7 +135,7 @@ warning: false
       <a href="https://www.linkedin.com/in/oluwaseunfowotade/" class="cta-button">LinkedIn</a>
     </div>
     <!-- Download Resume -->
-    <a href="Assets/Documents/Resume/Oluwaseun_Fowotade_Resume.pdf" download 
+    <a href="Assets/Resume/Oluwaseun Fowotade Resume.pdf" download 
        class="download-link resume-download position-relative">
       <i class="bi bi-file-earmark-arrow-down" 
          style="font-size: 1.2rem; margin-right: 0.4rem;"></i>

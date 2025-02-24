@@ -336,7 +336,7 @@ window.Quarto = {
 <p>The GA selected the following features from the original set of 60 predictors:</p>
 <p>Selected features: 1, 2, 3, 4, 5, 6, 7, 16, 17, 18, 19, 22, 24, 25, 28, 29, 30, 33, 37, 39, 41, 43, 47, 49, 51, 52, 58.</p>
 <p>This reduced set of features was used to train a k-Nearest Neighbors (k-NN) classifier with (k = 3), selected based on a grid search for hyperparameter optimization. The training utilized 5-fold cross-validation to ensure model robustness and generalizability. On the test set, the following confusion matrix was obtained:</p>
-<div id="a2b4605d" class="cell" data-execution_count="1">
+<div id="ecc3f967" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create confusion matrix as a data frame</span></span>
@@ -400,7 +400,7 @@ Table: Confusion Matrix: Predicted vs Actual
 <h2 class="anchored" data-anchor-id="genetic-algorithm-implementation-on-sonar-dataset">Genetic Algorithm Implementation on Sonar Dataset</h2>
 <section id="loading-required-libraries-and-data" class="level3">
 <h3 class="anchored" data-anchor-id="loading-required-libraries-and-data">Loading Required Libraries and Data</h3>
-<div id="907be3b4" class="cell" data-execution_count="2">
+<div id="ab983380" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(GA)</span>
@@ -421,7 +421,7 @@ Table: Confusion Matrix: Predicted vs Actual
 </section>
 <section id="defining-the-fitness-function-for-feature-selection" class="level3">
 <h3 class="anchored" data-anchor-id="defining-the-fitness-function-for-feature-selection">Defining the Fitness Function for Feature Selection</h3>
-<div id="e4dd60b1" class="cell" data-execution_count="3">
+<div id="0b03aecc" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the fitness function</span></span>
@@ -450,7 +450,7 @@ Table: Confusion Matrix: Predicted vs Actual
 </section>
 <section id="running-the-genetic-algorithm" class="level2">
 <h2 class="anchored" data-anchor-id="running-the-genetic-algorithm">Running the Genetic Algorithm</h2>
-<div id="e632bb63" class="cell" data-execution_count="4">
+<div id="6e8d492c" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>) <span class="co"># For reproducibility</span></span>
@@ -595,7 +595,7 @@ Solution =
 </div>
 <section id="selected-features-and-final-model-evaluation" class="level3">
 <h3 class="anchored" data-anchor-id="selected-features-and-final-model-evaluation">Selected Features and Final Model Evaluation</h3>
-<div id="ea9cbeeb" class="cell" data-execution_count="5">
+<div id="da9bdb88" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract best chromosome (selected features)</span></span>
@@ -650,7 +650,7 @@ Prediction  M  R
 </section>
 <section id="comparing-performance-with-all-features" class="level3">
 <h3 class="anchored" data-anchor-id="comparing-performance-with-all-features">Comparing Performance with All Features</h3>
-<div id="9be263e1" class="cell" data-execution_count="6">
+<div id="95dbc732" class="cell" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Train a model using all features</span></span>
@@ -674,7 +674,7 @@ Accuracy with All Features:  0.7903226 </code></pre>
 </section>
 <section id="visualizing-the-ga-progress-and-results" class="level3">
 <h3 class="anchored" data-anchor-id="visualizing-the-ga-progress-and-results">Visualizing the GA Progress and Results</h3>
-<div id="df844580" class="cell" data-execution_count="7">
+<div id="43e3c978" class="cell" data-execution_count="7">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
@@ -694,7 +694,7 @@ Accuracy with All Features:  0.7903226 </code></pre>
 </section>
 <section id="selected-features-via-genetic-algorithm" class="level2">
 <h2 class="anchored" data-anchor-id="selected-features-via-genetic-algorithm">Selected Features via Genetic Algorithm</h2>
-<div id="9a7943db" class="cell" data-execution_count="8">
+<div id="f0d2ca75" class="cell" data-execution_count="8">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
@@ -752,7 +752,7 @@ Accuracy with All Features:  0.7903226 </code></pre>
 </div>
 <section id="final-confusion-matrix-and-performance-metrics" class="level3">
 <h3 class="anchored" data-anchor-id="final-confusion-matrix-and-performance-metrics">Final Confusion Matrix and Performance Metrics</h3>
-<div id="8fc43cdf" class="cell" data-execution_count="9">
+<div id="cd4cea16" class="cell" data-execution_count="9">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
@@ -792,7 +792,7 @@ Accuracy with All Features:  0.7903226 </code></pre>
 </div>
 </div>
 </div>
-<div id="c4878849" class="cell" data-execution_count="10">
+<div id="6780e0a3" class="cell" data-execution_count="10">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Confusion matrix for the model with selected features</span></span>
@@ -823,7 +823,7 @@ Prediction  M  R
 </section>
 <section id="save-result" class="level2">
 <h2 class="anchored" data-anchor-id="save-result">Save Result</h2>
-<div id="ec2aca0f" class="cell" data-execution_count="11">
+<div id="41340cf5" class="cell" data-execution_count="11">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Save GA results </span></span>
