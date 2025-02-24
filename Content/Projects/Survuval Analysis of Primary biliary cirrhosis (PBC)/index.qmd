@@ -14,9 +14,7 @@ execute:
   message: false
 jupyter: ir
 categories:
-  - Machine Learning
-  - Genetic Algorithms
-  - Feature Selection
+  - Survival Analysis
   - Statistics
   - Regression
 ---

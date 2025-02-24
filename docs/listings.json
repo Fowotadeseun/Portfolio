@@ -28,6 +28,8 @@
   {
     "listing": "/Content/Projects/index.html",
     "items": [
+      "/Content/Projects/Netflix Data Visualization/index.html",
+      "/Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html",
       "/Content/Projects/Feature Selection Using Genetic Algorithm/index.html"
     ]
   }

@@ -1,6 +1,6 @@
 ---
 title: "Oluwaseun Fowotade"
-subtitle: "Statistician | Data Scientist | Clinical Analyst"
+subtitle: "Statistician | Data Scientist | Data Analyst"
 about:
   template: broadside
   image: ../../Assets/Images/AboutME/about-pic.jpg
@@ -24,7 +24,7 @@ format:
 
 ## About Me
 
-I’m **Oluwaseun Fowotade**, a passionate statistician and data scientist dedicated to uncovering meaningful insights from data. With over five years of experience in data analysis, statistical modeling, and clinical programming, I thrive in solving complex problems that drive decision-making.
+I’m **Oluwaseun Daniel Fowotade**, a passionate statistician and data scientist dedicated to uncovering meaningful insights from data. With over five years of experience in data analysis, statistical modeling, and clinical programming, I thrive in solving complex problems that drive decision-making.
 
 I specialize in **SAS programming and health analytics**, utilizing SAS, R, SQL, and Python to extract valuable insights and transform large datasets. My background includes survival analysis, predictive modeling, and developing scalable solutions for regulatory-compliant clinical research.
 
@@ -32,76 +32,31 @@ Beyond technical skills, I believe that data should tell a story—one that is c
 
 ## Professional Experience
 
-- **Graduate Teaching Assistant – Oregon State University**
-  - Evaluated and graded student assignments, quizzes, and exams.
-  - Led recitation sessions and review classes, simplifying complex statistical topics.
-  - Taught R Programming and SAS for statistical analysis, covering techniques such as regression analysis, survival models, and time series analysis.
-
-- **Statistical Programmer – ClinFocus Inc.**
-  - Developed and maintained documentation for data management processes.
-  - Performed SDTM, ADaM, and TFL Programming using SAS, ensuring compliance with CDISC and FDA submission requirements.
-  - Collaborated with biostatisticians and data managers to identify data issues and resolve discrepancies.
-
-- **Actuarial Analyst – Sanlam Insurance**
-  - Conducted thorough data cleaning and statistical analysis on financial data.
-  - Created models for pricing, claim forecasting, and expense analysis.
-  - Built interactive reports and dashboards in Power BI to drive business decision-making.
+-   **Graduate Teaching Assistant – Oregon State University**
+    -   Evaluated and graded student assignments, quizzes, and exams.
+    -   Led recitation sessions and review classes, simplifying complex statistical topics.
+    -   Taught R Programming and SAS for statistical analysis, covering techniques such as regression analysis, survival models, and time series analysis.
+-   **Statistical Programmer – ClinFocus Inc.**
+    -   Developed and maintained documentation for data management processes.
+    -   Performed SDTM, ADaM, and TFL Programming using SAS, ensuring compliance with CDISC and FDA submission requirements.
+    -   Collaborated with biostatisticians and data managers to identify data issues and resolve discrepancies.
+-   **Actuarial Analyst – Sanlam Insurance**
+    -   Conducted thorough data cleaning and statistical analysis on financial data.
+    -   Created models for pricing, claim forecasting, and expense analysis.
+    -   Built interactive reports and dashboards in Power BI to drive business decision-making.
 
 ## Education
 
-- **M.S. in Statistics** – *Oregon State University* *(2023 – 2024)*
-- **B.S. in Mathematics** – *University of Ilorin, Nigeria* *(2014 – 2018)*
+-   **M.S. in Statistics** – *Oregon State University* *(2023 – 2024)*
+-   **B.S. in Mathematics** – *University of Ilorin, Nigeria* *(2014 – 2018)*
 
 Currently, I am working on research in **feature selection methods for high-dimensional biomarker data**, leveraging LASSO and other machine learning techniques.
 
 ## Skills & Expertise
 
-- **Programming:** SAS (Macro Programming, PROC SQL), R, Python, SQL  
-- **Statistical Analysis:** Generalized Regression, Survival Analysis, Feature Selection  
-- **Data Management:** Clinical Data Standards (CDISC, SDTM, ADaM), Table-Driven Development  
-- **Visualization & Reporting:** Tableau, Power BI, ODS, PROC REPORT  
-- **Healthcare Analytics:** FDA-compliant programming, clinical trial data analysis  
-
-## Featured Projects
-
-<div class="container">
-  <h2 class="text-center mb-5">Featured Projects</h2>
-  <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <!-- Project 1 -->
-      <div class="carousel-item active">
-        <div class="portfolio-card mx-auto" style="max-width: 800px;">
-          <div class="badge-tag">Healthcare Analytics</div>
-          <img src="Assets/Images/survival_analysis.png" class="img-fluid mb-4" alt="Survival Analysis">
-          <h3 class="mb-3">Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis</h3>
-          <p class="px-3">
-            Developed SAS programs for analyzing survival data, assessing treatment effectiveness for patients with liver cirrhosis.
-          </p>
-          <a href="#" class="cta-button mt-auto">See Project →</a>
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="carousel-item">
-        <div class="portfolio-card mx-auto" style="max-width: 800px;">
-          <div class="badge-tag">Machine Learning</div>
-          <img src="Assets/Images/genetic_algorithm.png" class="img-fluid mb-4" alt="Feature Selection">
-          <h3 class="mb-3">Feature Selection Using Genetic Algorithms</h3>
-          <p class="px-3">
-            Implemented a genetic algorithm to optimize feature selection in regression models, enhancing predictive accuracy.
-          </p>
-          <a href="#" class="cta-button mt-auto">See Project →</a>
-        </div>
-      </div>
-    </div>
-    <!-- Carousel Controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
+-   **Programming:** SAS (Macro Programming, PROC SQL), R, Python, SQL\
+-   **Statistical Analysis:** Generalized Regression, Survival Analysis, Feature Selection\
+-   **Data Management:** Clinical Data Standards (CDISC, SDTM, ADaM), Table-Driven Development\
+-   **Visualization & Reporting:** Tableau, Power BI, ODS, PROC REPORT\
+-   **Healthcare Analytics:** FDA-compliant programming, clinical trial data analysis
+zx

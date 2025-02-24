@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Oluwaseun Daniel Fowotade | Portfolio – Home</title>
+<title>Welcome to my portfolio – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Oluwaseun Daniel Fowotade | Portfolio – Home">
+<meta property="og:title" content="Welcome to my portfolio – Home">
 <meta property="og:site_name" content="Home">
 </head>
 
@@ -125,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Oluwaseun Daniel Fowotade | Portfolio</h1>
+<h1 class="title">Welcome to my portfolio</h1>
 </div>
 
 
@@ -145,15 +145,48 @@ ul.task-list li input[type="checkbox"] {
 <!-- =========================
        Hero Section
 ========================= -->
+<style>
+  .hero-section {
+    padding: 40px 0; /* Reducing vertical padding */
+    text-align: center;
+  }
+
+  .hero-section .hero-img {
+    width: 100%; /* Adjust width if needed */
+    height: auto;
+    max-height: 1000px; /* Limits the image height */
+  }
+
+  .hero-section h1 {
+    font-size: 2rem; /* Reduce font size */
+    margin-bottom: 15px; /* Less space below */
+  }
+
+  .hero-section h3 {
+    font-size: 1.5rem; /* Smaller subheading */
+    margin-bottom: 10px;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+    font-size: 1rem;
+  }
+</style>
+
 <div class="hero-section">
   <div class="container">
-    <img src="Assets/Images/profile.jpg" alt="Oluwaseun Daniel Fowotade" class="hero-img">
-    <h1 class="display-4 mb-3">Oluwaseun Daniel Fowotade</h1>
-    <h3 class="mb-4 anchored" style="color: var(--primary-color);">
-      Statistics &amp; Data Science for Healthcare and Business Insights
+    <img src="Assets/Images/AboutME/about-pic.jpg" class="hero-img">
+    <h1>Oluwaseun Daniel Fowotade</h1>
+    <h3 style="color: var(--primary-color);" class="anchored">
+      Biostatistician, Statistical Programmer and Data Scientist 
     </h3>
-    <p class="lead" style="max-width: 700px; margin: 0 auto 2rem auto;">
-      Specializing in survival analysis, feature selection, and statistical programming to drive data-driven decision-making.
+    <p class="lead">
+     Welcome to my website! Feel free to explore my projects, check out my About page to learn more about me, and browse through the work I've done. Below, you'll find some of my featured projects showcasing data-driven insights, statistical analysis, and machine learning applications. Enjoy exploring, and don’t hesitate to reach out! 🚀
     </p>
     <a href="#contact" class="cta-button">Let's Collaborate →</a>
   </div>
@@ -163,19 +196,19 @@ ul.task-list li input[type="checkbox"] {
        Featured Projects
 ========================= -->
 <div class="container">
-  <h2 class="text-center mb-5 anchored">Featured Projects</h2>
+  <h2 class="text-center mb-8 anchored">Featured Projects</h2>
   <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <!-- Project 1 -->
       <div class="carousel-item active">
         <div class="portfolio-card mx-auto" style="max-width: 800px;">
-          <div class="badge-tag">Healthcare Analytics</div>
-          <img src="Assets/Images/survival_analysis.png" class="img-fluid mb-4" alt="Survival Analysis">
+          <div class="badge-tag">Survival Analysis</div>
+          <img src="Assets/Images/SurvivalAnalysis/survival image.webp" class="img-fluid mb-4" alt="Survival Analysis">
           <h3 class="mb-3 anchored">Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis</h3>
           <p class="px-3">
             Developed SAS programs for analyzing survival data, assessing treatment effectiveness for patients with liver cirrhosis.
           </p>
-          <a href="#" class="cta-button mt-auto">See Project →</a>
+          <a href="https://github.com/Fowotadeseun/Portfolio/tree/main/Content/Projects/Feature%20Selection%20Using%20Genetic%20Algorithm" class="cta-button mt-auto">See Project →</a>
         </div>
       </div>
 
@@ -183,12 +216,25 @@ ul.task-list li input[type="checkbox"] {
       <div class="carousel-item">
         <div class="portfolio-card mx-auto" style="max-width: 800px;">
           <div class="badge-tag">Machine Learning</div>
-          <img src="Assets/Images/genetic_algorithm.png" class="img-fluid mb-4" alt="Feature Selection">
+          <img src="Assets/Images/GA.jpeg" class="img-fluid mb-4" alt="Feature Selection">
           <h3 class="mb-3 anchored">Feature Selection Using Genetic Algorithms</h3>
           <p class="px-3">
             Implemented a genetic algorithm to optimize feature selection in regression models, enhancing predictive accuracy.
           </p>
-          <a href="#" class="cta-button mt-auto">See Project →</a>
+          <a href="https://github.com/Fowotadeseun/Portfolio/tree/main/Content/Projects/Survuval%20Analysis%20of%20Primary%20biliary%20cirrhosis%20(PBC)" class="cta-button mt-auto">See Project →</a>
+        </div>
+      </div>
+      
+      <!-- Project 3: Netflix Data Visualization -->
+      <div class="carousel-item">
+        <div class="portfolio-card mx-auto" style="max-width: 800px;">
+          <div class="badge-tag">Data Visualization</div>
+          <img src="Assets/Images/Netflix.webp" class="img-fluid mb-4" alt="Netflix Data Visualization">
+          <h3 class="mb-3 anchored">Netflix Data Analysis: Trends and Insights (2008-2021)</h3>
+          <p class="px-3">
+            Explored Netflix’s content evolution, analyzing trends in content types, geographic diversity, and ratings over time.
+          </p>
+          <a href="https://github.com/Fowotadeseun/Portfolio/tree/main/Content/Projects/Netflix%20Data%20Visualization" class="cta-button mt-auto">See Project →</a>
         </div>
       </div>
     </div>
@@ -215,6 +261,11 @@ ul.task-list li input[type="checkbox"] {
       <a href="mailto:fowotadeoluwaseun15@gmail.com" class="cta-button">Email Me</a>
       <a href="https://www.linkedin.com/in/oluwaseunfowotade/" class="cta-button">LinkedIn</a>
     </div>
+    <!-- Download Resume -->
+    <a href="Assets/Documents/Resume/Oluwaseun_Fowotade_Resume.pdf" download="" class="download-link resume-download position-relative">
+      <i class="bi bi-file-earmark-arrow-down" style="font-size: 1.2rem; margin-right: 0.4rem;"></i>
+      Download Full Resume
+    </a>
   </div>
 </div>
 

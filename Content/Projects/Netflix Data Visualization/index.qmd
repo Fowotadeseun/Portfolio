@@ -1,10 +1,57 @@
 ---
 title: "Netflix Data Analysis: Trends and Insights (2008-2021)"
-author: "Your Name"
-format: html
-editor: visual
-params:
-  type: "All"
-  country: "All"
-  yearRange: [2008, 2021]
+author: "Oluwaseun Daniel Fowotade"
+date: "02/23/2025"
+description: "Exploring trends in Netflix content from 2008 to 2021."
+format:
+  html:
+    toc: true
+    toc-location: left
+    code-fold: true
+    highlight-style: tango
+execute:
+  warning: false
+  message: false
+categories:
+  - Data Analysis
+  - Visualization
+  - Shiny App
 ---
+
+![](/Assets/Images/Netflix.webp)
+
+## **Netflix Data Analysis: Trends and Insights (2008-2021)**
+
+### **Introduction**
+
+Netflix has become one of the most influential streaming platforms globally, consistently expanding its library with diverse content. This project analyzes Netflix's catalog from **2008 to 2021**, exploring trends in:
+
+- 📊 **Content Type Trends**: Growth of movies vs. TV shows.
+- 🌎 **Geographic Diversity**: Countries contributing content.
+- ⭐ **Content Ratings**: Classification of content over time.
+
+The interactive dashboard allows users to **filter the data** based on **content type, country, and time range**, providing insights into Netflix’s evolving content strategy.
+
+### **How to Use the Dashboard**
+1. **Select Content Type:** Filter between Movies, TV Shows, or view all content.
+2. **Choose a Country:** Analyze content trends from specific regions.
+3. **Adjust Year Range:** Explore how Netflix’s catalog has evolved over time.
+4. **View Interactive Visualizations:** Each tab contains **dynamic charts** powered by Plotly, allowing users to hover and interact with data points.
+
+### **Key Findings**
+- **Netflix's content library experienced rapid growth from 2015 to 2020**, with a significant increase in movie additions.
+- **The geographic diversity of content expanded**, with notable contributions from countries outside the US.
+- **A shift towards more mature content (TV-MA ratings)** suggests an increasing focus on adult-oriented content.
+
+### **Try the Interactive Dashboard**
+Click the link below to explore the **live Shiny app**:
+
+➡️ **[Explore the Netflix Data Visualization Dashboard](https://fowotadeoluwaseun.shinyapps.io/netflix_data_visualization/)**
+
+---
+
+This project is part of my **data visualization and interactive analysis portfolio**. If you're interested in collaborating or have questions, feel free to **connect with me on LinkedIn** or **visit my GitHub** for more projects.
+
+🔗 **LinkedIn:** [Oluwaseun Fowotade](https://www.linkedin.com/in/oluwaseunfowotade/)  
+🔗 **GitHub:** [Fowotadeseun](https://github.com/Fowotadeseun/)
+

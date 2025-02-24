@@ -1,0 +1,10 @@
+name: netflix_viz_redeploy
+title:
+username: fowotadeoluwaseun
+account: fowotadeoluwaseun
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14077537
+bundleId: 9845801
+url: https://fowotadeoluwaseun.shinyapps.io/netflix_viz_redeploy/
+version: 1
