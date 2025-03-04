@@ -1,0 +1,52 @@
+# Define CSS content
+css_content <- "
+/* Grid Layout Styling */
+.project-listing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-item {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.project-description {
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+"
+
+# Create the 'Assets/CSS' folder if it doesn't exist
+if (!dir.exists("Assets/CSS")) {
+  dir.create("Assets/CSS", recursive = TRUE)
+}
+
+# Write the CSS content into a file
+writeLines(css_content, "Assets/CSS/custom.css")
+
+# Confirm file creation
+message("CSS file created successfully at Assets/CSS/custom.css")

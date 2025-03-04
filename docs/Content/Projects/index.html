@@ -77,9 +77,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -128,12 +128,13 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="../../Assets/CSS/custom.css">
 <meta property="og:title" content="Projects – Home">
 <meta property="og:description" content="Overview of my statistical &amp; data science projects">
 <meta property="og:site_name" content="Home">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -162,14 +163,6 @@ window.Quarto = {
     <a class="nav-link" href="../../Content/Blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../Content/Talks/index.html"> 
-<span class="menu-text">Talks</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../Content/Resources/index.html"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -181,7 +174,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Data Analysis">Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Feature Selection">Feature Selection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Genetic Algorithms">Genetic Algorithms <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Regression">Regression <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Shiny App">Shiny App <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Statistics">Statistics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Survival Analysis">Survival Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Visualization">Visualization <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -210,8 +205,8 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Data Analysis,Visualization,Shiny App" data-listing-date-sort="1740297600000" data-listing-file-modified-sort="1740377701469" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="243">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Data Analysis,Visualization,Shiny App" data-listing-date-sort="1740297600000" data-listing-file-modified-sort="1740793041465" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
 <a href="../../Content/Projects/Netflix Data Visualization/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="..\..\Assets\Images\Netflix.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -222,10 +217,7 @@ Netflix Data Analysis: Trends and Insights (2008-2021)
 <div class="card-text listing-description">
 Exploring trends in Netflix content from 2008 to 2021.
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Oluwaseun Daniel Fowotade
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Feb 23, 2025
 </div>
@@ -234,30 +226,7 @@ Feb 23, 2025
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Survival Analysis,Statistics,Regression" data-listing-date-sort="1734681600000" data-listing-file-modified-sort="1740381485479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2254">
-<a href="../../Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="..\..\Assets\Images\SurvivalAnalysis\SurvivalAnalysis.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis
-</h5>
-<div class="card-text listing-description">
-<strong>Primary biliary cirrhosis (PBC)</strong> is a severe and chronic liver disease characterized by progressive bile duct destruction, potentially leading to…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Oluwaseun Daniel Fowotade
-</div>
-<div class="listing-date">
-Dec 20, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Machine Learning,Genetic Algorithms,Feature Selection,Statistics,Regression" data-listing-date-sort="1734681600000" data-listing-file-modified-sort="1740381480192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2392">
+<div class="g-col-1" data-index="1" data-categories="Machine Learning,Genetic Algorithms,Feature Selection,Statistics,Regression" data-listing-date-sort="1734681600000" data-listing-file-modified-sort="1740381480192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2392">
 <a href="../../Content/Projects/Feature Selection Using Genetic Algorithm/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="..\..\Assets\Images\GA.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -268,10 +237,27 @@ Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling
 <div class="card-text listing-description">
 Using Genetic Algorithms to optimize feature selection in regression modeling.
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Oluwaseun Daniel Fowotade
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 20, 2024
 </div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Survival Analysis,Statistics,Regression" data-listing-date-sort="1734681600000" data-listing-file-modified-sort="1740384953653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2255">
+<a href="../../Content/Projects/Survuval Analysis of Primary biliary cirrhosis (PBC)/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="Survuval Analysis of Primary biliary cirrhosis (PBC)\Assets\Images\SurvivalAnalysis\survival image.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis
+</h5>
+<div class="card-text listing-description">
+<strong>Primary biliary cirrhosis (PBC)</strong> is a severe and chronic liver disease characterized by progressive bile duct destruction, potentially leading to…
+</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Dec 20, 2024
 </div>
@@ -754,6 +740,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    console.log("Projects page loaded successfully!");
+  });
+</script>
 
 
 
