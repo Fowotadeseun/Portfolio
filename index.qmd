@@ -25,9 +25,10 @@ warning: false
   }
 
   .hero-section .hero-img {
-    width: 100%; /* Adjust width if needed */
-    height: auto;
-    max-height: 1000px; /* Limits the image height */
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Ensure height matches width for a perfect circle */
+    object-fit: cover; /* Ensures the image covers the entire element */
+    border-radius: 50%; /* Makes the image circular */
   }
 
   .hero-section h1 {
@@ -38,6 +39,7 @@ warning: false
   .hero-section h3 {
     font-size: 1.5rem; /* Smaller subheading */
     margin-bottom: 10px;
+    color: var(--primary-color);
   }
 
   .hero-section p {
@@ -53,13 +55,11 @@ warning: false
 
 <div class="hero-section">
   <div class="container">
-    <img src="Assets/Images/AboutME/about-pic.jpg" class="hero-img">
+    <img src="Assets/Images/AboutME/profile-pic.jpg" alt="Oluwaseun Daniel Fowotade" class="hero-img">
     <h1>Oluwaseun Daniel Fowotade</h1>
-    <h3 style="color: var(--primary-color);">
-      Biostatistician, Statistical Programmer and Data Scientist 
-    </h3>
+    <h3>Biostatistician, Statistical Programmer and Data Scientist</h3>
     <p class="lead">
-     Welcome to my website! Feel free to explore my projects, check out my About page to learn more about me, and browse through the work I've done. Below, you'll find some of my featured projects showcasing data-driven insights, statistical analysis, and machine learning applications. Enjoy exploring, and don’t hesitate to reach out! 🚀
+      Welcome to my website! Feel free to explore my projects, check out my About page to learn more about me, and browse through the work I've done. Below, you'll find some of my featured projects showcasing data-driven insights, statistical analysis, and machine learning applications. Enjoy exploring, and don’t hesitate to reach out! 🚀
     </p>
     <a href="#contact" class="cta-button">Let's Collaborate →</a>
   </div>
