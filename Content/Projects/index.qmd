@@ -4,11 +4,25 @@ subtitle: "Overview of my statistical & data science projects"
 listing:
   max-description-length: 150
   type: grid
-  grid-columns: 4
+  grid-columns: 2  # Adjust for responsiveness
+  sort: "date desc" # Show latest projects first
+  categories: true  # Enable project categories
+  fields: 
+    - image
+    - title
+    - description
+    - date
 format:
   html:
     include-in-header: 
       - text: |
           <script type="text/javascript" src="/Assets/Scripts/Portfolio/new-banner.js"></script>
+    include-after-body:
+      - text: |
+          <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              console.log("Projects page loaded successfully!");
+            });
+          </script>
 ---
 

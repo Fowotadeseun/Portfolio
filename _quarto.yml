@@ -15,10 +15,7 @@ website:
         href: Content/Projects/index.qmd
       - text: "Blog"
         href: Content/Blog/index.qmd
-      - text: "Talks"
-        href: Content/Talks/index.qmd
-      - text: "Resources"
-        href: Content/Resources/index.qmd
+
       
   page-footer:
     left:
@@ -38,7 +35,8 @@ website:
 
 format:
   html:
-    theme: Assets/Themes/MainThemeBCA.scss  # Fixed duplicate theme issue
+    theme: Assets/Themes/MainThemeBCA.scss  # Keep existing theme
+    css: "Assets/CSS/custom.css"  # ✅ Added Custom CSS
     fontsize: 1.1em
     linestretch: 1.7
     citations-hover: true
