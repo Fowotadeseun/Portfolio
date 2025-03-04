@@ -19,7 +19,7 @@ categories:
   - Regression
 ---
 
-![](Assets/Images/SurvivalAnalysis/survival image.webp)
+![](/Assets/Images/SurvivalAnalysis/SurvivalAnalysis.webp)
 
 # **Introduction**
 
