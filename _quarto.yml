@@ -13,8 +13,6 @@ website:
         href: Content/About/index.qmd
       - text: "Projects"
         href: Content/Projects/index.qmd
-      - text: "Blog"
-        href: Content/Blog/index.qmd
 
       
   page-footer:
