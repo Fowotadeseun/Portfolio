@@ -110,6 +110,33 @@ warning: false
           <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Netflix%20Data%20Visualization/" class="cta-button mt-auto">See Project → </a>
         </div>
       </div>
+      
+      <!-- Project 4: Predicting Maize Pollen -->
+<div class="carousel-item">
+  <div class="portfolio-card mx-auto" style="max-width: 800px;">
+    <div class="badge-tag">Bioinformatics</div>
+    <img src="Assets/Images/maize.png" class="img-fluid mb-4" alt="Maize Pollen Prediction">
+    <h3 class="mb-3">Predicting Gene Expression Specificity in Maize Pollen</h3>
+    <p class="px-3">
+      Built a logistic regression model using LASSO to predict pollen-specific gene expression based on genomic features. Applied PCA, clustering, and feature selection for high-dimensional data.
+    </p>
+    <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Predicting%20Maize%20Pollen/" class="cta-button mt-auto">See Project →</a>
+  </div>
+</div>
+
+<!-- Project 5: Female Sex Worker Distribution -->
+<div class="carousel-item">
+  <div class="portfolio-card mx-auto" style="max-width: 800px;">
+    <div class="badge-tag">Epidemiology</div>
+    <img src="Assets/Images/fsw.png" class="img-fluid mb-4" alt="Female Sex Worker Distribution">
+    <h3 class="mb-3">Modeling Female Sex Worker Distribution in Sub-Saharan Africa</h3>
+    <p class="px-3">
+      Used generalized linear models to analyze determinants of sex worker distribution in SSA, with implications for HIV prevention and policy targeting.
+    </p>
+    <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Female%20Sex%20Worker/" class="cta-button mt-auto">See Project →</a>
+  </div>
+</div>
+
     </div>
     <!-- Carousel Controls -->
     <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">

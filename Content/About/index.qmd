@@ -24,39 +24,60 @@ format:
 
 ## About Me
 
-I’m **Oluwaseun Daniel Fowotade**, a passionate statistician and data scientist dedicated to uncovering meaningful insights from data. With over five years of experience in data analysis, statistical modeling, and clinical programming, I thrive in solving complex problems that drive decision-making.
+I’m **Oluwaseun Daniel Fowotade**, a data scientist and statistical programmer with a passion for using data to answer meaningful questions in healthcare, biology, and beyond.
 
-I specialize in **SAS programming and health analytics**, utilizing SAS, R, SQL, and Python to extract valuable insights and transform large datasets. My background includes survival analysis, predictive modeling, and developing scalable solutions for regulatory-compliant clinical research.
+I bring over five years of experience in data analysis and more than two years in clinical trial programming, combining academic excellence with hands-on industry practice. I earned a **First Class B.Sc. in Mathematics** from the University of Ilorin (CGPA: 4.5/5.0) and currently hold a **First Class standing in my M.S. in Statistics** at Oregon State University (GPA: 3.71/4.0).
 
-Beyond technical skills, I believe that data should tell a story—one that is clear, impactful, and actionable. Outside work, **I love playing and watching soccer**, enjoying both the strategy on the field and the analytics behind player performance and game tactics.
+At the heart of my graduate work is a thesis project on developing an **ADMM (Alternating Direction Method of Multipliers)** algorithm for analyzing **gut microbiome data** in multi-omic networks. This research blends structured optimization with statistical modeling to boost predictive performance, enhance scalability, and accelerate biomarker discovery.
+
+In industry, I’ve contributed as a **Statistical Programmer at ClinFocus Inc.**, where I transformed raw clinical data into submission-ready SDTM and ADaM datasets, developed TFLs, and automated routine programming workflows in SAS. My work supported **Phase I–IV clinical trials** and met rigorous FDA and CDISC standards.
+
+As a **Statistical Consultant at Oregon State**, I applied Poisson models, logistic regression (with LASSO), and Monte Carlo simulations to environmental and biological datasets. A highlight: I improved the AUROC of a genomic classifier by **70%** through regularized logistic regression.
+
+Outside academic and clinical settings, I’ve tackled diverse technical projects—from building a **Shiny dashboard** to visualize Netflix trends, to performing **survival analysis** for liver disease outcomes in SAS, to **designing genetic algorithms in R** for dimensionality reduction in regression.
+
+I’m also passionate about teaching. As a **Graduate Teaching Assistant**, I’ve led R-based workshops and supported students in statistics, data science, and SAS programming—emphasizing clarity, collaboration, and applied problem-solving.
+
+> “Data is only as powerful as the questions we ask—I aim to ask the right ones.”
 
 ## Professional Experience
 
--   **Graduate Teaching Assistant – Oregon State University**
-    -   Evaluated and graded student assignments, quizzes, and exams.
-    -   Led recitation sessions and review classes, simplifying complex statistical topics.
-    -   Taught R Programming and SAS for statistical analysis, covering techniques such as regression analysis, survival models, and time series analysis.
--   **Statistical Programmer – ClinFocus Inc.**
-    -   Developed and maintained documentation for data management processes.
-    -   Performed SDTM, ADaM, and TFL Programming using SAS, ensuring compliance with CDISC and FDA submission requirements.
-    -   Collaborated with biostatisticians and data managers to identify data issues and resolve discrepancies.
--   **Actuarial Analyst – Sanlam Insurance**
-    -   Conducted thorough data cleaning and statistical analysis on financial data.
-    -   Created models for pricing, claim forecasting, and expense analysis.
-    -   Built interactive reports and dashboards in Power BI to drive business decision-making.
+- **Statistical Programmer – ClinFocus Inc.**
+  - Developed SDTM, ADaM, and TFLs for Phase I–IV clinical trials using SAS.
+  - Automated repetitive processes using SAS macros and ensured CDISC/FDA compliance.
+  - Collaborated with statisticians and data managers to validate and deliver high-quality data outputs.
+
+- **Graduate Teaching Assistant – Oregon State University**
+  - Taught and supported students in R and SAS-based statistical analysis courses.
+  - Led review sessions and graded coursework in regression, survival analysis, and experimental design.
+
+- **Statistical Consultant – Oregon State University**
+  - Designed statistical solutions for multi-disciplinary research projects using GLMs, LASSO, and simulations.
+  - Applied statistical learning methods to projects in gene expression, pest control, and environmental monitoring.
+
+- **Actuarial Analyst – Sanlam Insurance**
+  - Created models for claims, pricing, and reserve forecasting.
+  - Built dashboards in Power BI for business intelligence and risk evaluation.
 
 ## Education
 
--   **M.S. in Statistics** – *Oregon State University* *(2023 – 2024)*
--   **B.S. in Mathematics** – *University of Ilorin, Nigeria* *(2014 – 2018)*
+- **M.S. in Statistics** – *Oregon State University* *(2023–2025)*  
+  First Class Standing (GPA: 3.71/4.0)  
+  Thesis: *Developing an ADMM Algorithm for Microbiome Multi-Omic Networks*
 
-Currently, I am working on research in **feature selection methods for high-dimensional biomarker data**, leveraging LASSO and other machine learning techniques.
+- **B.S. in Mathematics** – *University of Ilorin, Nigeria* *(2014–2018)*    Project: *Numerical Solution of Linear Fredholm Integral Equations of the Second Kind*
+
+  First Class (CGPA: 4.5/5.0)
 
 ## Skills & Expertise
 
--   **Programming:** SAS (Macro Programming, PROC SQL), R, Python, SQL\
--   **Statistical Analysis:** Generalized Regression, Survival Analysis, Feature Selection\
--   **Data Management:** Clinical Data Standards (CDISC, SDTM, ADaM), Table-Driven Development\
--   **Visualization & Reporting:** Tableau, Power BI, ODS, PROC REPORT\
--   **Healthcare Analytics:** FDA-compliant programming, clinical trial data analysis
-zx
+- **Programming:** SAS (PROC SQL, Macro), R (Shiny, caret), Python, SQL  
+- **Statistical Analysis:** Generalized Regression, LASSO, Poisson Regression, Survival Analysis  
+- **Clinical Data Management:** SDTM, ADaM, TFLs, CDISC Standards  
+- **Visualization & Reporting:** Power BI, Tableau, ggplot2, PROC REPORT  
+- **Tools & Platforms:** Google Cloud (BigQuery, DataProc), Git, ODS, R Markdown  
+- **Bioinformatics:** scRNA-seq, GSEA, microbiome analytics, biomarker discovery
+
+## Interests
+
+Outside of work, I love **playing and watching soccer**, especially analyzing game tactics and performance statistics. I’m also fascinated by how data-driven decisions are transforming **healthcare, biotech, and global health policy**.
