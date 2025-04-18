@@ -1,0 +1,247 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my portfolio",
+    "section": "",
+    "text": "Oluwaseun Daniel Fowotade\n    Biostatistician, Statistical Programmer and Data Scientist\n    \n      Welcome to my website! Feel free to explore my projects, check out my About page to learn more about me, and browse through the work I've done. Below, you'll find some of my featured projects showcasing data-driven insights, statistical analysis, and machine learning applications. Enjoy exploring, and don't hesitate to reach out! 🚀\n    \n    Let's Collaborate →\n  \n\n\n\n\n  Featured Projects\n  \n    \n      \n      \n        \n          Survival Analysis\n          \n          Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis\n          \n            Developed SAS programs for analyzing survival data, assessing treatment effectiveness for patients with liver cirrhosis.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Machine Learning\n          \n          Feature Selection Using Genetic Algorithms\n          \n            Implemented a genetic algorithm to optimize feature selection in regression models, enhancing predictive accuracy.\n          \n          See Project →\n        \n      \n      \n      \n      \n        \n          Data Visualization\n          \n          Netflix Data Analysis: Trends and Insights (2008-2021)\n          \n            Explored Netflix's content evolution, analyzing trends in content types, geographic diversity, and ratings over time.\n          \n          See Project →\n        \n      \n      \n      \n      \n        \n          Bioinformatics\n          \n          Predicting Gene Expression Specificity in Maize Pollen\n          \n            Built a logistic regression model using LASSO to predict pollen-specific gene expression based on genomic features. Applied PCA, clustering, and feature selection for high-dimensional data.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Epidemiology\n          \n          Modeling Female Sex Worker Distribution in Sub-Saharan Africa\n          \n            Used generalized linear models to analyze determinants of sex worker distribution in SSA, with implications for HIV prevention and policy targeting.\n          \n          See Project →\n        \n      \n    \n    \n    \n      \n      Previous\n    \n    \n      \n      Next\n    \n  \n\n\n\n\n  \n    Ready to Solve Problems with Data?\n    Let's discuss how I can contribute to your team or project.\n    \n      Email Me\n      LinkedIn\n    \n    \n    \n      Download Full Resume"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "",
+    "text": "📍 Corvallis, Oregon\n📞 +1 (541) 250-2647\n✉️ fowotadeoluwaseun15@gmail.com\n🔗 LinkedIn Profile"
+  },
+  {
+    "objectID": "resume.html#graduate-teaching-assistant",
+    "href": "resume.html#graduate-teaching-assistant",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "Graduate Teaching Assistant",
+    "text": "Graduate Teaching Assistant\nOregon State University, OR\nSeptember 2023 – March 2025\n\nEvaluated and graded academic work across various formats, including homework, assignments, quizzes, and exams, providing constructive feedback to improve student learning.\n\nLed recitation sessions and review classes to clarify complex statistics topics, fostering better understanding through clear explanations and engaging communication.\n\nTaught R Programming and SAS for statistical analysis and research, covering statistical techniques such as regression analysis, survival models, and time series analysis, equipping students with essential data analysis tools and techniques for academic and professional applications."
+  },
+  {
+    "objectID": "resume.html#statistical-programmer-remote",
+    "href": "resume.html#statistical-programmer-remote",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "Statistical Programmer (Remote)",
+    "text": "Statistical Programmer (Remote)\nClinFocus INC, Atlanta, GA\nApril 2022 - August 2023\n\nDeveloped and maintained documentation for data management processes, ensuring consistency and compliance.\n\nPerformed SDTM, ADaM, and TFL Programming using SAS, including quality control (QC) review and documentation of programs used to create statistical outputs.\n\nEnsured compliance with regulatory standards by providing final deliverables in accordance with Clinical Data Interchange Standards Consortium (CDISC) requirements for FDA submissions.\n\nConducted peer reviews and ensured programming outputs accurately reflect raw data and population flags.\n\nProvided input on data management documentation by reviewing and suggesting improvements for eCRF designs, external vendor data specifications, edit checks, and other related documents to ensure proper data collection for statistical programming.\n\nCollaborated with biostatisticians and data managers to identify data issues, generate queries, and resolve discrepancies that may impact statistical analysis or programming."
+  },
+  {
+    "objectID": "resume.html#actuarial-analyst",
+    "href": "resume.html#actuarial-analyst",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "Actuarial Analyst",
+    "text": "Actuarial Analyst\nSanlam Insurance, Lagos State, Nigeria\nFebruary 2020 – March 2022\n\nConducted thorough data cleaning, interpreted complex datasets, and utilized statistical techniques to analyze results, generating ongoing reports encompassing profitability, expense analysis, experience analysis, and premium collection rates.\n\nConducted in-depth analysis of pricing, claims, and financial performance to ascertain competitiveness and provided valuable pricing recommendations based on the analysis.\n\nEffectively communicated analytical insights by creating charts and graphs in Power BI, facilitating informed and strategic decision-making for the management team.\n\nUtilized various models such as quote models, Run-off Triangles, and Pricing Models to derive valuable insights and enhance decision-making processes."
+  },
+  {
+    "objectID": "resume.html#master-of-science-statistics",
+    "href": "resume.html#master-of-science-statistics",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "Master of Science – Statistics",
+    "text": "Master of Science – Statistics\nOregon State University, OR\nSeptember 2023 – June 2024"
+  },
+  {
+    "objectID": "resume.html#bachelor-of-science-mathematics",
+    "href": "resume.html#bachelor-of-science-mathematics",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "Bachelor of Science – Mathematics",
+    "text": "Bachelor of Science – Mathematics\nUniversity of Ilorin, Nigeria\nSeptember 2014 – September 2018"
+  },
+  {
+    "objectID": "Content/Talks/index.html",
+    "href": "Content/Talks/index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "Content/Projects/Survival Analysis of Primary biliary cirrhosis (PBC)/index.html#key-considerations",
+    "href": "Content/Projects/Survival Analysis of Primary biliary cirrhosis (PBC)/index.html#key-considerations",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Key Considerations",
+    "text": "Key Considerations\n\nMulti-center Study Design:\n\nPossible correlated observations within the same hospital.\n\nModel Assumptions:\n\nCareful evaluation to ensure valid and reliable conclusions."
+  },
+  {
+    "objectID": "Content/Projects/Survival Analysis of Primary biliary cirrhosis (PBC)/index.html#assumption-check-for-weibull-regression",
+    "href": "Content/Projects/Survival Analysis of Primary biliary cirrhosis (PBC)/index.html#assumption-check-for-weibull-regression",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Assumption Check for Weibull Regression",
+    "text": "Assumption Check for Weibull Regression\nThe diagnostic evaluation of the Weibull AFT model supports the appropriateness of the Weibull assumption, with negative log-log (NLL) survival plots exhibiting a largely linear pattern, indicating that the hazard function aligns well with the Weibull distribution. While minor deviations were observed in specific segments, these do not significantly impact the model’s fit. The overall consistency of the linear trend across most of the range reinforces confidence in the model’s adequacy.\nAdditionally, residual diagnostics further confirm the validity of the Weibull model. The Cox-Snell residuals closely follow the 45-degree reference line, demonstrating that the observed data conform to the expected survival distribution. Standardized residuals exhibit a random scatter around zero, without extreme outliers, indicating that the model effectively captures underlying data patterns and that no major violations of model assumptions are present.\nThese diagnostics collectively affirm the robustness and suitability of the Weibull AFT model for analyzing the given survival data, providing confidence in its reliability for assessing treatment effects and patient characteristics in primary biliary cirrhosis (PBC)."
+  },
+  {
+    "objectID": "Content/Projects/Survival Analysis of Primary biliary cirrhosis (PBC)/index.html#figures-and-tables",
+    "href": "Content/Projects/Survival Analysis of Primary biliary cirrhosis (PBC)/index.html#figures-and-tables",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Figures and Tables",
+    "text": "Figures and Tables"
+  },
+  {
+    "objectID": "Content/Projects/Survival Analysis of Primary biliary cirrhosis (PBC)/index.html#figures-and-tables-1",
+    "href": "Content/Projects/Survival Analysis of Primary biliary cirrhosis (PBC)/index.html#figures-and-tables-1",
+    "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
+    "section": "Figures and Tables",
+    "text": "Figures and Tables\n\nFigure 1: Histogram of Time to Failure\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\nFigure 2: Relationship Between Age and Time to Failure\n\n\n\n\n\n\nFigure 2\n\n\n\n\n\nFigure 3: Relationship Between Weight and Time to Failure\n\n\n\n\n\n\nFigure 3\n\n\n\n\n\nFigure 4: Distribution of Treatment\n\n\n\n\n\n\nFigure 4\n\n\n\n\n\nFigure 5: Relationship Between Albumin and Time to Failure\n\n\n\n\n\n\nFigure 5\n\n\n\n\n\nFigure 6: Relationship Between Creatinine and Time to Failure\n\n\n\n\n\n\nFigure 6\n\n\n\n\n\nFigure 7: Kaplan-Meier Survival for Treatment (95% Confidence Limit)\n\n\n\n\n\n\nFigure 7\n\n\n\n\n\nFigure 8: Kaplan-Meier Survival for Sex (95% Confidence Limit)\n\n\n\n\n\n\nFigure 8\n\n\n\n\n\nFigure 9: Kaplan-Meier Survival for Gastrointestinal Bleeding (95% Confidence Limit)\n\n\n\n\n\n\nFigure 9\n\n\n\n\n\nFigure 10: Kaplan-Meier Survival for Disease Stages (95% Confidence Limit)\n\n\n\n\n\n\nFigure 10\n\n\n\n\n\nFigure 11: Kaplan-Meier Survival by Stages (Product Limit)\n\n\n\n\n\n\nFigure 11\n\n\n\n\n\nFigure 12: Relationship Between Weight and Time to Failure\n\n\n\nTable 1, 3, 4: Summary Statistics and Model Outputs"
+  },
+  {
+    "objectID": "Content/Projects/index.html",
+    "href": "Content/Projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "Content/License/index.html",
+    "href": "Content/License/index.html",
+    "title": "License",
+    "section": "",
+    "text": "© 2024-2025 Olwuaseun Daniel Fowotade\nThis website represents my personal views and opinions and does not reflect the endorsement of my employer or any affiliated organizations. The content on this site is licensed under the [Creative Commons (CC-BY) 4.0 license]. You are welcome to reuse the material, provided you credit me as the author and link back to the original.\nThe source code is released under the [MIT license] and can be used without restriction.\nUse of Artificial Intelligence\nSome elements of this site (including text, code and images) were developed with assistance from OpenAI’s software. However, every final piece of content you see—along with the prompts, instructions, and ultimate decisions—are exclusively my own."
+  },
+  {
+    "objectID": "Content/About/index.html",
+    "href": "Content/About/index.html",
+    "title": "Oluwaseun Fowotade",
+    "section": "",
+    "text": "I’m Oluwaseun Daniel Fowotade, a data scientist and statistical programmer with a passion for using data to answer meaningful questions in healthcare, biology, and beyond.\nI bring over five years of experience in data analysis and more than two years in clinical trial programming, combining academic excellence with hands-on industry practice. I earned a First Class B.Sc. in Mathematics from the University of Ilorin (CGPA: 4.5/5.0) and currently hold a First Class standing in my M.S. in Statistics at Oregon State University (GPA: 3.71/4.0).\nAt the heart of my graduate work is a thesis project on developing an ADMM (Alternating Direction Method of Multipliers) algorithm for analyzing gut microbiome data in multi-omic networks. This research blends structured optimization with statistical modeling to boost predictive performance, enhance scalability, and accelerate biomarker discovery.\nIn industry, I’ve contributed as a Statistical Programmer at ClinFocus Inc., where I transformed raw clinical data into submission-ready SDTM and ADaM datasets, developed TFLs, and automated routine programming workflows in SAS. My work supported Phase I–IV clinical trials and met rigorous FDA and CDISC standards.\nAs a Statistical Consultant at Oregon State, I applied Poisson models, logistic regression (with LASSO), and Monte Carlo simulations to environmental and biological datasets. A highlight: I improved the AUROC of a genomic classifier by 70% through regularized logistic regression.\nOutside academic and clinical settings, I’ve tackled diverse technical projects—from building a Shiny dashboard to visualize Netflix trends, to performing survival analysis for liver disease outcomes in SAS, to designing genetic algorithms in R for dimensionality reduction in regression.\nI’m also passionate about teaching. As a Graduate Teaching Assistant, I’ve led R-based workshops and supported students in statistics, data science, and SAS programming—emphasizing clarity, collaboration, and applied problem-solving.\n\n“Data is only as powerful as the questions we ask—I aim to ask the right ones.”"
+  },
+  {
+    "objectID": "Content/About/index.html#about-me",
+    "href": "Content/About/index.html#about-me",
+    "title": "Oluwaseun Fowotade",
+    "section": "",
+    "text": "I’m Oluwaseun Daniel Fowotade, a data scientist and statistical programmer with a passion for using data to answer meaningful questions in healthcare, biology, and beyond.\nI bring over five years of experience in data analysis and more than two years in clinical trial programming, combining academic excellence with hands-on industry practice. I earned a First Class B.Sc. in Mathematics from the University of Ilorin (CGPA: 4.5/5.0) and currently hold a First Class standing in my M.S. in Statistics at Oregon State University (GPA: 3.71/4.0).\nAt the heart of my graduate work is a thesis project on developing an ADMM (Alternating Direction Method of Multipliers) algorithm for analyzing gut microbiome data in multi-omic networks. This research blends structured optimization with statistical modeling to boost predictive performance, enhance scalability, and accelerate biomarker discovery.\nIn industry, I’ve contributed as a Statistical Programmer at ClinFocus Inc., where I transformed raw clinical data into submission-ready SDTM and ADaM datasets, developed TFLs, and automated routine programming workflows in SAS. My work supported Phase I–IV clinical trials and met rigorous FDA and CDISC standards.\nAs a Statistical Consultant at Oregon State, I applied Poisson models, logistic regression (with LASSO), and Monte Carlo simulations to environmental and biological datasets. A highlight: I improved the AUROC of a genomic classifier by 70% through regularized logistic regression.\nOutside academic and clinical settings, I’ve tackled diverse technical projects—from building a Shiny dashboard to visualize Netflix trends, to performing survival analysis for liver disease outcomes in SAS, to designing genetic algorithms in R for dimensionality reduction in regression.\nI’m also passionate about teaching. As a Graduate Teaching Assistant, I’ve led R-based workshops and supported students in statistics, data science, and SAS programming—emphasizing clarity, collaboration, and applied problem-solving.\n\n“Data is only as powerful as the questions we ask—I aim to ask the right ones.”"
+  },
+  {
+    "objectID": "Content/About/index.html#professional-experience",
+    "href": "Content/About/index.html#professional-experience",
+    "title": "Oluwaseun Fowotade",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nStatistical Programmer – ClinFocus Inc.\n\nDeveloped SDTM, ADaM, and TFLs for Phase I–IV clinical trials using SAS.\nAutomated repetitive processes using SAS macros and ensured CDISC/FDA compliance.\nCollaborated with statisticians and data managers to validate and deliver high-quality data outputs.\n\nGraduate Teaching Assistant – Oregon State University\n\nTaught and supported students in R and SAS-based statistical analysis courses.\nLed review sessions and graded coursework in regression, survival analysis, and experimental design.\n\nStatistical Consultant – Oregon State University\n\nDesigned statistical solutions for multi-disciplinary research projects using GLMs, LASSO, and simulations.\nApplied statistical learning methods to projects in gene expression, pest control, and environmental monitoring.\n\nActuarial Analyst – Sanlam Insurance\n\nCreated models for claims, pricing, and reserve forecasting.\nBuilt dashboards in Power BI for business intelligence and risk evaluation."
+  },
+  {
+    "objectID": "Content/About/index.html#education",
+    "href": "Content/About/index.html#education",
+    "title": "Oluwaseun Fowotade",
+    "section": "Education",
+    "text": "Education\n\nM.S. in Statistics – Oregon State University (2023–2025)\nFirst Class Standing (GPA: 3.71/4.0)\nThesis: Developing an ADMM Algorithm for Microbiome Multi-Omic Networks\nB.S. in Mathematics – University of Ilorin, Nigeria (2014–2018) Project: Numerical Solution of Linear Fredholm Integral Equations of the Second Kind\nFirst Class (CGPA: 4.5/5.0)"
+  },
+  {
+    "objectID": "Content/About/index.html#skills-expertise",
+    "href": "Content/About/index.html#skills-expertise",
+    "title": "Oluwaseun Fowotade",
+    "section": "Skills & Expertise",
+    "text": "Skills & Expertise\n\nProgramming: SAS (PROC SQL, Macro), R (Shiny, caret), Python, SQL\n\nStatistical Analysis: Generalized Regression, LASSO, Poisson Regression, Survival Analysis\n\nClinical Data Management: SDTM, ADaM, TFLs, CDISC Standards\n\nVisualization & Reporting: Power BI, Tableau, ggplot2, PROC REPORT\n\nTools & Platforms: Google Cloud (BigQuery, DataProc), Git, ODS, R Markdown\n\nBioinformatics: scRNA-seq, GSEA, microbiome analytics, biomarker discovery"
+  },
+  {
+    "objectID": "Content/About/index.html#interests",
+    "href": "Content/About/index.html#interests",
+    "title": "Oluwaseun Fowotade",
+    "section": "Interests",
+    "text": "Interests\nOutside of work, I love playing and watching soccer, especially analyzing game tactics and performance statistics. I’m also fascinated by how data-driven decisions are transforming healthcare, biotech, and global health policy."
+  },
+  {
+    "objectID": "Content/Blog/index.html",
+    "href": "Content/Blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding-and-representation",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding-and-representation",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Chromosome Encoding and Representation",
+    "text": "Chromosome Encoding and Representation\nEach candidate solution is represented as a chromosome, a binary vector where each bit represents the inclusion (1) or exclusion (0) of a feature. If a dataset contains (C) features, the chromosome length is (C), and each gene corresponds to a specific feature.\nFor example: (1, 0, 1, 0, 1) Features 1, 3, and 5 selected, while 2 and 4 are excluded."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#population-initialization",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#population-initialization",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Population Initialization",
+    "text": "Population Initialization\nThe algorithm starts by initializing a population of chromosomes randomly. The size of the population, (P), is critical as it influences the diversity of solutions. A larger population ensures more diversity, preventing premature convergence, while a smaller population might speed up the process but risk missing better solutions. Typically, the population size is chosen so that:\n[ C P 2C ]\nwhere (C) is the number of features."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selection",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selection",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Selection",
+    "text": "Selection\nThe selection step involves choosing individuals from the population based on their fitness to act as parents for the next generation. The fitness of a chromosome is determined by evaluating its associated feature subset in a regression model, typically using the mean squared error (MSE) as the performance metric. Tournament selection is often used, where a subset of chromosomes is randomly chosen, and the one with the best fitness is selected as a parent."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#crossover",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#crossover",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Crossover",
+    "text": "Crossover\nOnce parents are selected, they undergo genetic operations to create offspring. Crossover involves swapping parts of two parent chromosomes to produce offspring. A common method is single-point crossover, where a random crossover point is chosen, and the genes before and after this point are exchanged between the parents."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#mutation",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#mutation",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Mutation",
+    "text": "Mutation\nMutation introduces small random changes to maintain genetic diversity and avoid local optima. For instance, a mutation may flip the value of a random bit in the chromosome (e.g., changing 0 to 1 or vice versa). The mutation rate is usually kept low (e.g., 1% per generation) to ensure diversity without disrupting good solutions."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#fitness-evaluation",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#fitness-evaluation",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Fitness Evaluation",
+    "text": "Fitness Evaluation\nEach chromosome is evaluated using a regression model trained on the selected features. The fitness function is:\n\\[\n\\text{Fitness}(\\vartheta) = \\frac{1}{N} \\sum_{i=1}^{N} (y_i - \\hat{y}_i)^2\n\\]\nwhere \\((y_i)\\) are actual values and \\( \\hat{y}_i \\) are predictions."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#elitism",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#elitism",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Elitism",
+    "text": "Elitism\nTo ensure that the best solutions are preserved, elitism is applied. This technique guarantees that the best-performing chromosome from the current generation is directly passed to the next generation without any changes. This helps prevent the loss of high-quality solutions during the evolution process."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#termination",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#termination",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Termination",
+    "text": "Termination\nThe algorithm runs for a set number of generations or until a stopping criterion is met. Common criteria include reaching a maximum number of generations (e.g., 100) or achieving a satisfactory fitness level. Once the algorithm terminates, the best chromosome found represents the optimal feature subset."
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#genetic-algorithm-implementation-on-sonar-dataset",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#genetic-algorithm-implementation-on-sonar-dataset",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Genetic Algorithm Implementation on Sonar Dataset",
+    "text": "Genetic Algorithm Implementation on Sonar Dataset\n\nLoading Required Libraries and Data\n\n\nCode\nlibrary(GA)\nlibrary(caret)\nlibrary(mlbench)\n\n# Load the Sonar dataset\ndata(Sonar)\nSonar$Class &lt;- as.factor(Sonar$Class) # Ensure the target variable is a factor\n\n# Split data into training and testing sets\nset.seed(123) # For reproducibility\ntrainIndex &lt;- createDataPartition(Sonar$Class, p = 0.7, list = FALSE)\ntrainData &lt;- Sonar[trainIndex, ]\ntestData &lt;- Sonar[-trainIndex, ]\n\n\n\n\nDefining the Fitness Function for Feature Selection\n\n\nCode\n# Define the fitness function\nfitness_function &lt;- function(x) {\n  selected_features &lt;- which(x == 1) # Indices of selected features\n  \n  # If no features are selected, assign a large fitness value (penalty)\n  if (length(selected_features) == 0) return(Inf)\n  \n  # Subset the training data with the selected features\n  selected_train &lt;- trainData[, c(selected_features, 61)] # Include 'Class'\n  \n  # Train a k-NN model\n  ctrl &lt;- trainControl(method = \"cv\", number = 5)\n  knn_model &lt;- train(Class ~ ., data = selected_train, method = \"knn\", \n                     trControl = ctrl, tuneGrid = data.frame(k = 1))\n  \n  # Return fitness value (1 - accuracy to minimize error)\n  fitness_value &lt;- 1 - max(knn_model$results$Accuracy)\n  return(fitness_value)\n}"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#running-the-genetic-algorithm",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#running-the-genetic-algorithm",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Running the Genetic Algorithm",
+    "text": "Running the Genetic Algorithm\n\n\nCode\nset.seed(123) # For reproducibility\n\n# Run the Genetic Algorithm\nga_model &lt;- ga(\n  type = \"binary\",\n  fitness = fitness_function,\n  nBits = ncol(Sonar) - 1, # 60 features\n  popSize = 50,\n  maxiter = 100,\n  pcrossover = 0.8,\n  pmutation = 0.1,\n  elitism = 2,\n  run = 50,\n  monitor = TRUE\n)\n\n# Summary of GA results\nsummary(ga_model)\n\n\nGA | iter = 1 | Mean = 0.1680522 | Best = 0.2391461\nGA | iter = 2 | Mean = 0.1735294 | Best = 0.2391461\nGA | iter = 3 | Mean = 0.1759514 | Best = 0.2391461\nGA | iter = 4 | Mean = 0.1813278 | Best = 0.2391461\nGA | iter = 5 | Mean = 0.1757665 | Best = 0.2393924\nGA | iter = 6 | Mean = 0.1828765 | Best = 0.2540230\nGA | iter = 7 | Mean = 0.1781392 | Best = 0.2540230\nGA | iter = 8 | Mean = 0.1847412 | Best = 0.2540230\nGA | iter = 9 | Mean = 0.1869241 | Best = 0.2540230\nGA | iter = 10 | Mean = 0.1886102 | Best = 0.2540230\nGA | iter = 11 | Mean = 0.1939878 | Best = 0.2540230\nGA | iter = 12 | Mean = 0.1903678 | Best = 0.2540230\nGA | iter = 13 | Mean = 0.1993767 | Best = 0.2540230\nGA | iter = 14 | Mean = 0.1980716 | Best = 0.2540230\nGA | iter = 15 | Mean = 0.1937833 | Best = 0.2555829\nGA | iter = 16 | Mean = 0.1926673 | Best = 0.2555829\nGA | iter = 17 | Mean = 0.1877202 | Best = 0.2555829\nGA | iter = 18 | Mean = 0.185753 | Best = 0.260000\nGA | iter = 19 | Mean = 0.1842003 | Best = 0.2600000\nGA | iter = 20 | Mean = 0.1971665 | Best = 0.2600000\nGA | iter = 21 | Mean = 0.1958624 | Best = 0.2660755\nGA | iter = 22 | Mean = 0.1957360 | Best = 0.2660755\nGA | iter = 23 | Mean = 0.2017741 | Best = 0.2740230\nGA | iter = 24 | Mean = 0.196908 | Best = 0.274023\nGA | iter = 25 | Mean = 0.1948959 | Best = 0.2740230\nGA | iter = 26 | Mean = 0.1974177 | Best = 0.2740230\nGA | iter = 27 | Mean = 0.2007126 | Best = 0.2740230\nGA | iter = 28 | Mean = 0.2018808 | Best = 0.2740230\nGA | iter = 29 | Mean = 0.2000319 | Best = 0.2740230\nGA | iter = 30 | Mean = 0.208091 | Best = 0.274023\nGA | iter = 31 | Mean = 0.2107612 | Best = 0.2740230\nGA | iter = 32 | Mean = 0.2085021 | Best = 0.2740230\nGA | iter = 33 | Mean = 0.2049212 | Best = 0.2740230\nGA | iter = 34 | Mean = 0.2075839 | Best = 0.2740230\nGA | iter = 35 | Mean = 0.2106174 | Best = 0.2740230\nGA | iter = 36 | Mean = 0.2072158 | Best = 0.2740230\nGA | iter = 37 | Mean = 0.2078000 | Best = 0.2741379\nGA | iter = 38 | Mean = 0.2109856 | Best = 0.2741379\nGA | iter = 39 | Mean = 0.2107938 | Best = 0.2741379\nGA | iter = 40 | Mean = 0.2141228 | Best = 0.2741379\nGA | iter = 41 | Mean = 0.2118667 | Best = 0.2952381\nGA | iter = 42 | Mean = 0.2072361 | Best = 0.2952381\nGA | iter = 43 | Mean = 0.2125681 | Best = 0.2952381\nGA | iter = 44 | Mean = 0.2125563 | Best = 0.2952381\nGA | iter = 45 | Mean = 0.2114686 | Best = 0.2952381\nGA | iter = 46 | Mean = 0.2161307 | Best = 0.2952381\nGA | iter = 47 | Mean = 0.2289176 | Best = 0.3212644\nGA | iter = 48 | Mean = 0.2328535 | Best = 0.3212644\nGA | iter = 49 | Mean = 0.2339862 | Best = 0.3212644\nGA | iter = 50 | Mean = 0.2373701 | Best = 0.3212644\nGA | iter = 51 | Mean = 0.2418594 | Best = 0.3212644\nGA | iter = 52 | Mean = 0.2476099 | Best = 0.3291133\nGA | iter = 53 | Mean = 0.2477376 | Best = 0.3291133\nGA | iter = 54 | Mean = 0.2437938 | Best = 0.3291133\nGA | iter = 55 | Mean = 0.2490690 | Best = 0.3294253\nGA | iter = 56 | Mean = 0.2584273 | Best = 0.3294253\nGA | iter = 57 | Mean = 0.2577984 | Best = 0.3294253\nGA | iter = 58 | Mean = 0.2609612 | Best = 0.3294253\nGA | iter = 59 | Mean = 0.2552857 | Best = 0.3294253\nGA | iter = 60 | Mean = 0.2585452 | Best = 0.3294253\nGA | iter = 61 | Mean = 0.2510910 | Best = 0.3294253\nGA | iter = 62 | Mean = 0.2670933 | Best = 0.3345977\nGA | iter = 63 | Mean = 0.2699327 | Best = 0.3636453\nGA | iter = 64 | Mean = 0.2662998 | Best = 0.3636453\nGA | iter = 65 | Mean = 0.2649008 | Best = 0.3636453\nGA | iter = 66 | Mean = 0.2650059 | Best = 0.3636453\nGA | iter = 67 | Mean = 0.2769990 | Best = 0.3636453\nGA | iter = 68 | Mean = 0.2793964 | Best = 0.3636453\nGA | iter = 69 | Mean = 0.2733383 | Best = 0.3970115\nGA | iter = 70 | Mean = 0.2746039 | Best = 0.3970115\nGA | iter = 71 | Mean = 0.2773366 | Best = 0.3970115\nGA | iter = 72 | Mean = 0.2772378 | Best = 0.3970115\nGA | iter = 73 | Mean = 0.2705379 | Best = 0.3970115\nGA | iter = 74 | Mean = 0.2710571 | Best = 0.3970115\nGA | iter = 75 | Mean = 0.2703310 | Best = 0.3970115\nGA | iter = 76 | Mean = 0.2769672 | Best = 0.3970115\nGA | iter = 77 | Mean = 0.2862611 | Best = 0.3970115\nGA | iter = 78 | Mean = 0.2788966 | Best = 0.3970115\nGA | iter = 79 | Mean = 0.2770125 | Best = 0.3970115\nGA | iter = 80 | Mean = 0.2758213 | Best = 0.3970115\nGA | iter = 81 | Mean = 0.2805373 | Best = 0.3970115\nGA | iter = 82 | Mean = 0.2811612 | Best = 0.3970115\nGA | iter = 83 | Mean = 0.2812105 | Best = 0.3970115\nGA | iter = 84 | Mean = 0.2845800 | Best = 0.3970115\nGA | iter = 85 | Mean = 0.2736368 | Best = 0.3970115\nGA | iter = 86 | Mean = 0.2713576 | Best = 0.3970115\nGA | iter = 87 | Mean = 0.2734690 | Best = 0.3970115\nGA | iter = 88 | Mean = 0.2683113 | Best = 0.3970115\nGA | iter = 89 | Mean = 0.2611491 | Best = 0.3970115\nGA | iter = 90 | Mean = 0.2540072 | Best = 0.3970115\nGA | iter = 91 | Mean = 0.2643452 | Best = 0.3970115\nGA | iter = 92 | Mean = 0.2678791 | Best = 0.3970115\nGA | iter = 93 | Mean = 0.2670039 | Best = 0.3970115\nGA | iter = 94 | Mean = 0.2731304 | Best = 0.3970115\nGA | iter = 95 | Mean = 0.2646749 | Best = 0.3970115\nGA | iter = 96 | Mean = 0.2710936 | Best = 0.3970115\nGA | iter = 97 | Mean = 0.2621143 | Best = 0.3970115\nGA | iter = 98 | Mean = 0.2651343 | Best = 0.3970115\nGA | iter = 99 | Mean = 0.2701452 | Best = 0.3970115\nGA | iter = 100 | Mean = 0.2667343 | Best = 0.3970115\n\n\n\n── Genetic Algorithm ─────────────────── \nGA settings: \nType                  =  binary \nPopulation size       =  50 \nNumber of generations =  100 \nElitism               =  2 \nCrossover probability =  0.8 \nMutation probability  =  0.1 \nGA results: \nIterations             = 100 \nFitness function value = 0.3970115 \nSolution = \n     x1 x2 x3 x4 x5 x6 x7 x8 x9 x10  ...  x59 x60\n[1,]  0  1  0  0  1  0  1  0  0   1         1   1\n\n\n\n\nSelected Features and Final Model Evaluation\n\n\nCode\n# Extract best chromosome (selected features)\nbest_chromosome &lt;- ga_model@solution\nselected_features &lt;- which(best_chromosome == 1)\n\n# Train the final k-NN model using selected features\nselected_train &lt;- trainData[, c(selected_features, 61)]\nselected_test &lt;- testData[, c(selected_features, 61)]\n\nfinal_knn_model &lt;- train(Class ~ ., data = selected_train, method = \"knn\",\n                         trControl = trainControl(method = \"cv\", number = 5),\n                         tuneGrid = data.frame(k = 1))\n\n# Make predictions and evaluate\npredictions &lt;- predict(final_knn_model, newdata = selected_test)\nconf_matrix &lt;- confusionMatrix(predictions, selected_test$Class)\n\n# Print results\nconf_matrix\n\n\nConfusion Matrix and Statistics\n\n          Reference\nPrediction  M  R\n         M 23 13\n         R 10 16\n                                          \n               Accuracy : 0.629           \n                 95% CI : (0.4969, 0.7484)\n    No Information Rate : 0.5323          \n    P-Value [Acc &gt; NIR] : 0.0801          \n                                          \n                  Kappa : 0.2503          \n                                          \n Mcnemar's Test P-Value : 0.6767          \n                                          \n            Sensitivity : 0.6970          \n            Specificity : 0.5517          \n         Pos Pred Value : 0.6389          \n         Neg Pred Value : 0.6154          \n             Prevalence : 0.5323          \n         Detection Rate : 0.3710          \n   Detection Prevalence : 0.5806          \n      Balanced Accuracy : 0.6243          \n                                          \n       'Positive' Class : M               \n                                          \n\n\n\n\nComparing Performance with All Features\n\n\nCode\n# Train a model using all features\nmodel_all_features &lt;- train(Class ~ ., data = trainData, method = \"knn\", \n                            trControl = trainControl(method = \"cv\", number = 5), \n                            tuneGrid = data.frame(k = 1))\n\n# Evaluate model on the test set\npredictions_all &lt;- predict(model_all_features, newdata = testData)\nconf_matrix_all &lt;- confusionMatrix(predictions_all, testData$Class)\n\n# Comparison\ncat(\"Accuracy with Selected Features: \", conf_matrix$overall[\"Accuracy\"], \"\\n\")\ncat(\"Accuracy with All Features: \", conf_matrix_all$overall[\"Accuracy\"], \"\\n\")\n\n\nAccuracy with Selected Features:  0.6290323 \nAccuracy with All Features:  0.7903226 \n\n\n\n\nVisualizing the GA Progress and Results\n\n\nCode\nlibrary(ggplot2)\n\n# Plot GA optimization progress\nplot(ga_model, main = \"GA Optimization Progress\", col = \"blue\")"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features-via-genetic-algorithm",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#selected-features-via-genetic-algorithm",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Selected Features via Genetic Algorithm",
+    "text": "Selected Features via Genetic Algorithm\n\n\nCode\nlibrary(ggplot2)\n\n# Ensure best_chromosome is a numeric vector\nbest_chromosome &lt;- as.numeric(best_chromosome)\n\n# Create a data frame for visualization\nselected_features_df &lt;- data.frame(\n  Feature = factor(1:length(best_chromosome)),  # Feature indices\n  Selected = best_chromosome                    # Binary selection (1 = selected, 0 = not selected)\n)\n\n# Ensure there are no missing or incorrect values\nprint(head(selected_features_df))  # Check structure\n\n#  visualization\nggplot(selected_features_df, aes(x = Feature, y = Selected, fill = as.factor(Selected))) +\n  geom_bar(stat = \"identity\", color = \"black\", width = 0.7) +  # Adjust bar width\n  scale_fill_manual(values = c(\"0\" = \"gray85\", \"1\" = \"#2E8B57\"), name = \"Selected\") +  # Soft gray & deep green\n  labs(title = \" Selected Features via Genetic Algorithm\",\n       subtitle = \"Selected features (1) vs. Non-selected features (0)\",\n       x = \"Feature Index\", \n       y = \"Selection Status\") +  # Clearer label\n  theme_minimal(base_size = 14) +  # Improve readability\n  theme(\n    plot.title = element_text(face = \"bold\", size = 18, hjust = 0.5), # Bold, centered title\n    plot.subtitle = element_text(size = 14, hjust = 0.5, color = \"gray40\"), # Styled subtitle\n    legend.position = \"top\",\n    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1, size = 10), # Adjust rotation & spacing\n    axis.text.y = element_text(size = 12),  # Make y-axis text larger\n    panel.grid.major.x = element_blank(),  # Remove unnecessary grid lines\n    panel.grid.minor = element_blank(),\n    panel.grid.major.y = element_line(color = \"gray90\", linetype = \"dashed\")  # Subtle dashed grid lines\n  ) +\n  scale_x_discrete(breaks = seq(1, length(best_chromosome), by = 2)) +  # Reduce x-axis label crowding\n  scale_y_continuous(breaks = c(0, 1), labels = c(\"Not Selected\", \"Selected\"))  # Custom y-axis labels\n\n\n  Feature Selected\n1       1        0\n2       2        1\n3       3        0\n4       4        0\n5       5        1\n6       6        0\n\n\n\n\n\n\n\n\n\n\nFinal Confusion Matrix and Performance Metrics\n\n\nCode\nlibrary(ggplot2)\n\n# Create a data frame for the confusion matrix\nconf_matrix_df &lt;- data.frame(\n  Prediction = c(\"M\", \"M\", \"R\", \"R\"),  # Predicted classes\n  Reference = c(\"M\", \"R\", \"M\", \"R\"),  # Actual classes\n  Count = c(26, 10, 7, 19)            # Counts from the confusion matrix\n)\n\n# Plot the confusion matrix\nggplot(conf_matrix_df, aes(x = Reference, y = Prediction, fill = Count)) +\n  geom_tile(color = \"black\") +\n  geom_text(aes(label = Count), size = 6, color = \"white\") +\n  scale_fill_gradient(low = \"lightblue\", high = \"blue\") +\n  labs(\n    title = \"Confusion Matrix\",\n    subtitle = \"Model Predictions vs. Actual Classes\",\n    x = \"Actual Class\",\n    y = \"Predicted Class\"\n  ) +\n  theme_minimal(base_size = 14) +\n  theme(\n    plot.title = element_text(face = \"bold\", hjust = 0.5),\n    plot.subtitle = element_text(hjust = 0.5),\n    axis.text = element_text(size = 12),\n    axis.title = element_text(size = 14),\n    legend.position = \"none\"\n  )\n\n\n\n\n\n\n\n\n\n\n\nCode\n# Confusion matrix for the model with selected features\nconf_matrix$table\n\n# Accuracy, Sensitivity, and Specificity\nconf_matrix$overall[\"Accuracy\"]\nconf_matrix$byClass[c(\"Sensitivity\")]\nconf_matrix$byClass[c( \"Specificity\")]\n\n\n          Reference\nPrediction  M  R\n         M 23 13\n         R 10 16\n\n\nAccuracy: 0.629032258064516\n\n\nSensitivity: 0.696969696969697\n\n\nSpecificity: 0.551724137931035"
+  },
+  {
+    "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#save-result",
+    "href": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#save-result",
+    "title": "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling",
+    "section": "Save Result",
+    "text": "Save Result\n\n\nCode\n# Save GA results \nsaveRDS(ga_model, \"ga_model.rds\") # Save the GA model\nsaveRDS(final_knn_model, \"final_knn_model.rds\") # Save the final k-NN model\nsaveRDS(conf_matrix, \"conf_matrix.rds\") # Save the confusion matrix\n\ncat(\"Results have been saved as .rds files in the working directory.\\n\")\n\n\nResults have been saved as .rds files in the working directory."
+  },
+  {
+    "objectID": "Content/Projects/Netflix Data Visualization/index.html#netflix-data-analysis-trends-and-insights-2008-2021",
+    "href": "Content/Projects/Netflix Data Visualization/index.html#netflix-data-analysis-trends-and-insights-2008-2021",
+    "title": "Netflix Data Analysis: Trends and Insights (2008-2021)",
+    "section": "Netflix Data Analysis: Trends and Insights (2008-2021)",
+    "text": "Netflix Data Analysis: Trends and Insights (2008-2021)\n\nIntroduction\nNetflix has become one of the most influential streaming platforms globally, consistently expanding its library with diverse content. This project analyzes Netflix’s catalog from 2008 to 2021, exploring trends in:\n➡️ Explore the Netflix Data Visualization Dashboard\n\n📊 Content Type Trends: Growth of movies vs. TV shows.\n🌎 Geographic Diversity: Countries contributing content.\n⭐ Content Ratings: Classification of content over time.\n\nThe interactive dashboard allows users to filter the data based on content type, country, and time range, providing insights into Netflix’s evolving content strategy.\n\n\nHow to Use the Dashboard\n\nSelect Content Type: Filter between Movies, TV Shows, or view all content.\nChoose a Country: Analyze content trends from specific regions.\nAdjust Year Range: Explore how Netflix’s catalog has evolved over time.\nView Interactive Visualizations: Each tab contains dynamic charts powered by Plotly, allowing users to hover and interact with data points.\n\n\n\nKey Findings\n\nNetflix’s content library experienced rapid growth from 2015 to 2020, with a significant increase in movie additions.\nThe geographic diversity of content expanded, with notable contributions from countries outside the US.\nA shift towards more mature content (TV-MA ratings) suggests an increasing focus on adult-oriented content.\n\n\n\nTry the Interactive Dashboard\nClick the link below to explore the live Shiny app:\n➡️ Explore the Netflix Data Visualization Dashboard\n\nThis project is part of my data visualization and interactive analysis portfolio. If you’re interested in collaborating or have questions, feel free to connect with me on LinkedIn or visit my GitHub for more projects.\n🔗 LinkedIn: Oluwaseun Fowotade\n🔗 GitHub: Fowotadeseun"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Welcome to my Projects Highlights!",
+    "section": "",
+    "text": "No matching items"
+  }
+]
