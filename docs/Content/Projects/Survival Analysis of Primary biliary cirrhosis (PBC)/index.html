@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Oluwaseun Daniel Fowotade">
+<meta name="dcterms.date" content="2024-12-20">
+
+<title>Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis – Home</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../Assets/CSS/custom.css">
+<meta property="og:title" content="Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis – Home">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Home">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Home</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Content/About/index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Content/Projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><strong>Introduction</strong></a>
+  <ul class="collapse">
+  <li><a href="#key-considerations" id="toc-key-considerations" class="nav-link" data-scroll-target="#key-considerations">Key Considerations</a></li>
+  </ul></li>
+  <li><a href="#patient-characteristics-and-treatment-distribution" id="toc-patient-characteristics-and-treatment-distribution" class="nav-link" data-scroll-target="#patient-characteristics-and-treatment-distribution"><strong>Patient Characteristics and Treatment Distribution</strong></a></li>
+  <li><a href="#exploratory-data-analysis-and-visualization" id="toc-exploratory-data-analysis-and-visualization" class="nav-link" data-scroll-target="#exploratory-data-analysis-and-visualization"><strong>Exploratory Data Analysis and Visualization</strong></a></li>
+  <li><a href="#kaplan-meier-survival-analysis" id="toc-kaplan-meier-survival-analysis" class="nav-link" data-scroll-target="#kaplan-meier-survival-analysis"><strong>Kaplan-Meier Survival Analysis</strong></a></li>
+  <li><a href="#the-cox-model" id="toc-the-cox-model" class="nav-link" data-scroll-target="#the-cox-model"><strong>The Cox Model</strong></a></li>
+  <li><a href="#proportional-hazards-assumption-analysis" id="toc-proportional-hazards-assumption-analysis" class="nav-link" data-scroll-target="#proportional-hazards-assumption-analysis"><strong>Proportional Hazards Assumption Analysis</strong></a></li>
+  <li><a href="#weibull-accelerated-failure-time-model-aft-model" id="toc-weibull-accelerated-failure-time-model-aft-model" class="nav-link" data-scroll-target="#weibull-accelerated-failure-time-model-aft-model"><strong>Weibull Accelerated Failure Time Model (AFT) Model</strong></a>
+  <ul class="collapse">
+  <li><a href="#assumption-check-for-weibull-regression" id="toc-assumption-check-for-weibull-regression" class="nav-link" data-scroll-target="#assumption-check-for-weibull-regression">Assumption Check for Weibull Regression</a></li>
+  </ul></li>
+  <li><a href="#comparison-of-methods" id="toc-comparison-of-methods" class="nav-link" data-scroll-target="#comparison-of-methods"><strong>Comparison of Methods</strong></a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><strong>Conclusion</strong></a></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions"><strong>Future Directions</strong></a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><strong>Appendix</strong></a>
+  <ul class="collapse">
+  <li><a href="#figures-and-tables" id="toc-figures-and-tables" class="nav-link" data-scroll-target="#figures-and-tables">Figures and Tables</a></li>
+  <li><a href="#figures-and-tables-1" id="toc-figures-and-tables-1" class="nav-link" data-scroll-target="#figures-and-tables-1">Figures and Tables</a>
+  <ul class="collapse">
+  <li><a href="#figure-1-histogram-of-time-to-failure" id="toc-figure-1-histogram-of-time-to-failure" class="nav-link" data-scroll-target="#figure-1-histogram-of-time-to-failure">Figure 1: Histogram of Time to Failure</a></li>
+  <li><a href="#figure-2-relationship-between-age-and-time-to-failure" id="toc-figure-2-relationship-between-age-and-time-to-failure" class="nav-link" data-scroll-target="#figure-2-relationship-between-age-and-time-to-failure">Figure 2: Relationship Between Age and Time to Failure</a></li>
+  <li><a href="#figure-3-relationship-between-weight-and-time-to-failure" id="toc-figure-3-relationship-between-weight-and-time-to-failure" class="nav-link" data-scroll-target="#figure-3-relationship-between-weight-and-time-to-failure">Figure 3: Relationship Between Weight and Time to Failure</a></li>
+  <li><a href="#figure-4-distribution-of-treatment" id="toc-figure-4-distribution-of-treatment" class="nav-link" data-scroll-target="#figure-4-distribution-of-treatment">Figure 4: Distribution of Treatment</a></li>
+  <li><a href="#figure-5-relationship-between-albumin-and-time-to-failure" id="toc-figure-5-relationship-between-albumin-and-time-to-failure" class="nav-link" data-scroll-target="#figure-5-relationship-between-albumin-and-time-to-failure">Figure 5: Relationship Between Albumin and Time to Failure</a></li>
+  <li><a href="#figure-6-relationship-between-creatinine-and-time-to-failure" id="toc-figure-6-relationship-between-creatinine-and-time-to-failure" class="nav-link" data-scroll-target="#figure-6-relationship-between-creatinine-and-time-to-failure">Figure 6: Relationship Between Creatinine and Time to Failure</a></li>
+  <li><a href="#figure-7-kaplan-meier-survival-for-treatment-95-confidence-limit" id="toc-figure-7-kaplan-meier-survival-for-treatment-95-confidence-limit" class="nav-link" data-scroll-target="#figure-7-kaplan-meier-survival-for-treatment-95-confidence-limit">Figure 7: Kaplan-Meier Survival for Treatment (95% Confidence Limit)</a></li>
+  <li><a href="#figure-8-kaplan-meier-survival-for-sex-95-confidence-limit" id="toc-figure-8-kaplan-meier-survival-for-sex-95-confidence-limit" class="nav-link" data-scroll-target="#figure-8-kaplan-meier-survival-for-sex-95-confidence-limit">Figure 8: Kaplan-Meier Survival for Sex (95% Confidence Limit)</a></li>
+  <li><a href="#figure-9-kaplan-meier-survival-for-gastrointestinal-bleeding-95-confidence-limit" id="toc-figure-9-kaplan-meier-survival-for-gastrointestinal-bleeding-95-confidence-limit" class="nav-link" data-scroll-target="#figure-9-kaplan-meier-survival-for-gastrointestinal-bleeding-95-confidence-limit">Figure 9: Kaplan-Meier Survival for Gastrointestinal Bleeding (95% Confidence Limit)</a></li>
+  <li><a href="#figure-10-kaplan-meier-survival-for-disease-stages-95-confidence-limit" id="toc-figure-10-kaplan-meier-survival-for-disease-stages-95-confidence-limit" class="nav-link" data-scroll-target="#figure-10-kaplan-meier-survival-for-disease-stages-95-confidence-limit">Figure 10: Kaplan-Meier Survival for Disease Stages (95% Confidence Limit)</a></li>
+  <li><a href="#figure-11-kaplan-meier-survival-by-stages-product-limit" id="toc-figure-11-kaplan-meier-survival-by-stages-product-limit" class="nav-link" data-scroll-target="#figure-11-kaplan-meier-survival-by-stages-product-limit">Figure 11: Kaplan-Meier Survival by Stages (Product Limit)</a></li>
+  <li><a href="#figure-12-relationship-between-weight-and-time-to-failure" id="toc-figure-12-relationship-between-weight-and-time-to-failure" class="nav-link" data-scroll-target="#figure-12-relationship-between-weight-and-time-to-failure">Figure 12: Relationship Between Weight and Time to Failure</a></li>
+  <li><a href="#table-1-3-4-summary-statistics-and-model-outputs" id="toc-table-1-3-4-summary-statistics-and-model-outputs" class="nav-link" data-scroll-target="#table-1-3-4-summary-statistics-and-model-outputs">Table 1, 3, 4: Summary Statistics and Model Outputs</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Survival Analysis</div>
+    <div class="quarto-category">Statistics</div>
+    <div class="quarto-category">Regression</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Oluwaseun Daniel Fowotade </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 20, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><img src="../../..\Assets/Images/SurvivalAnalysis/SurvivalAnalysis.webp" class="img-fluid"></p>
+<section id="introduction" class="level1">
+<h1><strong>Introduction</strong></h1>
+<p><strong>Primary biliary cirrhosis (PBC)</strong> is a severe and chronic liver disease characterized by progressive bile duct destruction, potentially leading to liver failure and life-threatening complications.</p>
+<p>The <strong>PBC3 dataset</strong> originates from a <strong>multi-center randomized clinical trial</strong> conducted across six European hospitals between January 1983 and January 1987. The trial’s primary objective was to evaluate the efficacy of <strong>Cyclosporin A (<code>CyA</code>)</strong> in improving outcomes for patients diagnosed with PBC.</p>
+<p>A total of <strong>349 patients</strong> were randomized to either <strong>Cyclosporin A (<code>CyA</code>)</strong> (<strong>176 patients</strong>) or <strong>placebo</strong> (<strong>173 patients</strong>). The <strong>primary outcome</strong> was initially defined as <strong>survival time</strong> but was later redefined as <strong>failure of medical treatment</strong> (death or liver transplantation). The <strong>follow-up period</strong> extended until <strong>January 1, 1989</strong>, or until <strong>treatment failure, dropout, or the study’s conclusion</strong>. Study outcomes included <strong>61 deaths</strong> (<strong>30 in the <code>CyA</code> group, 31 in the placebo group</strong>), <strong>29 liver transplantations</strong> (<strong>14 in the <code>CyA</code> group, 15 in the placebo group</strong>), and <strong>4 patients lost to follow-up</strong>.</p>
+<p>This analysis evaluates the effect of <strong>Cyclosporin A (<code>CyA</code>)</strong> on the <strong>time to failure of medical treatment</strong>, accounting for key patient characteristics. <strong>Continuous variables</strong> include <strong>age, creatinine (<code>crea</code>), albumin (<code>alb</code>), bilirubin (<code>bili</code>), alkaline phosphatase (<code>alkph</code>), aspartate transaminase (<code>asptr</code>), and weight</strong>. <strong>Categorical variables</strong> include <strong>treatment (<code>tment</code>), sex, and disease stage (<code>stage</code>)</strong>. The study aims to assess the impact of treatment and patient characteristics on survival, inform <strong>clinical decision-making</strong>, and optimize <strong>treatment strategies for primary biliary cirrhosis (PBC)</strong>.</p>
+<p>To achieve this, we employ the following survival analysis methods. <strong>Kaplan-Meier estimation</strong> is used for visualizing survival functions, while <strong>Cox Proportional Hazards and Accelerated Failure Time (AFT) models</strong> evaluate the effects of treatment and covariates.</p>
+<section id="key-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="key-considerations">Key Considerations</h2>
+<ul>
+<li><strong>Multi-center Study Design</strong>:
+<ul>
+<li>Possible correlated observations within the same hospital.</li>
+</ul></li>
+<li><strong>Model Assumptions</strong>:
+<ul>
+<li>Careful evaluation to ensure valid and reliable conclusions.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="patient-characteristics-and-treatment-distribution" class="level1">
+<h1><strong>Patient Characteristics and Treatment Distribution</strong></h1>
+<p>Patients’ ages ranged from <strong>26 to 75 years</strong>, with an average of <strong>54.1 years</strong>. Key clinical markers varied considerably: <strong>creatinine levels</strong> ranged from <strong>35 to 199</strong> (mean: <strong>78</strong>), <strong>albumin</strong> from <strong>20.63 to 58</strong> (mean: <strong>38.4</strong>), <strong>bilirubin</strong> from <strong>2.33 to 453.1</strong> (mean: <strong>45.47</strong>), <strong>alkaline phosphatase</strong> from <strong>66.33 to 5108</strong> (mean: <strong>996.5</strong>), and <strong>aspartate transaminase</strong> from <strong>10.5 to 316.3</strong> (mean: <strong>95.4</strong>). Patients’ <strong>weights</strong> spanned from <strong>38 to 98 kg</strong>, with an average of <strong>60.3 kg</strong>. <strong>Time to failure</strong> ranged from <strong>1 to 2146 days</strong>, with an average of <strong>942.7 days</strong>.</p>
+<hr>
+<p>The study population was evenly divided between treatment groups, with <strong>50.43%</strong> receiving <strong>Cyclosporin A (<code>CyA</code>)</strong> and <strong>49.57%</strong> assigned to <strong>placebo</strong>. The cohort was predominantly <strong>female (85.39%)</strong>, while <strong>males</strong> accounted for <strong>14.61%</strong>. Disease stage distribution varied, with <strong>14.04% in Stage 1</strong>, <strong>24.07% in Stage 2</strong>, <strong>19.48% in Stage 3</strong>, and <strong>25.79% in Stage 4</strong>, while <strong>16.62% of entries had missing data</strong>. A history of gastrointestinal bleeding (<code>gibleed</code>) was reported in <strong>14.33%</strong> of cases, whereas <strong>85.67% had no reported history</strong>. In terms of outcomes (<code>status</code>), <strong>74.21% were censored (no treatment failure)</strong>, <strong>8.31% underwent liver transplantation</strong>, and <strong>17.48% resulted in death</strong>.</p>
+</section>
+<section id="exploratory-data-analysis-and-visualization" class="level1">
+<h1><strong>Exploratory Data Analysis and Visualization</strong></h1>
+<p>The distribution of <strong>time to failure</strong> exhibits substantial variability, with a mean survival time of approximately <strong>942 days</strong>, as shown in the <strong>histogram (Figure 1)</strong>. The distribution is not perfectly normal, indicating potential skewness in survival times.</p>
+<p>The <strong>box plot (Figure 4)</strong> comparing treatment groups suggests that the <strong>median survival times</strong> are similar for <strong>Cyclosporin A (<code>CyA</code>)</strong> and <strong>placebo</strong>, with no major differences in spread or outliers. <strong>Scatter plots (Figures 2 and 3)</strong> of time to failure against <strong>age</strong> and <strong>weight</strong> reveal no clear linear relationship, suggesting these variables may not have strong individual effects on survival time.</p>
+<p>Further analysis of key biochemical markers indicates varying associations with survival. The <strong>scatter plot of time to failure (<code>days</code>) vs.&nbsp;creatinine (<code>crea</code>) (Figure 5)</strong> displays a dispersed pattern with no discernible trend, suggesting <strong>limited direct association</strong>. In contrast, <strong>albumin (<code>alb</code>) (Figure 6)</strong> appears to have a <strong>positive relationship</strong>, where higher albumin levels correspond to <strong>longer survival times</strong>. <strong>Bilirubin (<code>bili</code>) (Figure 7)</strong>, on the other hand, exhibits a <strong>negative association</strong>, with higher levels often linked to <strong>shorter survival times</strong>. These observations highlight the <strong>differential impact of biochemical markers on patient outcomes</strong>, warranting further investigation using <strong>multivariate analysis</strong>.</p>
+</section>
+<section id="kaplan-meier-survival-analysis" class="level1">
+<h1><strong>Kaplan-Meier Survival Analysis</strong></h1>
+<p>The <strong>Kaplan-Meier survival analysis</strong> revealed several key insights. The <strong>survival curves for Cyclosporin A (<code>CyA</code>) and placebo (Figure 8)</strong> displayed overlapping confidence intervals, with a <strong>log-rank test p-value of 0.7813</strong>, indicating <strong>no statistically significant difference</strong> in survival probabilities between the two treatment groups.</p>
+<p><strong>Stratification by disease stage (Figure 9)</strong> demonstrated <strong>clear separation</strong> of survival curves, with <strong>advanced stages (Stage 4)</strong> exhibiting <strong>markedly lower survival probabilities</strong> compared to earlier stages. This was further supported by a <strong>highly significant log-rank p-value (&lt; 0.0001)</strong>, emphasizing the <strong>critical impact of disease stage</strong> on survival outcomes.</p>
+<p>Analysis by <strong>sex (Figure 10)</strong> showed a <strong>significant difference in survival</strong> with a <strong>log-rank test p-value of 0.0060</strong>, suggesting a <strong>potential association between sex and survival time</strong>. Additionally, patients <strong>without a history of gastrointestinal bleeding (<code>gibleed</code> = 0)</strong> had <strong>higher survival probabilities</strong> than those with a reported history, as seen in <strong>Figure 11</strong>, with a <strong>log-rank p-value &lt; 0.05</strong>.</p>
+<p>Finally, <strong>survival probabilities varied significantly by patient exit status (Figure 12)</strong>, where <strong>censoring, transplantation, and death</strong> showed distinct survival patterns. This highlights the <strong>importance of accurately interpreting censored observations</strong> in survival models.</p>
+<p>Overall, these findings indicate that while <strong>treatment with (<code>CyA</code>) does not significantly improve survival</strong>, <strong>disease stage and gastrointestinal bleeding history are important prognostic factors</strong>. Additionally, the <strong>association between sex and survival time</strong> warrants further exploration to understand potential <strong>biological or demographic contributions</strong> to this disparity. <strong>Early identification and management of critical risk factors, particularly advanced disease stages, remain essential in optimizing patient outcomes.</strong></p>
+</section>
+<section id="the-cox-model" class="level1">
+<h1><strong>The Cox Model</strong></h1>
+<p>The <strong>Cox Proportional Hazards Model (Table 2)</strong> was used to assess the impact of <strong>treatment and covariates</strong> on survival outcomes. The <strong>global test was highly significant (p &lt; 0.0001)</strong>, indicating that the <strong>model covariates collectively explain variations in survival</strong>.</p>
+<p>Among individual predictors, <strong>sex, bilirubin (<code>bili</code>), albumin (<code>alb</code>), and disease stage (<code>stage</code>)</strong> were <strong>significant contributors</strong>. <strong>Males exhibited a significantly higher hazard compared to females</strong> (<strong>HR = 2.59, p = 0.0015</strong>). <strong>Elevated bilirubin levels (<code>bili</code>)</strong> were associated with <strong>poorer survival</strong> (<strong>HR = 1.009, p &lt; 0.0001</strong>), while <strong>lower albumin (<code>alb</code>)</strong> levels also increased risk (<strong>HR = 0.936, p = 0.0071</strong>). Patients in <strong>Stage 4</strong> had a <strong>higher risk of failure compared to Stage 2</strong> (<strong>HR = 2.11, p = 0.0409</strong>).</p>
+<p>Although <strong>Cyclosporin A (<code>tment</code>) suggested a potential reduction in risk</strong> (<strong>HR = 0.65</strong>), this effect was <strong>not statistically significant (p = 0.0680)</strong>. Other factors, including <strong>age (<code>age</code>), creatinine (<code>crea</code>), gastrointestinal bleeding (<code>gibleed</code>), and hospital variability (<code>unit</code>)</strong>, showed <strong>no significant association with survival</strong>.</p>
+<p>These findings highlight <strong>key predictors of survival</strong>, with <strong>sex, bilirubin, albumin, and disease stage</strong> emerging as <strong>significant factors</strong>. While <strong>Cyclosporin A treatment showed a possible benefit</strong>, its effect was <strong>not conclusive</strong>, warranting further investigation.</p>
+</section>
+<section id="proportional-hazards-assumption-analysis" class="level1">
+<h1><strong>Proportional Hazards Assumption Analysis</strong></h1>
+<p>The <strong>proportional hazards assumption (Table 3)</strong> was assessed for all variables in the <strong>Cox model</strong> using <strong>Schoenfeld residuals</strong>. Statistical tests and graphical diagnostics provided insights into the behavior of each covariate over time.</p>
+<p>For <strong>treatment (<code>tment</code>)</strong>, the <strong>test statistic (p = 0.3520)</strong> and the <strong>residual plot</strong> showed <strong>no discernible trend</strong>, indicating that the <strong>proportional hazards assumption is satisfied</strong>. Similarly, for <strong>sex (<code>sex</code>)</strong>, the <strong>test yielded p = 0.7790</strong>, with <strong>randomly distributed residuals</strong>, further supporting the assumption. <strong>Age (<code>age</code>), bilirubin (<code>bili</code>), albumin (<code>alb</code>), and creatinine (<code>crea</code>)</strong> also <strong>met the assumption (p &gt; 0.05)</strong>, with <strong>no systematic patterns</strong> observed in their residual plots.</p>
+<p>However, for <strong>disease stage (<code>stage</code>)</strong>, a <strong>significant violation was detected for Stage 1 (p &lt; 0.0001)</strong>, as evidenced by a <strong>clear departure from randomness</strong> in the residual plot. Other stages <strong>showed no significant issues (p &gt; 0.05)</strong>. The <strong>hospital (<code>unit</code>) and gastrointestinal bleeding (<code>gibleed</code>) variables</strong> appeared <strong>random and within acceptable bounds (p &gt; 0.05)</strong>, confirming that the <strong>proportional hazards assumption holds for these covariates</strong>.</p>
+<p>Overall, the <strong>proportional hazards assumption was satisfied for most covariates</strong>, except for <strong>Stage 1</strong>, where the violation suggests <strong>potential time-dependent effects</strong>. This issue could be addressed by <strong>stratifying the Cox model by disease stage</strong> or incorporating <strong>time-varying covariates</strong> to account for <strong>non-proportionality</strong>. The <strong>residual plots and test results</strong> collectively support the <strong>robustness of the model</strong>, with only <strong>minor adjustments needed</strong> to handle specific violations.</p>
+</section>
+<section id="weibull-accelerated-failure-time-model-aft-model" class="level1">
+<h1><strong>Weibull Accelerated Failure Time Model (AFT) Model</strong></h1>
+<p>The <strong>Weibull AFT model demonstrated a good fit (AIC = 375.539)</strong>, with the <strong>Weibull shape parameter (shape = 1.6369)</strong> indicating an increasing hazard over time, consistent with the progressive nature of the disease. <strong>CyA treatment (<code>tment</code>) was significantly associated with accelerated survival (β = -0.3083, p = 0.0294)</strong>, while <strong>sex (<code>sex</code>) showed a strong effect (β = 0.7787, p = 0.0001), with males experiencing longer survival times</strong>.</p>
+<p><span class="math display">\[
+\begin{aligned}
+\log(\text{days}) = \beta_0 &amp;+ \beta_1 \cdot \text{age} + \beta_2 \cdot \text{sex} + \beta_3 \cdot \text{tment} \\
+&amp;+ \beta_4 \cdot \text{stage} + \beta_5 \cdot \text{crea} + \beta_6 \cdot \text{alb} \\
+&amp;+ \beta_7 \cdot \text{bili} + \beta_8 \cdot \text{alkph} + \beta_9 \cdot \text{asptr} + \beta_{10} \cdot \text{weight} + \epsilon
+\end{aligned}
+\]</span></p>
+<p>Among biochemical markers, <strong>higher bilirubin (<code>bili</code>) levels were linked to shorter survival (β = -0.0051, p &lt; 0.0001)</strong>, whereas <strong>higher albumin (<code>alb</code>) levels were associated with improved survival (β = 0.0390, p = 0.0086)</strong>. <strong>Elevated aspartate transaminase (<code>asptr</code>) levels negatively impacted survival (β = -0.0029, p = 0.0341)</strong>. Other covariates, including <strong>age (<code>age</code>), creatinine (<code>crea</code>), alkaline phosphatase (<code>alkph</code>), disease stage (<code>stage</code>), and weight (<code>weight</code>)</strong>, were <strong>not significant predictors (p &gt; 0.05)</strong>.</p>
+<p>The <strong>refined Weibull AFT model retained only significant covariates</strong>, including <strong>sex (<code>sex</code>), treatment (<code>tment</code>), albumin (<code>alb</code>), bilirubin (<code>bili</code>), and aspartate transaminase (<code>asptr</code>)</strong>, ensuring a more interpretable and parsimonious model.</p>
+<p><span class="math display">\[
+\begin{aligned}
+\log(\text{days}) = \beta_0 &amp;+ \beta_1 \cdot \text{sex} + \beta_2 \cdot \text{tment} + \beta_3 \cdot \text{alb} \\
+&amp;+ \beta_4 \cdot \text{bili} + \beta_5 \cdot \text{asptr} + \epsilon
+\end{aligned}
+\]</span></p>
+<p>Diagnostic evaluations, including negative log-log survival plots and Cox-Snell residuals, confirmed the adequacy of the Weibull assumption, with no major violations detected. These results indicate that <strong>CyA treatment accelerated survival</strong>, while <strong>higher bilirubin and aspartate transaminase levels were associated with poorer outcomes</strong>, highlighting key prognostic factors in primary biliary cirrhosis (PBC).</p>
+<section id="assumption-check-for-weibull-regression" class="level2">
+<h2 class="anchored" data-anchor-id="assumption-check-for-weibull-regression">Assumption Check for Weibull Regression</h2>
+<p>The diagnostic evaluation of the Weibull AFT model supports the appropriateness of the Weibull assumption, with <strong>negative log-log (NLL) survival plots exhibiting a largely linear pattern</strong>, indicating that the hazard function aligns well with the Weibull distribution. While minor deviations were observed in specific segments, these do not significantly impact the model’s fit. The overall consistency of the linear trend across most of the range reinforces confidence in the model’s adequacy.</p>
+<p>Additionally, <strong>residual diagnostics further confirm the validity of the Weibull model</strong>. The Cox-Snell residuals closely follow the 45-degree reference line, demonstrating that the observed data conform to the expected survival distribution. Standardized residuals exhibit a random scatter around zero, without extreme outliers, indicating that the model effectively captures underlying data patterns and that no major violations of model assumptions are present.</p>
+<p>These diagnostics collectively affirm the robustness and suitability of the Weibull AFT model for analyzing the given survival data, providing confidence in its reliability for assessing treatment effects and patient characteristics in primary biliary cirrhosis (PBC).</p>
+</section>
+</section>
+<section id="comparison-of-methods" class="level1">
+<h1><strong>Comparison of Methods</strong></h1>
+<p>The <strong>Kaplan-Meier estimator</strong> provided a simple visualization of survival curves, but it did not account for multiple covariates. The <strong>Cox model</strong> addressed this limitation, offering hazard ratios to quantify covariate effects on survival. However, the violation of the proportional hazards assumption for Stage 1 suggested that the Cox model might not fully capture <strong>time-dependent effects</strong>. The <strong>AFT model</strong>, in contrast, directly modeled survival time and performed well under the <strong>Weibull distribution</strong>, making it a <strong>robust alternative when proportional hazards assumptions were in question</strong>.</p>
+</section>
+<section id="conclusion" class="level1">
+<h1><strong>Conclusion</strong></h1>
+<p>This analysis of the PBC3 dataset provided key insights into survival outcomes for patients with primary biliary cirrhosis (PBC) based on Cyclosporin A (<code>CyA</code>) treatment and other covariates. Kaplan-Meier analysis indicated <strong>no statistically significant survival benefit of <code>CyA</code> over placebo (p = 0.7813)</strong>. However, survival differences were evident based on <strong>disease stage, sex, and gastrointestinal bleeding history</strong>. The Cox Proportional Hazards model confirmed these findings, identifying <strong>sex, bilirubin (<code>bili</code>), albumin (<code>alb</code>), and disease stage (<code>stage</code>)</strong> as significant predictors of survival, while <strong>treatment (<code>tment</code>) had no significant effect</strong>. Advanced disease stages and higher bilirubin levels were linked to <strong>poorer survival</strong>, whereas <strong>higher albumin levels were protective</strong>.</p>
+<p>The <strong>Accelerated Failure Time (AFT) model</strong>, using the <strong>Weibull distribution</strong>, reinforced these results, confirming the <strong>significance of sex, treatment, albumin, bilirubin, and aspartate transaminase (<code>asptr</code>)</strong>. Diagnostic checks, including <strong>Cox-Snell residuals and negative log-log survival plots</strong>, validated the Weibull model, showing <strong>no major violations</strong> and confirming its suitability for this dataset.</p>
+</section>
+<section id="future-directions" class="level1">
+<h1><strong>Future Directions</strong></h1>
+<p>Further research could explore alternative parametric distributions for the AFT model or stratified Cox models to address the proportional hazards violation for <strong>Stage 1</strong>. Additionally, investigating interaction terms—such as between <strong>treatment (<code>tment</code>) and disease stage (<code>stage</code>)</strong>—could provide deeper insights into treatment effects across different stages. Incorporating time-dependent covariates in the Cox model could further improve its accuracy in capturing survival trends.</p>
+<p>This analysis highlights the complexity of survival outcomes in PBC and underscores the importance of using multiple analytical approaches to derive robust conclusions.</p>
+</section>
+<section id="appendix" class="level1">
+<h1><strong>Appendix</strong></h1>
+<section id="figures-and-tables" class="level2">
+<h2 class="anchored" data-anchor-id="figures-and-tables">Figures and Tables</h2>
+</section>
+<section id="figures-and-tables-1" class="level2">
+<h2 class="anchored" data-anchor-id="figures-and-tables-1">Figures and Tables</h2>
+<section id="figure-1-histogram-of-time-to-failure" class="level3">
+<h3 class="anchored" data-anchor-id="figure-1-histogram-of-time-to-failure">Figure 1: Histogram of Time to Failure</h3>
+<div id="fig-histogram" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-histogram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../..\Assets/Images/SurvivalAnalysis/Fig1HistogramOfTimetoFailure.png" id="fig-histogram" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-histogram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="figure-2-relationship-between-age-and-time-to-failure" class="level3">
+<h3 class="anchored" data-anchor-id="figure-2-relationship-between-age-and-time-to-failure">Figure 2: Relationship Between Age and Time to Failure</h3>
+<div id="fig-age-time" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-age-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../..\Assets/Images/SurvivalAnalysis/Fig2Relationship to Age to Time to Failure.png" id="fig-age-time" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-age-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="figure-3-relationship-between-weight-and-time-to-failure" class="level3">
+<h3 class="anchored" data-anchor-id="figure-3-relationship-between-weight-and-time-to-failure">Figure 3: Relationship Between Weight and Time to Failure</h3>
+<div id="fig-weight-time" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-weight-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../..\Assets/Images/SurvivalAnalysis/fig3 wight to Time to Failure.png" id="fig-weight-time" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-weight-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="figure-4-distribution-of-treatment" class="level3">
+<h3 class="anchored" data-anchor-id="figure-4-distribution-of-treatment">Figure 4: Distribution of Treatment</h3>
+<div id="fig-screenshot" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-screenshot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../..\Assets/Images/SurvivalAnalysis/Fig4Screenshot 2025-02-03 214624.png" id="fig-screenshot" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-screenshot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="figure-5-relationship-between-albumin-and-time-to-failure" class="level3">
+<h3 class="anchored" data-anchor-id="figure-5-relationship-between-albumin-and-time-to-failure">Figure 5: Relationship Between Albumin and Time to Failure</h3>
+<div id="fig-albumin-time" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-albumin-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../..\Assets/Images/SurvivalAnalysis/Fig5AlbuminToTimetoFailure.png" id="fig-albumin-time" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-albumin-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="figure-6-relationship-between-creatinine-and-time-to-failure" class="level3">
+<h3 class="anchored" data-anchor-id="figure-6-relationship-between-creatinine-and-time-to-failure">Figure 6: Relationship Between Creatinine and Time to Failure</h3>
+<div id="fig-creatinine-time" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-creatinine-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../..\Assets/Images/SurvivalAnalysis/fig6creatine to Timetofailure.png" id="fig-creatinine-time" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-creatinine-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="figure-7-kaplan-meier-survival-for-treatment-95-confidence-limit" class="level3">
+<h3 class="anchored" data-anchor-id="figure-7-kaplan-meier-survival-for-treatment-95-confidence-limit">Figure 7: Kaplan-Meier Survival for Treatment (95% Confidence Limit)</h3>
+<div id="fig-treatment-km" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-treatment-km-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../..\Assets/Images/SurvivalAnalysis/Fig7 95percent Confidence Limit Kaplan-Meier survival for Treatment.png" id="fig-treatment-km" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-treatment-km-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="figure-8-kaplan-meier-survival-for-sex-95-confidence-limit" class="level3">
+<h3 class="anchored" data-anchor-id="figure-8-kaplan-meier-survival-for-sex-95-confidence-limit">Figure 8: Kaplan-Meier Survival for Sex (95% Confidence Limit)</h3>
+<div id="fig-sex-km" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sex-km-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../..\Assets/Images/SurvivalAnalysis/Figure 10 95percent Confidence Limit Kaplan-Meier survival for Sex.png" id="fig-sex-km" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-sex-km-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="figure-9-kaplan-meier-survival-for-gastrointestinal-bleeding-95-confidence-limit" class="level3">
+<h3 class="anchored" data-anchor-id="figure-9-kaplan-meier-survival-for-gastrointestinal-bleeding-95-confidence-limit">Figure 9: Kaplan-Meier Survival for Gastrointestinal Bleeding (95% Confidence Limit)</h3>
+<div id="fig-gibleed-km" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-gibleed-km-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../..\Assets/Images/SurvivalAnalysis/GIBlead.png" id="fig-gibleed-km" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-gibleed-km-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="figure-10-kaplan-meier-survival-for-disease-stages-95-confidence-limit" class="level3">
+<h3 class="anchored" data-anchor-id="figure-10-kaplan-meier-survival-for-disease-stages-95-confidence-limit">Figure 10: Kaplan-Meier Survival for Disease Stages (95% Confidence Limit)</h3>
+<div id="fig-stage-km" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-stage-km-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../..\Assets/Images/SurvivalAnalysis/Figure 10 95percent Confidence Limit Kaplan-Meier survival for Sex.png" id="fig-stage-km" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-stage-km-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="figure-11-kaplan-meier-survival-by-stages-product-limit" class="level3">
+<h3 class="anchored" data-anchor-id="figure-11-kaplan-meier-survival-by-stages-product-limit">Figure 11: Kaplan-Meier Survival by Stages (Product Limit)</h3>
+<div id="fig-product-limit-km" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-product-limit-km-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../..\Assets/Images/SurvivalAnalysis/Figure 8,95percent Confidence Limit Kaplan-Meier survival for Stages.png" id="fig-product-limit-km" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-product-limit-km-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="figure-12-relationship-between-weight-and-time-to-failure" class="level3">
+<h3 class="anchored" data-anchor-id="figure-12-relationship-between-weight-and-time-to-failure">Figure 12: Relationship Between Weight and Time to Failure</h3>
+<p><img src="../../..\Assets/Images/SurvivalAnalysis/Ralationship Between Weight and Time to Failure.png" class="img-fluid"></p>
+</section>
+<section id="table-1-3-4-summary-statistics-and-model-outputs" class="level3">
+<h3 class="anchored" data-anchor-id="table-1-3-4-summary-statistics-and-model-outputs">Table 1, 3, 4: Summary Statistics and Model Outputs</h3>
+<p><img src="../../..\Assets/Images/SurvivalAnalysis/Table 1,3,4.png" id="table-summary" class="img-fluid"></p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.quarto.org">
+<p>Made with quarto®</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://chatgpt.com/">
+<p>Built with ChatGPT®</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../../Content/License/index.html">
+<p>License</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/oluwaseunfowotade/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Fowotadeseun/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:fowotadeoluwaseun15@gmail.com">
+      <i class="bi bi-envelope-fill" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

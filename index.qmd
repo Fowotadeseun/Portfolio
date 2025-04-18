@@ -3,16 +3,25 @@ title: "Welcome to my portfolio"
 format:
   html:
     anchor-location: none
-    include-in-header:
-      - "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css' rel='stylesheet'/>"
-    include-after-body:
-      - "<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'></script>"
+    css: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    include-after-body: 
+      text: |
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+          // Optional: Add loading indicators for PDF links
+          document.querySelectorAll('a[href$=".pdf"]').forEach(link => {
+            link.addEventListener('click', function() {
+              this.innerHTML = 'Loading PDF...';
+            });
+          });
+        </script>
 execute:
-  eval: false  # Prevents Quarto from trying to execute HTML as code
-echo: false
-message: false
-warning: false
+  eval: false
+  echo: false
+  message: false
+  warning: false
 ---
+
 
 ```{=html}
 <!-- =========================
@@ -20,24 +29,24 @@ warning: false
 ========================= -->
 <style>
   .hero-section {
-    padding: 40px 0; /* Reducing vertical padding */
+    padding: 40px 0;
     text-align: center;
   }
 
   .hero-section .hero-img {
-    width: 200px; /* Adjust width as needed */
-    height: 200px; /* Ensure height matches width for a perfect circle */
-    object-fit: cover; /* Ensures the image covers the entire element */
-    border-radius: 50%; /* Makes the image circular */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
   }
 
   .hero-section h1 {
-    font-size: 2rem; /* Reduce font size */
-    margin-bottom: 15px; /* Less space below */
+    font-size: 2rem;
+    margin-bottom: 15px;
   }
 
   .hero-section h3 {
-    font-size: 1.5rem; /* Smaller subheading */
+    font-size: 1.5rem;
     margin-bottom: 10px;
     color: var(--primary-color);
   }
@@ -51,6 +60,24 @@ warning: false
     padding: 8px 16px;
     font-size: 1rem;
   }
+  
+  .portfolio-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .badge-tag {
+    display: inline-block;
+    background-color: #6c757d;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
 </style>
 
 <div class="hero-section">
@@ -59,7 +86,7 @@ warning: false
     <h1>Oluwaseun Daniel Fowotade</h1>
     <h3>Biostatistician, Statistical Programmer and Data Scientist</h3>
     <p class="lead">
-      Welcome to my website! Feel free to explore my projects, check out my About page to learn more about me, and browse through the work I've done. Below, you'll find some of my featured projects showcasing data-driven insights, statistical analysis, and machine learning applications. Enjoy exploring, and don’t hesitate to reach out! 🚀
+      Welcome to my website! Feel free to explore my projects, check out my About page to learn more about me, and browse through the work I've done. Below, you'll find some of my featured projects showcasing data-driven insights, statistical analysis, and machine learning applications. Enjoy exploring, and don't hesitate to reach out! 🚀
     </p>
     <a href="#contact" class="cta-button">Let's Collaborate →</a>
   </div>
@@ -69,7 +96,7 @@ warning: false
        Featured Projects
 ========================= -->
 <div class="container">
-  <h2 class="text-center mb-8">Featured Projects</h2>
+  <h2 class="text-center mb-4">Featured Projects</h2>
   <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <!-- Project 1 -->
@@ -81,7 +108,9 @@ warning: false
           <p class="px-3">
             Developed SAS programs for analyzing survival data, assessing treatment effectiveness for patients with liver cirrhosis.
           </p>
-          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Survuval%20Analysis%20of%20Primary%20biliary%20cirrhosis%20(PBC)/" class="cta-button mt-auto">See Project →</a>
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Survival%20Analysis%20of%20Primary%20biliary%20cirrhosis%20(PBC)/" 
+             target="_blank" rel="noopener noreferrer" 
+             class="cta-button mt-auto">See Project →</a>
         </div>
       </div>
 
@@ -94,7 +123,9 @@ warning: false
           <p class="px-3">
             Implemented a genetic algorithm to optimize feature selection in regression models, enhancing predictive accuracy.
           </p>
-          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Feature%20Selection%20Using%20Genetic%20Algorithm/" class="cta-button mt-auto">See Project →</a>
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Feature%20Selection%20Using%20Genetic%20Algorithm/" 
+             target="_blank" rel="noopener noreferrer" 
+             class="cta-button mt-auto">See Project →</a>
         </div>
       </div>
       
@@ -105,38 +136,43 @@ warning: false
           <img src="Assets/Images/Netflix.webp" class="img-fluid mb-4" alt="Netflix Data Visualization">
           <h3 class="mb-3">Netflix Data Analysis: Trends and Insights (2008-2021)</h3>
           <p class="px-3">
-            Explored Netflix’s content evolution, analyzing trends in content types, geographic diversity, and ratings over time.
+            Explored Netflix's content evolution, analyzing trends in content types, geographic diversity, and ratings over time.
           </p>
-          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Netflix%20Data%20Visualization/" class="cta-button mt-auto">See Project → </a>
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Netflix%20Data%20Visualization/"
+             target="_blank" rel="noopener noreferrer" 
+             class="cta-button mt-auto">See Project →</a>
         </div>
       </div>
       
       <!-- Project 4: Predicting Maize Pollen -->
-<div class="carousel-item">
-  <div class="portfolio-card mx-auto" style="max-width: 800px;">
-    <div class="badge-tag">Bioinformatics</div>
-    <img src="Assets/Images/maize.png" class="img-fluid mb-4" alt="Maize Pollen Prediction">
-    <h3 class="mb-3">Predicting Gene Expression Specificity in Maize Pollen</h3>
-    <p class="px-3">
-      Built a logistic regression model using LASSO to predict pollen-specific gene expression based on genomic features. Applied PCA, clustering, and feature selection for high-dimensional data.
-    </p>
-    <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Predicting%20Maize%20Pollen/" class="cta-button mt-auto">See Project →</a>
-  </div>
-</div>
+      <div class="carousel-item">
+        <div class="portfolio-card mx-auto" style="max-width: 800px;">
+          <div class="badge-tag">Bioinformatics</div>
+          <img src="Assets/Images/maize.png" class="img-fluid mb-4" alt="Maize Pollen Prediction">
+          <h3 class="mb-3">Predicting Gene Expression Specificity in Maize Pollen</h3>
+          <p class="px-3">
+            Built a logistic regression model using LASSO to predict pollen-specific gene expression based on genomic features. Applied PCA, clustering, and feature selection for high-dimensional data.
+          </p>
+          <a href="https://github.com/Fowotadeseun/Portfolio/raw/main/Content/Projects/Predicting%20Maize%20Pollen/ST592_final_project.pdf" 
+             target="_blank" rel="noopener noreferrer" 
+             class="cta-button mt-auto">See Project →</a>
+        </div>
+      </div>
 
-<!-- Project 5: Female Sex Worker Distribution -->
-<div class="carousel-item">
-  <div class="portfolio-card mx-auto" style="max-width: 800px;">
-    <div class="badge-tag">Epidemiology</div>
-    <img src="Assets/Images/fsw.png" class="img-fluid mb-4" alt="Female Sex Worker Distribution">
-    <h3 class="mb-3">Modeling Female Sex Worker Distribution in Sub-Saharan Africa</h3>
-    <p class="px-3">
-      Used generalized linear models to analyze determinants of sex worker distribution in SSA, with implications for HIV prevention and policy targeting.
-    </p>
-    <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Female%20Sex%20Worker/" class="cta-button mt-auto">See Project →</a>
-  </div>
-</div>
-
+      <!-- Project 5: Female Sex Worker Distribution -->
+      <div class="carousel-item">
+        <div class="portfolio-card mx-auto" style="max-width: 800px;">
+          <div class="badge-tag">Epidemiology</div>
+          <img src="Assets/Images/fsw.png" class="img-fluid mb-4" alt="Female Sex Worker Distribution">
+          <h3 class="mb-3">Modeling Female Sex Worker Distribution in Sub-Saharan Africa</h3>
+          <p class="px-3">
+            Used generalized linear models to analyze determinants of sex worker distribution in SSA, with implications for HIV prevention and policy targeting.
+          </p>
+          <a href="https://github.com/Fowotadeseun/Portfolio/raw/main/Content/Projects/Female%20Sex%20Worker/ST623_final_project.pdf" 
+             target="_blank" rel="noopener noreferrer" 
+             class="cta-button mt-auto">See Project →</a>
+        </div>
+      </div>
     </div>
     <!-- Carousel Controls -->
     <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
@@ -159,15 +195,22 @@ warning: false
     <p class="lead mb-5">Let's discuss how I can contribute to your team or project.</p>
     <div class="d-flex justify-content-center gap-3 mb-4">
       <a href="mailto:fowotadeoluwaseun15@gmail.com" class="cta-button">Email Me</a>
-      <a href="https://www.linkedin.com/in/oluwaseunfowotade/" class="cta-button">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/oluwaseunfowotade/" target="_blank" rel="noopener noreferrer" class="cta-button">LinkedIn</a>
     </div>
     <!-- Download Resume -->
     <a href="Assets/Resume/Oluwaseun Fowotade Resume.pdf" download 
-       class="download-link resume-download position-relative">
-      <i class="bi bi-file-earmark-arrow-down" 
-         style="font-size: 1.2rem; margin-right: 0.4rem;"></i> l
+       class="download-link resume-download position-relative cta-button">
       Download Full Resume
     </a>
   </div>
 </div>
+
+<script>
+// Optional: Add loading indicators for PDF links
+document.querySelectorAll('a[href$=".pdf"]').forEach(link => {
+  link.addEventListener('click', function() {
+    this.innerHTML = 'Loading PDF...';
+  });
+});
+</script>
 ```
