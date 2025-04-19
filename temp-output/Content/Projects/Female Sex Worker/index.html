@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Oluwaseun Daniel Fowotade">
+<meta name="dcterms.date" content="2025-03-19">
+<meta name="description" content="Using GLMs to identify structural and demographic predictors of sex worker distribution and HIV risk in SSA.">
 
-<title>Welcome to my portfolio – Home</title>
+<title>Modeling Female Sex Worker Distribution in Sub-Saharan Africa – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,20 +70,20 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="Assets/CSS/custom.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-<meta property="og:title" content="Welcome to my portfolio – Home">
+<link rel="stylesheet" href="../../../Assets/CSS/custom.css">
+<meta property="og:title" content="Modeling Female Sex Worker Distribution in Sub-Saharan Africa – Home">
+<meta property="og:description" content="Using GLMs to identify structural and demographic predictors of sex worker distribution and HIV risk in SSA.">
 <meta property="og:site_name" content="Home">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Home</span>
     </a>
   </div>
@@ -91,11 +94,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./Content/About/index.html"> 
+    <a class="nav-link" href="../../../Content/About/index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Content/Projects/index.html"> 
+    <a class="nav-link" href="../../../Content/Projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -108,21 +111,61 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#modeling-female-sex-worker-distribution-in-sub-saharan-africa" id="toc-modeling-female-sex-worker-distribution-in-sub-saharan-africa" class="nav-link active" data-scroll-target="#modeling-female-sex-worker-distribution-in-sub-saharan-africa">Modeling Female Sex Worker Distribution in Sub-Saharan Africa</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#project-objectives" id="toc-project-objectives" class="nav-link" data-scroll-target="#project-objectives">Project Objectives</a></li>
+  <li><a href="#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results">Key Results</a></li>
+  <li><a href="#implications" id="toc-implications" class="nav-link" data-scroll-target="#implications">Implications</a></li>
+  <li><a href="#learn-more" id="toc-learn-more" class="nav-link" data-scroll-target="#learn-more">Learn More</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to my portfolio</h1>
-</div>
+<h1 class="title">Modeling Female Sex Worker Distribution in Sub-Saharan Africa</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Epidemiology</div>
+    <div class="quarto-category">Generalized Linear Models</div>
+    <div class="quarto-category">Public Health</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Using GLMs to identify structural and demographic predictors of sex worker distribution and HIV risk in SSA.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Oluwaseun Daniel Fowotade </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 19, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -132,186 +175,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- =========================
-       Hero Section
-========================= -->
-<style>
-  .hero-section {
-    padding: 40px 0;
-    text-align: center;
-  }
-
-  .hero-section .hero-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-
-  .hero-section h1 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-  }
-
-  .hero-section h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: var(--primary-color);
-  }
-
-  .hero-section p {
-    font-size: 1rem;
-    margin-bottom: 15px;
-  }
-
-  .cta-button {
-    padding: 8px 16px;
-    font-size: 1rem;
-  }
-  
-  .portfolio-card {
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .badge-tag {
-    display: inline-block;
-    background-color: #6c757d;
-    color: white;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    margin-bottom: 10px;
-  }
-</style>
-
-<div class="hero-section">
-  <div class="container">
-    <img src="Assets/Images/AboutME/profile-pic.jpg" alt="Oluwaseun Daniel Fowotade" class="hero-img">
-    <h1>Oluwaseun Daniel Fowotade</h1>
-    <h3 class="anchored">Biostatistician, Statistical Programmer and Data Scientist</h3>
-    <p class="lead">
-      Welcome to my website! Feel free to explore my projects, check out my About page to learn more about me, and browse through the work I've done. Below, you'll find some of my featured projects showcasing data-driven insights, statistical analysis, and machine learning applications. Enjoy exploring, and don't hesitate to reach out! 🚀
-    </p>
-    <a href="#contact" class="cta-button">Let's Collaborate →</a>
-  </div>
-</div>
-
-<!-- =========================
-       Featured Projects
-========================= -->
-<div class="container">
-  <h2 class="text-center mb-4 anchored">Featured Projects</h2>
-  <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <!-- Project 1 -->
-      <div class="carousel-item active">
-        <div class="portfolio-card mx-auto" style="max-width: 800px;">
-          <div class="badge-tag">Survival Analysis</div>
-          <img src="Assets/Images/SurvivalAnalysis/survival image.webp" class="img-fluid mb-4" alt="Survival Analysis">
-          <h3 class="mb-3 anchored">Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis</h3>
-          <p class="px-3">
-            Developed SAS programs for analyzing survival data, assessing treatment effectiveness for patients with liver cirrhosis.
-          </p>
-          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Survival%20Analysis%20of%20Primary%20biliary%20cirrhosis%20(PBC)/" target="_blank" rel="noopener noreferrer" class="cta-button mt-auto">See Project →</a>
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="carousel-item">
-        <div class="portfolio-card mx-auto" style="max-width: 800px;">
-          <div class="badge-tag">Machine Learning</div>
-          <img src="Assets/Images/GA.jpeg" class="img-fluid mb-4" alt="Feature Selection">
-          <h3 class="mb-3 anchored">Feature Selection Using Genetic Algorithms</h3>
-          <p class="px-3">
-            Implemented a genetic algorithm to optimize feature selection in regression models, enhancing predictive accuracy.
-          </p>
-          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Feature%20Selection%20Using%20Genetic%20Algorithm/" target="_blank" rel="noopener noreferrer" class="cta-button mt-auto">See Project →</a>
-        </div>
-      </div>
-      
-      <!-- Project 3: Netflix Data Visualization -->
-      <div class="carousel-item">
-        <div class="portfolio-card mx-auto" style="max-width: 800px;">
-          <div class="badge-tag">Data Visualization</div>
-          <img src="Assets/Images/Netflix.webp" class="img-fluid mb-4" alt="Netflix Data Visualization">
-          <h3 class="mb-3 anchored">Netflix Data Analysis: Trends and Insights (2008-2021)</h3>
-          <p class="px-3">
-            Explored Netflix's content evolution, analyzing trends in content types, geographic diversity, and ratings over time.
-          </p>
-          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Netflix%20Data%20Visualization/" target="_blank" rel="noopener noreferrer" class="cta-button mt-auto">See Project →</a>
-        </div>
-      </div>
-      
-      <!-- Project 4: Predicting Maize Pollen -->
-      <div class="carousel-item">
-        <div class="portfolio-card mx-auto" style="max-width: 800px;">
-          <div class="badge-tag">Bioinformatics</div>
-          <img src="Assets/Images/maize.png" class="img-fluid mb-4" alt="Maize Pollen Prediction">
-          <h3 class="mb-3 anchored">Predicting Gene Expression Specificity in Maize Pollen</h3>
-          <p class="px-3">
-            Built a logistic regression model using LASSO to predict pollen-specific gene expression based on genomic features. Applied PCA, clustering, and feature selection for high-dimensional data.
-          </p>
-          <a href="https://github.com/Fowotadeseun/Portfolio/raw/main/Content/Projects/Predicting%20Maize%20Pollen/ST592_final_project.pdf" target="_blank" rel="noopener noreferrer" class="cta-button mt-auto">See Project →</a>
-        </div>
-      </div>
-
-      <!-- Project 5: Female Sex Worker Distribution -->
-      <div class="carousel-item">
-        <div class="portfolio-card mx-auto" style="max-width: 800px;">
-          <div class="badge-tag">Epidemiology</div>
-          <img src="Assets/Images/fsw.png" class="img-fluid mb-4" alt="Female Sex Worker Distribution">
-          <h3 class="mb-3 anchored">Modeling Female Sex Worker Distribution in Sub-Saharan Africa</h3>
-          <p class="px-3">
-            Used generalized linear models to analyze determinants of sex worker distribution in SSA, with implications for HIV prevention and policy targeting.
-          </p>
-          <a href="https://github.com/Fowotadeseun/Portfolio/raw/main/Content/Projects/Female%20Sex%20Worker/ST623_final_project.pdf" target="_blank" rel="noopener noreferrer" class="cta-button mt-auto">See Project →</a>
-        </div>
-      </div>
-    </div>
-    <!-- Carousel Controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
-
-<!-- =========================
-       Contact Section
-========================= -->
-<div class="container">
-  <div id="contact" class="text-center py-5">
-    <h2 class="mb-4 anchored">Ready to Solve Problems with Data?</h2>
-    <p class="lead mb-5">Let's discuss how I can contribute to your team or project.</p>
-    <div class="d-flex justify-content-center gap-3 mb-4">
-      <a href="mailto:fowotadeoluwaseun15@gmail.com" class="cta-button">Email Me</a>
-      <a href="https://www.linkedin.com/in/oluwaseunfowotade/" target="_blank" rel="noopener noreferrer" class="cta-button">LinkedIn</a>
-    </div>
-    <!-- Download Resume -->
-    <a href="Assets/Resume/Oluwaseun Fowotade Resume.pdf" download="" class="download-link resume-download position-relative cta-button">
-      Download Full Resume
-    </a>
-  </div>
-</div>
-
-<script>
-// Optional: Add loading indicators for PDF links
-document.querySelectorAll('a[href$=".pdf"]').forEach(link => {
-  link.addEventListener('click', function() {
-    this.innerHTML = 'Loading PDF...';
-  });
-});
-</script>
+<section id="modeling-female-sex-worker-distribution-in-sub-saharan-africa" class="level1">
+<h1>Modeling Female Sex Worker Distribution in Sub-Saharan Africa</h1>
+<p><img src="../../../Assets/Images/fsw.png" class="img-fluid mb-4" alt="Female Sex Worker Distribution" style="max-width: 700px; display: block; margin-left: auto; margin-right: auto;"></p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Sex workers represent a critical population for targeted HIV prevention strategies. This project models the geographic and structural determinants of female sex worker (FSW) distribution across Sub-Saharan Africa using Generalized Linear Models (GLMs).</p>
+<p>📄 <strong>Read the full report</strong>:<br>
+➡️ <a href="https://raw.githubusercontent.com/Fowotadeseun/Portfolio/main/Content/Projects/Female%20Sex%20Worker/GLM_Final_Project.pdf">GLM Final Project (PDF)</a></p>
+<hr>
+</section>
+<section id="project-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="project-objectives">Project Objectives</h2>
+<p>📊 Identify predictors of high FSW density using statistical modeling.</p>
+<p>🌍 Understand regional disparities and implications for HIV transmission.</p>
+<p>🔬 Inform strategic interventions and resource allocation using evidence-based methods.</p>
+<hr>
+</section>
+<section id="key-results" class="level2">
+<h2 class="anchored" data-anchor-id="key-results">Key Results</h2>
+<ul>
+<li>Urbanization, migration, and economic indicators are strong predictors of FSW distribution.</li>
+<li>GLMs helped reveal structural drivers behind observed geographic clustering.</li>
+<li>The model supports regional targeting for HIV-prevention programs.</li>
+</ul>
+<hr>
+</section>
+<section id="implications" class="level2">
+<h2 class="anchored" data-anchor-id="implications">Implications</h2>
+<ul>
+<li>This study provides a statistical framework to guide health intervention planning across SSA.</li>
+<li>Findings can assist NGOs, governments, and policymakers in focusing resources.</li>
+</ul>
+<hr>
+</section>
+<section id="learn-more" class="level2">
+<h2 class="anchored" data-anchor-id="learn-more">Learn More</h2>
+<p>🔗 <a href="https://github.com/Fowotadeseun/Portfolio">GitHub Repo</a><br>
+📩 <a href="https://www.linkedin.com/in/oluwaseunfowotade/">Connect on LinkedIn</a></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -752,7 +657,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./Content/License/index.html">
+    <a class="nav-link" href="../../../Content/License/index.html">
 <p>License</p>
 </a>
   </li>  
@@ -778,15 +683,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-  // Optional: Add loading indicators for PDF links
-  document.querySelectorAll('a[href$=".pdf"]').forEach(link => {
-    link.addEventListener('click', function() {
-      this.innerHTML = 'Loading PDF...';
-    });
-  });
-</script>
 
 
 

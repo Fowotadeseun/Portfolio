@@ -243,5 +243,89 @@
     "title": "Welcome to my Projects Highlights!",
     "section": "",
     "text": "No matching items"
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "This project focuses on identifying pollen-specific gene expression in maize using genomic features and high-dimensional data techniques. By applying LASSO logistic regression and dimensionality reduction, we aim to build an interpretable and efficient classifier for gene specificity.\n📄 Read the full report:\n➡️ ST592 Final Report (PDF)\n📊 View the presentation slides:\n➡️ Pollen Prediction Slides (PDF)\n\n\n\n\n🧬 Feature Extraction: Descriptors from genomic sequences.\n⚙️ Dimensionality Reduction: PCA for pattern discovery.\n📈 Logistic Regression with LASSO: For sparse and interpretable model fitting.\n🧪 Model Evaluation: ROC-AUC, accuracy, and confusion matrix analysis.\n\n\n\n\n\nOnly a small subset of features were relevant to pollen specificity.\nPCA and clustering revealed no natural groupings of pollen vs. non-pollen genes.\nLASSO selected biologically meaningful descriptors with strong predictive power.\n\n\n\n\n\n\nIdentifying pollen-specific genes supports targeted breeding.\nApproach can be extended to other species and expression traits.\n\n\n\n\n\n🔗 GitHub Repo\n📩 Connect on LinkedIn"
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html#introduction",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html#introduction",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "This project focuses on identifying pollen-specific gene expression in maize using genomic features and high-dimensional data techniques. By applying LASSO logistic regression and dimensionality reduction, we aim to build an interpretable and efficient classifier for gene specificity.\n📄 Read the full report:\n➡️ ST592 Final Report (PDF)\n📊 View the presentation slides:\n➡️ Pollen Prediction Slides (PDF)"
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html#workflow",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html#workflow",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "🧬 Feature Extraction: Descriptors from genomic sequences.\n⚙️ Dimensionality Reduction: PCA for pattern discovery.\n📈 Logistic Regression with LASSO: For sparse and interpretable model fitting.\n🧪 Model Evaluation: ROC-AUC, accuracy, and confusion matrix analysis."
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html#key-insights",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html#key-insights",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "Only a small subset of features were relevant to pollen specificity.\nPCA and clustering revealed no natural groupings of pollen vs. non-pollen genes.\nLASSO selected biologically meaningful descriptors with strong predictive power."
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html#applications",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html#applications",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "Identifying pollen-specific genes supports targeted breeding.\nApproach can be extended to other species and expression traits."
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html#learn-more",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html#learn-more",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "🔗 GitHub Repo\n📩 Connect on LinkedIn"
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html",
+    "href": "Content/Projects/Female Sex Worker/index.html",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "Sex workers represent a critical population for targeted HIV prevention strategies. This project models the geographic and structural determinants of female sex worker (FSW) distribution across Sub-Saharan Africa using Generalized Linear Models (GLMs).\n📄 Read the full report:\n➡️ GLM Final Project (PDF)\n\n\n\n\n📊 Identify predictors of high FSW density using statistical modeling.\n🌍 Understand regional disparities and implications for HIV transmission.\n🔬 Inform strategic interventions and resource allocation using evidence-based methods.\n\n\n\n\n\nUrbanization, migration, and economic indicators are strong predictors of FSW distribution.\nGLMs helped reveal structural drivers behind observed geographic clustering.\nThe model supports regional targeting for HIV-prevention programs.\n\n\n\n\n\n\nThis study provides a statistical framework to guide health intervention planning across SSA.\nFindings can assist NGOs, governments, and policymakers in focusing resources.\n\n\n\n\n\n🔗 GitHub Repo\n📩 Connect on LinkedIn"
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#introduction",
+    "href": "Content/Projects/Female Sex Worker/index.html#introduction",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "Sex workers represent a critical population for targeted HIV prevention strategies. This project models the geographic and structural determinants of female sex worker (FSW) distribution across Sub-Saharan Africa using Generalized Linear Models (GLMs).\n📄 Read the full report:\n➡️ GLM Final Project (PDF)"
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#project-objectives",
+    "href": "Content/Projects/Female Sex Worker/index.html#project-objectives",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "📊 Identify predictors of high FSW density using statistical modeling.\n🌍 Understand regional disparities and implications for HIV transmission.\n🔬 Inform strategic interventions and resource allocation using evidence-based methods."
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#key-results",
+    "href": "Content/Projects/Female Sex Worker/index.html#key-results",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "Urbanization, migration, and economic indicators are strong predictors of FSW distribution.\nGLMs helped reveal structural drivers behind observed geographic clustering.\nThe model supports regional targeting for HIV-prevention programs."
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#implications",
+    "href": "Content/Projects/Female Sex Worker/index.html#implications",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "This study provides a statistical framework to guide health intervention planning across SSA.\nFindings can assist NGOs, governments, and policymakers in focusing resources."
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#learn-more",
+    "href": "Content/Projects/Female Sex Worker/index.html#learn-more",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "🔗 GitHub Repo\n📩 Connect on LinkedIn"
   }
 ]

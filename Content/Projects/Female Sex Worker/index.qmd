@@ -1,0 +1,62 @@
+---
+title: "Modeling Female Sex Worker Distribution in Sub-Saharan Africa"
+author: "Oluwaseun Daniel Fowotade"
+date: "03/19/2025"
+description: "Using GLMs to identify structural and demographic predictors of sex worker distribution and HIV risk in SSA."
+format:
+  html:
+    toc: true
+    toc-location: left
+    code-fold: true
+    highlight-style: tango
+execute:
+  warning: false
+  message: false
+categories:
+  - Epidemiology
+  - Generalized Linear Models
+  - Public Health
+---
+
+# Modeling Female Sex Worker Distribution in Sub-Saharan Africa
+
+<img src="../../../Assets/Images/fsw.png" class="img-fluid mb-4" alt="Female Sex Worker Distribution" style="max-width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
+
+## Introduction
+
+Sex workers represent a critical population for targeted HIV prevention strategies. This project models the geographic and structural determinants of female sex worker (FSW) distribution across Sub-Saharan Africa using Generalized Linear Models (GLMs).
+
+📄 **Read the full report**:  
+➡️ [GLM Final Project (PDF)](https://raw.githubusercontent.com/Fowotadeseun/Portfolio/main/Content/Projects/Female%20Sex%20Worker/GLM_Final_Project.pdf)
+
+---
+
+## Project Objectives
+
+📊 Identify predictors of high FSW density using statistical modeling.
+
+🌍 Understand regional disparities and implications for HIV transmission.
+
+🔬 Inform strategic interventions and resource allocation using evidence-based methods.
+
+---
+
+## Key Results
+
+- Urbanization, migration, and economic indicators are strong predictors of FSW distribution.
+- GLMs helped reveal structural drivers behind observed geographic clustering.
+- The model supports regional targeting for HIV-prevention programs.
+
+---
+
+## Implications
+
+- This study provides a statistical framework to guide health intervention planning across SSA.
+- Findings can assist NGOs, governments, and policymakers in focusing resources.
+
+---
+
+## Learn More
+
+🔗 [GitHub Repo](https://github.com/Fowotadeseun/Portfolio)  
+📩 [Connect on LinkedIn](https://www.linkedin.com/in/oluwaseunfowotade/)
