@@ -153,7 +153,7 @@ execute:
           <p class="px-3">
             Built a logistic regression model using LASSO to predict pollen-specific gene expression based on genomic features. Applied PCA, clustering, and feature selection for high-dimensional data.
           </p>
-          <a href="https://github.com/Fowotadeseun/Portfolio/raw/main/Content/Projects/Predicting%20Maize%20Pollen/ST592_final_project.pdf" 
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Predicting%20Maize%20Pollen/" 
              target="_blank" rel="noopener noreferrer" 
              class="cta-button mt-auto">See Project →</a>
         </div>
@@ -168,7 +168,7 @@ execute:
           <p class="px-3">
             Used generalized linear models to analyze determinants of sex worker distribution in SSA, with implications for HIV prevention and policy targeting.
           </p>
-          <a href="https://raw.githubusercontent.com/Fowotadeseun/Portfolio/main/Content/Projects/Female%20Sex%20Worker/GLM_Final_Project.pdf" 
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Female%20Sex%20Worker/" 
              target="_blank" rel="noopener noreferrer" 
              class="cta-button mt-auto">See Project →</a>
         </div>
