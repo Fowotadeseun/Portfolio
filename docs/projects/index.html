@@ -77,9 +77,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -127,6 +127,7 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="../Assets/CSS/custom.css">
 <meta property="og:title" content="Welcome to my Projects Highlights! – Home">
 <meta property="og:site_name" content="Home">
 </head>
@@ -156,18 +157,6 @@ window.Quarto = {
     <a class="nav-link" href="../Content/Projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../Content/Blog/index.html"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../Content/Talks/index.html"> 
-<span class="menu-text">Talks</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../Content/Resources/index.html"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -181,7 +170,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Visualization">Data Visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -210,42 +199,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="R,Data Visualization" data-listing-date-sort="1738224000000" data-listing-file-modified-sort="1737578459989" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail">
-<p><a href="../projects/NetflixVisualization/index.html" class="no-external"></a></p><a href="../projects/NetflixVisualization/index.html" class="no-external">
-<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:projects/NetflixVisualization/index.html -->
-</a><p><a href="../projects/NetflixVisualization/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../projects/NetflixVisualization/index.html" class="no-external">NetflixVisualization</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../projects/NetflixVisualization/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Data Visualization'); return false;">
-Data Visualization
-</div>
-</div>
-<div class="listing-description">
-<a href="../projects/NetflixVisualization/index.html" class="no-external">My first blog post</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../projects/NetflixVisualization/index.html" class="no-external">
-<div class="listing-date">
-Jan 30, 2025
-</div>
-<div class="listing-author">
-Daniel
-</div>
-</a>
-</div>
-</div>
+
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -679,11 +633,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <li class="nav-item">
     <a class="nav-link" href="https://www.quarto.org">
 <p>Made with quarto®</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://chatgpt.com/">
-<p>Built with ChatGPT®</p>
 </a>
   </li>  
 </ul>

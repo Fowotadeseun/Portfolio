@@ -22,7 +22,6 @@ execute:
   warning: false
 ---
 
-
 ```{=html}
 <!-- =========================
        Hero Section

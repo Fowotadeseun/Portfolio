@@ -11,7 +11,7 @@
     "href": "projects/index.html",
     "title": "Welcome to my Projects Highlights!",
     "section": "",
-    "text": "NetflixVisualization\n\n\n\n\n\n\nR\n\n\nData Visualization\n\n\n\nMy first blog post\n\n\n\n\n\nJan 28, 2025\n\n\nDaniel\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "projects/NetflixVisualization/index.html",
@@ -137,7 +137,7 @@
     "href": "index.html",
     "title": "Welcome to my portfolio",
     "section": "",
-    "text": "Oluwaseun Daniel Fowotade\n    Biostatistician, Statistical Programmer and Data Scientist\n    \n      Welcome to my website! Feel free to explore my projects, check out my About page to learn more about me, and browse through the work I've done. Below, you'll find some of my featured projects showcasing data-driven insights, statistical analysis, and machine learning applications. Enjoy exploring, and don't hesitate to reach out! 🚀\n    \n    Let's Collaborate →\n  \n\n\n\n\n  Featured Projects\n  \n    \n      \n      \n        \n          Survival Analysis\n          \n          Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis\n          \n            Developed SAS programs for analyzing survival data, assessing treatment effectiveness for patients with liver cirrhosis.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Machine Learning\n          \n          Feature Selection Using Genetic Algorithms\n          \n            Implemented a genetic algorithm to optimize feature selection in regression models, enhancing predictive accuracy.\n          \n          See Project →\n        \n      \n      \n      \n      \n        \n          Data Visualization\n          \n          Netflix Data Analysis: Trends and Insights (2008-2021)\n          \n            Explored Netflix's content evolution, analyzing trends in content types, geographic diversity, and ratings over time.\n          \n          See Project →\n        \n      \n      \n      \n      \n        \n          Bioinformatics\n          \n          Predicting Gene Expression Specificity in Maize Pollen\n          \n            Built a logistic regression model using LASSO to predict pollen-specific gene expression based on genomic features. Applied PCA, clustering, and feature selection for high-dimensional data.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Epidemiology\n          \n          Modeling Female Sex Worker Distribution in Sub-Saharan Africa\n          \n            Used generalized linear models to analyze determinants of sex worker distribution in SSA, with implications for HIV prevention and policy targeting.\n          \n          See Project →\n        \n      \n    \n    \n    \n      \n      Previous\n    \n    \n      \n      Next\n    \n  \n\n\n\n\n  \n    Ready to Solve Problems with Data?\n    Let's discuss how I can contribute to your team or project.\n    \n      Email Me\n      LinkedIn\n    \n    \n    \n      Download Full Resume"
+    "text": "Oluwaseun Daniel Fowotade\n    Biostatistician, Statistical Programmer and Data Scientist\n    \n      Welcome to my website! Feel free to explore my projects, check out my About page to learn more about me, and browse through the work I've done. Below, you'll find some of my featured projects showcasing data-driven insights, statistical analysis, and machine learning applications. Enjoy exploring, and don't hesitate to reach out! 🚀\n    \n    Let's Collaborate →\n  \n\n\n\n\n  Featured Projects\n  \n    \n      \n      \n        \n          Survival Analysis\n          \n          Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis\n          \n            Developed SAS programs for analyzing survival data, assessing treatment effectiveness for patients with liver cirrhosis.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Machine Learning\n          \n          Feature Selection Using Genetic Algorithms\n          \n            Implemented a genetic algorithm to optimize feature selection in regression models, enhancing predictive accuracy.\n          \n          See Project →\n        \n      \n      \n      \n      \n        \n          Data Visualization\n          \n          Netflix Data Analysis: Trends and Insights (2008-2021)\n          \n            Explored Netflix's content evolution, analyzing trends in content types, geographic diversity, and ratings over time.\n          \n          See Project →\n        \n      \n      g\n      \n      \n        \n          Bioinformatics\n          \n          Predicting Gene Expression Specificity in Maize Pollen\n          \n            Built a logistic regression model using LASSO to predict pollen-specific gene expression based on genomic features. Applied PCA, clustering, and feature selection for high-dimensional data.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Epidemiology\n          \n          Modeling Female Sex Worker Distribution in Sub-Saharan Africa\n          \n            Used generalized linear models to analyze determinants of sex worker distribution in SSA, with implications for HIV prevention and policy targeting.\n          \n          See Project →\n        \n      \n    \n    \n    \n      \n      Previous\n    \n    \n      \n      Next\n    \n  \n\n\n\n\n  \n    Ready to Solve Problems with Data?\n    Let's discuss how I can contribute to your team or project.\n    \n      Email Me\n      LinkedIn\n    \n    \n    \n      Download Full Resume"
   },
   {
     "objectID": "resume.html",
@@ -186,7 +186,7 @@
     "href": "Content/Projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Netflix Data Analysis: Trends and Insights (2008-2021)\n\n\nExploring trends in Netflix content from 2008 to 2021.\n\n\n\nFeb 23, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Genetic Algorithms to Optimize Feature Selection in Regression Modeling\n\n\nUsing Genetic Algorithms to optimize feature selection in regression modeling.\n\n\n\nDec 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSurvival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis\n\n\n\n\n\n\nDec 20, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding",
@@ -782,5 +782,89 @@
     "title": "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis",
     "section": "Figures and Tables",
     "text": "Figures and Tables\n\nFigure 1: Histogram of Time to Failure\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\nFigure 2: Relationship Between Age and Time to Failure\n\n\n\n\n\n\nFigure 2\n\n\n\n\n\nFigure 3: Relationship Between Weight and Time to Failure\n\n\n\n\n\n\nFigure 3\n\n\n\n\n\nFigure 4: Distribution of Treatment\n\n\n\n\n\n\nFigure 4\n\n\n\n\n\nFigure 5: Relationship Between Albumin and Time to Failure\n\n\n\n\n\n\nFigure 5\n\n\n\n\n\nFigure 6: Relationship Between Creatinine and Time to Failure\n\n\n\n\n\n\nFigure 6\n\n\n\n\n\nFigure 7: Kaplan-Meier Survival for Treatment (95% Confidence Limit)\n\n\n\n\n\n\nFigure 7\n\n\n\n\n\nFigure 8: Kaplan-Meier Survival for Sex (95% Confidence Limit)\n\n\n\n\n\n\nFigure 8\n\n\n\n\n\nFigure 9: Kaplan-Meier Survival for Gastrointestinal Bleeding (95% Confidence Limit)\n\n\n\n\n\n\nFigure 9\n\n\n\n\n\nFigure 10: Kaplan-Meier Survival for Disease Stages (95% Confidence Limit)\n\n\n\n\n\n\nFigure 10\n\n\n\n\n\nFigure 11: Kaplan-Meier Survival by Stages (Product Limit)\n\n\n\n\n\n\nFigure 11\n\n\n\n\n\nFigure 12: Relationship Between Weight and Time to Failure\n\n\n\nTable 1, 3, 4: Summary Statistics and Model Outputs"
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "This project focuses on identifying pollen-specific gene expression in maize using genomic features and high-dimensional data techniques. By applying LASSO logistic regression and dimensionality reduction, we aim to build an interpretable and efficient classifier for gene specificity.\n📄 Read the full report:\n➡️ ST592 Final Report (PDF)\n📊 View the presentation slides:\n➡️ Pollen Prediction Slides (PDF)\n\n\n\n\n🧬 Feature Extraction: Descriptors from genomic sequences.\n⚙️ Dimensionality Reduction: PCA for pattern discovery.\n📈 Logistic Regression with LASSO: For sparse and interpretable model fitting.\n🧪 Model Evaluation: ROC-AUC, accuracy, and confusion matrix analysis.\n\n\n\n\n\nOnly a small subset of features were relevant to pollen specificity.\nPCA and clustering revealed no natural groupings of pollen vs. non-pollen genes.\nLASSO selected biologically meaningful descriptors with strong predictive power.\n\n\n\n\n\n\nIdentifying pollen-specific genes supports targeted breeding.\nApproach can be extended to other species and expression traits.\n\n\n\n\n\n🔗 GitHub Repo\n📩 Connect on LinkedIn"
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html#introduction",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html#introduction",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "This project focuses on identifying pollen-specific gene expression in maize using genomic features and high-dimensional data techniques. By applying LASSO logistic regression and dimensionality reduction, we aim to build an interpretable and efficient classifier for gene specificity.\n📄 Read the full report:\n➡️ ST592 Final Report (PDF)\n📊 View the presentation slides:\n➡️ Pollen Prediction Slides (PDF)"
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html#workflow",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html#workflow",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "🧬 Feature Extraction: Descriptors from genomic sequences.\n⚙️ Dimensionality Reduction: PCA for pattern discovery.\n📈 Logistic Regression with LASSO: For sparse and interpretable model fitting.\n🧪 Model Evaluation: ROC-AUC, accuracy, and confusion matrix analysis."
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html#key-insights",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html#key-insights",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "Only a small subset of features were relevant to pollen specificity.\nPCA and clustering revealed no natural groupings of pollen vs. non-pollen genes.\nLASSO selected biologically meaningful descriptors with strong predictive power."
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html#applications",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html#applications",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "Identifying pollen-specific genes supports targeted breeding.\nApproach can be extended to other species and expression traits."
+  },
+  {
+    "objectID": "Content/Projects/Predicting Maize Pollen/index.html#learn-more",
+    "href": "Content/Projects/Predicting Maize Pollen/index.html#learn-more",
+    "title": "Predicting Gene Expression Specificity in Maize Pollen",
+    "section": "",
+    "text": "🔗 GitHub Repo\n📩 Connect on LinkedIn"
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html",
+    "href": "Content/Projects/Female Sex Worker/index.html",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "Sex workers represent a critical population for targeted HIV prevention strategies. This project models the geographic and structural determinants of female sex worker (FSW) distribution across Sub-Saharan Africa using Generalized Linear Models (GLMs).\n📄 Read the full report:\n➡️ GLM Final Project (PDF)\n\n\n\n\n📊 Identify predictors of high FSW density using statistical modeling.\n🌍 Understand regional disparities and implications for HIV transmission.\n🔬 Inform strategic interventions and resource allocation using evidence-based methods.\n\n\n\n\n\nUrbanization, migration, and economic indicators are strong predictors of FSW distribution.\nGLMs helped reveal structural drivers behind observed geographic clustering.\nThe model supports regional targeting for HIV-prevention programs.\n\n\n\n\n\n\nThis study provides a statistical framework to guide health intervention planning across SSA.\nFindings can assist NGOs, governments, and policymakers in focusing resources.\n\n\n\n\n\n🔗 GitHub Repo\n📩 Connect on LinkedIn"
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#introduction",
+    "href": "Content/Projects/Female Sex Worker/index.html#introduction",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "Sex workers represent a critical population for targeted HIV prevention strategies. This project models the geographic and structural determinants of female sex worker (FSW) distribution across Sub-Saharan Africa using Generalized Linear Models (GLMs).\n📄 Read the full report:\n➡️ GLM Final Project (PDF)"
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#project-objectives",
+    "href": "Content/Projects/Female Sex Worker/index.html#project-objectives",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "📊 Identify predictors of high FSW density using statistical modeling.\n🌍 Understand regional disparities and implications for HIV transmission.\n🔬 Inform strategic interventions and resource allocation using evidence-based methods."
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#key-results",
+    "href": "Content/Projects/Female Sex Worker/index.html#key-results",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "Urbanization, migration, and economic indicators are strong predictors of FSW distribution.\nGLMs helped reveal structural drivers behind observed geographic clustering.\nThe model supports regional targeting for HIV-prevention programs."
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#implications",
+    "href": "Content/Projects/Female Sex Worker/index.html#implications",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "This study provides a statistical framework to guide health intervention planning across SSA.\nFindings can assist NGOs, governments, and policymakers in focusing resources."
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#learn-more",
+    "href": "Content/Projects/Female Sex Worker/index.html#learn-more",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "🔗 GitHub Repo\n📩 Connect on LinkedIn"
   }
 ]
