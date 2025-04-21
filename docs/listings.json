@@ -1,7 +1,13 @@
 [
   {
     "listing": "/Content/Projects/index.html",
-    "items": []
+    "items": [
+      "/Content/Projects/Female Sex Worker/index.html",
+      "/Content/Projects/Predicting Maize Pollen/index.html",
+      "/Content/Projects/Netflix Data Visualization/index.html",
+      "/Content/Projects/Feature Selection Using Genetic Algorithm/index.html",
+      "/Content/Projects/Survival Analysis of Primary biliary cirrhosis (PBC)/index.html"
+    ]
   },
   {
     "listing": "/Content/Blog/index.html",

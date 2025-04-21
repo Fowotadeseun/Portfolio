@@ -3,7 +3,7 @@ title: "Projects"
 subtitle: "Overview of my statistical & data science projects"
 listing:
   contents: 
-    - "Content/Projects/**"  # Explicitly include all projects
+    - .  # <- looks in current folder for subfolders with index.qmd
   max-description-length: 150
   type: grid
   grid-columns: 2
@@ -25,7 +25,6 @@ format:
           <script>
             document.addEventListener("DOMContentLoaded", function() {
               console.log("Projects page loaded successfully!");
-              // Debug: Log all listed projects
               const projectCards = document.querySelectorAll('.quarto-listing-cards .card');
               console.log(`Found ${projectCards.length} projects`);
             });

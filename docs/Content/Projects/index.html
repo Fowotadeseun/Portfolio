@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-description','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -172,7 +172,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Bioinformatics">Bioinformatics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Analysis">Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Epidemiology">Epidemiology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Feature Selection">Feature Selection <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Generalized Linear Models">Generalized Linear Models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Genetic Algorithms">Genetic Algorithms <span class="quarto-category-count">(1)</span></div><div class="category" data-category="High-Dimensional Data">High-Dimensional Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Public Health">Public Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Regression">Regression <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Shiny App">Shiny App <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Statistics">Statistics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Survival Analysis">Survival Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Visualization">Visualization <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -202,7 +202,167 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-2">
-
+<div class="g-col-1" data-index="0" data-categories="Epidemiology,Generalized Linear Models,Public Health" data-listing-date-sort="1742367600000" data-listing-file-modified-sort="1745262064129" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
+<a href="../../Content/Projects/Female Sex Worker/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="..\..\Assets\Images\fsw.png" alt="Female Sex Worker Distribution" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Modeling Female Sex Worker Distribution in Sub-Saharan Africa
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Epidemiology'); return false;">
+Epidemiology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Generalized Linear Models'); return false;">
+Generalized Linear Models
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Public Health'); return false;">
+Public Health
+</div>
+</div>
+<div class="card-text listing-description">
+Using GLMs to identify structural and demographic predictors of sex worker distribution and HIV risk in SSA.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 19, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Bioinformatics,Feature Selection,High-Dimensional Data" data-listing-date-sort="1742022000000" data-listing-file-modified-sort="1745262333720" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
+<a href="../../Content/Projects/Predicting Maize Pollen/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="..\..\Assets\Images\maize.png" alt="Maize Pollen Prediction" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Predicting Gene Expression Specificity in Maize Pollen
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Bioinformatics'); return false;">
+Bioinformatics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Feature Selection'); return false;">
+Feature Selection
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('High-Dimensional Data'); return false;">
+High-Dimensional Data
+</div>
+</div>
+<div class="card-text listing-description">
+A logistic LASSO model to classify maize genes based on pollen specificity using high-dimensional genomic features.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 15, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Data Analysis,Visualization,Shiny App" data-listing-date-sort="1740297600000" data-listing-file-modified-sort="1740793041465" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
+<a href="../../Content/Projects/Netflix Data Visualization/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="..\..\Assets\Images\Netflix.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Netflix Data Analysis: Trends and Insights (2008-2021)
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
+Data Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Visualization'); return false;">
+Visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Shiny App'); return false;">
+Shiny App
+</div>
+</div>
+<div class="card-text listing-description">
+Exploring trends in Netflix content from 2008 to 2021.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Feb 23, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Machine Learning,Genetic Algorithms,Feature Selection,Statistics,Regression" data-listing-date-sort="1734681600000" data-listing-file-modified-sort="1740381480192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2392">
+<a href="../../Content/Projects/Feature Selection Using Genetic Algorithm/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="..\..\Assets\Images\GA.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
+Machine Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Genetic Algorithms'); return false;">
+Genetic Algorithms
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Feature Selection'); return false;">
+Feature Selection
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Regression'); return false;">
+Regression
+</div>
+</div>
+<div class="card-text listing-description">
+Using Genetic Algorithms to optimize feature selection in regression modeling.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 20, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Survival Analysis,Statistics,Regression" data-listing-date-sort="1734681600000" data-listing-file-modified-sort="1741128097128" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2254">
+<a href="../../Content/Projects/Survival Analysis of Primary biliary cirrhosis (PBC)/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="..\..\Assets\Images\SurvivalAnalysis\SurvivalAnalysis.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Survival Analysis'); return false;">
+Survival Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Regression'); return false;">
+Regression
+</div>
+</div>
+<div class="card-text listing-description">
+<strong>Primary biliary cirrhosis (PBC)</strong> is a severe and chronic liver disease characterized by progressive bile duct destruction, potentially leading to…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 20, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -675,7 +835,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     console.log("Projects page loaded successfully!");
-    // Debug: Log all listed projects
     const projectCards = document.querySelectorAll('.quarto-listing-cards .card');
     console.log(`Found ${projectCards.length} projects`);
   });
