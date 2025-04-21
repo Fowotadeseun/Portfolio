@@ -1,12 +1,6 @@
 [
   {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/NetflixVisualization/index.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
+    "listing": "/Content/Projects/index.html",
     "items": []
   },
   {
@@ -18,13 +12,7 @@
     "items": []
   },
   {
-    "listing": "/Content/Project/index.html",
-    "items": [
-      "/Content/Project/Feature Selection Using Genetic Algorithm/index.html"
-    ]
-  },
-  {
-    "listing": "/Content/Projects/index.html",
+    "listing": "/projects/index.html",
     "items": []
   }
 ]
