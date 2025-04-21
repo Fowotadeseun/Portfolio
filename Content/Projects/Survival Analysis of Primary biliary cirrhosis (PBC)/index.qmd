@@ -13,10 +13,6 @@ execute:
   warning: false
   message: false
 jupyter: ir
-categories:
-  - Survival Analysis
-  - Statistics
-  - Regression
 ---
 
 ![](/Assets/Images/SurvivalAnalysis/SurvivalAnalysis.webp)

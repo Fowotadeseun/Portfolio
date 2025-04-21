@@ -13,13 +13,8 @@ execute:
   warning: false
   message: false
 jupyter: ir
-categories:
-  - Machine Learning
-  - Genetic Algorithms
-  - Feature Selection
-  - Statistics
-  - Regression
 ---
+
 ![](/Assets/Images/GA.jpeg)
 
 # Overview of Genetic Algorithm
@@ -117,10 +112,16 @@ The application of a genetic algorithm (GA) for feature selection in the Sonar d
 
 The k-NN classifier trained on the selected features achieved an accuracy of 72.58% on the test set. However, there are several areas for improvement:
 
-- ##  **Population Size**: A larger population size could enhance the diversity of candidate solutions, preventing premature convergence to suboptimal solutions.
+-   
+
+    ## **Population Size**: A larger population size could enhance the diversity of candidate solutions, preventing premature convergence to suboptimal solutions.
+
 -   **Mutation Rate**: Adjusting the mutation rate could introduce more variation in the search space. For example, increasing the mutation rate in earlier generations might explore more diverse feature subsets, while reducing it in later generations could refine promising solutions.
+
 -   **Crossover Strategy**: Employing advanced crossover techniques, such as uniform or multi-point crossover, could enhance the recombination of parent solutions, potentially leading to better offspring.
+
 -   **Termination Criteria**: Allowing the GA to run for additional generations or introducing a dynamic stopping criterion based on convergence rates could yield more refined feature subsets.
+
 -   **Fitness Function**: Experimenting with alternative fitness functions, such as F1-score or balanced accuracy, could prioritize models that address class imbalance more effectively.
 
 By fine-tuning these parameters, the GA could further enhance its ability to select the most discriminating features, improving classification accuracy and robustness.

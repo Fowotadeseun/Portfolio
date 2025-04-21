@@ -3,7 +3,7 @@ title: "Projects"
 subtitle: "Overview of my statistical & data science projects"
 listing:
   contents: 
-    - .  # <- looks in current folder for subfolders with index.qmd
+    - .  # or relative to this file's location
   max-description-length: 150
   type: grid
   grid-columns: 2
@@ -17,14 +17,33 @@ listing:
     - categories
 format:
   html:
-    include-in-header: 
-      - text: |
-          <script type="text/javascript" src="/Assets/Scripts/Portfolio/new-banner.js"></script>
     include-after-body:
       - text: |
           <script>
             document.addEventListener("DOMContentLoaded", function() {
               console.log("Projects page loaded successfully!");
+              
+              const options = {
+                valueNames: [
+                  'listing-image',
+                  'listing-title',
+                  'listing-description',
+                  'listing-date',
+                  'listing-categories',
+                  { data: ['index'] },
+                  { data: ['categories'] },
+                  { data: ['listing-date-sort'] },
+                  { data: ['listing-file-modified-sort'] }
+                ],
+                searchColumns: [
+                  "listing-title",
+                  "listing-description",
+                  "listing-date",
+                  "listing-categories"
+                ]
+              };
+
+              window['quarto-listings'] = window['quarto-listings'] || {};
               const projectCards = document.querySelectorAll('.quarto-listing-cards .card');
               console.log(`Found ${projectCards.length} projects`);
             });

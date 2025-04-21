@@ -12,10 +12,7 @@ format:
 execute:
   warning: false
   message: false
-categories:
-  - Bioinformatics
-  - Feature Selection
-  - High-Dimensional Data
+project: true
 ---
 
 # Predicting Gene Expression Specificity in Maize Pollen

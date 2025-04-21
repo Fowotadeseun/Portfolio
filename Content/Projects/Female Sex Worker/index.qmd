@@ -12,10 +12,7 @@ format:
 execute:
   warning: false
   message: false
-categories:
-  - Epidemiology
-  - Generalized Linear Models
-  - Public Health
+project: true
 ---
 
 # Modeling Female Sex Worker Distribution in Sub-Saharan Africa
