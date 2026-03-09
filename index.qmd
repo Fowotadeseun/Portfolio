@@ -142,7 +142,7 @@ execute:
              class="cta-button mt-auto">See Project →</a>
         </div>
       </div>
-      g
+
       <!-- Project 4: Predicting Maize Pollen -->
       <div class="carousel-item">
         <div class="portfolio-card mx-auto" style="max-width: 800px;">
@@ -167,8 +167,53 @@ execute:
           <p class="px-3">
             Used generalized linear models to analyze determinants of sex worker distribution in SSA, with implications for HIV prevention and policy targeting.
           </p>
-          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Female%20Sex%20Worker/" 
-             target="_blank" rel="noopener noreferrer" 
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Female%20Sex%20Worker/"
+             target="_blank" rel="noopener noreferrer"
+             class="cta-button mt-auto">See Project →</a>
+        </div>
+      </div>
+
+      <!-- Project 6: Diabetes Risk Prediction -->
+      <div class="carousel-item">
+        <div class="portfolio-card mx-auto" style="max-width: 800px;">
+          <div class="badge-tag">Machine Learning</div>
+          <img src="Content/Projects/Diabetes Risk Prediction/images/roc_curves.png" class="img-fluid mb-4" alt="Diabetes Risk Prediction">
+          <h3 class="mb-3">Diabetes Risk Prediction Using Machine Learning</h3>
+          <p class="px-3">
+            Full ML pipeline comparing Logistic Regression, Random Forest, Gradient Boosting, and SVM for predicting diabetes risk — with ROC analysis, cross-validation, and feature importance using Python.
+          </p>
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Diabetes%20Risk%20Prediction/"
+             target="_blank" rel="noopener noreferrer"
+             class="cta-button mt-auto">See Project →</a>
+        </div>
+      </div>
+
+      <!-- Project 7: COVID-19 Survival Analysis -->
+      <div class="carousel-item">
+        <div class="portfolio-card mx-auto" style="max-width: 800px;">
+          <div class="badge-tag">Survival Analysis</div>
+          <img src="Content/Projects/COVID-19 Survival Analysis/images/km_by_severity.png" class="img-fluid mb-4" alt="COVID-19 Survival Analysis">
+          <h3 class="mb-3">COVID-19 Clinical Survival Analysis</h3>
+          <p class="px-3">
+            Kaplan-Meier survival analysis and hazard ratio estimation for 1,200 hospitalised COVID-19 patients, stratified by disease severity, ICU admission, age group, and ventilation status.
+          </p>
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/COVID-19%20Survival%20Analysis/"
+             target="_blank" rel="noopener noreferrer"
+             class="cta-button mt-auto">See Project →</a>
+        </div>
+      </div>
+
+      <!-- Project 8: Healthcare SQL Analytics -->
+      <div class="carousel-item">
+        <div class="portfolio-card mx-auto" style="max-width: 800px;">
+          <div class="badge-tag">SQL · Data Engineering</div>
+          <img src="Content/Projects/Healthcare SQL Analytics/images/readmit_by_diagnosis.png" class="img-fluid mb-4" alt="Healthcare SQL Analytics">
+          <h3 class="mb-3">Healthcare Analytics: Hospital Readmission Pipeline</h3>
+          <p class="px-3">
+            End-to-end analytics pipeline using SQLite and Python to analyse 30-day hospital readmission patterns, cost drivers, and demographic disparities across 5,000 patient admissions.
+          </p>
+          <a href="https://fowotadeseun.github.io/Portfolio/Content/Projects/Healthcare%20SQL%20Analytics/"
+             target="_blank" rel="noopener noreferrer"
              class="cta-button mt-auto">See Project →</a>
         </div>
       </div>
