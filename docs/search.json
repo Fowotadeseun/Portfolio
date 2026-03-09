@@ -95,7 +95,175 @@
     "href": "Content/Projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa\n\n\nUsing GLMs to identify structural and demographic predictors of sex worker distribution and HIV risk in SSA.\n\n\n\nMar 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Gene Expression Specificity in Maize Pollen\n\n\nA logistic LASSO model to classify maize genes based on pollen specificity using high-dimensional genomic features.\n\n\n\nMar 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNetflix Data Analysis: Trends and Insights (2008-2021)\n\n\nExploring trends in Netflix content from 2008 to 2021.\n\n\n\nFeb 23, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Genetic Algorithms to Optimize Feature Selection in Regression Modeling\n\n\nUsing Genetic Algorithms to optimize feature selection in regression modeling.\n\n\n\nDec 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSurvival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis\n\n\n\n\n\n\nDec 20, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "COVID-19 Clinical Survival Analysis\n\n\n\nPython\n\nSurvival Analysis\n\nEpidemiology\n\nHealthcare\n\n\n\nKaplan-Meier survival analysis and hazard ratio estimation for 1,200 hospitalised COVID-19 patients, stratified by disease severity, ICU admission…\n\n\n\nMar 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiabetes Risk Prediction Using Machine Learning\n\n\n\nPython\n\nMachine Learning\n\nHealthcare\n\nClassification\n\n\n\nA full machine learning pipeline comparing Logistic Regression, Random Forest, Gradient Boosting, and SVM for predicting diabetes risk — with ROC…\n\n\n\nMar 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealthcare Analytics: Hospital Readmission Pipeline\n\n\n\nPython\n\nSQL\n\nHealthcare\n\nData Engineering\n\nEpidemiology\n\n\n\nAn end-to-end analytics pipeline using SQLite and Python to analyse 30-day hospital readmission patterns, cost drivers, insurance disparities, and…\n\n\n\nMar 9, 2026\n\n\n\n\n\n\n\n\n\n\n\nModeling Female Sex Worker Distribution in Sub-Saharan Africa\n\n\nUsing GLMs to identify structural and demographic predictors of sex worker distribution and HIV risk in SSA.\n\n\n\nMar 19, 2025\n\n\n\n\n\n\n\n\n\n\n\nPredicting Gene Expression Specificity in Maize Pollen\n\n\nA logistic LASSO model to classify maize genes based on pollen specificity using high-dimensional genomic features.\n\n\n\nMar 15, 2025\n\n\n\n\n\n\n\n\n\n\n\nNetflix Data Analysis: Trends and Insights (2008-2021)\n\n\nExploring trends in Netflix content from 2008 to 2021.\n\n\n\nFeb 23, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing Genetic Algorithms to Optimize Feature Selection in Regression Modeling\n\n\nUsing Genetic Algorithms to optimize feature selection in regression modeling.\n\n\n\nDec 20, 2024\n\n\n\n\n\n\n\n\n\n\n\nSurvival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis\n\n\n\n\n\n\nDec 20, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html",
+    "href": "Content/Projects/Female Sex Worker/index.html",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "Sex workers represent a critical population for targeted HIV prevention strategies. This project models the geographic and structural determinants of female sex worker (FSW) distribution across Sub-Saharan Africa using Generalized Linear Models (GLMs).\n📄 Read the full report:\n➡️ GLM Final Project (PDF)\n\n\n\n\n📊 Identify predictors of high FSW density using statistical modeling.\n🌍 Understand regional disparities and implications for HIV transmission.\n🔬 Inform strategic interventions and resource allocation using evidence-based methods.\n\n\n\n\n\nUrbanization, migration, and economic indicators are strong predictors of FSW distribution.\nGLMs helped reveal structural drivers behind observed geographic clustering.\nThe model supports regional targeting for HIV-prevention programs.\n\n\n\n\n\n\nThis study provides a statistical framework to guide health intervention planning across SSA.\nFindings can assist NGOs, governments, and policymakers in focusing resources.\n\n\n\n\n\n🔗 GitHub Repo\n📩 Connect on LinkedIn"
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#introduction",
+    "href": "Content/Projects/Female Sex Worker/index.html#introduction",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "Sex workers represent a critical population for targeted HIV prevention strategies. This project models the geographic and structural determinants of female sex worker (FSW) distribution across Sub-Saharan Africa using Generalized Linear Models (GLMs).\n📄 Read the full report:\n➡️ GLM Final Project (PDF)"
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#project-objectives",
+    "href": "Content/Projects/Female Sex Worker/index.html#project-objectives",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "📊 Identify predictors of high FSW density using statistical modeling.\n🌍 Understand regional disparities and implications for HIV transmission.\n🔬 Inform strategic interventions and resource allocation using evidence-based methods."
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#key-results",
+    "href": "Content/Projects/Female Sex Worker/index.html#key-results",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "Urbanization, migration, and economic indicators are strong predictors of FSW distribution.\nGLMs helped reveal structural drivers behind observed geographic clustering.\nThe model supports regional targeting for HIV-prevention programs."
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#implications",
+    "href": "Content/Projects/Female Sex Worker/index.html#implications",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "This study provides a statistical framework to guide health intervention planning across SSA.\nFindings can assist NGOs, governments, and policymakers in focusing resources."
+  },
+  {
+    "objectID": "Content/Projects/Female Sex Worker/index.html#learn-more",
+    "href": "Content/Projects/Female Sex Worker/index.html#learn-more",
+    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
+    "section": "",
+    "text": "🔗 GitHub Repo\n📩 Connect on LinkedIn"
+  },
+  {
+    "objectID": "Content/Projects/Diabetes Risk Prediction/index.html",
+    "href": "Content/Projects/Diabetes Risk Prediction/index.html",
+    "title": "Diabetes Risk Prediction Using Machine Learning",
+    "section": "",
+    "text": "Diabetes is a major global health burden affecting over 537 million adults worldwide. Early identification of at-risk individuals is critical for timely intervention and improved outcomes. This project builds and compares four machine learning classifiers to predict diabetes risk using clinical and demographic features, following the structure of the Pima Indians Diabetes dataset — one of the most widely used benchmarks in medical machine learning.\nKey objectives:\n\nPerform exploratory data analysis on clinical features\nTrain and compare Logistic Regression, Random Forest, Gradient Boosting, and SVM\nEvaluate model performance using accuracy, F1 score, and AUC-ROC\nAssess feature importance and model calibration via 5-fold cross-validation"
+  },
+  {
+    "objectID": "Content/Projects/Diabetes Risk Prediction/index.html#performance-comparison",
+    "href": "Content/Projects/Diabetes Risk Prediction/index.html#performance-comparison",
+    "title": "Diabetes Risk Prediction Using Machine Learning",
+    "section": "Performance Comparison",
+    "text": "Performance Comparison\n\n\n\nModel\nAccuracy\nF1 Score\nAUC-ROC\n\n\n\n\nLogistic Regression\n0.838\n0.706\n0.926\n\n\nRandom Forest\n0.838\n0.684\n0.890\n\n\nGradient Boosting\n0.838\n0.699\n0.908\n\n\nSVM (RBF)\n0.818\n0.659\n0.889\n\n\n\n\n\n\nModel performance comparison across accuracy, F1, and AUC-ROC"
+  },
+  {
+    "objectID": "Content/License/index.html",
+    "href": "Content/License/index.html",
+    "title": "License",
+    "section": "",
+    "text": "© 2024-2025 Olwuaseun Daniel Fowotade\nThis website represents my personal views and opinions and does not reflect the endorsement of my employer or any affiliated organizations. The content on this site is licensed under the [Creative Commons (CC-BY) 4.0 license]. You are welcome to reuse the material, provided you credit me as the author and link back to the original.\nThe source code is released under the [MIT license] and can be used without restriction.\nUse of Artificial Intelligence\nSome elements of this site (including text, code and images) were developed with assistance from OpenAI’s software. However, every final piece of content you see—along with the prompts, instructions, and ultimate decisions—are exclusively my own."
+  },
+  {
+    "objectID": "Content/About/index.html",
+    "href": "Content/About/index.html",
+    "title": "Oluwaseun Fowotade",
+    "section": "",
+    "text": "I’m Oluwaseun Daniel Fowotade, a data scientist and statistical programmer with a passion for using data to answer meaningful questions in healthcare, biology, and beyond.\nI bring over five years of experience in data analysis and more than two years in clinical trial programming, combining academic excellence with hands-on industry practice. I earned a First Class B.Sc. in Mathematics from the University of Ilorin (CGPA: 4.5/5.0) and currently hold a First Class standing in my M.S. in Statistics at Oregon State University (GPA: 3.71/4.0).\nAt the heart of my graduate work is a thesis project on developing an ADMM (Alternating Direction Method of Multipliers) algorithm for analyzing gut microbiome data in multi-omic networks. This research blends structured optimization with statistical modeling to boost predictive performance, enhance scalability, and accelerate biomarker discovery.\nIn industry, I’ve contributed as a Statistical Programmer at ClinFocus Inc., where I transformed raw clinical data into submission-ready SDTM and ADaM datasets, developed TFLs, and automated routine programming workflows in SAS. My work supported Phase I–IV clinical trials and met rigorous FDA and CDISC standards.\nAs a Statistical Consultant at Oregon State, I applied Poisson models, logistic regression (with LASSO), and Monte Carlo simulations to environmental and biological datasets. A highlight: I improved the AUROC of a genomic classifier by 70% through regularized logistic regression.\nOutside academic and clinical settings, I’ve tackled diverse technical projects—from building a Shiny dashboard to visualize Netflix trends, to performing survival analysis for liver disease outcomes in SAS, to designing genetic algorithms in R for dimensionality reduction in regression.\nI’m also passionate about teaching. As a Graduate Teaching Assistant, I’ve led R-based workshops and supported students in statistics, data science, and SAS programming—emphasizing clarity, collaboration, and applied problem-solving.\n\n“Data is only as powerful as the questions we ask—I aim to ask the right ones.”"
+  },
+  {
+    "objectID": "Content/About/index.html#about-me",
+    "href": "Content/About/index.html#about-me",
+    "title": "Oluwaseun Fowotade",
+    "section": "",
+    "text": "I’m Oluwaseun Daniel Fowotade, a data scientist and statistical programmer with a passion for using data to answer meaningful questions in healthcare, biology, and beyond.\nI bring over five years of experience in data analysis and more than two years in clinical trial programming, combining academic excellence with hands-on industry practice. I earned a First Class B.Sc. in Mathematics from the University of Ilorin (CGPA: 4.5/5.0) and currently hold a First Class standing in my M.S. in Statistics at Oregon State University (GPA: 3.71/4.0).\nAt the heart of my graduate work is a thesis project on developing an ADMM (Alternating Direction Method of Multipliers) algorithm for analyzing gut microbiome data in multi-omic networks. This research blends structured optimization with statistical modeling to boost predictive performance, enhance scalability, and accelerate biomarker discovery.\nIn industry, I’ve contributed as a Statistical Programmer at ClinFocus Inc., where I transformed raw clinical data into submission-ready SDTM and ADaM datasets, developed TFLs, and automated routine programming workflows in SAS. My work supported Phase I–IV clinical trials and met rigorous FDA and CDISC standards.\nAs a Statistical Consultant at Oregon State, I applied Poisson models, logistic regression (with LASSO), and Monte Carlo simulations to environmental and biological datasets. A highlight: I improved the AUROC of a genomic classifier by 70% through regularized logistic regression.\nOutside academic and clinical settings, I’ve tackled diverse technical projects—from building a Shiny dashboard to visualize Netflix trends, to performing survival analysis for liver disease outcomes in SAS, to designing genetic algorithms in R for dimensionality reduction in regression.\nI’m also passionate about teaching. As a Graduate Teaching Assistant, I’ve led R-based workshops and supported students in statistics, data science, and SAS programming—emphasizing clarity, collaboration, and applied problem-solving.\n\n“Data is only as powerful as the questions we ask—I aim to ask the right ones.”"
+  },
+  {
+    "objectID": "Content/About/index.html#professional-experience",
+    "href": "Content/About/index.html#professional-experience",
+    "title": "Oluwaseun Fowotade",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nStatistical Programmer – ClinFocus Inc.\n\nDeveloped SDTM, ADaM, and TFLs for Phase I–IV clinical trials using SAS.\nAutomated repetitive processes using SAS macros and ensured CDISC/FDA compliance.\nCollaborated with statisticians and data managers to validate and deliver high-quality data outputs.\n\nGraduate Teaching Assistant – Oregon State University\n\nTaught and supported students in R and SAS-based statistical analysis courses.\nLed review sessions and graded coursework in regression, survival analysis, and experimental design.\n\nStatistical Consultant – Oregon State University\n\nDesigned statistical solutions for multi-disciplinary research projects using GLMs, LASSO, and simulations.\nApplied statistical learning methods to projects in gene expression, pest control, and environmental monitoring.\n\nActuarial Analyst – Sanlam Insurance\n\nCreated models for claims, pricing, and reserve forecasting.\nBuilt dashboards in Power BI for business intelligence and risk evaluation."
+  },
+  {
+    "objectID": "Content/About/index.html#education",
+    "href": "Content/About/index.html#education",
+    "title": "Oluwaseun Fowotade",
+    "section": "Education",
+    "text": "Education\n\nM.S. in Statistics – Oregon State University (2023–2025)\nFirst Class Standing (GPA: 3.71/4.0)\nThesis: Developing an ADMM Algorithm for Microbiome Multi-Omic Networks\nB.S. in Mathematics – University of Ilorin, Nigeria (2014–2018) Project: Numerical Solution of Linear Fredholm Integral Equations of the Second Kind\nFirst Class (CGPA: 4.5/5.0)"
+  },
+  {
+    "objectID": "Content/About/index.html#skills-expertise",
+    "href": "Content/About/index.html#skills-expertise",
+    "title": "Oluwaseun Fowotade",
+    "section": "Skills & Expertise",
+    "text": "Skills & Expertise\n\nProgramming: SAS (PROC SQL, Macro), R (Shiny, caret), Python, SQL\n\nStatistical Analysis: Generalized Regression, LASSO, Poisson Regression, Survival Analysis\n\nClinical Data Management: SDTM, ADaM, TFLs, CDISC Standards\n\nVisualization & Reporting: Power BI, Tableau, ggplot2, PROC REPORT\n\nTools & Platforms: Google Cloud (BigQuery, DataProc), Git, ODS, R Markdown\n\nBioinformatics: scRNA-seq, GSEA, microbiome analytics, biomarker discovery"
+  },
+  {
+    "objectID": "Content/About/index.html#interests",
+    "href": "Content/About/index.html#interests",
+    "title": "Oluwaseun Fowotade",
+    "section": "Interests",
+    "text": "Interests\nOutside of work, I love playing and watching soccer, especially analyzing game tactics and performance statistics. I’m also fascinated by how data-driven decisions are transforming healthcare, biotech, and global health policy."
+  },
+  {
+    "objectID": "Content/Blog/index.html",
+    "href": "Content/Blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "Content/Projects/COVID-19 Survival Analysis/index.html",
+    "href": "Content/Projects/COVID-19 Survival Analysis/index.html",
+    "title": "COVID-19 Clinical Survival Analysis",
+    "section": "",
+    "text": "The COVID-19 pandemic underscored the critical need for robust clinical survival analysis to understand which patients are at greatest risk of mortality and to guide resource allocation decisions. This project applies Kaplan-Meier survival estimation and log-rank testing to a synthetic cohort of 1,200 hospitalised COVID-19 patients, examining how disease severity, ICU admission, age, and clinical interventions affect 60-day survival probability.\nKey objectives:\n\nConstruct Kaplan-Meier survival curves overall and stratified by clinical subgroups\nPerform log-rank tests to evaluate statistical significance of group differences\nEstimate hazard ratios for key clinical risk factors\nVisualise mortality patterns across severity, ICU status, and age groups"
+  },
+  {
+    "objectID": "Content/Projects/COVID-19 Survival Analysis/index.html#kaplan-meier-estimator",
+    "href": "Content/Projects/COVID-19 Survival Analysis/index.html#kaplan-meier-estimator",
+    "title": "COVID-19 Clinical Survival Analysis",
+    "section": "Kaplan-Meier Estimator",
+    "text": "Kaplan-Meier Estimator\nThe Kaplan-Meier (KM) estimator provides a non-parametric estimate of the survival function \\(S(t)\\) — the probability of surviving beyond time \\(t\\):\n\\[\n\\hat{S}(t) = \\prod_{t_i \\leq t} \\left(1 - \\frac{d_i}{n_i}\\right)\n\\]\nwhere \\(d_i\\) is the number of deaths at time \\(t_i\\) and \\(n_i\\) is the number of patients at risk just before \\(t_i\\).\n\n\nCode\ndef kaplan_meier(times, events):\n    df_km = pd.DataFrame({\"t\": times, \"e\": events}).sort_values(\"t\")\n    unique_t = sorted(df_km[\"t\"][df_km[\"e\"] == 1].unique())\n    S = 1.0\n    records = [(0, 1.0)]\n    n_at_risk = len(df_km)\n    for t in unique_t:\n        d = df_km[(df_km[\"t\"] == t) & (df_km[\"e\"] == 1)].shape[0]\n        S = S * (1 - d / n_at_risk)\n        records.append((t, S))\n        n_at_risk -= df_km[df_km[\"t\"] == t].shape[0]\n    return pd.DataFrame(records, columns=[\"time\", \"survival\"])"
+  },
+  {
+    "objectID": "Content/Projects/COVID-19 Survival Analysis/index.html#log-rank-test",
+    "href": "Content/Projects/COVID-19 Survival Analysis/index.html#log-rank-test",
+    "title": "COVID-19 Clinical Survival Analysis",
+    "section": "Log-Rank Test",
+    "text": "Log-Rank Test\nGroup differences in survival are assessed using the log-rank test, which compares observed versus expected deaths across all unique event times under the null hypothesis of equal hazards."
+  },
+  {
+    "objectID": "Content/Projects/COVID-19 Survival Analysis/index.html#overall-survival",
+    "href": "Content/Projects/COVID-19 Survival Analysis/index.html#overall-survival",
+    "title": "COVID-19 Clinical Survival Analysis",
+    "section": "Overall Survival",
+    "text": "Overall Survival\nThe overall 60-day survival probability for hospitalised COVID-19 patients in this cohort was 58.4%, with the steepest decline in the first two weeks of admission.\n\n\n\nOverall Kaplan-Meier survival curve (n = 1,200)"
+  },
+  {
+    "objectID": "Content/Projects/COVID-19 Survival Analysis/index.html#survival-by-disease-severity",
+    "href": "Content/Projects/COVID-19 Survival Analysis/index.html#survival-by-disease-severity",
+    "title": "COVID-19 Clinical Survival Analysis",
+    "section": "Survival by Disease Severity",
+    "text": "Survival by Disease Severity\nSurvival probability decreases markedly with increasing disease severity. Patients classified as Severe have a 60-day survival probability well below those classified as Mild or Moderate. The log-rank test confirms highly significant differences between severity groups (p &lt; 0.001).\n\n\nCode\nfor sev, color in zip([\"Mild\", \"Moderate\", \"Severe\"], PALETTE):\n    sub = df[df[\"Severity\"] == sev]\n    km  = kaplan_meier(sub[\"ObsTime\"], sub[\"Event\"])\n    ax.step(km[\"time\"], km[\"survival\"], where=\"post\", color=color,\n            lw=2.5, label=f\"{sev} (n={len(sub)})\")\n\n\n\n\n\nKM curves stratified by disease severity"
+  },
+  {
+    "objectID": "Content/Projects/COVID-19 Survival Analysis/index.html#survival-by-icu-admission",
+    "href": "Content/Projects/COVID-19 Survival Analysis/index.html#survival-by-icu-admission",
+    "title": "COVID-19 Clinical Survival Analysis",
+    "section": "Survival by ICU Admission",
+    "text": "Survival by ICU Admission\nICU patients face substantially worse survival outcomes compared to non-ICU patients (p &lt; 0.001). This reflects both the selection of sicker patients into the ICU and the higher complication burden of critical illness.\n\n\n\nKM curves by ICU admission status"
+  },
+  {
+    "objectID": "Content/Projects/COVID-19 Survival Analysis/index.html#survival-by-age-group",
+    "href": "Content/Projects/COVID-19 Survival Analysis/index.html#survival-by-age-group",
+    "title": "COVID-19 Clinical Survival Analysis",
+    "section": "Survival by Age Group",
+    "text": "Survival by Age Group\nIncreasing age is a well-established risk factor for COVID-19 mortality. The survival curves show a clear monotonic decline with age, with patients aged 81+ experiencing the steepest early mortality. Patients aged 18–40 maintain the highest survival probability throughout the 60-day window.\n\n\n\nKM curves stratified by age group"
+  },
+  {
+    "objectID": "Content/Projects/COVID-19 Survival Analysis/index.html#mortality-rate-by-severity-and-icu-status",
+    "href": "Content/Projects/COVID-19 Survival Analysis/index.html#mortality-rate-by-severity-and-icu-status",
+    "title": "COVID-19 Clinical Survival Analysis",
+    "section": "Mortality Rate by Severity and ICU Status",
+    "text": "Mortality Rate by Severity and ICU Status\nThe interaction between disease severity and ICU admission reveals important patterns. Among Severe patients, ICU admission is associated with dramatically higher mortality — though this likely reflects reverse causality, as the most critically ill patients are preferentially admitted to the ICU.\n\n\n\nMortality rate by severity × ICU status"
   },
   {
     "objectID": "Content/Projects/Feature Selection Using Genetic Algorithm/index.html#chromosome-encoding-and-representation",
@@ -182,102 +350,74 @@
     "text": "Save Result\n\n\nCode\n# Save GA results \nsaveRDS(ga_model, \"ga_model.rds\") # Save the GA model\nsaveRDS(final_knn_model, \"final_knn_model.rds\") # Save the final k-NN model\nsaveRDS(conf_matrix, \"conf_matrix.rds\") # Save the confusion matrix\n\ncat(\"Results have been saved as .rds files in the working directory.\\n\")\n\n\nResults have been saved as .rds files in the working directory."
   },
   {
-    "objectID": "Content/Blog/index.html",
-    "href": "Content/Blog/index.html",
-    "title": "Blog",
+    "objectID": "Content/Projects/Healthcare SQL Analytics/index.html",
+    "href": "Content/Projects/Healthcare SQL Analytics/index.html",
+    "title": "Healthcare Analytics: Hospital Readmission Pipeline",
     "section": "",
-    "text": "No matching items"
+    "text": "Hospital readmissions within 30 days represent a major quality and cost challenge for healthcare systems worldwide. In the United States alone, unplanned readmissions cost Medicare over $26 billion annually. Understanding which patient populations and diagnoses drive readmission is essential for designing targeted intervention programmes.\nThis project builds a complete data analytics pipeline — from database construction to predictive modelling — using SQLite for structured querying and Python for statistical analysis and visualisation.\nKey objectives:\n\nDesign and populate a relational SQLite database of hospital admissions\nWrite SQL queries to extract readmission rates, cost metrics, and demographic patterns\nVisualise disparities across diagnoses, insurance types, age groups, and race/ethnicity\nFit a logistic regression model to identify clinical predictors of readmission"
   },
   {
-    "objectID": "Content/About/index.html",
-    "href": "Content/About/index.html",
-    "title": "Oluwaseun Fowotade",
-    "section": "",
-    "text": "I’m Oluwaseun Daniel Fowotade, a data scientist and statistical programmer with a passion for using data to answer meaningful questions in healthcare, biology, and beyond.\nI bring over five years of experience in data analysis and more than two years in clinical trial programming, combining academic excellence with hands-on industry practice. I earned a First Class B.Sc. in Mathematics from the University of Ilorin (CGPA: 4.5/5.0) and currently hold a First Class standing in my M.S. in Statistics at Oregon State University (GPA: 3.71/4.0).\nAt the heart of my graduate work is a thesis project on developing an ADMM (Alternating Direction Method of Multipliers) algorithm for analyzing gut microbiome data in multi-omic networks. This research blends structured optimization with statistical modeling to boost predictive performance, enhance scalability, and accelerate biomarker discovery.\nIn industry, I’ve contributed as a Statistical Programmer at ClinFocus Inc., where I transformed raw clinical data into submission-ready SDTM and ADaM datasets, developed TFLs, and automated routine programming workflows in SAS. My work supported Phase I–IV clinical trials and met rigorous FDA and CDISC standards.\nAs a Statistical Consultant at Oregon State, I applied Poisson models, logistic regression (with LASSO), and Monte Carlo simulations to environmental and biological datasets. A highlight: I improved the AUROC of a genomic classifier by 70% through regularized logistic regression.\nOutside academic and clinical settings, I’ve tackled diverse technical projects—from building a Shiny dashboard to visualize Netflix trends, to performing survival analysis for liver disease outcomes in SAS, to designing genetic algorithms in R for dimensionality reduction in regression.\nI’m also passionate about teaching. As a Graduate Teaching Assistant, I’ve led R-based workshops and supported students in statistics, data science, and SAS programming—emphasizing clarity, collaboration, and applied problem-solving.\n\n“Data is only as powerful as the questions we ask—I aim to ask the right ones.”"
+    "objectID": "Content/Projects/Healthcare SQL Analytics/index.html#q1-readmission-rate-by-diagnosis",
+    "href": "Content/Projects/Healthcare SQL Analytics/index.html#q1-readmission-rate-by-diagnosis",
+    "title": "Healthcare Analytics: Hospital Readmission Pipeline",
+    "section": "Q1 — Readmission Rate by Diagnosis",
+    "text": "Q1 — Readmission Rate by Diagnosis\nSELECT\n    a.diagnosis,\n    COUNT(*)                         AS total_cases,\n    ROUND(AVG(a.total_cost), 2)      AS avg_cost,\n    ROUND(AVG(a.length_of_stay), 2)  AS avg_los,\n    ROUND(100.0 * SUM(a.readmitted_30d) / COUNT(*), 2) AS readmit_rate_pct\nFROM admissions a\nGROUP BY a.diagnosis\nORDER BY readmit_rate_pct DESC"
   },
   {
-    "objectID": "Content/About/index.html#about-me",
-    "href": "Content/About/index.html#about-me",
-    "title": "Oluwaseun Fowotade",
-    "section": "",
-    "text": "I’m Oluwaseun Daniel Fowotade, a data scientist and statistical programmer with a passion for using data to answer meaningful questions in healthcare, biology, and beyond.\nI bring over five years of experience in data analysis and more than two years in clinical trial programming, combining academic excellence with hands-on industry practice. I earned a First Class B.Sc. in Mathematics from the University of Ilorin (CGPA: 4.5/5.0) and currently hold a First Class standing in my M.S. in Statistics at Oregon State University (GPA: 3.71/4.0).\nAt the heart of my graduate work is a thesis project on developing an ADMM (Alternating Direction Method of Multipliers) algorithm for analyzing gut microbiome data in multi-omic networks. This research blends structured optimization with statistical modeling to boost predictive performance, enhance scalability, and accelerate biomarker discovery.\nIn industry, I’ve contributed as a Statistical Programmer at ClinFocus Inc., where I transformed raw clinical data into submission-ready SDTM and ADaM datasets, developed TFLs, and automated routine programming workflows in SAS. My work supported Phase I–IV clinical trials and met rigorous FDA and CDISC standards.\nAs a Statistical Consultant at Oregon State, I applied Poisson models, logistic regression (with LASSO), and Monte Carlo simulations to environmental and biological datasets. A highlight: I improved the AUROC of a genomic classifier by 70% through regularized logistic regression.\nOutside academic and clinical settings, I’ve tackled diverse technical projects—from building a Shiny dashboard to visualize Netflix trends, to performing survival analysis for liver disease outcomes in SAS, to designing genetic algorithms in R for dimensionality reduction in regression.\nI’m also passionate about teaching. As a Graduate Teaching Assistant, I’ve led R-based workshops and supported students in statistics, data science, and SAS programming—emphasizing clarity, collaboration, and applied problem-solving.\n\n“Data is only as powerful as the questions we ask—I aim to ask the right ones.”"
+    "objectID": "Content/Projects/Healthcare SQL Analytics/index.html#q2-cost-and-readmission-by-insurance-type",
+    "href": "Content/Projects/Healthcare SQL Analytics/index.html#q2-cost-and-readmission-by-insurance-type",
+    "title": "Healthcare Analytics: Hospital Readmission Pipeline",
+    "section": "Q2 — Cost and Readmission by Insurance Type",
+    "text": "Q2 — Cost and Readmission by Insurance Type\nSELECT\n    p.insurance,\n    COUNT(*)                        AS patients,\n    ROUND(AVG(a.total_cost), 2)     AS avg_cost,\n    ROUND(100.0 * SUM(a.readmitted_30d) / COUNT(*), 2) AS readmit_rate_pct\nFROM patients p\nJOIN admissions a ON p.patient_id = a.patient_id\nGROUP BY p.insurance\nORDER BY avg_cost DESC"
   },
   {
-    "objectID": "Content/About/index.html#professional-experience",
-    "href": "Content/About/index.html#professional-experience",
-    "title": "Oluwaseun Fowotade",
-    "section": "Professional Experience",
-    "text": "Professional Experience\n\nStatistical Programmer – ClinFocus Inc.\n\nDeveloped SDTM, ADaM, and TFLs for Phase I–IV clinical trials using SAS.\nAutomated repetitive processes using SAS macros and ensured CDISC/FDA compliance.\nCollaborated with statisticians and data managers to validate and deliver high-quality data outputs.\n\nGraduate Teaching Assistant – Oregon State University\n\nTaught and supported students in R and SAS-based statistical analysis courses.\nLed review sessions and graded coursework in regression, survival analysis, and experimental design.\n\nStatistical Consultant – Oregon State University\n\nDesigned statistical solutions for multi-disciplinary research projects using GLMs, LASSO, and simulations.\nApplied statistical learning methods to projects in gene expression, pest control, and environmental monitoring.\n\nActuarial Analyst – Sanlam Insurance\n\nCreated models for claims, pricing, and reserve forecasting.\nBuilt dashboards in Power BI for business intelligence and risk evaluation."
+    "objectID": "Content/Projects/Healthcare SQL Analytics/index.html#q3-readmission-and-los-by-age-group",
+    "href": "Content/Projects/Healthcare SQL Analytics/index.html#q3-readmission-and-los-by-age-group",
+    "title": "Healthcare Analytics: Hospital Readmission Pipeline",
+    "section": "Q3 — Readmission and LOS by Age Group",
+    "text": "Q3 — Readmission and LOS by Age Group\nSELECT\n    CASE\n        WHEN p.age BETWEEN 18 AND 40 THEN '18-40'\n        WHEN p.age BETWEEN 41 AND 60 THEN '41-60'\n        WHEN p.age BETWEEN 61 AND 80 THEN '61-80'\n        ELSE '81+'\n    END AS age_group,\n    COUNT(*)                        AS patients,\n    ROUND(AVG(a.length_of_stay), 2) AS avg_los,\n    ROUND(100.0 * SUM(a.readmitted_30d) / COUNT(*), 2) AS readmit_rate_pct\nFROM patients p\nJOIN admissions a ON p.patient_id = a.patient_id\nGROUP BY age_group\nORDER BY age_group"
   },
   {
-    "objectID": "Content/About/index.html#education",
-    "href": "Content/About/index.html#education",
-    "title": "Oluwaseun Fowotade",
-    "section": "Education",
-    "text": "Education\n\nM.S. in Statistics – Oregon State University (2023–2025)\nFirst Class Standing (GPA: 3.71/4.0)\nThesis: Developing an ADMM Algorithm for Microbiome Multi-Omic Networks\nB.S. in Mathematics – University of Ilorin, Nigeria (2014–2018) Project: Numerical Solution of Linear Fredholm Integral Equations of the Second Kind\nFirst Class (CGPA: 4.5/5.0)"
+    "objectID": "Content/Projects/Healthcare SQL Analytics/index.html#q4-readmission-disparities-by-raceethnicity",
+    "href": "Content/Projects/Healthcare SQL Analytics/index.html#q4-readmission-disparities-by-raceethnicity",
+    "title": "Healthcare Analytics: Hospital Readmission Pipeline",
+    "section": "Q4 — Readmission Disparities by Race/Ethnicity",
+    "text": "Q4 — Readmission Disparities by Race/Ethnicity\nSELECT\n    p.race,\n    COUNT(*)                        AS patients,\n    ROUND(AVG(a.total_cost), 2)     AS avg_cost,\n    ROUND(100.0 * SUM(a.readmitted_30d) / COUNT(*), 2) AS readmit_rate_pct\nFROM patients p\nJOIN admissions a ON p.patient_id = a.patient_id\nGROUP BY p.race\nORDER BY readmit_rate_pct DESC\nFull SQL file available at queries.sql."
   },
   {
-    "objectID": "Content/About/index.html#skills-expertise",
-    "href": "Content/About/index.html#skills-expertise",
-    "title": "Oluwaseun Fowotade",
-    "section": "Skills & Expertise",
-    "text": "Skills & Expertise\n\nProgramming: SAS (PROC SQL, Macro), R (Shiny, caret), Python, SQL\n\nStatistical Analysis: Generalized Regression, LASSO, Poisson Regression, Survival Analysis\n\nClinical Data Management: SDTM, ADaM, TFLs, CDISC Standards\n\nVisualization & Reporting: Power BI, Tableau, ggplot2, PROC REPORT\n\nTools & Platforms: Google Cloud (BigQuery, DataProc), Git, ODS, R Markdown\n\nBioinformatics: scRNA-seq, GSEA, microbiome analytics, biomarker discovery"
+    "objectID": "Content/Projects/Healthcare SQL Analytics/index.html#readmission-rate-by-diagnosis",
+    "href": "Content/Projects/Healthcare SQL Analytics/index.html#readmission-rate-by-diagnosis",
+    "title": "Healthcare Analytics: Hospital Readmission Pipeline",
+    "section": "Readmission Rate by Diagnosis",
+    "text": "Readmission Rate by Diagnosis\nCOPD and Heart Failure have the highest 30-day readmission rates (16.4% and 15.4% respectively), consistent with their chronic, relapsing nature and the difficulty of maintaining stable outpatient management. Sepsis carries the highest average cost ($15,277) despite a moderate readmission rate, driven by intensive treatment requirements.\n\n\n\nDiagnosis\nCases\nAvg Cost\nAvg LOS\nReadmission Rate\n\n\n\n\nCOPD\n737\n$6,576\n4.2 days\n16.4%\n\n\nHeart Failure\n946\n$8,863\n4.0 days\n15.4%\n\n\nPneumonia\n747\n$7,690\n4.4 days\n13.3%\n\n\nSepsis\n544\n$15,277\n4.3 days\n13.1%\n\n\nDiabetes\n881\n$5,511\n3.9 days\n13.1%\n\n\nHip Fracture\n376\n$12,999\n4.0 days\n11.4%\n\n\n\n\n\n\n30-day readmission rates by diagnosis"
   },
   {
-    "objectID": "Content/About/index.html#interests",
-    "href": "Content/About/index.html#interests",
-    "title": "Oluwaseun Fowotade",
-    "section": "Interests",
-    "text": "Interests\nOutside of work, I love playing and watching soccer, especially analyzing game tactics and performance statistics. I’m also fascinated by how data-driven decisions are transforming healthcare, biotech, and global health policy."
+    "objectID": "Content/Projects/Healthcare SQL Analytics/index.html#hospitalisation-cost-by-insurance-type",
+    "href": "Content/Projects/Healthcare SQL Analytics/index.html#hospitalisation-cost-by-insurance-type",
+    "title": "Healthcare Analytics: Hospital Readmission Pipeline",
+    "section": "Hospitalisation Cost by Insurance Type",
+    "text": "Hospitalisation Cost by Insurance Type\nMedicaid and Uninsured patients have the highest readmission rates (16.3% and 16.9%), despite not having the highest average costs. This suggests a systematic gap in post-discharge follow-up and care coordination for these populations — a key health equity concern.\n\n\n\nAverage hospitalisation cost by insurance type"
   },
   {
-    "objectID": "Content/License/index.html",
-    "href": "Content/License/index.html",
-    "title": "License",
-    "section": "",
-    "text": "© 2024-2025 Olwuaseun Daniel Fowotade\nThis website represents my personal views and opinions and does not reflect the endorsement of my employer or any affiliated organizations. The content on this site is licensed under the [Creative Commons (CC-BY) 4.0 license]. You are welcome to reuse the material, provided you credit me as the author and link back to the original.\nThe source code is released under the [MIT license] and can be used without restriction.\nUse of Artificial Intelligence\nSome elements of this site (including text, code and images) were developed with assistance from OpenAI’s software. However, every final piece of content you see—along with the prompts, instructions, and ultimate decisions—are exclusively my own."
+    "objectID": "Content/Projects/Healthcare SQL Analytics/index.html#readmission-and-los-by-age-group",
+    "href": "Content/Projects/Healthcare SQL Analytics/index.html#readmission-and-los-by-age-group",
+    "title": "Healthcare Analytics: Hospital Readmission Pipeline",
+    "section": "Readmission and LOS by Age Group",
+    "text": "Readmission and LOS by Age Group\nReadmission risk and length of stay both increase with age. Patients aged 81+ have the longest average stays and the highest readmission burden, reflecting the complexity of managing older patients with multiple comorbidities.\n\n\n\nReadmission rate and average LOS by age group"
   },
   {
-    "objectID": "Content/Projects/Female Sex Worker/index.html",
-    "href": "Content/Projects/Female Sex Worker/index.html",
-    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
-    "section": "",
-    "text": "Sex workers represent a critical population for targeted HIV prevention strategies. This project models the geographic and structural determinants of female sex worker (FSW) distribution across Sub-Saharan Africa using Generalized Linear Models (GLMs).\n📄 Read the full report:\n➡️ GLM Final Project (PDF)\n\n\n\n\n📊 Identify predictors of high FSW density using statistical modeling.\n🌍 Understand regional disparities and implications for HIV transmission.\n🔬 Inform strategic interventions and resource allocation using evidence-based methods.\n\n\n\n\n\nUrbanization, migration, and economic indicators are strong predictors of FSW distribution.\nGLMs helped reveal structural drivers behind observed geographic clustering.\nThe model supports regional targeting for HIV-prevention programs.\n\n\n\n\n\n\nThis study provides a statistical framework to guide health intervention planning across SSA.\nFindings can assist NGOs, governments, and policymakers in focusing resources.\n\n\n\n\n\n🔗 GitHub Repo\n📩 Connect on LinkedIn"
+    "objectID": "Content/Projects/Healthcare SQL Analytics/index.html#cost-distribution-by-diagnosis",
+    "href": "Content/Projects/Healthcare SQL Analytics/index.html#cost-distribution-by-diagnosis",
+    "title": "Healthcare Analytics: Hospital Readmission Pipeline",
+    "section": "Cost Distribution by Diagnosis",
+    "text": "Cost Distribution by Diagnosis\nThe cost distribution shows substantial variation within diagnoses. Sepsis and Hip Fracture exhibit the widest spread, reflecting heterogeneity in patient acuity and treatment complexity.\n\n\n\nHospitalisation cost distribution by diagnosis (box plots)"
   },
   {
-    "objectID": "Content/Projects/Female Sex Worker/index.html#introduction",
-    "href": "Content/Projects/Female Sex Worker/index.html#introduction",
-    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
-    "section": "",
-    "text": "Sex workers represent a critical population for targeted HIV prevention strategies. This project models the geographic and structural determinants of female sex worker (FSW) distribution across Sub-Saharan Africa using Generalized Linear Models (GLMs).\n📄 Read the full report:\n➡️ GLM Final Project (PDF)"
-  },
-  {
-    "objectID": "Content/Projects/Female Sex Worker/index.html#project-objectives",
-    "href": "Content/Projects/Female Sex Worker/index.html#project-objectives",
-    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
-    "section": "",
-    "text": "📊 Identify predictors of high FSW density using statistical modeling.\n🌍 Understand regional disparities and implications for HIV transmission.\n🔬 Inform strategic interventions and resource allocation using evidence-based methods."
-  },
-  {
-    "objectID": "Content/Projects/Female Sex Worker/index.html#key-results",
-    "href": "Content/Projects/Female Sex Worker/index.html#key-results",
-    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
-    "section": "",
-    "text": "Urbanization, migration, and economic indicators are strong predictors of FSW distribution.\nGLMs helped reveal structural drivers behind observed geographic clustering.\nThe model supports regional targeting for HIV-prevention programs."
-  },
-  {
-    "objectID": "Content/Projects/Female Sex Worker/index.html#implications",
-    "href": "Content/Projects/Female Sex Worker/index.html#implications",
-    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
-    "section": "",
-    "text": "This study provides a statistical framework to guide health intervention planning across SSA.\nFindings can assist NGOs, governments, and policymakers in focusing resources."
-  },
-  {
-    "objectID": "Content/Projects/Female Sex Worker/index.html#learn-more",
-    "href": "Content/Projects/Female Sex Worker/index.html#learn-more",
-    "title": "Modeling Female Sex Worker Distribution in Sub-Saharan Africa",
-    "section": "",
-    "text": "🔗 GitHub Repo\n📩 Connect on LinkedIn"
+    "objectID": "Content/Projects/Healthcare SQL Analytics/index.html#readmission-disparities-by-raceethnicity",
+    "href": "Content/Projects/Healthcare SQL Analytics/index.html#readmission-disparities-by-raceethnicity",
+    "title": "Healthcare Analytics: Hospital Readmission Pipeline",
+    "section": "Readmission Disparities by Race/Ethnicity",
+    "text": "Readmission Disparities by Race/Ethnicity\nUninsured patients and those from minority racial groups face disproportionately higher readmission rates, pointing to systemic gaps in care continuity and social determinants of health.\n\n\n\n30-day readmission rates by race/ethnicity"
   },
   {
     "objectID": "Content/Projects/Netflix Data Visualization/index.html#netflix-data-analysis-trends-and-insights-2008-2021",

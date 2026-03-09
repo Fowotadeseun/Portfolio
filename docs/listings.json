@@ -2,6 +2,9 @@
   {
     "listing": "/Content/Projects/index.html",
     "items": [
+      "/Content/Projects/COVID-19 Survival Analysis/index.html",
+      "/Content/Projects/Diabetes Risk Prediction/index.html",
+      "/Content/Projects/Healthcare SQL Analytics/index.html",
       "/Content/Projects/Female Sex Worker/index.html",
       "/Content/Projects/Predicting Maize Pollen/index.html",
       "/Content/Projects/Netflix Data Visualization/index.html",
