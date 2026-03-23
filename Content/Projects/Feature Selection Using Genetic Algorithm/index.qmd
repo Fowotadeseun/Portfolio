@@ -1,7 +1,7 @@
 ---
 title: "Using Genetic Algorithms to Optimize Feature Selection in Regression Modeling"
 author: "Oluwaseun Daniel Fowotade"
-date: "12/20/2024"
+date: "06/10/2025"
 description: "Using Genetic Algorithms to optimize feature selection in regression modeling."
 format:
   html:
@@ -12,7 +12,7 @@ format:
 execute:
   warning: false
   message: false
-jupyter: ir
+engine: knitr
 ---
 
 ![](/Assets/Images/GA.jpeg)

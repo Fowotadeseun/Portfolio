@@ -1,4 +1,84 @@
 ---
-title: "about"
-format: html
+title: "Oluwaseun Fowotade"
+subtitle: "Statistics Expert | Data Scientist | AI & ML Researcher"
+about:
+  template: broadside
+  image: Assets/Images/AboutME/about-pic.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/oluwaseunfowotade/
+    - icon: github
+      text: GitHub
+      href: https://github.com/Fowotadeseun/
+    - icon: envelope
+      text: Email
+      href: mailto:fowotadeoluwaseun15@gmail.com
+format:
+  html:
+    include-in-header:
+      - "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css' rel='stylesheet'/>"
+    include-after-body:
+      - "<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'></script>"
 ---
+
+## About Me
+
+I'm **Oluwaseun Daniel Fowotade**, a statistics expert and data scientist with a passion for using data to answer meaningful questions in healthcare, biology, and beyond.
+
+I bring over five years of experience in data analysis and more than two years in clinical trial programming, combining academic excellence with hands-on industry practice. I earned a **First Class B.Sc. in Mathematics** from the University of Ilorin (CGPA: 4.5/5.0) and hold an **M.S. in Statistics** from Oregon State University (GPA: 3.72/4.0).
+
+At the heart of my graduate work is a thesis project on developing an **ADMM (Alternating Direction Method of Multipliers)** algorithm for analyzing **gut microbiome data** in multi-omic networks. This research blends structured optimization with statistical modeling to boost predictive performance, enhance scalability, and accelerate biomarker discovery.
+
+In industry, I've contributed as a **Data Scientist at ClinFocus Inc.**, where I designed scalable AWS ETL workflows, built model validation pipelines, and delivered submission-ready clinical datasets (SDTM, ADaM, TFLs) in compliance with FDA and CDISC standards.
+
+As a **Statistical Consultant at Oregon State**, I applied Poisson models, logistic regression (with LASSO), Monte Carlo simulations, and factorial experimental design to environmental and biological datasets. A highlight: I improved the AUROC of a genomic classifier by **70%** through regularized logistic regression.
+
+I'm also passionate about teaching. As a **Graduate Teaching Assistant**, I've led R-based workshops for 130+ students and supported courses in statistics, data science, and SAS programming.
+
+> "Data is only as powerful as the questions we ask -- I aim to ask the right ones."
+
+## Professional Experience
+
+- **Statistical Consultant -- Oregon State University** *(Sep 2024 -- Jun 2025)*
+  - Applied ANOVA, LASSO, Monte Carlo simulations, and GLMs to multi-disciplinary research projects in genomics, pest control, and environmental science.
+
+- **Graduate Teaching Assistant -- Oregon State University** *(Sep 2023 -- Jun 2025)*
+  - Taught and supported 130+ students in R and SAS-based statistical analysis courses.
+
+- **Data Scientist / Statistical Programmer -- ClinFocus Inc.** *(Apr 2021 -- Aug 2023)*
+  - Led statistical programming for clinical trials, built AWS ETL pipelines, and automated analytical workflows.
+
+- **Actuarial Analyst -- Sanlam Insurance** *(Nov 2019 -- Mar 2021)*
+  - Applied actuarial models for pricing, claims analysis, and financial performance reporting.
+
+## Education
+
+- **M.S. in Statistics** -- *Oregon State University* *(2023 -- 2025)*
+  GPA: 3.72/4.0 | Thesis: *Scalable ADMM-Based Sparse Regression for Differential Microbiome Networks*
+
+- **B.S. in Mathematics** -- *University of Ilorin, Nigeria* *(2014 -- 2018)*
+  First Class (CGPA: 4.5/5.0)
+
+## Publications
+
+1. **Fowotade, O.D.**, Makinde, J.O., Boakye, B.C.N., & Lasisi, S.O. (2025). *Impact of Probiotics on Metabolic Interactions for the Prevention of Colorectal Cancer.* JAMMR, 37(6), 234-248. [Cited by 4]
+
+2. Adelusi, T.I., et al. (incl. **Fowotade, O.D.**) (2025). *Machine Learning Generated Molecules Exhibited KRASG12D Inhibition for Pancreatic Ductal Adenocarcinoma.* SSRN.
+
+3. Adewoye, I., et al. (incl. **Fowotade, O.D.**) (2025). *Anticholinesterase Bioactive Compounds in Nigella sativa for Alzheimer's Disease Management.* SSRN.
+
+4. GBD 2023 Collaborators (incl. **Fowotade, O.D.**) (2025). *Global Burden of Lower Respiratory Infections and Aetiologies, 1990--2023.* The Lancet Infectious Diseases.
+
+## Skills & Expertise
+
+- **Statistical Modeling:** Regression, LASSO, Ridge, GLMs, ANOVA, Survival Analysis, Bayesian Methods
+- **Machine Learning & AI:** Random Forests, Neural Networks, NLP, PCA, Clustering, Feature Selection
+- **Programming:** R, Python (Pandas, Scikit-Learn), SAS, SQL, MATLAB
+- **Clinical Data:** SDTM, ADaM, TFLs, CDISC Standards, FDA Compliance
+- **Visualization:** Tableau, Power BI, Shiny, ggplot2
+- **Cloud & Data Engineering:** AWS (S3, Glue, Athena), Spark, SQL pipelines
+
+## Interests
+
+Outside of work, I love **playing and watching soccer**, especially analyzing game tactics and performance statistics. I'm also fascinated by how data-driven decisions are transforming **healthcare, biotech, and global health policy**.

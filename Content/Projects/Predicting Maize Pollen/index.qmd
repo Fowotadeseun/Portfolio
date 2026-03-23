@@ -1,7 +1,7 @@
 ---
 title: "Predicting Gene Expression Specificity in Maize Pollen"
 author: "Oluwaseun Daniel Fowotade"
-date: "03/15/2025"
+date: "08/05/2025"
 description: "A logistic LASSO model to classify maize genes based on pollen specificity using high-dimensional genomic features."
 format:
   html:

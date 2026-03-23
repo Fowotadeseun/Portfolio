@@ -1,7 +1,7 @@
 ---
 title: "Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis"
 author: "Oluwaseun Daniel Fowotade"
-date: "12/20/2024"
+date: "05/15/2025"
 description: ""
 format:
   html:
@@ -12,7 +12,7 @@ format:
 execute:
   warning: false
   message: false
-jupyter: ir
+engine: knitr
 ---
 
 ![](/Assets/Images/SurvivalAnalysis/SurvivalAnalysis.webp)

@@ -1,7 +1,7 @@
 ---
 title: "Healthcare Analytics: Hospital Readmission Pipeline"
 author: "Oluwaseun Daniel Fowotade"
-date: "03/09/2026"
+date: "12/01/2025"
 description: "An end-to-end analytics pipeline using SQLite and Python to analyse 30-day hospital readmission patterns, cost drivers, insurance disparities, and demographic risk factors across 5,000 patient admissions."
 image: images/readmit_by_diagnosis.png
 categories: [Python, SQL, Healthcare, Data Engineering, Epidemiology]

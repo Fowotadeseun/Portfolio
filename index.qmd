@@ -83,9 +83,9 @@ execute:
   <div class="container">
     <img src="Assets/Images/AboutME/profile-pic.jpg" alt="Oluwaseun Daniel Fowotade" class="hero-img">
     <h1>Oluwaseun Daniel Fowotade</h1>
-    <h3>Biostatistician, Statistical Programmer and Data Scientist</h3>
+    <h3>Statistics Expert | Data Scientist | AI & ML Researcher</h3>
     <p class="lead">
-      Welcome to my website! Feel free to explore my projects, check out my About page to learn more about me, and browse through the work I've done. Below, you'll find some of my featured projects showcasing data-driven insights, statistical analysis, and machine learning applications. Enjoy exploring, and don't hesitate to reach out! 🚀
+      Welcome! I'm a statistics expert with an M.S. in Statistics from Oregon State University and 5+ years of experience in statistical modeling, machine learning, and data science. Explore my projects showcasing advanced statistical methods, published research, and data-driven solutions across healthcare, genomics, and beyond.
     </p>
     <a href="#contact" class="cta-button">Let's Collaborate →</a>
   </div>

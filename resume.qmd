@@ -3,7 +3,7 @@ title: "Oluwaseun Daniel Fowotade"
 subtitle: "Resume"
 author: "Oluwaseun Daniel Fowotade"
 date: "`r Sys.Date()`"
-description: "A structured resume formatted for Quarto with detailed sections on experience, skills, education, and projects."
+description: "Statistics expert with 5+ years of experience in statistical modeling, machine learning, and data science."
 format:
   html:
     toc: true
@@ -13,7 +13,6 @@ format:
 execute:
   warning: false
   message: false
-jupyter: ir
 categories:
   - Resume
   - Data Science
@@ -23,89 +22,109 @@ categories:
 
 # Contact Information
 
-📍 Corvallis, Oregon  
-📞 +1 (541) 250-2647  
-✉️ [fowotadeoluwaseun15@gmail.com](mailto:fowotadeoluwaseun15@gmail.com)  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/oluwaseunfowotade/)  
+Corvallis, Oregon
++1 (541) 250-2647
+[fowotadeoluwaseun15@gmail.com](mailto:fowotadeoluwaseun15@gmail.com)
+[LinkedIn Profile](https://www.linkedin.com/in/oluwaseunfowotade/)
 
 ---
 
 # Summary
 
-Oluwaseun Fowotade is a highly skilled statistician with over five years of experience in data analysis, including two years specializing in SAS programming. Proficient in processing and analyzing administrative healthcare data, developing scalable analytic solutions, and creating dynamic reports. Strong expertise in SAS, R, SQL, and Python, complemented by advanced knowledge of statistical modeling and healthcare informatics.
+Statistics expert with an M.S. in Statistics from Oregon State University and 5+ years of experience applying advanced statistical and machine learning methods to complex, high-dimensional datasets. Specialized in regression modeling, penalized methods (LASSO, Ridge), GLMs, survival analysis, NLP, and neural networks. Published researcher with contributions in The Lancet Infectious Diseases and multiple peer-reviewed journals. Proven ability to work independently on research projects, deliver high-quality analytical outputs, and communicate findings to technical and non-technical stakeholders.
 
 ---
 
-# Skills
+# Core Competencies
 
-- Programming: SAS (Macro Programming, ODS Reporting, PROC SQL), R, Python  
-- Data Management: Table-Driven Development Techniques, SAS Hash Objects, Iterators  
-- Analytics: Survival Analysis, Generalized Regression Models, Feature Selection Algorithms  
-- Reporting Tools: Tableau, ODS, PROC REPORT, DATA Null  
-- Healthcare Analytics: Clinical Data Standards (CDISC, SDTM, ADaM), Application Lifecycle Management  
-- Soft Skills: Communication, Team Collaboration, Critical Thinking  
+- **Statistical Modeling:** Linear/Logistic Regression, GLMs, LASSO, Ridge, ANOVA, Poisson, Negative Binomial, Survival (Cox, Kaplan-Meier, Weibull AFT)
+- **Machine Learning & AI:** Random Forests, Neural Networks, NLP, PCA, Clustering, Genetic Algorithms, Feature Selection, Model Validation
+- **Research Methods:** Experimental Design, Monte Carlo Simulation, Factorial Analysis, Hypothesis Testing, Bayesian Methods, ADMM Optimization
+- **Programming & Tools:** R, Python (Pandas, Scikit-Learn, NumPy), SAS, SQL, MATLAB, Spark, AWS (S3, Glue, Athena)
+- **Visualization & Reporting:** Tableau, Power BI, AWS QuickSight, Shiny Dashboards, ggplot2
 
 ---
 
 # Experience
 
-## Graduate Teaching Assistant  
-**Oregon State University, OR**  
-*September 2023 – March 2025*  
+## Statistical Consultant
+**Oregon State University, OR**
+*September 2024 -- June 2025*
 
-- Evaluated and graded academic work across various formats, including homework, assignments, quizzes, and exams, providing constructive feedback to improve student learning.  
-- Led recitation sessions and review classes to clarify complex statistics topics, fostering better understanding through clear explanations and engaging communication.  
-- Taught R Programming and SAS for statistical analysis and research, covering statistical techniques such as regression analysis, survival models, and time series analysis, equipping students with essential data analysis tools and techniques for academic and professional applications.  
+- Applied ANOVA, Poisson, and negative binomial regression to analyze experimental treatment effects, identifying statistically significant factors and providing actionable recommendations to domain researchers.
+- Built and validated logistic regression and LASSO models on high-dimensional genomic datasets (12,700+ genes x 2,600 features), improving AUROC by 70% through rigorous feature selection and cross-validation.
+- Utilized Monte Carlo simulations and multiple linear regression to model complex environmental phenomena, evaluating growth, survival, and interaction effects across experimental conditions.
+- Implemented factorial experimental design analysis with ANOVA and regression to assess multi-factor effects on biological outcomes.
 
-## Statistical Programmer (Remote)  
-**ClinFocus INC, Atlanta, GA**  
-*April 2022 - August 2023*  
+## Graduate Teaching Assistant
+**Oregon State University, OR**
+*September 2023 -- June 2025*
 
-- Developed and maintained documentation for data management processes, ensuring consistency and compliance.  
-- Performed SDTM, ADaM, and TFL Programming using SAS, including quality control (QC) review and documentation of programs used to create statistical outputs.  
-- Ensured compliance with regulatory standards by providing final deliverables in accordance with Clinical Data Interchange Standards Consortium (CDISC) requirements for FDA submissions.  
-- Conducted peer reviews and ensured programming outputs accurately reflect raw data and population flags.  
-- Provided input on data management documentation by reviewing and suggesting improvements for eCRF designs, external vendor data specifications, edit checks, and other related documents to ensure proper data collection for statistical programming.  
-- Collaborated with biostatisticians and data managers to identify data issues, generate queries, and resolve discrepancies that may impact statistical analysis or programming.  
+- Led recitation sessions for 130+ students on statistical methods and programming in R, designing instructional materials that improved lab participation by 16%.
+- Evaluated student work on statistical modeling, hypothesis testing, and data analysis, providing constructive feedback to develop analytical reasoning skills.
+- Mentored students on advanced statistical techniques including regression, ANOVA, and experimental design.
 
-## Actuarial Analyst  
-**Sanlam Insurance, Lagos State, Nigeria**  
-*February 2020 – March 2022*  
+## Data Scientist / Statistical Programmer
+**ClinFocus Inc., Atlanta, GA (Remote)**
+*April 2021 -- August 2023*
 
-- Conducted thorough data cleaning, interpreted complex datasets, and utilized statistical techniques to analyze results, generating ongoing reports encompassing profitability, expense analysis, experience analysis, and premium collection rates.  
-- Conducted in-depth analysis of pricing, claims, and financial performance to ascertain competitiveness and provided valuable pricing recommendations based on the analysis.  
-- Effectively communicated analytical insights by creating charts and graphs in Power BI, facilitating informed and strategic decision-making for the management team.  
-- Utilized various models such as quote models, Run-off Triangles, and Pricing Models to derive valuable insights and enhance decision-making processes.  
+- Led statistical programming for clinical trials in virology, oncology, and inflammation, delivering submission-ready datasets (SDTM, ADaM) and validated Tables, Listings, and Figures in compliance with FDA/CDISC standards.
+- Designed scalable ETL pipelines using Python, SQL, and AWS (S3, Glue, Athena) to automate data ingestion, transformation, and validation across multi-source clinical datasets.
+- Implemented model validation workflows to confirm analytical transformations against expected outcomes, business rules, and sponsor-defined KPIs.
+- Automated clinical analytical workflows with Python scripts and SAS macros, improving runtime efficiency and accuracy across 10+ concurrent studies.
+
+## Actuarial Analyst
+**Sanlam Insurance, Lagos, Nigeria**
+*November 2019 -- March 2021*
+
+- Applied actuarial and statistical models (pricing models, run-off triangles, experience analysis) to analyze profitability, claims, and financial performance across insurance portfolios.
+- Conducted in-depth pricing analysis using statistical techniques to assess market competitiveness and delivered actionable recommendations.
+- Built automated reporting workflows in Excel VBA and dynamic dashboards in Power BI.
 
 ---
 
 # Education
 
-## Master of Science – Statistics  
-**Oregon State University, OR**  
-*September 2023 – June 2024*  
+## Master of Science -- Statistics (GPA: 3.72/4.00)
+**Oregon State University, OR**
+*September 2023 -- June 2025*
 
-## Bachelor of Science – Mathematics  
-**University of Ilorin, Nigeria**  
-*September 2014 – September 2018*  
+Relevant Coursework: Mathematical Statistics, Regression Analysis, Generalized Linear Models, Survival Analysis, Spatial Statistics, Statistical Learning, Genomic Data Analysis, Multivariate Analysis, Bayesian Statistics
+
+## Bachelor of Science -- Mathematics (GPA: 3.70/4.00)
+**University of Ilorin, Nigeria**
+*September 2014 -- September 2018*
 
 ---
 
-# Projects
+# Research & Projects
 
-- **Netflix Data Analysis and Visualization (2008–2021):** Designed and developed an interactive dashboard to analyze Netflix data, providing insights into trends, user preferences, and content performance.  
-- **Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis:** Developed SAS programs for survival data analysis.  
-- **Feature Selection Using Genetic Algorithms for Regression:** Automated model selection using advanced techniques.  
-- **Time Series Analysis of Indian Climate Data:** Conducted time-series (SARIMA) modeling using R.  
+- **Scalable ADMM-Based Sparse Regression for Differential Microbiome Networks (Masters Thesis) | R** -- Pioneered a novel ADMM reformulation of the l1-penalized GRAMMA model, achieving 8-20x computational speedups on large multi-omics microbiome datasets.
+- **Predicting Gene Expression Specificity in Maize Pollen | R, Logistic LASSO** -- Developed a logistic regression classifier with LASSO regularization for high-dimensional genomic feature selection (12,700 genes x 2,600 features).
+- **Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis | SAS** -- Developed Kaplan-Meier estimation, Cox proportional hazards, and Weibull AFT models to assess treatment effectiveness.
+- **Modeling Population Health Outcomes Using GLMs | R** -- Built Generalized Linear Models to identify structural and demographic predictors of health outcomes across Sub-Saharan Africa.
+- **COVID-19 Clinical Survival Analysis** -- Kaplan-Meier survival analysis and hazard ratio estimation for 1,200 hospitalised COVID-19 patients.
+- **Feature Selection Using Genetic Algorithms for Regression | R** -- Used a genetic algorithm for feature selection, reducing dimensionality from 60 to 27 predictors (55% reduction).
+- **Diabetes Risk Prediction Using Machine Learning | Python** -- Full ML pipeline comparing Logistic Regression, Random Forest, Gradient Boosting, and SVM with ROC analysis and cross-validation.
+
+---
+
+# Publications
+
+1. **Fowotade, O.D.**, Makinde, J.O., Boakye, B.C.N., & Lasisi, S.O. (2025). *Impact of Probiotics on Metabolic Interactions for the Prevention of Colorectal Cancer: A Comprehensive Network with Molecular Docking Studies.* Journal of Advances in Medicine and Medical Research, 37(6), 234-248. [Cited by 4]
+
+2. Adelusi, T.I., Appiah-Kubi, R., Olawuyi, M.O., **Fowotade, O.D.**, Pandey, R., Halder, S.K., & Abass, K.S. (2025). *Machine Learning Generated Molecules Exhibited KRASG12D Inhibition -- A Promising Therapeutic Option for the Management/Treatment of Pancreatic Ductal Adenocarcinoma.* SSRN Preprint.
+
+3. Adewoye, I., Daud, M., Okwu, F., **Fowotade, O.D.**, et al. (2025). *Investigating the Potential Anticholinesterase Bioactive Compounds in Nigella sativa GC-MS Fingerprints: In Silico and In Vitro Studies Towards the Management of Alzheimer's Disease.* SSRN Preprint.
+
+4. GBD 2023 Lower Respiratory Infections and Antimicrobial Resistance Collaborators (incl. **Fowotade, O.D.**) (2025). *Global Burden of Lower Respiratory Infections and Aetiologies, 1990-2023: A Systematic Analysis for the Global Burden of Disease Study 2023.* The Lancet Infectious Diseases (Online First, December 2025).
 
 ---
 
 # Professional Certifications
 
-- **SAS Programming 1: Essentials** *(April 2022)*  
-- **Medidata Clinical Programmer Certificates** *(April 2022)*  
-- **Google Data Analytics** *(June 2022)*  
-
----
-
-📌 *This resume is formatted in Quarto for easy rendering and professional presentation!*
+- SAS Programming 1: Essentials (2022)
+- Medidata Clinical Programmer (2023)
+- Google Data Analytics (2022)
+- Tableau Certified Analyst Prep (2024)
+- Six Sigma Black Belt (2025)

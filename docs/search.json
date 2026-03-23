@@ -4,49 +4,56 @@
     "href": "resume.html",
     "title": "Oluwaseun Daniel Fowotade",
     "section": "",
-    "text": "📍 Corvallis, Oregon\n📞 +1 (541) 250-2647\n✉️ fowotadeoluwaseun15@gmail.com\n🔗 LinkedIn Profile"
+    "text": "Corvallis, Oregon +1 (541) 250-2647 fowotadeoluwaseun15@gmail.com LinkedIn Profile"
+  },
+  {
+    "objectID": "resume.html#statistical-consultant",
+    "href": "resume.html#statistical-consultant",
+    "title": "Oluwaseun Daniel Fowotade",
+    "section": "Statistical Consultant",
+    "text": "Statistical Consultant\nOregon State University, OR September 2024 – June 2025\n\nApplied ANOVA, Poisson, and negative binomial regression to analyze experimental treatment effects, identifying statistically significant factors and providing actionable recommendations to domain researchers.\nBuilt and validated logistic regression and LASSO models on high-dimensional genomic datasets (12,700+ genes x 2,600 features), improving AUROC by 70% through rigorous feature selection and cross-validation.\nUtilized Monte Carlo simulations and multiple linear regression to model complex environmental phenomena, evaluating growth, survival, and interaction effects across experimental conditions.\nImplemented factorial experimental design analysis with ANOVA and regression to assess multi-factor effects on biological outcomes."
   },
   {
     "objectID": "resume.html#graduate-teaching-assistant",
     "href": "resume.html#graduate-teaching-assistant",
     "title": "Oluwaseun Daniel Fowotade",
     "section": "Graduate Teaching Assistant",
-    "text": "Graduate Teaching Assistant\nOregon State University, OR\nSeptember 2023 – March 2025\n\nEvaluated and graded academic work across various formats, including homework, assignments, quizzes, and exams, providing constructive feedback to improve student learning.\n\nLed recitation sessions and review classes to clarify complex statistics topics, fostering better understanding through clear explanations and engaging communication.\n\nTaught R Programming and SAS for statistical analysis and research, covering statistical techniques such as regression analysis, survival models, and time series analysis, equipping students with essential data analysis tools and techniques for academic and professional applications."
+    "text": "Graduate Teaching Assistant\nOregon State University, OR September 2023 – June 2025\n\nLed recitation sessions for 130+ students on statistical methods and programming in R, designing instructional materials that improved lab participation by 16%.\nEvaluated student work on statistical modeling, hypothesis testing, and data analysis, providing constructive feedback to develop analytical reasoning skills.\nMentored students on advanced statistical techniques including regression, ANOVA, and experimental design."
   },
   {
-    "objectID": "resume.html#statistical-programmer-remote",
-    "href": "resume.html#statistical-programmer-remote",
+    "objectID": "resume.html#data-scientist-statistical-programmer",
+    "href": "resume.html#data-scientist-statistical-programmer",
     "title": "Oluwaseun Daniel Fowotade",
-    "section": "Statistical Programmer (Remote)",
-    "text": "Statistical Programmer (Remote)\nClinFocus INC, Atlanta, GA\nApril 2022 - August 2023\n\nDeveloped and maintained documentation for data management processes, ensuring consistency and compliance.\n\nPerformed SDTM, ADaM, and TFL Programming using SAS, including quality control (QC) review and documentation of programs used to create statistical outputs.\n\nEnsured compliance with regulatory standards by providing final deliverables in accordance with Clinical Data Interchange Standards Consortium (CDISC) requirements for FDA submissions.\n\nConducted peer reviews and ensured programming outputs accurately reflect raw data and population flags.\n\nProvided input on data management documentation by reviewing and suggesting improvements for eCRF designs, external vendor data specifications, edit checks, and other related documents to ensure proper data collection for statistical programming.\n\nCollaborated with biostatisticians and data managers to identify data issues, generate queries, and resolve discrepancies that may impact statistical analysis or programming."
+    "section": "Data Scientist / Statistical Programmer",
+    "text": "Data Scientist / Statistical Programmer\nClinFocus Inc., Atlanta, GA (Remote) April 2021 – August 2023\n\nLed statistical programming for clinical trials in virology, oncology, and inflammation, delivering submission-ready datasets (SDTM, ADaM) and validated Tables, Listings, and Figures in compliance with FDA/CDISC standards.\nDesigned scalable ETL pipelines using Python, SQL, and AWS (S3, Glue, Athena) to automate data ingestion, transformation, and validation across multi-source clinical datasets.\nImplemented model validation workflows to confirm analytical transformations against expected outcomes, business rules, and sponsor-defined KPIs.\nAutomated clinical analytical workflows with Python scripts and SAS macros, improving runtime efficiency and accuracy across 10+ concurrent studies."
   },
   {
     "objectID": "resume.html#actuarial-analyst",
     "href": "resume.html#actuarial-analyst",
     "title": "Oluwaseun Daniel Fowotade",
     "section": "Actuarial Analyst",
-    "text": "Actuarial Analyst\nSanlam Insurance, Lagos State, Nigeria\nFebruary 2020 – March 2022\n\nConducted thorough data cleaning, interpreted complex datasets, and utilized statistical techniques to analyze results, generating ongoing reports encompassing profitability, expense analysis, experience analysis, and premium collection rates.\n\nConducted in-depth analysis of pricing, claims, and financial performance to ascertain competitiveness and provided valuable pricing recommendations based on the analysis.\n\nEffectively communicated analytical insights by creating charts and graphs in Power BI, facilitating informed and strategic decision-making for the management team.\n\nUtilized various models such as quote models, Run-off Triangles, and Pricing Models to derive valuable insights and enhance decision-making processes."
+    "text": "Actuarial Analyst\nSanlam Insurance, Lagos, Nigeria November 2019 – March 2021\n\nApplied actuarial and statistical models (pricing models, run-off triangles, experience analysis) to analyze profitability, claims, and financial performance across insurance portfolios.\nConducted in-depth pricing analysis using statistical techniques to assess market competitiveness and delivered actionable recommendations.\nBuilt automated reporting workflows in Excel VBA and dynamic dashboards in Power BI."
   },
   {
-    "objectID": "resume.html#master-of-science-statistics",
-    "href": "resume.html#master-of-science-statistics",
+    "objectID": "resume.html#master-of-science-statistics-gpa-3.724.00",
+    "href": "resume.html#master-of-science-statistics-gpa-3.724.00",
     "title": "Oluwaseun Daniel Fowotade",
-    "section": "Master of Science – Statistics",
-    "text": "Master of Science – Statistics\nOregon State University, OR\nSeptember 2023 – June 2024"
+    "section": "Master of Science – Statistics (GPA: 3.72/4.00)",
+    "text": "Master of Science – Statistics (GPA: 3.72/4.00)\nOregon State University, OR September 2023 – June 2025\nRelevant Coursework: Mathematical Statistics, Regression Analysis, Generalized Linear Models, Survival Analysis, Spatial Statistics, Statistical Learning, Genomic Data Analysis, Multivariate Analysis, Bayesian Statistics"
   },
   {
-    "objectID": "resume.html#bachelor-of-science-mathematics",
-    "href": "resume.html#bachelor-of-science-mathematics",
+    "objectID": "resume.html#bachelor-of-science-mathematics-gpa-3.704.00",
+    "href": "resume.html#bachelor-of-science-mathematics-gpa-3.704.00",
     "title": "Oluwaseun Daniel Fowotade",
-    "section": "Bachelor of Science – Mathematics",
-    "text": "Bachelor of Science – Mathematics\nUniversity of Ilorin, Nigeria\nSeptember 2014 – September 2018"
+    "section": "Bachelor of Science – Mathematics (GPA: 3.70/4.00)",
+    "text": "Bachelor of Science – Mathematics (GPA: 3.70/4.00)\nUniversity of Ilorin, Nigeria September 2014 – September 2018"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to my portfolio",
     "section": "",
-    "text": "Oluwaseun Daniel Fowotade\n    Biostatistician, Statistical Programmer and Data Scientist\n    \n      Welcome to my website! Feel free to explore my projects, check out my About page to learn more about me, and browse through the work I've done. Below, you'll find some of my featured projects showcasing data-driven insights, statistical analysis, and machine learning applications. Enjoy exploring, and don't hesitate to reach out! 🚀\n    \n    Let's Collaborate →\n  \n\n\n\n\n  Featured Projects\n  \n    \n      \n      \n        \n          Survival Analysis\n          \n          Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis\n          \n            Developed SAS programs for analyzing survival data, assessing treatment effectiveness for patients with liver cirrhosis.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Machine Learning\n          \n          Feature Selection Using Genetic Algorithms\n          \n            Implemented a genetic algorithm to optimize feature selection in regression models, enhancing predictive accuracy.\n          \n          See Project →\n        \n      \n      \n      \n      \n        \n          Data Visualization\n          \n          Netflix Data Analysis: Trends and Insights (2008-2021)\n          \n            Explored Netflix's content evolution, analyzing trends in content types, geographic diversity, and ratings over time.\n          \n          See Project →\n        \n      \n      g\n      \n      \n        \n          Bioinformatics\n          \n          Predicting Gene Expression Specificity in Maize Pollen\n          \n            Built a logistic regression model using LASSO to predict pollen-specific gene expression based on genomic features. Applied PCA, clustering, and feature selection for high-dimensional data.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Epidemiology\n          \n          Modeling Female Sex Worker Distribution in Sub-Saharan Africa\n          \n            Used generalized linear models to analyze determinants of sex worker distribution in SSA, with implications for HIV prevention and policy targeting.\n          \n          See Project →\n        \n      \n    \n    \n    \n      \n      Previous\n    \n    \n      \n      Next\n    \n  \n\n\n\n\n  \n    Ready to Solve Problems with Data?\n    Let's discuss how I can contribute to your team or project.\n    \n      Email Me\n      LinkedIn\n    \n    \n    \n      Download Full Resume"
+    "text": "Oluwaseun Daniel Fowotade\n    Statistics Expert | Data Scientist | AI & ML Researcher\n    \n      Welcome! I'm a statistics expert with an M.S. in Statistics from Oregon State University and 5+ years of experience in statistical modeling, machine learning, and data science. Explore my projects showcasing advanced statistical methods, published research, and data-driven solutions across healthcare, genomics, and beyond.\n    \n    Let's Collaborate →\n  \n\n\n\n\n  Featured Projects\n  \n    \n      \n      \n        \n          Survival Analysis\n          \n          Survival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis\n          \n            Developed SAS programs for analyzing survival data, assessing treatment effectiveness for patients with liver cirrhosis.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Machine Learning\n          \n          Feature Selection Using Genetic Algorithms\n          \n            Implemented a genetic algorithm to optimize feature selection in regression models, enhancing predictive accuracy.\n          \n          See Project →\n        \n      \n      \n      \n      \n        \n          Data Visualization\n          \n          Netflix Data Analysis: Trends and Insights (2008-2021)\n          \n            Explored Netflix's content evolution, analyzing trends in content types, geographic diversity, and ratings over time.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Bioinformatics\n          \n          Predicting Gene Expression Specificity in Maize Pollen\n          \n            Built a logistic regression model using LASSO to predict pollen-specific gene expression based on genomic features. Applied PCA, clustering, and feature selection for high-dimensional data.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Epidemiology\n          \n          Modeling Female Sex Worker Distribution in Sub-Saharan Africa\n          \n            Used generalized linear models to analyze determinants of sex worker distribution in SSA, with implications for HIV prevention and policy targeting.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Machine Learning\n          \n          Diabetes Risk Prediction Using Machine Learning\n          \n            Full ML pipeline comparing Logistic Regression, Random Forest, Gradient Boosting, and SVM for predicting diabetes risk — with ROC analysis, cross-validation, and feature importance using Python.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          Survival Analysis\n          \n          COVID-19 Clinical Survival Analysis\n          \n            Kaplan-Meier survival analysis and hazard ratio estimation for 1,200 hospitalised COVID-19 patients, stratified by disease severity, ICU admission, age group, and ventilation status.\n          \n          See Project →\n        \n      \n\n      \n      \n        \n          SQL · Data Engineering\n          \n          Healthcare Analytics: Hospital Readmission Pipeline\n          \n            End-to-end analytics pipeline using SQLite and Python to analyse 30-day hospital readmission patterns, cost drivers, and demographic disparities across 5,000 patient admissions.\n          \n          See Project →\n        \n      \n    \n    \n    \n      \n      Previous\n    \n    \n      \n      Next\n    \n  \n\n\n\n\n  \n    Ready to Solve Problems with Data?\n    Let's discuss how I can contribute to your team or project.\n    \n      Email Me\n      LinkedIn\n    \n    \n    \n      Download Full Resume"
   },
   {
     "objectID": "Content/Projects/Predicting Maize Pollen/index.html",
@@ -95,7 +102,7 @@
     "href": "Content/Projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "COVID-19 Clinical Survival Analysis\n\n\n\nPython\n\nSurvival Analysis\n\nEpidemiology\n\nHealthcare\n\n\n\nKaplan-Meier survival analysis and hazard ratio estimation for 1,200 hospitalised COVID-19 patients, stratified by disease severity, ICU admission…\n\n\n\nMar 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiabetes Risk Prediction Using Machine Learning\n\n\n\nPython\n\nMachine Learning\n\nHealthcare\n\nClassification\n\n\n\nA full machine learning pipeline comparing Logistic Regression, Random Forest, Gradient Boosting, and SVM for predicting diabetes risk — with ROC…\n\n\n\nMar 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealthcare Analytics: Hospital Readmission Pipeline\n\n\n\nPython\n\nSQL\n\nHealthcare\n\nData Engineering\n\nEpidemiology\n\n\n\nAn end-to-end analytics pipeline using SQLite and Python to analyse 30-day hospital readmission patterns, cost drivers, insurance disparities, and…\n\n\n\nMar 9, 2026\n\n\n\n\n\n\n\n\n\n\n\nModeling Female Sex Worker Distribution in Sub-Saharan Africa\n\n\nUsing GLMs to identify structural and demographic predictors of sex worker distribution and HIV risk in SSA.\n\n\n\nMar 19, 2025\n\n\n\n\n\n\n\n\n\n\n\nPredicting Gene Expression Specificity in Maize Pollen\n\n\nA logistic LASSO model to classify maize genes based on pollen specificity using high-dimensional genomic features.\n\n\n\nMar 15, 2025\n\n\n\n\n\n\n\n\n\n\n\nNetflix Data Analysis: Trends and Insights (2008-2021)\n\n\nExploring trends in Netflix content from 2008 to 2021.\n\n\n\nFeb 23, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing Genetic Algorithms to Optimize Feature Selection in Regression Modeling\n\n\nUsing Genetic Algorithms to optimize feature selection in regression modeling.\n\n\n\nDec 20, 2024\n\n\n\n\n\n\n\n\n\n\n\nSurvival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis\n\n\n\n\n\n\nDec 20, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Healthcare Analytics: Hospital Readmission Pipeline\n\n\n\nPython\n\nSQL\n\nHealthcare\n\nData Engineering\n\nEpidemiology\n\n\n\nAn end-to-end analytics pipeline using SQLite and Python to analyse 30-day hospital readmission patterns, cost drivers, insurance disparities, and…\n\n\n\nDec 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 Clinical Survival Analysis\n\n\n\nPython\n\nSurvival Analysis\n\nEpidemiology\n\nHealthcare\n\n\n\nKaplan-Meier survival analysis and hazard ratio estimation for 1,200 hospitalised COVID-19 patients, stratified by disease severity, ICU admission…\n\n\n\nNov 3, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiabetes Risk Prediction Using Machine Learning\n\n\n\nPython\n\nMachine Learning\n\nHealthcare\n\nClassification\n\n\n\nA full machine learning pipeline comparing Logistic Regression, Random Forest, Gradient Boosting, and SVM for predicting diabetes risk — with ROC…\n\n\n\nOct 12, 2025\n\n\n\n\n\n\n\n\n\n\n\nModeling Female Sex Worker Distribution in Sub-Saharan Africa\n\n\nUsing GLMs to identify structural and demographic predictors of sex worker distribution and HIV risk in SSA.\n\n\n\nSep 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nPredicting Gene Expression Specificity in Maize Pollen\n\n\nA logistic LASSO model to classify maize genes based on pollen specificity using high-dimensional genomic features.\n\n\n\nAug 5, 2025\n\n\n\n\n\n\n\n\n\n\n\nNetflix Data Analysis: Trends and Insights (2008-2021)\n\n\nExploring trends in Netflix content from 2008 to 2021.\n\n\n\nJul 8, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing Genetic Algorithms to Optimize Feature Selection in Regression Modeling\n\n\nUsing Genetic Algorithms to optimize feature selection in regression modeling.\n\n\n\nJun 10, 2025\n\n\n\n\n\n\n\n\n\n\n\nSurvival Analysis of Treatment Efficacy in Primary Biliary Cirrhosis\n\n\n\n\n\n\nMay 15, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Content/Projects/Female Sex Worker/index.html",
@@ -196,8 +203,64 @@
     "text": "Skills & Expertise\n\nProgramming: SAS (PROC SQL, Macro), R (Shiny, caret), Python, SQL\n\nStatistical Analysis: Generalized Regression, LASSO, Poisson Regression, Survival Analysis\n\nClinical Data Management: SDTM, ADaM, TFLs, CDISC Standards\n\nVisualization & Reporting: Power BI, Tableau, ggplot2, PROC REPORT\n\nTools & Platforms: Google Cloud (BigQuery, DataProc), Git, ODS, R Markdown\n\nBioinformatics: scRNA-seq, GSEA, microbiome analytics, biomarker discovery"
   },
   {
+    "objectID": "Content/About/index.html#publications",
+    "href": "Content/About/index.html#publications",
+    "title": "Oluwaseun Fowotade",
+    "section": "Publications",
+    "text": "Publications\n\nFowotade, O.D., Makinde, J.O., Boakye, B.C.N., & Lasisi, S.O. (2025). Impact of Probiotics on Metabolic Interactions for the Prevention of Colorectal Cancer: A Comprehensive Network with Molecular Docking Studies. Journal of Advances in Medicine and Medical Research, 37(6), 234-248. [Cited by 4]\nAdelusi, T.I., Appiah-Kubi, R., Olawuyi, M.O., Fowotade, O.D., Pandey, R., Halder, S.K., & Abass, K.S. (2025). Machine Learning Generated Molecules Exhibited KRASG12D Inhibition – A Promising Therapeutic Option for the Management/Treatment of Pancreatic Ductal Adenocarcinoma. SSRN Preprint.\nAdewoye, I., Daud, M., Okwu, F., Fowotade, O.D., et al. (2025). Investigating the Potential Anticholinesterase Bioactive Compounds in Nigella sativa GC-MS Fingerprints: In Silico and In Vitro Studies Towards the Management of Alzheimer’s Disease. SSRN Preprint.\nGBD 2023 Lower Respiratory Infections and Antimicrobial Resistance Collaborators (incl. Fowotade, O.D.) (2025). Global Burden of Lower Respiratory Infections and Aetiologies, 1990-2023: A Systematic Analysis for the Global Burden of Disease Study 2023. The Lancet Infectious Diseases (Online First, December 2025)."
+  },
+  {
     "objectID": "Content/About/index.html#interests",
     "href": "Content/About/index.html#interests",
+    "title": "Oluwaseun Fowotade",
+    "section": "Interests",
+    "text": "Interests\nOutside of work, I love playing and watching soccer, especially analyzing game tactics and performance statistics. I’m also fascinated by how data-driven decisions are transforming healthcare, biotech, and global health policy."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Oluwaseun Fowotade",
+    "section": "",
+    "text": "I’m Oluwaseun Daniel Fowotade, a statistics expert and data scientist with a passion for using data to answer meaningful questions in healthcare, biology, and beyond.\nI bring over five years of experience in data analysis and more than two years in clinical trial programming, combining academic excellence with hands-on industry practice. I earned a First Class B.Sc. in Mathematics from the University of Ilorin (CGPA: 4.5/5.0) and hold an M.S. in Statistics from Oregon State University (GPA: 3.72/4.0).\nAt the heart of my graduate work is a thesis project on developing an ADMM (Alternating Direction Method of Multipliers) algorithm for analyzing gut microbiome data in multi-omic networks. This research blends structured optimization with statistical modeling to boost predictive performance, enhance scalability, and accelerate biomarker discovery.\nIn industry, I’ve contributed as a Data Scientist at ClinFocus Inc., where I designed scalable AWS ETL workflows, built model validation pipelines, and delivered submission-ready clinical datasets (SDTM, ADaM, TFLs) in compliance with FDA and CDISC standards.\nAs a Statistical Consultant at Oregon State, I applied Poisson models, logistic regression (with LASSO), Monte Carlo simulations, and factorial experimental design to environmental and biological datasets. A highlight: I improved the AUROC of a genomic classifier by 70% through regularized logistic regression.\nI’m also passionate about teaching. As a Graduate Teaching Assistant, I’ve led R-based workshops for 130+ students and supported courses in statistics, data science, and SAS programming.\n\n“Data is only as powerful as the questions we ask – I aim to ask the right ones.”"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "Oluwaseun Fowotade",
+    "section": "",
+    "text": "I’m Oluwaseun Daniel Fowotade, a statistics expert and data scientist with a passion for using data to answer meaningful questions in healthcare, biology, and beyond.\nI bring over five years of experience in data analysis and more than two years in clinical trial programming, combining academic excellence with hands-on industry practice. I earned a First Class B.Sc. in Mathematics from the University of Ilorin (CGPA: 4.5/5.0) and hold an M.S. in Statistics from Oregon State University (GPA: 3.72/4.0).\nAt the heart of my graduate work is a thesis project on developing an ADMM (Alternating Direction Method of Multipliers) algorithm for analyzing gut microbiome data in multi-omic networks. This research blends structured optimization with statistical modeling to boost predictive performance, enhance scalability, and accelerate biomarker discovery.\nIn industry, I’ve contributed as a Data Scientist at ClinFocus Inc., where I designed scalable AWS ETL workflows, built model validation pipelines, and delivered submission-ready clinical datasets (SDTM, ADaM, TFLs) in compliance with FDA and CDISC standards.\nAs a Statistical Consultant at Oregon State, I applied Poisson models, logistic regression (with LASSO), Monte Carlo simulations, and factorial experimental design to environmental and biological datasets. A highlight: I improved the AUROC of a genomic classifier by 70% through regularized logistic regression.\nI’m also passionate about teaching. As a Graduate Teaching Assistant, I’ve led R-based workshops for 130+ students and supported courses in statistics, data science, and SAS programming.\n\n“Data is only as powerful as the questions we ask – I aim to ask the right ones.”"
+  },
+  {
+    "objectID": "about.html#professional-experience",
+    "href": "about.html#professional-experience",
+    "title": "Oluwaseun Fowotade",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nStatistical Consultant – Oregon State University (Sep 2024 – Jun 2025)\n\nApplied ANOVA, LASSO, Monte Carlo simulations, and GLMs to multi-disciplinary research projects in genomics, pest control, and environmental science.\n\nGraduate Teaching Assistant – Oregon State University (Sep 2023 – Jun 2025)\n\nTaught and supported 130+ students in R and SAS-based statistical analysis courses.\n\nData Scientist / Statistical Programmer – ClinFocus Inc. (Apr 2021 – Aug 2023)\n\nLed statistical programming for clinical trials, built AWS ETL pipelines, and automated analytical workflows.\n\nActuarial Analyst – Sanlam Insurance (Nov 2019 – Mar 2021)\n\nApplied actuarial models for pricing, claims analysis, and financial performance reporting."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Oluwaseun Fowotade",
+    "section": "Education",
+    "text": "Education\n\nM.S. in Statistics – Oregon State University (2023 – 2025) GPA: 3.72/4.0 | Thesis: Scalable ADMM-Based Sparse Regression for Differential Microbiome Networks\nB.S. in Mathematics – University of Ilorin, Nigeria (2014 – 2018) First Class (CGPA: 4.5/5.0)"
+  },
+  {
+    "objectID": "about.html#publications",
+    "href": "about.html#publications",
+    "title": "Oluwaseun Fowotade",
+    "section": "Publications",
+    "text": "Publications\n\nFowotade, O.D., Makinde, J.O., Boakye, B.C.N., & Lasisi, S.O. (2025). Impact of Probiotics on Metabolic Interactions for the Prevention of Colorectal Cancer. JAMMR, 37(6), 234-248. [Cited by 4]\nAdelusi, T.I., et al. (incl. Fowotade, O.D.) (2025). Machine Learning Generated Molecules Exhibited KRASG12D Inhibition for Pancreatic Ductal Adenocarcinoma. SSRN.\nAdewoye, I., et al. (incl. Fowotade, O.D.) (2025). Anticholinesterase Bioactive Compounds in Nigella sativa for Alzheimer’s Disease Management. SSRN.\nGBD 2023 Collaborators (incl. Fowotade, O.D.) (2025). Global Burden of Lower Respiratory Infections and Aetiologies, 1990–2023. The Lancet Infectious Diseases."
+  },
+  {
+    "objectID": "about.html#skills-expertise",
+    "href": "about.html#skills-expertise",
+    "title": "Oluwaseun Fowotade",
+    "section": "Skills & Expertise",
+    "text": "Skills & Expertise\n\nStatistical Modeling: Regression, LASSO, Ridge, GLMs, ANOVA, Survival Analysis, Bayesian Methods\nMachine Learning & AI: Random Forests, Neural Networks, NLP, PCA, Clustering, Feature Selection\nProgramming: R, Python (Pandas, Scikit-Learn), SAS, SQL, MATLAB\nClinical Data: SDTM, ADaM, TFLs, CDISC Standards, FDA Compliance\nVisualization: Tableau, Power BI, Shiny, ggplot2\nCloud & Data Engineering: AWS (S3, Glue, Athena), Spark, SQL pipelines"
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
     "title": "Oluwaseun Fowotade",
     "section": "Interests",
     "text": "Interests\nOutside of work, I love playing and watching soccer, especially analyzing game tactics and performance statistics. I’m also fascinated by how data-driven decisions are transforming healthcare, biotech, and global health policy."

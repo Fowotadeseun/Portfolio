@@ -1,7 +1,7 @@
 ---
 title: "Modeling Female Sex Worker Distribution in Sub-Saharan Africa"
 author: "Oluwaseun Daniel Fowotade"
-date: "03/19/2025"
+date: "09/01/2025"
 description: "Using GLMs to identify structural and demographic predictors of sex worker distribution and HIV risk in SSA."
 format:
   html:

@@ -1,6 +1,6 @@
 ---
 title: "Oluwaseun Fowotade"
-subtitle: "Statistician | Data Scientist | Data Analyst"
+subtitle: "Statistics Expert | Data Scientist | AI & ML Researcher"
 about:
   template: broadside
   image: ../../Assets/Images/AboutME/about-pic.jpg
@@ -77,6 +77,16 @@ I’m also passionate about teaching. As a **Graduate Teaching Assistant**, I’
 - **Visualization & Reporting:** Power BI, Tableau, ggplot2, PROC REPORT  
 - **Tools & Platforms:** Google Cloud (BigQuery, DataProc), Git, ODS, R Markdown  
 - **Bioinformatics:** scRNA-seq, GSEA, microbiome analytics, biomarker discovery
+
+## Publications
+
+1. **Fowotade, O.D.**, Makinde, J.O., Boakye, B.C.N., & Lasisi, S.O. (2025). *Impact of Probiotics on Metabolic Interactions for the Prevention of Colorectal Cancer: A Comprehensive Network with Molecular Docking Studies.* Journal of Advances in Medicine and Medical Research, 37(6), 234-248. [Cited by 4]
+
+2. Adelusi, T.I., Appiah-Kubi, R., Olawuyi, M.O., **Fowotade, O.D.**, Pandey, R., Halder, S.K., & Abass, K.S. (2025). *Machine Learning Generated Molecules Exhibited KRASG12D Inhibition -- A Promising Therapeutic Option for the Management/Treatment of Pancreatic Ductal Adenocarcinoma.* SSRN Preprint.
+
+3. Adewoye, I., Daud, M., Okwu, F., **Fowotade, O.D.**, et al. (2025). *Investigating the Potential Anticholinesterase Bioactive Compounds in Nigella sativa GC-MS Fingerprints: In Silico and In Vitro Studies Towards the Management of Alzheimer’s Disease.* SSRN Preprint.
+
+4. GBD 2023 Lower Respiratory Infections and Antimicrobial Resistance Collaborators (incl. **Fowotade, O.D.**) (2025). *Global Burden of Lower Respiratory Infections and Aetiologies, 1990-2023: A Systematic Analysis for the Global Burden of Disease Study 2023.* The Lancet Infectious Diseases (Online First, December 2025).
 
 ## Interests
 
